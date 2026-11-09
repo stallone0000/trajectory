@@ -39,4 +39,4 @@ Static site. **Build command:** empty. **Publish directory:** `site`. Every rout
 
 ## Credits
 
-UI: pika by Minhu Wang, MIT License (`site/LICENSE-pika.txt`).
+UI: [pika](https://github.com/minhuw/pi-extensions/tree/master/services/pika) by [@minhuw](https://github.com/minhuw), MIT License (`site/LICENSE-pika.txt`). Model marks from [LobeHub lobe-icons](https://github.com/lobehub/lobe-icons) (MIT); Aileron font (CC0).
