@@ -19,13 +19,16 @@ fi
 scripts/build_site.sh
 
 git add -A
-if git diff --cached --quiet; then echo "nothing to publish"; exit 0; fi
-git -c user.name="trajectory-bot" -c user.email="trajectory-bot@users.noreply.github.com" \
-  commit -q -m "Publish trajectories ($(date -u +%Y-%m-%dT%H:%MZ))"
+if ! git diff --cached --quiet; then
+  git -c user.name="trajectory-bot" -c user.email="trajectory-bot@users.noreply.github.com" \
+    commit -q -m "Publish trajectories ($(date -u +%Y-%m-%dT%H:%MZ))"
+fi
 TOKEN="$(cat ~/.config/trajectory-render/github_pat)"
 AUTH="$(printf "x-access-token:%s" "$TOKEN" | base64 -w0)"
+# The global git proxy on this box is stale; use the one from the environment for GitHub.
+PROXY=(); if [[ -n "${HTTPS_PROXY:-${https_proxy:-}}" ]]; then P="${HTTPS_PROXY:-$https_proxy}"; PROXY=(-c http.proxy="$P" -c https.proxy="$P"); fi
 for i in 1 2 3 4 5; do
-  git -c http.extraHeader="Authorization: Basic $AUTH" -c http.version=HTTP/1.1 push -q origin HEAD:main && break
+  git "${PROXY[@]}" -c http.extraHeader="Authorization: Basic $AUTH" push -q origin HEAD:main && break
   echo "push failed (attempt $i), retrying..." >&2; sleep 3
 done
 HOOK=~/.config/trajectory-render/render_deploy_hook
