@@ -16,6 +16,7 @@ if [[ $# -gt 0 ]]; then
   [[ -n "$PROJECT" ]] || { echo "--project NAME is required when ingesting files" >&2; exit 2; }
   python3 -I scripts/pika_ingest.py --token-file /root/pika-data/ingest.token --project "$PROJECT" --publish "$@"
 fi
+python3 -I scripts/pika_publish_all.py
 scripts/build_site.sh
 
 git add -A
