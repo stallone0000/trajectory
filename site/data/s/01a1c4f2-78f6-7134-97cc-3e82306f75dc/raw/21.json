@@ -1,0 +1,1 @@
+{"type":"message","id":"8c56f506","parentId":"9965e0b8","timestamp":"2026-11-10T11:09:15.873Z","message":{"role":"toolResult","toolCallId":"call_f4197d84c2fe461f94d7a498","toolName":"bash","content":[{"type":"text","text":"/bin/bash: /tmp/req.jsonl: No such file or directory\nexit=1\n"}],"isError":false,"durationMs":24,"timestamp":1794308955873}}

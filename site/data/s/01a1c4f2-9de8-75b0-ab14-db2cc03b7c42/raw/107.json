@@ -1,0 +1,1 @@
+{"type":"message","id":"2fbf7bd8","parentId":"e944e217","timestamp":"2026-11-10T11:07:31.672Z","message":{"role":"toolResult","toolCallId":"call_787e3bdee51847a78b469d99","toolName":"bash","content":[{"type":"text","text":"687:    if text[:1] == 'M-oM-;M-?':$\n"}],"isError":false,"durationMs":24,"timestamp":1794308851672}}

@@ -4,6 +4,31 @@
   "netbench-streaming"
  ],
  "sessions": {
+  "01a1c4a4-92cd-7c70-9cf7-c9080f35aad8": {
+   "project": "netbench-streaming",
+   "task": "15-quic-attacker",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass",
+   "steps": 82,
+   "failedRequests": 0,
+   "toolCalls": 82,
+   "tokens": 8497731,
+   "cost": 0.439988,
+   "durationMs": 1557816
+  },
+  "01a1c4d7-039d-73ca-9208-6281be91f0c5": {
+   "project": "netbench-streaming",
+   "task": "15-quic-attacker",
+   "model": "qwen/qwen3.8-flash",
+   "verdict": "pass",
+   "detail": "robust runner",
+   "steps": 84,
+   "failedRequests": 4,
+   "toolCalls": 86,
+   "tokens": 10602835,
+   "cost": 0.19997,
+   "durationMs": 3701651
+  },
   "01a1b9ae-d3c7-70be-a3da-d45bc288758c": {
    "project": "netbench",
    "task": "01-crosscheck",
@@ -319,18 +344,18 @@
    "cost": 1.569398,
    "durationMs": 7105094
   },
-  "01a1c389-5aa2-7424-8021-e111bf3ed8e2": {
+  "01a1c4f2-78f6-7134-97cc-3e82306f75dc": {
    "project": "netbench",
    "task": "05-emicro",
    "model": "z-ai/glm-5.3",
-   "verdict": "fail",
-   "detail": "no gradable submission (invalid tool command (NUL byte))",
-   "steps": 117,
-   "failedRequests": 0,
-   "toolCalls": 120,
-   "tokens": 16466733,
-   "cost": 16.223572,
-   "durationMs": 4687226
+   "verdict": "pass",
+   "detail": "re-run with the robust runner",
+   "steps": 90,
+   "failedRequests": 5,
+   "toolCalls": 91,
+   "tokens": 11542759,
+   "cost": 1.845945,
+   "durationMs": 6357402
   },
   "01a1c19d-9aeb-7781-8bd9-73081bdc563c": {
    "project": "netbench",
@@ -609,18 +634,18 @@
    "cost": 1.612578,
    "durationMs": 3621433
   },
-  "01a1c3d1-09db-7743-b21c-c48fcec52e1e": {
+  "01a1c4f2-9de8-75b0-ab14-db2cc03b7c42": {
    "project": "netbench",
    "task": "09-netnomos",
    "model": "z-ai/glm-5.3",
    "verdict": "fail",
-   "detail": "no gradable submission (API error)",
-   "steps": 2,
-   "failedRequests": 2,
-   "toolCalls": 4,
-   "tokens": 8284,
-   "cost": 0.008547,
-   "durationMs": 13167
+   "detail": "re-run with the robust runner",
+   "steps": 105,
+   "failedRequests": 3,
+   "toolCalls": 107,
+   "tokens": 12309200,
+   "cost": 3.308104,
+   "durationMs": 5405532
   },
   "01a1c222-a78a-706d-9bea-730d02a5b096": {
    "project": "netbench",
@@ -1115,18 +1140,18 @@
    "cost": 4.327935,
    "durationMs": 6227597
   },
-  "01a1c418-6cc5-730e-b339-97d329dc1dca": {
+  "01a1c509-219a-7607-9d77-ca96a9c5b505": {
    "project": "netbench",
    "task": "16-epic",
    "model": "z-ai/glm-5.3",
    "verdict": "fail",
-   "detail": "no gradable submission (API error)",
+   "detail": "no gradable submission (re-run with the robust runner; format errors)",
    "steps": 2,
-   "failedRequests": 2,
+   "failedRequests": 5,
    "toolCalls": 4,
-   "tokens": 9121,
-   "cost": 0.009283,
-   "durationMs": 10297
+   "tokens": 8698,
+   "cost": 0.008687,
+   "durationMs": 17894
   },
   "01a1c320-86ee-7d7b-ab9f-6d88e05f1059": {
    "project": "netbench",
@@ -1153,43 +1178,18 @@
    "cost": 1.257385,
    "durationMs": 2234063
   },
-  "01a1c458-8af9-7b1c-8209-1ef6f126e01e": {
+  "01a1c510-01d6-77c7-82ce-513aae84fb4f": {
    "project": "netbench",
    "task": "16-epic",
    "model": "qwen/qwen3.8-max",
    "verdict": "fail",
-   "detail": "no gradable submission (API error)",
+   "detail": "no gradable submission (re-run with the robust runner; format errors)",
    "steps": 3,
-   "failedRequests": 2,
-   "toolCalls": 5,
-   "tokens": 15231,
-   "cost": 0.026633,
-   "durationMs": 18122
-  },
-  "01a1c4a4-92cd-7c70-9cf7-c9080f35aad8": {
-   "project": "netbench-streaming",
-   "task": "15-quic-attacker",
-   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
-   "verdict": "pass",
-   "steps": 82,
-   "failedRequests": 0,
-   "toolCalls": 82,
-   "tokens": 8497731,
-   "cost": 0.439988,
-   "durationMs": 1557816
-  },
-  "01a1c4d7-039d-73ca-9208-6281be91f0c5": {
-   "project": "netbench-streaming",
-   "task": "15-quic-attacker",
-   "model": "qwen/qwen3.8-flash",
-   "verdict": "pass",
-   "detail": "robust runner",
-   "steps": 84,
-   "failedRequests": 4,
-   "toolCalls": 86,
-   "tokens": 10602835,
-   "cost": 0.19997,
-   "durationMs": 3701651
+   "failedRequests": 5,
+   "toolCalls": 6,
+   "tokens": 16129,
+   "cost": 0.01613,
+   "durationMs": 39180
   }
  },
  "tasks": {

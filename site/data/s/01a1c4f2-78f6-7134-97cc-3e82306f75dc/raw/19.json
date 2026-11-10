@@ -1,0 +1,1 @@
+{"type":"message","id":"fb5e0f6a","parentId":"5b626bb4","timestamp":"2026-11-10T11:09:08.440Z","message":{"role":"toolResult","toolCallId":"call_ad50f2ed1cbd4f6b841abd4b","toolName":"bash","content":[{"type":"text","text":"Output was not JSONL\nexit=1\n"}],"isError":false,"durationMs":188,"timestamp":1794308948440}}

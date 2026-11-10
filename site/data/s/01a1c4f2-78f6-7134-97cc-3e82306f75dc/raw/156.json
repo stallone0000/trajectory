@@ -1,0 +1,1 @@
+{"type":"message","id":"950b21e8","parentId":"8f9003d8","timestamp":"2026-11-10T11:51:45.537Z","message":{"role":"toolResult","toolCallId":"call_6sfv3wocwznibwx3ia8zbdqq","toolName":"bash","content":[{"type":"text","text":"fuzz5 seeds 0..149 ok: 150 cases, maxstates=94 maxprod=830 time=0.6s\n"}],"isError":false,"durationMs":750,"timestamp":1794311505537}}

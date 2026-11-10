@@ -1,0 +1,1 @@
+{"type":"message","id":"4d125489","parentId":"edc81ab2","timestamp":"2026-11-10T11:46:59.315Z","message":{"role":"toolResult","toolCallId":"call_d7ck0iceajdy6m5phde7xqxr","toolName":"bash","content":[{"type":"text","text":"fuzz3 seeds 0..899 ok: maxstates=12 time=0.9s\n"}],"isError":false,"durationMs":1069,"timestamp":1794311219315}}
