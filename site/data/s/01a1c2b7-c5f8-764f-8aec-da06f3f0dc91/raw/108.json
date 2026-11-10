@@ -1,0 +1,1 @@
+{"type":"message","id":"4091810e","parentId":"9ccd663e","timestamp":"2026-11-10T00:24:56.335Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-b2af64540df29210","toolName":"bash","content":[{"type":"text","text":"FAILURES: 0\nPASS ttl 1 expiry\nPASS ttl 1 same t replay\nFAILURES: 0\n"}],"isError":false,"durationMs":813,"timestamp":1794270296335}}

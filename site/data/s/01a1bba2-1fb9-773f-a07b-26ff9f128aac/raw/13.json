@@ -1,0 +1,1 @@
+{"type":"message","id":"34e3f68f","parentId":"aa036d6a","timestamp":"2026-11-08T14:53:49.647Z","message":{"role":"toolResult","toolCallId":"call_35c3bd73af094309bcefba79","toolName":"bash","content":[{"type":"text","text":"/bin/bash: git: command not found\n/bin/bash: git: command not found\n"}],"isError":false,"durationMs":62,"timestamp":1794149629647}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"8fdaace5","parentId":"23eaab0b","timestamp":"2026-11-08T08:33:26.044Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-ae7ad1d2194ba7e4","toolName":"bash","content":[{"type":"text","text":"BUILD FAIL 117 17 ERROR: duplicate normalized prefix\n\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180158,"timestamp":1794126806044}}

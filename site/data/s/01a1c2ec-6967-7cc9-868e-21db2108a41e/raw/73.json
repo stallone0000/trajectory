@@ -1,0 +1,1 @@
+{"type":"message","id":"eadfc4bc","parentId":"234993c9","timestamp":"2026-11-10T01:05:42.084Z","message":{"role":"toolResult","toolCallId":"call_68202c141c2a48f584ddbf51","toolName":"bash","content":[{"type":"text","text":"MISMATCH seed 401\ndone, bad = 1\n"}],"isError":false,"durationMs":7365,"timestamp":1794272742084}}

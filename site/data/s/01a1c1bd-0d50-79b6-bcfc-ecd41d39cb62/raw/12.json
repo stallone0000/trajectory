@@ -1,0 +1,1 @@
+{"type":"message","id":"6cc20104","parentId":"7b0cebd8","timestamp":"2026-11-09T19:17:30.315Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-89e53fac98acf7e8","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 583: /tmp/plan.json: No such file or directory\n\n\n[exit code 1]"}],"isError":true,"durationMs":22,"timestamp":1794251850315}}

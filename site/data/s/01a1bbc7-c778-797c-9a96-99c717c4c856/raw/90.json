@@ -1,0 +1,1 @@
+{"type":"message","id":"13a4225e","parentId":"6fe25142","timestamp":"2026-11-08T16:09:16.660Z","message":{"role":"toolResult","toolCallId":"call_70e3a558456e470282ec2ddc","toolName":"bash","content":[{"type":"text","text":"no args rc=2\ncompile extra rc=2\n{\"error\":\"config\"}\nempty config rc=2\n"}],"isError":false,"durationMs":129,"timestamp":1794154156660}}

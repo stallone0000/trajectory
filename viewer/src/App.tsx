@@ -65,6 +65,7 @@ export function AppRoutes() {
 			<Route path="login" element={<LoginPage />} />
 			<Route path="public" element={<PublicLayout />}>
 				<Route index element={<SessionListPage />} />
+				<Route path="mswea" element={<SessionListPage source="mswea" />} />
 				<Route path="s/:id" element={<Suspense fallback={<SessionPageLoading />}><SessionViewPage /></Suspense>} />
 				<Route path="statistics" element={<Suspense fallback={<SessionPageLoading />}><StatisticsPage /></Suspense>} />
 				<Route path="search" element={<SearchPage />} />

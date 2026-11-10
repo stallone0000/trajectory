@@ -1,0 +1,1 @@
+{"type":"message","id":"9e9107b8","parentId":"a0f9d1e6","timestamp":"2026-11-08T19:47:58.003Z","message":{"role":"toolResult","toolCallId":"call_-7101070297507296986","toolName":"bash","content":[{"type":"text","text":"nsnap=1 obs=64 k=2 time=0.20\nnsnap=2 obs=128 k=6 time=4.07\nnsnap=3 obs=192 k=8 time=47.88\n"}],"isError":false,"durationMs":115251,"timestamp":1794167278003}}

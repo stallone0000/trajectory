@@ -1,0 +1,1 @@
+{"type":"message","id":"5d07cbfd","parentId":"163cc140","timestamp":"2026-11-08T12:04:04.533Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"360","model":"minimax/MiniMax-M3.1-Flash","stopReason":"error","errorMessage":"request failed","timestamp":1794139214526,"durationMs":230007}}

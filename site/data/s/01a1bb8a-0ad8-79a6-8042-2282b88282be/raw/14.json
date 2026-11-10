@@ -1,0 +1,1 @@
+{"type":"message","id":"459d1d03","parentId":"d5e06cea","timestamp":"2026-11-08T14:31:09.728Z","message":{"role":"toolResult","toolCallId":"bash_4_a998cc8f","toolName":"bash","content":[{"type":"text","text":"passed 0\nmismatch case 3 section jobs\n\n\n[exit code 1]"}],"isError":true,"durationMs":78,"timestamp":1794148269728}}

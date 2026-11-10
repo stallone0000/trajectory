@@ -1,0 +1,1 @@
+{"type":"message","id":"3ff01eec","parentId":"299c7663","timestamp":"2026-11-09T23:45:09.749Z","message":{"role":"toolResult","toolCallId":"call_7c5b5f3fb3344f56b8f2cb66","toolName":"bash","content":[{"type":"text","text":"feasible-heavy seed=5 n=120 time=2.6s fails=0 stats={'optimal': 115, 'infeasible': 5}\n"}],"isError":false,"durationMs":41954,"timestamp":1794267909749}}

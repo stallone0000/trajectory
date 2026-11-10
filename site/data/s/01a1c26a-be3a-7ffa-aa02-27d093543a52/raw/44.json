@@ -1,0 +1,1 @@
+{"type":"message","id":"2a53b5e1","parentId":"bd6ae29f","timestamp":"2026-11-09T23:16:18.813Z","message":{"role":"toolResult","toolCallId":"call_4f9da893630f4074b6dce7fe","toolName":"bash","content":[{"type":"text","text":"line count mismatch 93 91\n\n\n\n[exit code 1]"}],"isError":true,"durationMs":632,"timestamp":1794266178813}}

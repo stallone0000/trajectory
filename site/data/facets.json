@@ -1,1 +1,1 @@
-{"devices":[{"id":"2d97529d-fc6b-4018-9e79-7a8d269a5d27","name":"server-37"}],"projects":["trial-01","trial-02","trial-03"],"models":["Claude-Opus-5.5","Claude-Sonnet-5.5","GPT-6.1-Terra"]}
+{"devices":[{"id":"2d97529d-fc6b-4018-9e79-7a8d269a5d27","name":"server-37"}],"projects":["netbench-360","trial-01","trial-02","trial-03"],"models":["Claude-Opus-5.5","Claude-Sonnet-5.5","GPT-6.1-Terra","MiniMax-M3.1-Flash","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","kimi-k3.1-pro","qwen3.8-max"]}

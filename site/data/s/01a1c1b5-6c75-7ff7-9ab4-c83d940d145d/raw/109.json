@@ -1,0 +1,1 @@
+{"type":"message","id":"0321f2ab","parentId":"55d4e0fc","timestamp":"2026-11-09T19:25:07.523Z","message":{"role":"toolResult","toolCallId":"call_fc1c6be250784d43b98770da","toolName":"bash","content":[{"type":"text","text":"patched\nipv6_replay: selected /64 networks overlap inside a window\nexit=2\n"}],"isError":false,"durationMs":68,"timestamp":1794252307523}}

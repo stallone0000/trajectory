@@ -1,0 +1,1 @@
+{"type":"message","id":"43f33834","parentId":"9a2505c6","timestamp":"2026-11-10T02:04:51.702Z","message":{"role":"toolResult","toolCallId":"bash_21_35f41d56","toolName":"bash","content":[{"type":"text","text":"0.07618951797485352 0 b'{\"error\":\"E_LIMIT\"}\\n' b''\n"}],"isError":false,"durationMs":134,"timestamp":1794276291702}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"4f020c6e","parentId":"e3bce6b9","timestamp":"2026-11-08T18:17:42.491Z","message":{"role":"toolResult","toolCallId":"call_-7101070675464420412","toolName":"bash","content":[{"type":"text","text":"params of Optimize:\n  err 'ParamDescrsRef' object has no attribute 'get_default'\n"}],"isError":false,"durationMs":276,"timestamp":1794161862491}}

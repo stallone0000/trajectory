@@ -13,9 +13,11 @@ fi
 rm -rf site.tmp && mkdir site.tmp
 cp -r site-build/. site.tmp/
 python3 -I scripts/pika_snapshot.py --server "$PIKA_SERVER" --out site.tmp/data
+# Projects translated from mini-swe-agent (scripts/mswea_import.py) get their own page in the viewer.
+if [[ -f mswea-projects.json ]]; then cp mswea-projects.json site.tmp/data/mswea-projects.json; else echo '{"projects": []}' > site.tmp/data/mswea-projects.json; fi
 
 # Deep links work on any static host: every client route gets its own copy of index.html.
-for route in public public/statistics public/search; do
+for route in public public/mswea public/statistics public/search; do
   mkdir -p "site.tmp/$route" && cp site.tmp/index.html "site.tmp/$route/index.html"
 done
 python3 -I - <<PY

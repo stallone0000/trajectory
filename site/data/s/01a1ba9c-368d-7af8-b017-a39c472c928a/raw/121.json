@@ -1,0 +1,1 @@
+{"type":"message","id":"df9eadc0","parentId":"0ae5a711","timestamp":"2026-11-08T10:40:33.384Z","message":{"role":"toolResult","toolCallId":"call_-7101063700437529271","toolName":"bash","content":[{"type":"text","text":"head: /proc/self/maps: No such file or directory\n---\n---\nls: /proc/: No such file or directory\n"}],"isError":false,"durationMs":68,"timestamp":1794134433384}}

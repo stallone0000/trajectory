@@ -1,4 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
+import { MsweaNotice, useIsMswea } from "../lib/mswea";
 import { lazy, Suspense, useCallback, useMemo, useState, type ReactNode } from "react";
 import { useParams, useSearchParams } from "react-router";
 import { PikaLink as Link } from "../components/PikaLink";
@@ -156,16 +157,18 @@ export function SessionViewPage() {
 	);
 }
 
-function Breadcrumb({ session }: { session?: SessionDetail }) {
+function Breadcrumb({ session, mswea = false }: { session?: SessionDetail; mswea?: boolean }) {
+	// trajectory fork: mini-swe-agent sessions belong to their own list page.
+	const list = mswea ? "/public/mswea" : "/";
 	return (
 		<nav className="flex h-6 items-center gap-1 text-[12.5px] text-muted" aria-label="Breadcrumb">
-			<Link to="/" className="rounded-sm px-1 hover:bg-hover hover:text-ink">
-				Sessions
+			<Link to={list} className="rounded-sm px-1 hover:bg-hover hover:text-ink">
+				{mswea ? "mini-swe-agent" : "Sessions"}
 			</Link>
 			{session && (
 				<>
 					<span className="opacity-60">/</span>
-					<Link to={`/?project=${encodeURIComponent(session.project)}`} className="rounded-sm px-1 hover:bg-hover hover:text-ink">
+					<Link to={`${list}?project=${encodeURIComponent(session.project)}`} className="rounded-sm px-1 hover:bg-hover hover:text-ink">
 						{session.project}
 					</Link>
 				</>
@@ -191,6 +194,7 @@ function SessionPage({ id }: { id: string }) {
 		store(HIDDEN_STORAGE_KEY, value ? "1" : "0");
 	};
 	const session = useQuery({ queryKey: ["session", id], queryFn: () => api.session(id) });
+	const isMswea = useIsMswea(session.data?.project);
 	useLiveUpdates(id, session.data);
 	// The layout keeps the online sessions fresh.
 	const relay = useOnlineSessions(false);
@@ -257,7 +261,7 @@ function SessionPage({ id }: { id: string }) {
 	const live = session.data ? isLive(session.data.lastAt) : false;
 	const header = session.data && (
 		<header className={cx(TRAJECTORY_COLUMN, "pt-4")} data-session-header="">
-			<Breadcrumb session={session.data} />
+			<Breadcrumb session={session.data} mswea={isMswea} />
 			<div className="mt-1.5 flex items-start gap-4 max-md:flex-col">
 				<div className="min-w-0 flex-1">
 					<div className="flex min-w-0 items-start gap-3">
@@ -286,6 +290,7 @@ function SessionPage({ id }: { id: string }) {
 							</span>
 						)}
 					</div>
+					{isMswea && <MsweaNotice compact />}
 				</div>
 				<div className="flex shrink-0 flex-wrap items-center gap-2 pt-1">
 					{shown === "transcript" && (

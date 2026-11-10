@@ -1,0 +1,1 @@
+{"type":"message","id":"3cb7783f","parentId":"ee15935f","timestamp":"2026-11-09T20:04:45.878Z","message":{"role":"toolResult","toolCallId":"call_1edcb1734bf24cd7bf53dbce","toolName":"bash","content":[{"type":"text","text":"patched\nrc 2 b'' b'ipv6_replay: error: physical line 1 exceeds 4096 bytes\\n'\n"}],"isError":false,"durationMs":161,"timestamp":1794254685878}}

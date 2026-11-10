@@ -1,0 +1,1 @@
+{"type":"message","id":"c3e20e89","parentId":"f77b6012","timestamp":"2026-11-08T11:47:12.749Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-ae61f9374eb7eb42","toolName":"bash","content":[{"type":"text","text":"RecursionError ok\n1000\nC scanner available: <class '_json.Scanner'>\n"}],"isError":false,"durationMs":175,"timestamp":1794138432749}}

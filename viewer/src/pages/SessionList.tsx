@@ -1,4 +1,5 @@
 import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
+import { MsweaNotice } from "../lib/mswea";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { useSearchParams } from "react-router";
@@ -521,13 +522,13 @@ function Filters() {
 	);
 }
 
-export function SessionListPage() {
+export function SessionListPage({ source }: { source?: "mswea" } = {}) {
 	const api = useApi();
 	const [params] = useSearchParams();
 	const filters = useMemo(() => filtersFromParams(params), [params]);
 	const sessions = useInfiniteQuery({
-		queryKey: ["sessions", filters],
-		queryFn: ({ pageParam }) => api.sessions(filters, pageParam, PAGE_SIZE),
+		queryKey: ["sessions", filters, source],
+		queryFn: ({ pageParam }) => api.sessions(filters, pageParam, PAGE_SIZE, source),
 		initialPageParam: undefined as string | undefined,
 		getNextPageParam: (last) => last.nextCursor ?? undefined,
 	});
@@ -610,7 +611,8 @@ export function SessionListPage() {
 
 	return (
 		<Page className="pb-24">
-			<PageTitle>{api.publicView ? "Published trajectories" : "Sessions"}</PageTitle>
+			<PageTitle>{source === "mswea" ? "mini-swe-agent trajectories" : api.publicView ? "Published trajectories" : "Sessions"}</PageTitle>
+			{source === "mswea" && <MsweaNotice />}
 			<div className="mt-5">
 				<Filters />
 			</div>

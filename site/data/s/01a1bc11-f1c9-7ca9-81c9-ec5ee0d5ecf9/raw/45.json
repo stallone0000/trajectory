@@ -1,0 +1,1 @@
+{"type":"message","id":"7d7ddf7c","parentId":"9d163eb7","timestamp":"2026-11-08T17:11:50.668Z","message":{"role":"toolResult","toolCallId":"call_-7101071362659185106","toolName":"bash","content":[{"type":"text","text":"patched\ndone 400 fails 0 {'ambiguous': 30, 'infeasible': 17, 'unique': 30}\n"}],"isError":false,"durationMs":691,"timestamp":1794157910668}}

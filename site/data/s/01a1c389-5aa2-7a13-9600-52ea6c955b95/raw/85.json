@@ -1,0 +1,1 @@
+{"type":"message","id":"d04a416b","parentId":"fd710e89","timestamp":"2026-11-10T04:16:30.263Z","message":{"role":"toolResult","toolCallId":"call_-7100332593924533511","toolName":"bash","content":[{"type":"text","text":"total 2.08s, out len 2041881\nminimal states 15488\n"}],"isError":false,"durationMs":2217,"timestamp":1794284190263}}

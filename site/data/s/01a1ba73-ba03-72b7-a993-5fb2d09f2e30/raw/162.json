@@ -1,0 +1,1 @@
+{"type":"message","id":"6f876d64","parentId":"f1403036","timestamp":"2026-11-08T09:54:37.112Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a916d85e05f5b1a2","toolName":"bash","content":[{"type":"text","text":"done, failures 0\nwitness check done bad= 0\n"}],"isError":false,"durationMs":2022,"timestamp":1794131677112}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"ae52bee4","parentId":"521e84ec","timestamp":"2026-11-10T00:58:22.085Z","message":{"role":"toolResult","toolCallId":"call_-7101056141295085006","toolName":"bash","content":[{"type":"text","text":"192:by_sid = {sid: (key, raw, fin) for sid, key, raw, fin in order}\n"}],"isError":false,"durationMs":22,"timestamp":1794272302085}}

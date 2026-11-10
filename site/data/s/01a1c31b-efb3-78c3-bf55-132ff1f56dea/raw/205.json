@@ -1,0 +1,1 @@
+{"type":"message","id":"7c443863","parentId":"e4ebfd06","timestamp":"2026-11-10T02:41:30.755Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-9839c38969732193","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 23: warning: here-document at line 0 delimited by end-of-file (wanted `EOF')\n"}],"isError":false,"durationMs":22,"timestamp":1794278490755}}

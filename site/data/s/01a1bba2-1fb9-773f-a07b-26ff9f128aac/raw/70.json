@@ -1,0 +1,1 @@
+{"type":"message","id":"a0c35100","parentId":"7b063f4a","timestamp":"2026-11-08T15:01:36.552Z","message":{"role":"toolResult","toolCallId":"call_f796fb2ac9924310858fa330","toolName":"bash","content":[{"type":"text","text":"scenario failures: 0\nOK 500 cases from seed 0\ntotal 108 failures 0\n"}],"isError":false,"durationMs":6204,"timestamp":1794150096552}}

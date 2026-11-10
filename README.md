@@ -32,6 +32,25 @@ scripts/publish.sh --project <benchmark-name> /root/.pi/agent/sessions/--root-pi
 `--project` groups sessions in the gallery (Project filter). After editing `viewer/`, run
 `scripts/build_site.sh --viewer` before publishing.
 
+## mini-swe-agent trajectories
+
+`scripts/mswea_to_pi.py` translates a mini-swe-agent `*.traj.json` (2.x tool-calling and 1.x text-based) into a
+pi session JSONL, so pika renders it like a pi run: thinking, bash calls with exit status, per-call duration,
+tokens, harness feedback (`mini-swe-agent.feedback`) and the exit status (`mini-swe-agent.exit`). Scores are never
+put into the session. Tests: `python3 scripts/test_mswea_to_pi.py`.
+
+Batch import (writes `/root/pi-runs/<benchmark>/sessions/*.jsonl` and `results.csv` with session_id, task, model,
+score; `--ingest` uploads to the local pika under project `<benchmark>` but does **not** publish):
+
+```bash
+python3 scripts/mswea_import.py --benchmark <benchmark> --manifest manifest.csv --ingest \
+    --secret-file /path/to/api.key        # any key file whose contents must never appear (redacted, never printed)
+scripts/publish.sh                        # separate, deliberate step: publishes everything in the local pika
+```
+
+`manifest.csv` columns: `trajectory,task,model[,provider,score,thinking,label]`. `scripts/netbench_manifest.py` builds
+one from the 360 network-benchmark ledger (example adapter). Re-running is idempotent (deterministic session ids).
+
 ## Render
 
 Static site. **Build command:** empty. **Publish directory:** `site`. Every route has its own

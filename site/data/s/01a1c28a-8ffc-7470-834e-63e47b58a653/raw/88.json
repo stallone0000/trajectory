@@ -1,0 +1,1 @@
+{"type":"message","id":"e47f7707","parentId":"b023fafb","timestamp":"2026-11-09T23:19:39.970Z","message":{"role":"toolResult","toolCallId":"call_01a1c29c338e75e1aa947595","toolName":"bash","content":[{"type":"text","text":"forced-fallback path verified on 144 instances\n"}],"isError":false,"durationMs":128,"timestamp":1794266379970}}

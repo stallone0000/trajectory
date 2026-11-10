@@ -1,0 +1,3360 @@
+{
+ "source": "/root/api-agent-audit-20261107/qihoo360/360model_20261107.txt",
+ "currency": "CNY",
+ "usd_per_cny": 0.1408,
+ "note": "360 list prices per 1M tokens; cached input billed as input; USD = CNY * usd_per_cny",
+ "models": {
+  "ppinfra/anthropic/claude-sonnet-5": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 70.0
+  },
+  "ppinfra/anthropic/claude-sonnet-5-5": {
+   "input_cny_per_m": 11.2,
+   "output_cny_per_m": 56.0
+  },
+  "ppinfra/anthropic/claude-haiku-5-5": {
+   "input_cny_per_m": 0.56,
+   "output_cny_per_m": 2.8
+  },
+  "qwen/qwen-latest-series-invite-1102": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-duduniao-anthropic-ccmax/anthropic/claude-opus-5-5": {
+   "input_cny_per_m": 5.6,
+   "output_cny_per_m": 28.0
+  },
+  "a2e/a2e-custom-avatar-add": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "a2e/a2e-custom-avatar-list": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "a2e/a2e-custom-avatar-del": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "a2e/a2e-custom-avatar-all-tags": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "a2e/a2e-1.0-avatar": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0356
+  },
+  "a2e/a2e-1.0-lipsync": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0356
+  },
+  "a2e/a2e-1.0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0356
+  },
+  "a2e/a2e-1.0-deep-train": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0356
+  },
+  "a2e/a2e-custom-avatar-update": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "a2e/a2e-1.0-talking-video": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0356
+  },
+  "openai/o1-preview": {
+   "input_cny_per_m": 105.0,
+   "output_cny_per_m": 420.0
+  },
+  "tokenmall-qzwx/create-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/create-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/list-asset-groups": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/get-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/update-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/delete-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/list-assets": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/get-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/update-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/delete-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/create-visual-validate-session": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/get-visual-validate-result": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/get-visual-validate-result": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/create-visual-validate-session": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/delete-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/update-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/get-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/list-assets": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/delete-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/update-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/get-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/list-asset-groups": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/create-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-gzsj/create-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-qzwx/doubao-seedance-2-0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 39.78
+  },
+  "tokenmall-qzwx/doubao-seedance-2-5": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 54.6
+  },
+  "tokenmall-gzsj/doubao-seedance-2-5": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 56.0
+  },
+  "codex-ccmax/gpt-6.1-terra": {
+   "input_cny_per_m": 1.4,
+   "output_cny_per_m": 7.0
+  },
+  "openai/gpt-6.1-terra": {
+   "input_cny_per_m": 7.0,
+   "output_cny_per_m": 35.0
+  },
+  "moonshotai/kimi-k3.1-pro-highspeed": {
+   "input_cny_per_m": 26.0,
+   "output_cny_per_m": 136.0
+  },
+  "nc/deepseek/deepseek-v4-pro": {
+   "input_cny_per_m": 9.0,
+   "output_cny_per_m": 27.0
+  },
+  "moonshot/moonshotai/kimi-k3.1-pro": {
+   "input_cny_per_m": 13.0,
+   "output_cny_per_m": 68.0
+  },
+  "moonshotai/kimi-k3.1-pro": {
+   "input_cny_per_m": 13.0,
+   "output_cny_per_m": 68.0
+  },
+  "alibaba/decision-model-preview": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "minimax/MiniMax-M3.1-Flash": {
+   "input_cny_per_m": 0.95,
+   "output_cny_per_m": 3.8
+  },
+  "google/gemini-4-argon": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 70.0
+  },
+  "anthropic/claude-fable-5-1": {
+   "input_cny_per_m": 70.0,
+   "output_cny_per_m": 350.0
+  },
+  "tokenmall-cdtx/get-visual-validate-result": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/create-visual-validate-session": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/delete-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/update-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/get-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/list-assets": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/delete-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/update-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/get-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/list-asset-groups": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/create-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/create-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tokenmall-cdtx/doubao-seedance-2-5": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 60.9
+  },
+  "nc/volcengine/doubao-seed-2-0-lite": {
+   "input_cny_per_m": 0.54,
+   "output_cny_per_m": 3.24
+  },
+  "bytedance/doubao-seed-2-1-lite": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.7
+  },
+  "vidu/viduq4-preview": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 21875.0
+  },
+  "openai/gpt-6.1-sol": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 70.0
+  },
+  "anthropic/claude-sonnet-5-5": {
+   "input_cny_per_m": 9.1,
+   "output_cny_per_m": 45.5
+  },
+  "anthropic/claude-haiku-5-5": {
+   "input_cny_per_m": 0.455,
+   "output_cny_per_m": 2.275
+  },
+  "codex-ccmax/gpt-6.1-sol": {
+   "input_cny_per_m": 2.8,
+   "output_cny_per_m": 14.0
+  },
+  "huaweicloud/deepseek/deepseek-v4.1-flash": {
+   "input_cny_per_m": 1.8,
+   "output_cny_per_m": 7.2
+  },
+  "nc/xiaomi/mimo-v2.6-flash": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "nc/xiaomi/mimo-v2.6-pro": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 6.0
+  },
+  "typesafe/typesafe/jev-latest": {
+   "input_cny_per_m": 0.294,
+   "output_cny_per_m": 0.0
+  },
+  "opengw/anthropic/claude-opus-5-5": {
+   "input_cny_per_m": 18.2,
+   "output_cny_per_m": 91.0
+  },
+  "anthropic/claude-opus-5-5": {
+   "input_cny_per_m": 18.2,
+   "output_cny_per_m": 91.0
+  },
+  "codex-ccmax/gpt-6-luna": {
+   "input_cny_per_m": 0.14,
+   "output_cny_per_m": 0.7
+  },
+  "codex-ccmax/gpt-6-sol": {
+   "input_cny_per_m": 2.8,
+   "output_cny_per_m": 14.0
+  },
+  "openai/gpt-6-sol": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 70.0
+  },
+  "openai/gpt-6-luna": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 3.5
+  },
+  "typesafe/jev-latest": {
+   "input_cny_per_m": 0.294,
+   "output_cny_per_m": 0.0
+  },
+  "xiaomi/mimo-v2.6-pro": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 6.0
+  },
+  "xiaomi/mimo-v2.6-flash": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "volcengine/bytedance/doubao-seed-2-0-lite-disable-thinking": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 3.6
+  },
+  "qwen/qwen-aegis": {
+   "input_cny_per_m": 12.0,
+   "output_cny_per_m": 36.0
+  },
+  "qwen/qwen3.7-flash": {
+   "input_cny_per_m": 0.2,
+   "output_cny_per_m": 0.8
+  },
+  "deepseek/deepseek-v4.1-flash-internal": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "deepseek/deepseek-v4.1-flash": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "openai/gpt-image-2.5-sunburst": {
+   "input_cny_per_m": 18.7,
+   "output_cny_per_m": 110.0
+  },
+  "openai/gpt-image-2.5-flare": {
+   "input_cny_per_m": 18.7,
+   "output_cny_per_m": 110.0
+  },
+  "google/gemini-3.8-flash": {
+   "input_cny_per_m": 5.25,
+   "output_cny_per_m": 26.25
+  },
+  "codex-ccmax/gpt-6-astra": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 70.0
+  },
+  "openai/gpt-6-astra": {
+   "input_cny_per_m": 70.0,
+   "output_cny_per_m": 350.0
+  },
+  "z-ai/glm-5.3-flash-internal": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.8
+  },
+  "360zhinao-turbo-onebox-aivr-260825": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.4
+  },
+  "tencent/hy-3d-rapid": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.12
+  },
+  "tencent/hy-3d-pro-3.1": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.12
+  },
+  "tencent/hy-3d-pro-3.0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.12
+  },
+  "x-ai/grok-4.6": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 42.0
+  },
+  "deepseek/deepseek-v4-flash-vision-exp": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "google/gemini-3.7-flash": {
+   "input_cny_per_m": 5.25,
+   "output_cny_per_m": 26.25
+  },
+  "bytedance/generate-highlights-microdrama": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 0.06
+  },
+  "bytedance/drama-recap-vertical": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 1.6
+  },
+  "bytedance/drama-script": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/separate-voice": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.07
+  },
+  "bytedance/mk-erase-video-subtitle-pro": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 1.0
+  },
+  "bytedance/mk-erase-video-subtitle": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.4
+  },
+  "cmecloud/get-visual-validate-result": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/get-visual-validate-result": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/create-visual-validate-session": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/create-visual-validate-session": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/delete-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/delete-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/update-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/update-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/get-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/get-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/list-assets": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/list-assets": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/delete-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/delete-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/update-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/update-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/get-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/get-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/list-asset-groups": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/list-asset-groups": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen/qwen3.8-flash": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.7
+  },
+  "z-ai/glm-5.3-flash": {
+   "input_cny_per_m": 0.68,
+   "output_cny_per_m": 2.38
+  },
+  "360tusou/ocr-pro": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "360zhinao-turbo-aippt-agent": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "360zhinao/360zhinao-turbo-llm-aisearch-askai-260820": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "360zhinao/360zhinao-turbo-llm-geo": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "360zhinao/360zhinao-lite-askrec-intentrec": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "360zhinao/360zhinao-lite-llm-aisearch-intent": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "anthropic/claude-sonnet-5": {
+   "input_cny_per_m": 8.4,
+   "output_cny_per_m": 42.0
+  },
+  "z-ai/glm-5.3": {
+   "input_cny_per_m": 6.8,
+   "output_cny_per_m": 23.8
+  },
+  "qwen/qwen-image-3.0": {
+   "input_cny_per_m": 0.014,
+   "output_cny_per_m": 0.126
+  },
+  "qwen/qwen-image-3.0-pro": {
+   "input_cny_per_m": 0.014,
+   "output_cny_per_m": 0.175
+  },
+  "360zhinao/360zhinao-turbo-llm-aisearch-summary": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.4
+  },
+  "360zhinao/360zhinao-lite-llm-ai-plugin": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "openai/gpt-5.6-luna": {
+   "input_cny_per_m": 1.4,
+   "output_cny_per_m": 8.4
+  },
+  "bytedance/doubao-seedance-2-5": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 70.0
+  },
+  "bytedance/enhance-video-generative": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 2.5
+  },
+  "bytedance/compress-image": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 69.0
+  },
+  "bytedance/remove-image-elements": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 41400.0
+  },
+  "bytedance/slim-image": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 69.0
+  },
+  "bytedance/remove-image-background": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 1380.0
+  },
+  "bytedance/erase-image": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 1380.0
+  },
+  "bytedance/enhance-image": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 6000.0
+  },
+  "360zhinao/360zhinao-pro": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "bytedance/doubao-seedance-2-0-mini": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 23.0
+  },
+  "qwen/qwen3.8-max": {
+   "input_cny_per_m": 12.0,
+   "output_cny_per_m": 36.0
+  },
+  "volcengine/bytedance/doubao-seed-2-0-mini-260215": {
+   "input_cny_per_m": 0.2,
+   "output_cny_per_m": 2.0
+  },
+  "nc/bytedance/doubao-seed-2-0-mini-260215": {
+   "input_cny_per_m": 0.16,
+   "output_cny_per_m": 1.6
+  },
+  "cmecloud/create-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/create-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "cmecloud/doubao-seedance-2-0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 31.74
+  },
+  "bytedance/create-asset-group": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bytedance/create-asset": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "anthropic/claude-opus-5": {
+   "input_cny_per_m": 22.75,
+   "output_cny_per_m": 113.75
+  },
+  "opengw/anthropic/claude-opus-5": {
+   "input_cny_per_m": 22.75,
+   "output_cny_per_m": 113.75
+  },
+  "anthropic-ccmax/claude-haiku-4-5-codex-deepseek": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 3.5
+  },
+  "anthropic-ccmax/claude-sonnet-4-6-codex-deepseek": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 10.5
+  },
+  "anthropic-ccmax/claude-opus-4-6-codex-deepseek": {
+   "input_cny_per_m": 3.5,
+   "output_cny_per_m": 17.5
+  },
+  "anthropic-ccmax/claude-opus-4-6-codex-glm": {
+   "input_cny_per_m": 3.5,
+   "output_cny_per_m": 17.5
+  },
+  "anthropic-ccmax/claude-sonnet-4-6-codex-glm": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 10.5
+  },
+  "anthropic-ccmax/claude-haiku-4-5-codex-glm": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 3.5
+  },
+  "anthropic-ccmax/claude-haiku-4-5-glm": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 3.5
+  },
+  "anthropic-ccmax/claude-sonnet-4-6-glm": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 10.5
+  },
+  "anthropic-ccmax/claude-opus-4-6-glm": {
+   "input_cny_per_m": 3.5,
+   "output_cny_per_m": 17.5
+  },
+  "google/gemini-3.6-flash": {
+   "input_cny_per_m": 9.03,
+   "output_cny_per_m": 45.15
+  },
+  "google/gemini-3.5-flash-lite": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 17.5
+  },
+  "moonshotai/kimi-k3": {
+   "input_cny_per_m": 20.0,
+   "output_cny_per_m": 100.0
+  },
+  "qwen/qwen3.6-flash": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 7.2
+  },
+  "x-ai/grok-4.5": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 42.0
+  },
+  "codex-ccmax/gpt-5.6-luna": {
+   "input_cny_per_m": 0.28,
+   "output_cny_per_m": 1.68
+  },
+  "codex-ccmax/gpt-5.6-terra": {
+   "input_cny_per_m": 2.8,
+   "output_cny_per_m": 16.8
+  },
+  "codex-ccmax/gpt-5.6-sol": {
+   "input_cny_per_m": 5.6,
+   "output_cny_per_m": 28.0
+  },
+  "openai/gpt-5.6-terra": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 84.0
+  },
+  "openai/gpt-5.6-sol": {
+   "input_cny_per_m": 28.0,
+   "output_cny_per_m": 140.0
+  },
+  "bytedance/doubao-seedream-5.0-pro": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.21
+  },
+  "volcengine/bytedance/doubao-seedream-5.0-pro": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.21
+  },
+  "nami-an/cc-s46": {
+   "input_cny_per_m": 21.0,
+   "output_cny_per_m": 105.0
+  },
+  "nami-an/cc-o46": {
+   "input_cny_per_m": 35.0,
+   "output_cny_per_m": 175.0
+  },
+  "moonshotai/kimi-k2.7-code-highspeed": {
+   "input_cny_per_m": 13.0,
+   "output_cny_per_m": 54.0
+  },
+  "moonshotai/kimi-k2.7-code": {
+   "input_cny_per_m": 6.5,
+   "output_cny_per_m": 27.0
+  },
+  "bytedance/doubao-seed-evolving": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 30.0
+  },
+  "bytedance/doubao-seed-2-1-turbo": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 15.0
+  },
+  "bytedance/doubao-seed-2-1-pro": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 30.0
+  },
+  "volcengine/doubao-seedance-2-0-mini": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 23.0
+  },
+  "codex-ccmax/gpt-5.4": {
+   "input_cny_per_m": 2.8,
+   "output_cny_per_m": 16.8
+  },
+  "opengw/anthropic/claude-opus-4.8": {
+   "input_cny_per_m": 22.75,
+   "output_cny_per_m": 113.75
+  },
+  "qwen/qwen3.7-plus": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 4.8
+  },
+  "z-ai/glm-5.2-internal": {
+   "input_cny_per_m": 8.0,
+   "output_cny_per_m": 28.0
+  },
+  "z-ai/glm-5.2": {
+   "input_cny_per_m": 6.8,
+   "output_cny_per_m": 23.8
+  },
+  "anthropic-ccmax/claude-opus-4-7": {
+   "input_cny_per_m": 3.5,
+   "output_cny_per_m": 17.5
+  },
+  "minimax/MiniMax-M2.7-internal": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 8.4
+  },
+  "opengw/ccmax/claude-sonnet-4-6": {
+   "input_cny_per_m": 4.32,
+   "output_cny_per_m": 21.6
+  },
+  "anthropic/claude-fable-5": {
+   "input_cny_per_m": 45.5,
+   "output_cny_per_m": 227.5
+  },
+  "stepfun/step-3.7-flash": {
+   "input_cny_per_m": 1.35,
+   "output_cny_per_m": 8.1
+  },
+  "alibaba/qwen3.7-plus": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 4.8
+  },
+  "moonshotai/kimi-k2.6-internal": {
+   "input_cny_per_m": 6.5,
+   "output_cny_per_m": 27.0
+  },
+  "deepseek/deepseek-v4-pro-internal": {
+   "input_cny_per_m": 9.0,
+   "output_cny_per_m": 27.0
+  },
+  "deepseek/deepseek-v4-flash-internal": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "z-ai/glm-5.1-internal": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 24.0
+  },
+  "360zhinao-turbo-and-doubao-seed-1-8": {
+   "input_cny_per_m": 0.64,
+   "output_cny_per_m": 1.6
+  },
+  "moonshotai/kimi-k2.6-test": {
+   "input_cny_per_m": 6.5,
+   "output_cny_per_m": 27.0
+  },
+  "360zhinao-turbo-doubao-seed-2-0-lite": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.4
+  },
+  "360zhinao-turbo-doubao-seed-1-6": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.4
+  },
+  "anthropic/claude-opus-4.8": {
+   "input_cny_per_m": 21.0,
+   "output_cny_per_m": 105.0
+  },
+  "minimax/MiniMax-M3": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 8.4
+  },
+  "360zhinao-turbo-32k-260526": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 1.0
+  },
+  "qwen/qwen3.7-max": {
+   "input_cny_per_m": 7.2,
+   "output_cny_per_m": 21.6
+  },
+  "google/gemini-3.5-flash": {
+   "input_cny_per_m": 7.14,
+   "output_cny_per_m": 42.84
+  },
+  "qiniu/ccmax/claude-sonnet-4-6": {
+   "input_cny_per_m": 4.32,
+   "output_cny_per_m": 21.6
+  },
+  "anthropic-ccmax/claude-haiku-4-5-deepseek": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 3.5
+  },
+  "anthropic-ccmax/claude-sonnet-4-6-deepseek": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 10.5
+  },
+  "anthropic-ccmax/claude-opus-4-6-deepseek": {
+   "input_cny_per_m": 3.5,
+   "output_cny_per_m": 17.5
+  },
+  "qwen/qwen3.5-plus-2026-04-20": {
+   "input_cny_per_m": 0.52,
+   "output_cny_per_m": 3.12
+  },
+  "alibaba/qwen-image-2.0-pro": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 500000.0
+  },
+  "bytedance/doubao-1-5-vision-pro-32k": {
+   "input_cny_per_m": 2.7,
+   "output_cny_per_m": 8.1
+  },
+  "bytedance/doubao-seed-1-6-vision": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 24.0
+  },
+  "bytedance/doubao-seed-1-6-flash": {
+   "input_cny_per_m": 0.0725,
+   "output_cny_per_m": 0.8083
+  },
+  "bytedance/doubao-seed-1-6": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "bytedance/doubao-seedream-4-0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 160000.0
+  },
+  "bytedance/doubao-seedream-4-5": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 226000.0
+  },
+  "bytedance/doubao-seed-1-8": {
+   "input_cny_per_m": 0.64,
+   "output_cny_per_m": 1.6
+  },
+  "bytedance/doubao-seed-2-0-code": {
+   "input_cny_per_m": 3.2,
+   "output_cny_per_m": 16.0
+  },
+  "360zhinao-turbo-trans": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.4
+  },
+  "360zhinao-pro-trans": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 3.0
+  },
+  "bytedance/doubao-seed-2-0-pro": {
+   "input_cny_per_m": 3.2,
+   "output_cny_per_m": 16.0
+  },
+  "bytedance/doubao-seed-2-0-lite": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 3.6
+  },
+  "bytedance/doubao-seed-2-0-mini": {
+   "input_cny_per_m": 0.2,
+   "output_cny_per_m": 2.0
+  },
+  "360zhinao-pro": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "bytedance/seedance-2-0-fast": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 37.0
+  },
+  "bytedance/seedance-2-0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 46.0
+  },
+  "360zhinao-deepseek-v4-flash-260509": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "360zhinao-turbo-doubao-seed-1-8": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 1.0
+  },
+  "xiaomi/mimo-v2.5-pro": {
+   "input_cny_per_m": 3.045,
+   "output_cny_per_m": 6.09
+  },
+  "xiaomi/mimo-v2.5": {
+   "input_cny_per_m": 0.735,
+   "output_cny_per_m": 1.96
+  },
+  "cloudsway/gemini-3.1-pro-preview": {
+   "input_cny_per_m": 10.8332,
+   "output_cny_per_m": 64.9992
+  },
+  "360zhinao-turbo-doubao-seed-1-8-thinking-minimal": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 1.0
+  },
+  "openrouter/xiaomi/mimo-v2.5-pro": {
+   "input_cny_per_m": 3.045,
+   "output_cny_per_m": 6.09
+  },
+  "openrouter/xiaomi/mimo-v2.5": {
+   "input_cny_per_m": 0.735,
+   "output_cny_per_m": 1.96
+  },
+  "openai/gpt-5.5": {
+   "input_cny_per_m": 35.0,
+   "output_cny_per_m": 210.0
+  },
+  "deepseek/deepseek-v4-pro": {
+   "input_cny_per_m": 4.5,
+   "output_cny_per_m": 13.5
+  },
+  "deepseek/deepseek-v4-flash": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "openai/gpt-image-2": {
+   "input_cny_per_m": 35.0,
+   "output_cny_per_m": 210.0
+  },
+  "moonshotai/kimi-k2.6": {
+   "input_cny_per_m": 6.5,
+   "output_cny_per_m": 27.0
+  },
+  "claw-o-47": {
+   "input_cny_per_m": 35.0,
+   "output_cny_per_m": 175.0
+  },
+  "minimax/minimax-m2.7-nami": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 8.4
+  },
+  "anthropic-ccmax/claude-opus-4-6": {
+   "input_cny_per_m": 3.5,
+   "output_cny_per_m": 17.5
+  },
+  "anthropic-ccmax/claude-sonnet-4-6": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 10.5
+  },
+  "anthropic-ccmax/claude-haiku-4-5": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 3.5
+  },
+  "anthropic/claude-opus-4.7": {
+   "input_cny_per_m": 21.0,
+   "output_cny_per_m": 105.0
+  },
+  "z-ai/glm-5v-turbo": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 22.0
+  },
+  "360zhinao-turbo-32k-agent": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.4
+  },
+  "360zhinao-lite-8k-intentcls": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "z-ai/glm-5.1": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 24.0
+  },
+  "volcengine/doubao-seedance-2-0-fast": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 37.0
+  },
+  "volcengine/doubao-seedance-2-0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 46.0
+  },
+  "qwen/qwen3.6-plus": {
+   "input_cny_per_m": 1.3,
+   "output_cny_per_m": 7.8
+  },
+  "minimax/MiniMax-M2.5-highspeed": {
+   "input_cny_per_m": 3.36,
+   "output_cny_per_m": 13.44
+  },
+  "minimax/MiniMax-M2.7-highspeed": {
+   "input_cny_per_m": 3.36,
+   "output_cny_per_m": 13.44
+  },
+  "minimax/MiniMax-M2.7": {
+   "input_cny_per_m": 1.68,
+   "output_cny_per_m": 6.72
+  },
+  "z-ai/glm-5-turbo": {
+   "input_cny_per_m": 4.25,
+   "output_cny_per_m": 18.7
+  },
+  "alibaba/qwen-image-2.0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 200000.0
+  },
+  "claw-g-31": {
+   "input_cny_per_m": 14.6,
+   "output_cny_per_m": 87.6
+  },
+  "claw-g-54": {
+   "input_cny_per_m": 18.25,
+   "output_cny_per_m": 109.5
+  },
+  "claw-c-46": {
+   "input_cny_per_m": 18.576,
+   "output_cny_per_m": 92.88
+  },
+  "claw-o-46": {
+   "input_cny_per_m": 36.5,
+   "output_cny_per_m": 182.5
+  },
+  "volcengine/bytedance/doubao-seed-2-0-pro": {
+   "input_cny_per_m": 3.2,
+   "output_cny_per_m": 16.0
+  },
+  "360zhinao/virtual_mock_model": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qiniu/google/gemini-3-pro-preview": {
+   "input_cny_per_m": 9.636,
+   "output_cny_per_m": 57.816
+  },
+  "zyun360/360-step-3.5-flash": {
+   "input_cny_per_m": 0.72,
+   "output_cny_per_m": 2.16
+  },
+  "ppinfra/google/gemini-3.1-flash-image-preview-edit": {
+   "input_cny_per_m": 2.275,
+   "output_cny_per_m": 13.65
+  },
+  "ppinfra/google/gemini-3.1-flash-image-preview": {
+   "input_cny_per_m": 2.275,
+   "output_cny_per_m": 13.65
+  },
+  "alibaba/qwen2.5-coder-7b-instruct": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "alibaba/qwen-vl-max": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "deepseek/deepseek-r1-distill-qwen-32b": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 6.0
+  },
+  "openai/gpt-4o-mini": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 4.6
+  },
+  "openai/gpt-4o-2024-05-13": {
+   "input_cny_per_m": 34.0,
+   "output_cny_per_m": 102.0
+  },
+  "openai/gpt-4-1106-preview": {
+   "input_cny_per_m": 68.0,
+   "output_cny_per_m": 204.0
+  },
+  "openai/gpt-4": {
+   "input_cny_per_m": 204.0,
+   "output_cny_per_m": 408.0
+  },
+  "openai/gpt-3.5-turbo-16k": {
+   "input_cny_per_m": 21.0,
+   "output_cny_per_m": 28.0
+  },
+  "openai/gpt-3.5-turbo": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 14.0
+  },
+  "anthropic/claude-3.5-haiku": {
+   "input_cny_per_m": 7.3,
+   "output_cny_per_m": 36.5
+  },
+  "z-ai/glm-4.7": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "z-ai/glm-4.6v": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 3.0
+  },
+  "z-ai/glm-4.6": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 14.0
+  },
+  "z-ai/glm-4.5v": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "z-ai/glm-4.5-air": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 6.0
+  },
+  "z-ai/glm-4.5": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "qiniu/openai/gpt-5.4": {
+   "input_cny_per_m": 18.25,
+   "output_cny_per_m": 109.5
+  },
+  "openai/gpt-5.4": {
+   "input_cny_per_m": 17.5,
+   "output_cny_per_m": 105.0
+  },
+  "volcengine/disable-thinking-doubao-seed-2-0-mini-260215": {
+   "input_cny_per_m": 0.2,
+   "output_cny_per_m": 2.0
+  },
+  "microsoft/openai/o4-mini": {
+   "input_cny_per_m": 7.92,
+   "output_cny_per_m": 31.68
+  },
+  "microsoft/openai/o3-mini": {
+   "input_cny_per_m": 9.0,
+   "output_cny_per_m": 36.0
+  },
+  "microsoft/openai/o3": {
+   "input_cny_per_m": 14.4,
+   "output_cny_per_m": 57.6
+  },
+  "microsoft/openai/o1": {
+   "input_cny_per_m": 121.0,
+   "output_cny_per_m": 481.0
+  },
+  "microsoft/openai/gpt-5.2": {
+   "input_cny_per_m": 12.6,
+   "output_cny_per_m": 100.8
+  },
+  "microsoft/openai/gpt-5.1": {
+   "input_cny_per_m": 9.125,
+   "output_cny_per_m": 73.0
+  },
+  "microsoft/openai/gpt-5-nano": {
+   "input_cny_per_m": 0.365,
+   "output_cny_per_m": 2.92
+  },
+  "microsoft/openai/gpt-5-mini": {
+   "input_cny_per_m": 1.825,
+   "output_cny_per_m": 14.6
+  },
+  "microsoft/openai/gpt-5": {
+   "input_cny_per_m": 9.125,
+   "output_cny_per_m": 73.0
+  },
+  "minimax/minimax/MiniMax-M2.5": {
+   "input_cny_per_m": 1.68,
+   "output_cny_per_m": 6.72
+  },
+  "minimax/minimax/MiniMax-M2.1": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 8.4
+  },
+  "minimax/minimax/MiniMax-M1": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 16.0
+  },
+  "cloudsway/google/gemini-2.5-pro-preview": {
+   "input_cny_per_m": 11.8625,
+   "output_cny_per_m": 71.175
+  },
+  "cloudsway/google/gemini-2.5-pro": {
+   "input_cny_per_m": 5.9312,
+   "output_cny_per_m": 11.8625
+  },
+  "cloudsway/google/gemini-2.5-flash": {
+   "input_cny_per_m": 1.575,
+   "output_cny_per_m": 5.25
+  },
+  "deepseek/deepseek/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "deepseek/deepseek/deepseek-chat": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "amazon/anthropic/claude-3.5-sonnet": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "alibaba/qwen-flash": {
+   "input_cny_per_m": 0.15,
+   "output_cny_per_m": 1.5
+  },
+  "volcengine/doubao-seed-2-0-mini-260215": {
+   "input_cny_per_m": 0.16,
+   "output_cny_per_m": 1.6
+  },
+  "volcengine/doubao-seed-2-0-mini-disable-thinking": {
+   "input_cny_per_m": 0.2,
+   "output_cny_per_m": 2.0
+  },
+  "cloudsway/google/gemini-3.1-flash-image-preview-edit": {
+   "input_cny_per_m": 3.15,
+   "output_cny_per_m": 18.9
+  },
+  "cloudsway/google/gemini-3.1-flash-image-preview": {
+   "input_cny_per_m": 3.15,
+   "output_cny_per_m": 18.9
+  },
+  "ppinfra/gemini-3.1-pro-preview": {
+   "input_cny_per_m": 9.425,
+   "output_cny_per_m": 56.55
+  },
+  "ppinfra/claude-sonnet-4-6": {
+   "input_cny_per_m": 16.3125,
+   "output_cny_per_m": 81.5625
+  },
+  "google/google/gemini-3.1-pro-preview": {
+   "input_cny_per_m": 10.22,
+   "output_cny_per_m": 61.32
+  },
+  "anthropic/claude-sonnet-4-6": {
+   "input_cny_per_m": 12.6,
+   "output_cny_per_m": 63.0
+  },
+  "qiniu/claude-sonnet-4-6": {
+   "input_cny_per_m": 18.576,
+   "output_cny_per_m": 92.88
+  },
+  "qiniu/gemini-3.1-pro-preview": {
+   "input_cny_per_m": 9.648,
+   "output_cny_per_m": 57.888
+  },
+  "alibaba/qwen3.5-flash": {
+   "input_cny_per_m": 0.2,
+   "output_cny_per_m": 2.0
+  },
+  "alibaba/qwen3.5-plus": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 4.8
+  },
+  "alibaba/qwen3.5-35b-a3b": {
+   "input_cny_per_m": 0.4,
+   "output_cny_per_m": 3.2
+  },
+  "alibaba/qwen3.5-27b": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 4.8
+  },
+  "alibaba/qwen3.5-122b-a10b": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 6.4
+  },
+  "alibaba/qwen3.5-397b-a17b": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 7.2
+  },
+  "qiniu/kimi-k2.5": {
+   "input_cny_per_m": 2.8,
+   "output_cny_per_m": 14.7
+  },
+  "google/gemini-3.1-pro-preview": {
+   "input_cny_per_m": 14.6,
+   "output_cny_per_m": 87.6
+  },
+  "volcengine/doubao-seed-2-0-code": {
+   "input_cny_per_m": 3.2,
+   "output_cny_per_m": 16.0
+  },
+  "volcengine/doubao-seed-2-0-lite": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 3.6
+  },
+  "minimax/MiniMax-M2.5-lightning": {
+   "input_cny_per_m": 1.68,
+   "output_cny_per_m": 20.16
+  },
+  "qiniu/glm-5": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 10.8
+  },
+  "z-ai/glm-5": {
+   "input_cny_per_m": 2.8,
+   "output_cny_per_m": 12.6
+  },
+  "ppinfra/glm-5": {
+   "input_cny_per_m": 3.6,
+   "output_cny_per_m": 16.2
+  },
+  "minimax/MiniMax-M2.5": {
+   "input_cny_per_m": 1.68,
+   "output_cny_per_m": 6.72
+  },
+  "aliyun/qwen-plus": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "aliyun/qwen-plus-latest": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "bigmodel/glm-5": {
+   "input_cny_per_m": 2.8,
+   "output_cny_per_m": 12.6
+  },
+  "qiniu/google/gemini-3-flash-preview": {
+   "input_cny_per_m": 2.52,
+   "output_cny_per_m": 15.12
+  },
+  "cloudsway/gemini-3-flash-preview": {
+   "input_cny_per_m": 2.52,
+   "output_cny_per_m": 15.12
+  },
+  "openrouter/gpt-5-image": {
+   "input_cny_per_m": 76.65,
+   "output_cny_per_m": 76.65
+  },
+  "openrouter/pony-alpha": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "sophnet/qwen-plus-latest": {
+   "input_cny_per_m": 0.36,
+   "output_cny_per_m": 0.9
+  },
+  "sophnet/qwen-plus": {
+   "input_cny_per_m": 0.36,
+   "output_cny_per_m": 0.9
+  },
+  "minimax/MiniMax-M2.1-lightning": {
+   "input_cny_per_m": 1.68,
+   "output_cny_per_m": 13.44
+  },
+  "kuaishou/kling-v3-omni": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.6
+  },
+  "qiniu/gpt-5.2-codex": {
+   "input_cny_per_m": 12.6,
+   "output_cny_per_m": 70.56
+  },
+  "ppinfra/claude-opus-4.6": {
+   "input_cny_per_m": 25.55,
+   "output_cny_per_m": 191.625
+  },
+  "anthropic/claude-opus-4.6": {
+   "input_cny_per_m": 21.0,
+   "output_cny_per_m": 105.0
+  },
+  "ppinfra/claude-haiku-4.5": {
+   "input_cny_per_m": 5.04,
+   "output_cny_per_m": 25.2
+  },
+  "cloudsway/gemini-3-pro-preview": {
+   "input_cny_per_m": 10.22,
+   "output_cny_per_m": 61.32
+  },
+  "ppinfra/gemini-3-pro-preview": {
+   "input_cny_per_m": 10.22,
+   "output_cny_per_m": 61.32
+  },
+  "cloudsway/gemini-3-pro-image-preview": {
+   "input_cny_per_m": 9.8,
+   "output_cny_per_m": 588.0
+  },
+  "cloudsway/gemini-3-pro-image-preview-edit": {
+   "input_cny_per_m": 9.8,
+   "output_cny_per_m": 588.0
+  },
+  "ppinfra/gpt-5.2-codex": {
+   "input_cny_per_m": 8.82,
+   "output_cny_per_m": 70.56
+  },
+  "openai/gpt-5.2-codex": {
+   "input_cny_per_m": 12.6,
+   "output_cny_per_m": 100.8
+  },
+  "360zhinao-turbo-qwen-plus": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "moonshotai/kimi-k2.5": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "alibaba/qwen3-max-2026-01-23": {
+   "input_cny_per_m": 2.5,
+   "output_cny_per_m": 10.0
+  },
+  "baidu/ernie-5.0-thinking-preview": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 24.0
+  },
+  "volcengine/doubao-seed-2-0-mini": {
+   "input_cny_per_m": 0.2,
+   "output_cny_per_m": 2.0
+  },
+  "volcengine/doubao-seed-2-0-pro": {
+   "input_cny_per_m": 3.2,
+   "output_cny_per_m": 16.0
+  },
+  "ppinfra/claude-opus-4.5": {
+   "input_cny_per_m": 25.55,
+   "output_cny_per_m": 127.75
+  },
+  "volcengine/doubao-seed-1-8": {
+   "input_cny_per_m": 0.64,
+   "output_cny_per_m": 1.6
+  },
+  "ppinfra/claude-sonnet-4-5": {
+   "input_cny_per_m": 15.33,
+   "output_cny_per_m": 76.65
+  },
+  "huaweicloud/deepseek-v3.2": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "alibaba/qwen3-vl-flash": {
+   "input_cny_per_m": 0.0525,
+   "output_cny_per_m": 0.525
+  },
+  "bigmodel/autoglm-phone": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bigmodel/glm-4.7": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "minimax/MiniMax-M2.1": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 8.4
+  },
+  "openrouter/xiaomi-mimo-v2-flash-free": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "google/gemini-3-flash-preview": {
+   "input_cny_per_m": 2.52,
+   "output_cny_per_m": 15.12
+  },
+  "zyun360/360-auto-glm-phone-9b": {
+   "input_cny_per_m": 0.25,
+   "output_cny_per_m": 1.0
+  },
+  "openai/gpt-5.2": {
+   "input_cny_per_m": 12.6,
+   "output_cny_per_m": 100.8
+  },
+  "qiniu/qwen3-235b-a22b-instruct-2507": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "sophnet/qwen3-235b-a22b-instruct-2507": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "qwen-plus-360gpt-pro": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "qiniu/claude-sonnet-4-5": {
+   "input_cny_per_m": 15.33,
+   "output_cny_per_m": 76.65
+  },
+  "amazon/claude-sonnet-4-5": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "bigmodel/glm-4.6v": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 3.0
+  },
+  "siliconflow/DeepSeek-OCR": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "anthropic/claude-haiku-4.5": {
+   "input_cny_per_m": 4.2,
+   "output_cny_per_m": 21.0
+  },
+  "volcengine/deepseek-v3.2": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "paratera/deepseek-v3.2": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "cmecloud/deepseek-r1": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "sophnet/deepseek-v3.2": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "qiniu/deepseek-v3.2-speciale": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "deepseek-v3.2-speciale": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "siliconflow/deepseek-v3.2": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "ppinfra/deepseek-v3.2": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "qiniu/deepseek-v3.2": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "deepseek-v3.2": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "xai/grok-4": {
+   "input_cny_per_m": 22.0,
+   "output_cny_per_m": 110.0
+  },
+  "ppinfra/grok-4": {
+   "input_cny_per_m": 22.0,
+   "output_cny_per_m": 110.0
+  },
+  "amazon/claude-opus-4.5": {
+   "input_cny_per_m": 36.5,
+   "output_cny_per_m": 182.5
+  },
+  "qiniu/claude-opus-4.5": {
+   "input_cny_per_m": 36.5,
+   "output_cny_per_m": 182.5
+  },
+  "anthropic/claude-opus-4.5": {
+   "input_cny_per_m": 36.5,
+   "output_cny_per_m": 182.5
+  },
+  "volcengine/doubao-seed-1-8-preview-251115": {
+   "input_cny_per_m": 0.64,
+   "output_cny_per_m": 1.6
+  },
+  "sophnet/deepseek-v3": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "volcengine/doubao-1-5-ui-tars-250428": {
+   "input_cny_per_m": 3.5,
+   "output_cny_per_m": 12.0
+  },
+  "google/gemini-3-pro-preview": {
+   "input_cny_per_m": 10.22,
+   "output_cny_per_m": 61.32
+  },
+  "openai/gpt-5.1": {
+   "input_cny_per_m": 9.125,
+   "output_cny_per_m": 73.0
+  },
+  "siliconflow/Qwen3-VL-8B-Instruct": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 2.0
+  },
+  "cmecloud/deepseek-v3.1": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "cmecloud/deepseek-v3": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "moonshot/kimi-k2-thinking": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "ppinfra/kimi-k2-thinking": {
+   "input_cny_per_m": 8.0,
+   "output_cny_per_m": 58.0
+  },
+  "kimi-k2-thinking": {
+   "input_cny_per_m": 8.0,
+   "output_cny_per_m": 58.0
+  },
+  "qiniu/kimi-k2-thinking": {
+   "input_cny_per_m": 8.0,
+   "output_cny_per_m": 58.0
+  },
+  "anthropic/claude-sonnet-4-5": {
+   "input_cny_per_m": 15.33,
+   "output_cny_per_m": 76.65
+  },
+  "baidu/ernie-x1.1": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "sophnet/deepseek-ocr": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "volcengine/seed-tts-2.0": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 500.0
+  },
+  "qiniu/minimax-m2": {
+   "input_cny_per_m": 2.1,
+   "output_cny_per_m": 8.4
+  },
+  "volcengine/doubao-seed-1-6-flash-disable-thinking": {
+   "input_cny_per_m": 0.0725,
+   "output_cny_per_m": 0.8083
+  },
+  "volcengine/doubao-seed-1-6-251015-thinking-medium": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "volcengine/doubao-seed-1-6-251015-thinking-low": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "volcengine/doubao-seed-1-6-251015-thinking-minimal": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 5.6666
+  },
+  "volcengine/doubao-seed-1-6-251015": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "volcengine/doubao-seed-1-6-lite": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "volcengine/doubao-seed-1-6-250615-auto": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "sophnet/Qwen3-Next-80B-A3B-Instruct": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "bigmodel/glm-4.5-air": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 6.0
+  },
+  "bigmodel/glm-4.5-airx": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "bigmodel/glm-4.5-x": {
+   "input_cny_per_m": 8.0,
+   "output_cny_per_m": 16.0
+  },
+  "volcengine/jimeng_realman_avatar_picture_omni_v15": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 1000000.0
+  },
+  "volcengine/jimeng_realman_avatar_object_detection": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "volcengine/jimeng_realman_avatar_picture_create_role_omni_v15": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "volcengine/doubao-seed-1-6-flash": {
+   "input_cny_per_m": 0.0725,
+   "output_cny_per_m": 0.8083
+  },
+  "volcengine/doubao-seed-1-6-thinking": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 5.6666
+  },
+  "volcengine/doubao-seed-1-6": {
+   "input_cny_per_m": 0.665,
+   "output_cny_per_m": 5.6666
+  },
+  "moonshot/kimi-k2-0905-preview": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "alibaba/qwen3-max": {
+   "input_cny_per_m": 0.875,
+   "output_cny_per_m": 3.5
+  },
+  "gaga/avatar-h1-pro": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "gaga/avatar-h1": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qiniu/grok-4-fast": {
+   "input_cny_per_m": 2.88,
+   "output_cny_per_m": 7.2
+  },
+  "qiniu/grok-code-fast-1": {
+   "input_cny_per_m": 1.44,
+   "output_cny_per_m": 10.8
+  },
+  "sophnet/qwen3-235b-a22b": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "bigmodel/glm-4.6": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 14.0
+  },
+  "deepseek-v3.2-exp": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "huaweicloud/deepseek-v3.2-exp": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 1.5
+  },
+  "qiniu/deepseek-v3.2-exp-thinking": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "qiniu/deepseek-v3.2-exp": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "anthropic/claude-opus-4.1": {
+   "input_cny_per_m": 92.25,
+   "output_cny_per_m": 461.25
+  },
+  "amazon/claude-opus-4.1": {
+   "input_cny_per_m": 112.5,
+   "output_cny_per_m": 562.5
+  },
+  "openrouter/qwen3-vl-235b-a22b-instruct": {
+   "input_cny_per_m": 2.2,
+   "output_cny_per_m": 11.0
+  },
+  "cloudsway/grok-4": {
+   "input_cny_per_m": 22.0,
+   "output_cny_per_m": 110.0
+  },
+  "openrouter/tongyi-deepresearch-30b-a3b": {
+   "input_cny_per_m": 0.66,
+   "output_cny_per_m": 3.23
+  },
+  "sophnet/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "sophnet/qwen2.5-72b-instruct": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "alibaba/qwen3-vl-plus": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 30.0
+  },
+  "deepseek-v3.1-terminus": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "qiniu/deepseek-v3.1-terminus": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "alibaba/pre-qwen-vl-max-2025-09-11-test": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "qwen3-32b": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 20.0
+  },
+  "siliconflow/Qwen3-Next-80B-A3B-Instruct": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "siliconflow/Hunyuan-MT-7B": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qiniu/qwen3-32b": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 20.0
+  },
+  "volcengine/doubao-seed-1-6-vision-250815": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 24.0
+  },
+  "infiniai/deepseek-r1": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "cloudsway/gpt-4o": {
+   "input_cny_per_m": 18.25,
+   "output_cny_per_m": 73.0
+  },
+  "cloudsway/o4-mini": {
+   "input_cny_per_m": 7.92,
+   "output_cny_per_m": 31.68
+  },
+  "cloudsway/o1": {
+   "input_cny_per_m": 121.0,
+   "output_cny_per_m": 481.0
+  },
+  "cloudsway/o3": {
+   "input_cny_per_m": 14.4,
+   "output_cny_per_m": 57.6
+  },
+  "huaweicloud/deepseek-v3.1": {
+   "input_cny_per_m": 0.35,
+   "output_cny_per_m": 1.4
+  },
+  "claudsway/gpt-5": {
+   "input_cny_per_m": 9.125,
+   "output_cny_per_m": 73.0
+  },
+  "gpt-5": {
+   "input_cny_per_m": 9.125,
+   "output_cny_per_m": 73.0
+  },
+  "gpt-5-mini": {
+   "input_cny_per_m": 1.825,
+   "output_cny_per_m": 14.6
+  },
+  "qiniu/qwen3-coder-480b-a35b-instruct": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 24.0
+  },
+  "qiniu/claude-opus-4.1": {
+   "input_cny_per_m": 92.25,
+   "output_cny_per_m": 461.25
+  },
+  "360/huaweicloud-deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "alibaba/qwen3-max-preview": {
+   "input_cny_per_m": 15.0,
+   "output_cny_per_m": 60.0
+  },
+  "qiniu/deepseek-v3.1": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 6.0
+  },
+  "huaweicloud/qwen3-235b-a22b": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 3.2
+  },
+  "bigmodel/glm-4.5v": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "360zhinao-turbo": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 1.0
+  },
+  "qiniu/claude-sonnet-4": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "alibaba/qwen-vl-max-latest": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "alibaba/qwen-vl-plus-latest": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 4.5
+  },
+  "alibaba/qwen-max-latest": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 9.6
+  },
+  "deepseek-v3.1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "volcengine/deepseek-v3.1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "alibaba/qwen-max-2025-08-15": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 9.6
+  },
+  "deepseek-v3-360gpt-pro": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "baidu/deepseek-v3.1": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 6.0
+  },
+  "360zhinao-pro-32k-thinking-vision": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 3.0
+  },
+  "cloudsway/claude-3.7-sonnet": {
+   "input_cny_per_m": 27.59,
+   "output_cny_per_m": 137.97
+  },
+  "cloudsway/claude-sonnet-4": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "volcengine/doubao-seed-1-6-flash-250715": {
+   "input_cny_per_m": 0.48,
+   "output_cny_per_m": 4.8
+  },
+  "openai/gpt-5-mini": {
+   "input_cny_per_m": 1.825,
+   "output_cny_per_m": 14.6
+  },
+  "openai/gpt-5-nano": {
+   "input_cny_per_m": 0.365,
+   "output_cny_per_m": 2.92
+  },
+  "openai/gpt-5": {
+   "input_cny_per_m": 9.125,
+   "output_cny_per_m": 73.0
+  },
+  "glm-4.5": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "amazon/claude-sonnet-4": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "qiniu/gpt-oss-20b": {
+   "input_cny_per_m": 0.72,
+   "output_cny_per_m": 3.6
+  },
+  "qiniu/gpt-oss-120b": {
+   "input_cny_per_m": 1.08,
+   "output_cny_per_m": 5.4
+  },
+  "volcengine/doubao-seed-1-6-thinking-250715": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 8.0
+  },
+  "tencent/hunyuan-a13b": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 2.0
+  },
+  "bigmodel/glm-4.5": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "alibaba/qwen3-235b-a22b-thinking-2507": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 20.0
+  },
+  "alibaba/qwen-plus-latest": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "alibaba/qwen-mt-turbo": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.95
+  },
+  "alibaba/qwen-mt-plus": {
+   "input_cny_per_m": 1.8,
+   "output_cny_per_m": 5.4
+  },
+  "topview/avatar-voice": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qiniu/claude-3.7-sonnet": {
+   "input_cny_per_m": 27.59,
+   "output_cny_per_m": 137.97
+  },
+  "openai/o4-mini": {
+   "input_cny_per_m": 7.92,
+   "output_cny_per_m": 31.68
+  },
+  "openai/o3": {
+   "input_cny_per_m": 14.4,
+   "output_cny_per_m": 57.6
+  },
+  "doubao-seed-1-6-thinking": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 8.0
+  },
+  "alibaba/qwen3-coder-plus": {
+   "input_cny_per_m": 10.0,
+   "output_cny_per_m": 40.0
+  },
+  "kimi-k2": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "volcengine/kimi-k2-250711": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "qiniu/qwen3-235b-a22b": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "360zhinao-agent-sentence-to-viral-video": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 5.0
+  },
+  "alibaba/qwen-plus-2025-07-14": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "anthropic/claude-opus-4": {
+   "input_cny_per_m": 112.5,
+   "output_cny_per_m": 562.5
+  },
+  "amazon/claude-opus-4": {
+   "input_cny_per_m": 112.5,
+   "output_cny_per_m": 562.5
+  },
+  "alibaba/qwen3-8b": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 2.0
+  },
+  "360zhinao3-o1.5": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "moonshot/kimi-k2-0711-preview": {
+   "input_cny_per_m": 4.5,
+   "output_cny_per_m": 16.5
+  },
+  "sensetime/SenseNova-V6-Turbo": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 4.5
+  },
+  "sensetime/SenseNova-V6-Reasoner": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "sensetime/SenseNova-V6-Pro": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "360zhinao-search-summary": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "google/gemini-2.5-flash-lite-preview-06-17": {
+   "input_cny_per_m": 9.125,
+   "output_cny_per_m": 18.25
+  },
+  "google/gemini-2.5-flash": {
+   "input_cny_per_m": 1.575,
+   "output_cny_per_m": 5.25
+  },
+  "google/gemini-2.5-pro": {
+   "input_cny_per_m": 5.9312,
+   "output_cny_per_m": 11.8625
+  },
+  "volcengine/doubao-embedding-vision": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "amazon/claude-3.7-sonnet": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "microsoft/claude-3.7-sonnet": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "doubao-seed-1-6": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "minimax/MiniMax-M1": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 16.0
+  },
+  "minimax/MiniMax-Text-01": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 8.0
+  },
+  "baidu/ernie-x1-32k": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "baidu/ernie-x1-turbo-32k": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "volcengine/doubao-seed-1-6-250615-disable-thinking": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 5.6666
+  },
+  "alibaba/qwen-plus-2025-04-28": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "doubao-1-5-pro-32k": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "guizhoumobile/doubao-seed-1-6-thinking": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 3.0
+  },
+  "guizhoumobile/doubao-seed-1-6-flash": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 3.0
+  },
+  "guizhoumobile/deepseek-r1-distill-qwen-32b": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 6.0
+  },
+  "guizhoumobile/deepseek-v3": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "guizhoumobile/doubao-vision-pro-32k": {
+   "input_cny_per_m": 2.7,
+   "output_cny_per_m": 8.1
+  },
+  "guizhoumobile/doubao-vision-lite-32k": {
+   "input_cny_per_m": 0.81,
+   "output_cny_per_m": 2.43
+  },
+  "guizhoumobile/doubao-1-5-vision-pro-32k": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "guizhoumobile/doubao-1-5-pro-256k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 9.0
+  },
+  "guizhoumobile/doubao-pro-32k": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "guizhoumobile/doubao-1-5-pro-32k": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.76
+  },
+  "guizhoumobile/doubao-seed-1-6": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "volcengine/doubao-seed-1-6-250615": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 8.0
+  },
+  "volcengine/doubao-seed-1-6-thinking-250615": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 8.0
+  },
+  "volcengine/doubao-seed-1-6-flash-250615": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 3.0
+  },
+  "360zhinao-pro-qwen-plus": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "google/gemini-2.0-flash": {
+   "input_cny_per_m": 0.77,
+   "output_cny_per_m": 3.07
+  },
+  "360/tts-stream": {
+   "input_cny_per_m": 150.0,
+   "output_cny_per_m": 0.0
+  },
+  "baidu/deepseek-r1-250528": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "volcengine/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "deepseek-r1-0528": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "360/aliyun-deepseek-r1-0528": {
+   "input_cny_per_m": 1.6,
+   "output_cny_per_m": 6.4
+  },
+  "huaweicloud/deepseek-r1": {
+   "input_cny_per_m": 1.05,
+   "output_cny_per_m": 3.15
+  },
+  "anthropic/claude-sonnet-4": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "google/gemini-2.5-pro-preview": {
+   "input_cny_per_m": 11.8625,
+   "output_cny_per_m": 71.175
+  },
+  "volcengine/doubao-1.5-thinking-vision-pro-250428": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "ppinfra/deepseek-prover-v2-671b": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "alibaba/qwen3-32b": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 20.0
+  },
+  "alibaba/qwen3-30b-a3b": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 15.0
+  },
+  "qwen3-235b-a22b": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "alibaba/qwen3-235b-a22b": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 20.0
+  },
+  "baidu/ernie-4.5-turbo-128k": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 3.2
+  },
+  "baidu/ernie-4.5-turbo-32k": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 3.2
+  },
+  "alayanew/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "coreshub/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "iflytek/generalv3.5": {
+   "input_cny_per_m": 30.0,
+   "output_cny_per_m": 30.0
+  },
+  "iflytek/x1": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "volcengine/doubao-1-5-thinking-pro-m-250415": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "volcengine/doubao-1-5-thinking-pro-250415": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "360/volceapi-deepseek-v3": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "claude-3-7-sonnet-20250219": {
+   "input_cny_per_m": 27.59,
+   "output_cny_per_m": 137.97
+  },
+  "openai/o1-mini": {
+   "input_cny_per_m": 21.0,
+   "output_cny_per_m": 84.0
+  },
+  "tencent/deepseek-v3": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "qiniu/deepseek-v3": {
+   "input_cny_per_m": 1.3,
+   "output_cny_per_m": 5.2
+  },
+  "deepseek-chat-v3": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "360tts": {
+   "input_cny_per_m": 150.0,
+   "output_cny_per_m": 0.0
+  },
+  "360gpt-o1.5-64k-r1-250319": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "baidu/ernie-4.5-8k-preview": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "qiniu/deepseek-r1": {
+   "input_cny_per_m": 1.4,
+   "output_cny_per_m": 5.6
+  },
+  "360/deepseek-r1-Internal-only": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "360/huaweiyun-deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "alibaba/qwq-plus": {
+   "input_cny_per_m": 1.6,
+   "output_cny_per_m": 4.0
+  },
+  "sensetime/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "bigmodel/glm-4-plus": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 3.0
+  },
+  "bigmodel/glm-4v-flash": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bigmodel/glm-4-alltools": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 3.0
+  },
+  "bigmodel/glm-4v-plus": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 2.4
+  },
+  "bigmodel/glm-4v": {
+   "input_cny_per_m": 30.0,
+   "output_cny_per_m": 30.0
+  },
+  "bigmodel/glm-4-long": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 0.6
+  },
+  "bigmodel/glm-4-flashx": {
+   "input_cny_per_m": 0.06,
+   "output_cny_per_m": 0.06
+  },
+  "bigmodel/glm-4-flash": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "bigmodel/glm-4-airx": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 6.0
+  },
+  "bigmodel/glm-4-air": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 0.6
+  },
+  "bigmodel/glm-4-0520": {
+   "input_cny_per_m": 60.0,
+   "output_cny_per_m": 60.0
+  },
+  "bigmodel/glm-4": {
+   "input_cny_per_m": 60.0,
+   "output_cny_per_m": 60.0
+  },
+  "stepfun/step-1v-8k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 20.0
+  },
+  "stepfun/step-1v-32k": {
+   "input_cny_per_m": 15.0,
+   "output_cny_per_m": 70.0
+  },
+  "stepfun/step-2-16k": {
+   "input_cny_per_m": 38.0,
+   "output_cny_per_m": 120.0
+  },
+  "stepfun/step-1-flash": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "stepfun/step-1-256k": {
+   "input_cny_per_m": 95.0,
+   "output_cny_per_m": 300.0
+  },
+  "stepfun/step-1-128k": {
+   "input_cny_per_m": 40.0,
+   "output_cny_per_m": 200.0
+  },
+  "stepfun/step-1-32k": {
+   "input_cny_per_m": 12.0,
+   "output_cny_per_m": 52.0
+  },
+  "stepfun/step-1-8k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 20.0
+  },
+  "baichuan/Baichuan2-Turbo": {
+   "input_cny_per_m": 8.0,
+   "output_cny_per_m": 8.0
+  },
+  "baichuan/Baichuan3-Turbo-128k": {
+   "input_cny_per_m": 24.0,
+   "output_cny_per_m": 24.0
+  },
+  "baichuan/Baichuan3-Turbo": {
+   "input_cny_per_m": 12.0,
+   "output_cny_per_m": 12.0
+  },
+  "baichuan/Baichuan4": {
+   "input_cny_per_m": 100.0,
+   "output_cny_per_m": 100.0
+  },
+  "minimax/abab5.5s-chat": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 0.8
+  },
+  "minimax/abab5.5-chat": {
+   "input_cny_per_m": 7.0,
+   "output_cny_per_m": 7.0
+  },
+  "minimax/abab6.5g-chat": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 0.8
+  },
+  "minimax/abab6.5t-chat": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 0.8
+  },
+  "minimax/abab6.5s-chat": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 0.8
+  },
+  "minimax/abab6.5-chat": {
+   "input_cny_per_m": 10.0,
+   "output_cny_per_m": 10.0
+  },
+  "sensetime/SenseChat-Turbo": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 5.0
+  },
+  "sensetime/SenseChat-128K": {
+   "input_cny_per_m": 60.0,
+   "output_cny_per_m": 60.0
+  },
+  "sensetime/SenseChat-32K": {
+   "input_cny_per_m": 36.0,
+   "output_cny_per_m": 36.0
+  },
+  "sensetime/SenseChat": {
+   "input_cny_per_m": 12.0,
+   "output_cny_per_m": 12.0
+  },
+  "sensetime/SenseChat-5": {
+   "input_cny_per_m": 40.0,
+   "output_cny_per_m": 100.0
+  },
+  "moonshot/moonshot-v1-128k": {
+   "input_cny_per_m": 10.0,
+   "output_cny_per_m": 30.0
+  },
+  "moonshot/moonshot-v1-32k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 20.0
+  },
+  "moonshot/moonshot-v1-8k": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 10.0
+  },
+  "tencent/hunyuan-turbo-latest": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.6
+  },
+  "tencent/hunyuan-customized": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.6
+  },
+  "tencent/hunyuan-lite": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "tencent/hunyuan-turbo": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.6
+  },
+  "tencent/hunyuan-vision": {
+   "input_cny_per_m": 18.0,
+   "output_cny_per_m": 18.0
+  },
+  "tencent/hunyuan-code": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 4.0
+  },
+  "tencent/hunyuan-functioncall": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 4.0
+  },
+  "tencent/hunyuan-role": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 4.0
+  },
+  "tencent/hunyuan-standard-256k": {
+   "input_cny_per_m": 7.5,
+   "output_cny_per_m": 30.0
+  },
+  "tencent/hunyuan-standard": {
+   "input_cny_per_m": 2.25,
+   "output_cny_per_m": 2.5
+  },
+  "alibaba/qwen-long": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 2.0
+  },
+  "alibaba/qwen-max": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 10.0
+  },
+  "alibaba/qwen-turbo": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "alibaba/qwen-coder-plus": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 6.0
+  },
+  "alibaba/qwen-vl-plus": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 4.5
+  },
+  "alibaba/qwen-plus": {
+   "input_cny_per_m": 0.4,
+   "output_cny_per_m": 1.0
+  },
+  "deepseek/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "deepseek/deepseek-chat": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "baidu/deepseek-v3": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "paratera/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "siliconflow/deepseek-v3": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "deepseek/deepseek-reasoner": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "anthropic/claude-3.7-sonnet": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "360zhinao2-o1.5": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "volcengine/Doubao-1.5-lite-32k-250115": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "volcengine/Doubao-1.5-pro-32k-250115": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "volcengine/Doubao-1.5-vision-pro-32k-250115": {
+   "input_cny_per_m": 2.7,
+   "output_cny_per_m": 8.1
+  },
+  "volcengine/Doubao-1.5-pro-256k-250115": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 9.0
+  },
+  "volcengine/DeepSeek-R1-Distill-Qwen-7B-250120": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 2.4
+  },
+  "alibaba/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "siliconflow/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "deepseek-r1-aliyun-h800": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "openai/o3-mini": {
+   "input_cny_per_m": 9.0,
+   "output_cny_per_m": 36.0
+  },
+  "openai/o1": {
+   "input_cny_per_m": 121.0,
+   "output_cny_per_m": 481.0
+  },
+  "360/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "volcengine/DeepSeek-V3-241226": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "tencent/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "360/volceapi-deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "alibaba/qwen-max-2025-01-25": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 9.6
+  },
+  "volcengine/DeepSeek-R1-Distill-Qwen-32B-250120": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 6.0
+  },
+  "volcengine/DeepSeek-R1-250120": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "baidu/deepseek-r1": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 8.0
+  },
+  "ppinfra/deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "deepseek-r1": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 16.0
+  },
+  "360gpt-deepseekr1": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 5.0
+  },
+  "Doubao-1.5-vision-pro-32k-250115": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "Doubao-1.5-pro-256k-250115": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 9.0
+  },
+  "Doubao-1.5-pro-32k-250115": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "qwen-plus-prem-test": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-32k-offline-241215": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "360zhinao2-o1": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-vision-pro-32k-241215": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "claude-3-opus": {
+   "input_cny_per_m": 109.5,
+   "output_cny_per_m": 547.5
+  },
+  "claude-3.5-haiku": {
+   "input_cny_per_m": 7.3,
+   "output_cny_per_m": 36.5
+  },
+  "claude-3.5-sonnet": {
+   "input_cny_per_m": 21.9,
+   "output_cny_per_m": 109.5
+  },
+  "hunyuan-turbo-latest": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.6
+  },
+  "yi-vision-v2": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 6.0
+  },
+  "ERNIE-4.0-Turbo-128K": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-vision-lite-32k-241015": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 4.5
+  },
+  "Doubao-vision-pro-32k-241015": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "Doubao-vision-lite-32k": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 4.5
+  },
+  "Doubao-vision-pro-32k": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "glm-4-plus": {
+   "input_cny_per_m": 40.0,
+   "output_cny_per_m": 40.0
+  },
+  "glm-4v-flash": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen-plus-2024-11-25": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "360gpt2-o1": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-32k-offline-240828": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "360gpt-pro-32k-responsibility": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 3.0
+  },
+  "Doubao-pro-32k-functioncall-241028": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "text-embedding-ada-002": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 1.0
+  },
+  "openai/gpt-4o": {
+   "input_cny_per_m": 17.5,
+   "output_cny_per_m": 70.0
+  },
+  "llama3-8b-8192": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 1.0
+  },
+  "llama3-70b-8192": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 1.0
+  },
+  "glm-4-alltools": {
+   "input_cny_per_m": 100.0,
+   "output_cny_per_m": 100.0
+  },
+  "codegeex-4": {
+   "input_cny_per_m": 0.1,
+   "output_cny_per_m": 0.1
+  },
+  "Doubao-pro-vision-32k": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "360gpt-turbo-16k-aisearch-summary": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.4
+  },
+  "qwen-vl-max-latest": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "xingchen-plus-v2": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "hunyuan-customized": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.6
+  },
+  "llama3.1-405b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "embedding_s1_v1.2": {
+   "input_cny_per_m": 0.25,
+   "output_cny_per_m": 0.0
+  },
+  "360gpt-turbo": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 1.0
+  },
+  "360gpt-pro": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "gpt-3.5-turbo-16k": {
+   "input_cny_per_m": 21.0,
+   "output_cny_per_m": 28.0
+  },
+  "gpt-4-32k": {
+   "input_cny_per_m": 408.0,
+   "output_cny_per_m": 816.0
+  },
+  "gpt-4-vision-preview": {
+   "input_cny_per_m": 68.0,
+   "output_cny_per_m": 204.0
+  },
+  "gpt-4": {
+   "input_cny_per_m": 204.0,
+   "output_cny_per_m": 408.0
+  },
+  "gpt-3.5-turbo": {
+   "input_cny_per_m": 14.0,
+   "output_cny_per_m": 14.0
+  },
+  "Doubao-pro-256k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 9.0
+  },
+  "yi-lightning": {
+   "input_cny_per_m": 0.99,
+   "output_cny_per_m": 0.99
+  },
+  "glm-4v-plus": {
+   "input_cny_per_m": 2.4,
+   "output_cny_per_m": 2.4
+  },
+  "glm-4v": {
+   "input_cny_per_m": 30.0,
+   "output_cny_per_m": 30.0
+  },
+  "glm-4-long": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 0.6
+  },
+  "glm-4-flashx": {
+   "input_cny_per_m": 0.06,
+   "output_cny_per_m": 0.06
+  },
+  "glm-4-flash": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "glm-4-airx": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 6.0
+  },
+  "glm-4-air": {
+   "input_cny_per_m": 0.6,
+   "output_cny_per_m": 0.6
+  },
+  "hunyuan-lite": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "Doubao-pro-4k-functioncall": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-4k-browsing": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-4k": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-32k-functioncall": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-32k-browsing": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-32k": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-128k-240628": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 9.0
+  },
+  "Doubao-pro-128k-240515": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 9.0
+  },
+  "Doubao-pro-128k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 9.0
+  },
+  "Doubao-lite-4k": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "Doubao-lite-32k": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "Doubao-lite-128k": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 1.0
+  },
+  "step-1v-8k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 20.0
+  },
+  "step-1v-32k": {
+   "input_cny_per_m": 15.0,
+   "output_cny_per_m": 70.0
+  },
+  "Doubao-lite-128k-240828": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 1.0
+  },
+  "Doubao-lite-32k-240828": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "qwen2.5-math-1.5b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen2.5-math-7b-instruct": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "qwen2.5-math-72b-instruct": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "qwen2.5-coder-1.5b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen2.5-coder-7b-instruct": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "qwen2.5-0.5b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen2.5-1.5b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen2.5-3b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen2.5-7b-instruct": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "qwen2.5-14b-instruct": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 6.0
+  },
+  "qwen2.5-32b-instruct": {
+   "input_cny_per_m": 3.5,
+   "output_cny_per_m": 7.0
+  },
+  "qwen2.5-72b-instruct": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "qwen-max-latest": {
+   "input_cny_per_m": 20.0,
+   "output_cny_per_m": 60.0
+  },
+  "qwen-turbo-latest": {
+   "input_cny_per_m": 0.3,
+   "output_cny_per_m": 0.6
+  },
+  "qwen-plus-latest": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "hunyuan-turbo": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.6
+  },
+  "qwen-vl-max-0809": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "qwen-vl-plus-0809": {
+   "input_cny_per_m": 1.5,
+   "output_cny_per_m": 4.5
+  },
+  "Doubao-pro-32k-character-240828": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-32k-browsing-240828": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-32k-functioncall-240815": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "Doubao-pro-32k-240828": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "qwen-plus-0806": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 12.0
+  },
+  "step-2-16k": {
+   "input_cny_per_m": 38.0,
+   "output_cny_per_m": 120.0
+  },
+  "step-1-flash": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 4.0
+  },
+  "step-1-256k": {
+   "input_cny_per_m": 95.0,
+   "output_cny_per_m": 300.0
+  },
+  "step-1-128k": {
+   "input_cny_per_m": 40.0,
+   "output_cny_per_m": 200.0
+  },
+  "step-1-32k": {
+   "input_cny_per_m": 12.0,
+   "output_cny_per_m": 52.0
+  },
+  "step-1-8k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 20.0
+  },
+  "qwen-max-longcontext": {
+   "input_cny_per_m": 40.0,
+   "output_cny_per_m": 120.0
+  },
+  "qwen-vl-max": {
+   "input_cny_per_m": 3.0,
+   "output_cny_per_m": 9.0
+  },
+  "yi-vision": {
+   "input_cny_per_m": 6.0,
+   "output_cny_per_m": 6.0
+  },
+  "Baichuan2-Turbo": {
+   "input_cny_per_m": 8.0,
+   "output_cny_per_m": 8.0
+  },
+  "Baichuan3-Turbo-128k": {
+   "input_cny_per_m": 24.0,
+   "output_cny_per_m": 24.0
+  },
+  "Baichuan3-Turbo": {
+   "input_cny_per_m": 12.0,
+   "output_cny_per_m": 12.0
+  },
+  "Baichuan4": {
+   "input_cny_per_m": 100.0,
+   "output_cny_per_m": 100.0
+  },
+  "qwen2-math-1.5b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen2-math-7b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "qwen2-math-72b-instruct": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "deepseek-coder": {
+   "input_cny_per_m": 1.0,
+   "output_cny_per_m": 2.0
+  },
+  "deepseek-chat": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 3.0
+  },
+  "qwen-max-prem": {
+   "input_cny_per_m": 20.0,
+   "output_cny_per_m": 60.0
+  },
+  "qwen-plus-prem": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "hunyuan-vision": {
+   "input_cny_per_m": 18.0,
+   "output_cny_per_m": 18.0
+  },
+  "hunyuan-code": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 4.0
+  },
+  "hunyuan-functioncall": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 4.0
+  },
+  "hunyuan-role": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 4.0
+  },
+  "hunyuan-standard-256k": {
+   "input_cny_per_m": 7.5,
+   "output_cny_per_m": 30.0
+  },
+  "hunyuan-standard": {
+   "input_cny_per_m": 2.25,
+   "output_cny_per_m": 2.5
+  },
+  "hunyuan-pro": {
+   "input_cny_per_m": 15.0,
+   "output_cny_per_m": 50.0
+  },
+  "text-embedding-3-large": {
+   "input_cny_per_m": 0.91,
+   "output_cny_per_m": 0.0
+  },
+  "text-embedding-3-small": {
+   "input_cny_per_m": 0.14,
+   "output_cny_per_m": 0.0
+  },
+  "360tts-turbo": {
+   "input_cny_per_m": 84.7,
+   "output_cny_per_m": 0.0
+  },
+  "ERNIE-4.0-8K": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "ERNIE-Novel-8K": {
+   "input_cny_per_m": 40.0,
+   "output_cny_per_m": 120.0
+  },
+  "ERNIE-Tiny-8K": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "ERNIE-Lite-8K": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "ERNIE-Functions-8K": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 8.0
+  },
+  "ERNIE-Character-8K": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 8.0
+  },
+  "ERNIE-3.5-128K": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "ERNIE-Speed-8K": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "ERNIE-Speed-128K": {
+   "input_cny_per_m": 0.0,
+   "output_cny_per_m": 0.0
+  },
+  "ERNIE-3.5-8K": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "gpt-4o-mini": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 4.6
+  },
+  "ERNIE-4.0-Turbo-8K": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "4.0Ultra": {
+   "input_cny_per_m": 100.0,
+   "output_cny_per_m": 100.0
+  },
+  "abab5.5s-chat": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 0.8
+  },
+  "abab5.5-chat": {
+   "input_cny_per_m": 7.0,
+   "output_cny_per_m": 7.0
+  },
+  "abab6.5g-chat": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 0.8
+  },
+  "abab6.5t-chat": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 0.8
+  },
+  "abab6.5s-chat": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 0.8
+  },
+  "abab6.5-chat": {
+   "input_cny_per_m": 10.0,
+   "output_cny_per_m": 10.0
+  },
+  "SenseChat-Turbo": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 5.0
+  },
+  "SenseChat-128K": {
+   "input_cny_per_m": 60.0,
+   "output_cny_per_m": 60.0
+  },
+  "SenseChat-32K": {
+   "input_cny_per_m": 36.0,
+   "output_cny_per_m": 36.0
+  },
+  "SenseChat": {
+   "input_cny_per_m": 12.0,
+   "output_cny_per_m": 12.0
+  },
+  "SenseChat-5": {
+   "input_cny_per_m": 40.0,
+   "output_cny_per_m": 100.0
+  },
+  "ernie-func-8k": {
+   "input_cny_per_m": 4.0,
+   "output_cny_per_m": 8.0
+  },
+  "moonshot-v1-128k": {
+   "input_cny_per_m": 10.0,
+   "output_cny_per_m": 30.0
+  },
+  "moonshot-v1-32k": {
+   "input_cny_per_m": 5.0,
+   "output_cny_per_m": 20.0
+  },
+  "moonshot-v1-8k": {
+   "input_cny_per_m": 2.0,
+   "output_cny_per_m": 10.0
+  },
+  "glm-4-0520": {
+   "input_cny_per_m": 60.0,
+   "output_cny_per_m": 60.0
+  },
+  "glm-4": {
+   "input_cny_per_m": 60.0,
+   "output_cny_per_m": 60.0
+  },
+  "360gpt2-pro": {
+   "input_cny_per_m": 0.8,
+   "output_cny_per_m": 2.0
+  },
+  "360gpt-pro-trans": {
+   "input_cny_per_m": 1.2,
+   "output_cny_per_m": 3.0
+  },
+  "360gpt-turbo-32k": {
+   "input_cny_per_m": 0.5,
+   "output_cny_per_m": 1.0
+  },
+  "360gpt-turbo-intent": {
+   "input_cny_per_m": 0.7,
+   "output_cny_per_m": 1.4
+  }
+ }
+}

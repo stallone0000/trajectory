@@ -1,0 +1,1 @@
+{"type":"message","id":"973bfb89","parentId":"bae2a13b","timestamp":"2026-11-08T17:53:14.647Z","message":{"role":"toolResult","toolCallId":"call_7ab092f1e1344937bc7d557b","toolName":"bash","content":[{"type":"text","text":"['build', 'core.c', 'run', 'main.py']\n[]\n['scamp_core_5f80e582868b6efd.so']\n"}],"isError":false,"durationMs":44,"timestamp":1794160394647}}

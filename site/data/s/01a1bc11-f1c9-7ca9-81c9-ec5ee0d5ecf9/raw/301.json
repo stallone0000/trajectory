@@ -1,0 +1,1 @@
+{"type":"message","id":"457a8b19","parentId":"5b2d96a0","timestamp":"2026-11-08T20:34:47.575Z","message":{"role":"toolResult","toolCallId":"call_-7101070744183897974","toolName":"bash","content":[{"type":"text","text":"AMODE=disj REBUILD=True seed=3 nsnap=4 obs=256 k=11 time=45.00\nexit=0\n"}],"isError":false,"durationMs":100098,"timestamp":1794170087575}}

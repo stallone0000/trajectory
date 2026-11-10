@@ -1,0 +1,1 @@
+{"type":"message","id":"6bd0abcb","parentId":"ee81ed7b","timestamp":"2026-11-09T22:48:21.015Z","message":{"role":"toolResult","toolCallId":"call_-7101060848579242573","toolName":"bash","content":[{"type":"text","text":"rc 0 lines 123 expected 123 stderr \nSHOULD BE OK: 768 paths total\nbad 1\n"}],"isError":false,"durationMs":652,"timestamp":1794264501015}}

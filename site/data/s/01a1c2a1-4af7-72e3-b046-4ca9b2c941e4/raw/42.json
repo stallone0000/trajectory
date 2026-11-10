@@ -1,0 +1,1 @@
+{"type":"message","id":"8f9d44bb","parentId":"98fc0a22","timestamp":"2026-11-09T23:37:58.869Z","message":{"role":"toolResult","toolCallId":"call_-7101062875803809681","toolName":"bash","content":[{"type":"text","text":"FAIL P upper whole got 'sip:A@b.c' want 'sip:A@B.c'\n\nURI FAILURES: 1\n"}],"isError":false,"durationMs":98,"timestamp":1794267478869}}

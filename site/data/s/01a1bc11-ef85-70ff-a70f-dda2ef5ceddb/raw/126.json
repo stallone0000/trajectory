@@ -1,0 +1,1 @@
+{"type":"message","id":"cab9616d","parentId":"d285041e","timestamp":"2026-11-08T17:42:18.235Z","message":{"role":"toolResult","toolCallId":"call_b2a93b7b5c314e78ae3efee3","toolName":"bash","content":[{"type":"text","text":"/proc/[0-9]*\n---\nkilled\n/proc/[0-9]*\n"}],"isError":false,"durationMs":23,"timestamp":1794159738235}}

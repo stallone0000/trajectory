@@ -1,0 +1,1 @@
+{"type":"message","id":"6fd64ddb","parentId":"f6391e04","timestamp":"2026-11-09T20:41:11.862Z","message":{"role":"toolResult","toolCallId":"call_741355507dce4f52b53c60d1","toolName":"bash","content":[{"type":"text","text":"ok\nok   precedence: schema beats address\nok   both attempts respond\nfailures: []\n"}],"isError":false,"durationMs":4679,"timestamp":1794256871862}}
