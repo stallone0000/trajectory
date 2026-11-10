@@ -10,9 +10,17 @@ import { readBasePath, withBase } from "./base";
 
 export type Verdict = "pass" | "fail" | "unscored";
 export interface MsweaSession {
+	project?: string;
 	task: string;
 	model: string;
 	verdict: Verdict;
+	/** Model calls that produced an answer, and the trajectory's totals (see scripts/mswea_import.py). */
+	steps?: number;
+	failedRequests?: number;
+	toolCalls?: number;
+	tokens?: number;
+	cost?: number;
+	durationMs?: number;
 	/** Why there is no score, or how a score was decided (e.g. "API error", "adjudicated"). */
 	detail?: string;
 }
@@ -58,7 +66,7 @@ export function useIsMswea(project: string | undefined): boolean {
 export const VERDICT_LABELS: Record<Verdict, string> = { pass: "Passed", fail: "Failed", unscored: "Unscored" };
 
 const VERDICT_STYLE: Record<Verdict, string> = {
-	pass: "border-[#16a34a]/50 bg-[#16a34a]/10 text-[#15803d] dark:text-[#4ade80]",
+	pass: "border-[#0f9480]/50 bg-[#0f9480]/10 text-[#0b7a6a] dark:border-[#1aa898]/50 dark:bg-[#1aa898]/15 dark:text-[#5fd3c4]",
 	fail: "border-red/40 bg-red-soft text-red",
 	unscored: "border-line bg-soft text-muted",
 };

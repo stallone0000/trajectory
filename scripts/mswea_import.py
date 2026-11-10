@@ -125,16 +125,25 @@ def main() -> None:
             rtext, n2 = redact(json.dumps(requests, ensure_ascii=False), secrets)
             dest.with_suffix(".requests.json").write_text(rtext + "\n", encoding="utf-8")
             request_files.append(dest.with_suffix(".requests.json"))
+        # Per-trajectory figures for the benchmark page: steps = model calls that produced an answer.
+        asst = [x["message"] for x in lines if x["type"] == "message" and x["message"]["role"] == "assistant"]
+        ok = [m for m in asst if m.get("stopReason") not in ("error", "length")]
+        metrics = {"steps": len(ok), "failedRequests": len(asst) - len(ok),
+                   "toolCalls": sum(1 for m in asst for b in m["content"] if b.get("type") == "toolCall"),
+                   "tokens": sum((m.get("usage") or {}).get("totalTokens", 0) for m in asst),
+                   "cost": round(sum(((m.get("usage") or {}).get("cost") or {}).get("total", 0) for m in asst), 6),
+                   "durationMs": max(0, int(conv.dt.datetime.fromisoformat(lines[-1]["timestamp"].replace("Z", "+00:00")).timestamp() * 1000)
+                                     - int(conv.dt.datetime.fromisoformat(lines[0]["timestamp"].replace("Z", "+00:00")).timestamp() * 1000))}
         score = (r.get("score") or "").strip()
         verdict = (r.get("verdict") or "").strip() or {"1": "pass", "0": "fail"}.get(score, "unscored")
         results.append({"session_id": lines[0]["id"], "task": task, "model": model, "score": score, "verdict": verdict,
-                        "detail": (r.get("detail") or "").strip(), "label": label, "trajectory": str(traj_path)})
+                        "detail": (r.get("detail") or "").strip(), "label": label, "trajectory": str(traj_path), "_metrics": metrics})
         print(f"{stem}: {len(lines)} lines" + (f", {n} secret occurrence(s) redacted" if n else ""))
 
     with (out / "results.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["session_id", "task", "model", "score", "verdict", "detail", "label", "trajectory"])
         w.writeheader()
-        w.writerows(results)
+        w.writerows([{k: v for k, v in x.items() if k != "_metrics"} for x in results])
     print(f"{len(files)} sessions -> {sessions_dir}; scores -> {out / 'results.csv'}; redacted {total_redacted}")
 
     # The static site's mini-swe-agent page: its projects, and per session the task, model and verifier result.
@@ -148,7 +157,8 @@ def main() -> None:
     known["sessions"] = {k: v for k, v in known["sessions"].items() if v.get("project") != bench}
     for x in results:
         known["sessions"][x["session_id"]] = {"project": bench, "task": x["task"], "model": x["model"],
-                                             "verdict": x["verdict"], **({"detail": x["detail"]} if x["detail"] else {})}
+                                             "verdict": x["verdict"], **({"detail": x["detail"]} if x["detail"] else {}),
+                                             **x["_metrics"]}
     reg.write_text(json.dumps(known, indent=1, ensure_ascii=False) + "\n")
 
     if a.ingest:

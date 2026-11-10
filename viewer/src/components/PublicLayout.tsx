@@ -58,6 +58,7 @@ export function PublicLayout() {
 							<NavItem to="/public" icon="sessions" end within={["/public/s/"]}>
 								Public trajectories
 							</NavItem>
+							<NavItem to="/public/benchmark" icon="statistics">Benchmark</NavItem>
 							<NavItem to="/public/mswea" icon="sessions">mini-swe-agent</NavItem>
 							<NavItem to="/public/statistics" icon="statistics">Statistics</NavItem>
 							{!STATIC_SITE && <NavItem to="/docs" icon="file">Documentation</NavItem>}
