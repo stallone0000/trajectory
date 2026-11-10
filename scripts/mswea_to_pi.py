@@ -144,7 +144,8 @@ def physical_requests(rows: list[dict]) -> dict[str, list[dict]]:
             err = f"{r.get('error_type') or 'Error'}: {status}{(r.get('message') or '').strip()}"[:500]
         out.setdefault(r["query_id"], []).append({
             "start_ms": int(round((end - dur) * 1000)), "end_ms": int(round(end * 1000)), "ok": r["event"] == "response",
-            "cap": r.get("cap"), "finish": r.get("finish_reason"), "usage": r.get("usage"), "error": err})
+            "cap": r.get("cap"), "finish": r.get("finish_reason"), "usage": r.get("usage"), "error": err,
+            "timing": r.get("timing") if isinstance(r.get("timing"), dict) else None})
     return out
 
 
@@ -169,7 +170,8 @@ class Writer:
 
 def translate(traj: dict, *, name: str, provider: str | None, model: str | None, cwd: str,
               thinking: str | None, source_bytes: bytes, fallback_end_ms: int,
-              price: dict | None = None, attempts: list[dict] | None = None) -> list[dict]:
+              price: dict | None = None, attempts: list[dict] | None = None,
+              requests_out: list | None = None) -> list[dict]:
     messages = traj.get("messages")
     if messages is None and isinstance(traj.get("trajectory"), list):
         raise SystemExit("SWE-agent style trajectories (``trajectory`` steps) are not supported; use mini-swe-agent output")
@@ -186,7 +188,8 @@ def translate(traj: dict, *, name: str, provider: str | None, model: str | None,
     stamps = [ts_ms(m) for m in messages]
     known = [t for t in stamps if t is not None]
     timed = bool(known)
-    phys_starts = [r["start_ms"] for reqs in physical_requests(attempts or []).values() for r in reqs]
+    phys_starts = [min(r["start_ms"], int(float((r["timing"] or {}).get("sent_at", 1e12)) * 1000))
+                   for reqs in physical_requests(attempts or []).values() for r in reqs]
     if timed:
         first = min(known + phys_starts)  # a failed first request can start well before any message stamp
         start_ms = first - 1000
@@ -202,6 +205,28 @@ def translate(traj: dict, *, name: str, provider: str | None, model: str | None,
     w.add({"type": "model_change", "provider": provider, "modelId": model}, start_ms)
     if thinking:
         w.add({"type": "thinking_level_change", "thinkingLevel": thinking}, start_ms)
+
+    req_seq = [0]
+
+    def ms(x):
+        return int(round(float(x) * 1000)) if isinstance(x, (int, float)) else None
+
+    def add_request(msg: dict, timing: dict | None) -> None:
+        """A pika request record carrying the measured timing of this model call (streamed runs only)."""
+        if requests_out is None or not timing or ms(timing.get("sent_at")) is None:
+            return
+        req_seq[0] += 1
+        t = {"sentAt": ms(timing.get("sent_at"))}
+        if ms(timing.get("headers_at")) is not None:
+            t["responseAt"] = ms(timing["headers_at"])
+        if ms(timing.get("first_token_at")) is not None and timing.get("first_token") in ("text", "thinking", "toolCall"):
+            t["firstTokenAt"] = ms(timing["first_token_at"]); t["firstToken"] = timing["first_token"]
+        rid = hashlib.sha256(digest + b"request" + req_seq[0].to_bytes(4, "big")).hexdigest()
+        assistant = {"timestamp": msg["timestamp"], **({"responseId": msg["responseId"]} if msg.get("responseId") else {})}
+        requests_out.append({"id": f"{rid[:8]}-{rid[8:12]}-{rid[12:16]}-{rid[16:20]}-{rid[20:32]}", "sessionId": sid,
+                             "seq": req_seq[0], "at": iso(t["sentAt"]), "fidelity": "context", "provider": provider,
+                             "api": "openai-completions", "model": model, "assistant": assistant, "timing": t,
+                             "skeleton": {"messages": []}, "blocks": []})
 
     clock = start_ms                      # end time of the previous message
     pending_calls: list[tuple[str, int]] = []  # text-based mode: (call id, call time) awaiting an observation
@@ -226,8 +251,9 @@ def translate(traj: dict, *, name: str, provider: str | None, model: str | None,
             else:
                 msg["stopReason"] = "error"
                 msg["errorMessage"] = f"{r['error']} (request retried)"
-            msg["timestamp"] = r["start_ms"]
-            msg["durationMs"] = max(0, r["end_ms"] - r["start_ms"])
+            msg["timestamp"] = ms((r["timing"] or {}).get("sent_at")) or r["start_ms"]
+            msg["durationMs"] = max(0, r["end_ms"] - msg["timestamp"])
+            add_request(msg, r["timing"])
             w.add({"type": "message", "message": msg}, r["end_ms"])
 
     def unanswered(before_ms: int | None) -> None:
@@ -318,12 +344,14 @@ def translate(traj: dict, *, name: str, provider: str | None, model: str | None,
                 final = reqs[-1] if reqs[-1]["ok"] else None
                 failed_requests(reqs[:-1] if final else reqs)
                 if final:
-                    msg["timestamp"] = final["start_ms"]
-                    msg["durationMs"] = max(0, final["end_ms"] - final["start_ms"])
+                    msg["timestamp"] = ms((final["timing"] or {}).get("sent_at")) or final["start_ms"]
+                    msg["durationMs"] = max(0, final["end_ms"] - msg["timestamp"])
+                    add_request(msg, final["timing"])
             elif isinstance(timing.get("sent_at"), (int, float)):  # recorded by a timing-aware model wrapper
                 msg["timestamp"] = int(timing["sent_at"] * 1000)
                 end = timing.get("end_at") or (t / 1000)
                 msg["durationMs"] = max(0, int(end * 1000) - msg["timestamp"])
+                add_request(msg, timing)
             w.add({"type": "message", "message": msg}, t)
             pending_calls = [(c, t) for c in calls]
         elif role == "tool":
@@ -431,9 +459,13 @@ def main() -> None:
     traj = json.loads(raw)
     end_ms = int(os.stat(a.trajectory).st_mtime * 1000)
     model = a.model or ((traj.get("info") or {}).get("config") or {}).get("model", {}).get("model_name")
+    requests: list = []
     lines = translate(traj, name=a.name or a.trajectory.stem, provider=a.provider, model=a.model, cwd=a.cwd,
                       thinking=a.thinking, source_bytes=raw, fallback_end_ms=end_ms,
-                      price=load_price(a.prices, model or ""), attempts=load_attempts(a.trajectory, a.attempts))
+                      price=load_price(a.prices, model or ""), attempts=load_attempts(a.trajectory, a.attempts),
+                      requests_out=requests)
+    if requests and a.output:
+        a.output.with_suffix(".requests.json").write_text(json.dumps(requests, ensure_ascii=False) + "\n", encoding="utf-8")
     text = "".join(json.dumps(x, ensure_ascii=False, separators=(",", ":")) + "\n" for x in lines)
     if a.output:
         a.output.parent.mkdir(parents=True, exist_ok=True)

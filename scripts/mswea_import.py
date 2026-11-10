@@ -92,7 +92,7 @@ def main() -> None:
     if missing:
         sys.exit(f"manifest lacks columns: {sorted(missing)}")
 
-    results, files, total_redacted = [], [], 0
+    results, files, total_redacted, request_files = [], [], 0, []
     used = set()
     for r in rows:
         traj_path = Path(r["trajectory"])
@@ -108,17 +108,22 @@ def main() -> None:
         price = conv.load_price(a.prices, model)
         if a.prices and not price:
             print(f"warning: no price for {model}; cost left as recorded", file=sys.stderr)
+        requests: list = []
         lines = conv.translate(traj, name=name, provider=(r.get("provider") or "").strip() or None, model=model,
                                cwd=str(out / f"{safe(task)}-{safe(model.split('/')[-1])}"),
                                thinking=(r.get("thinking") or "").strip() or None, source_bytes=raw,
                                fallback_end_ms=int(os.stat(traj_path).st_mtime * 1000),
-                               price=price, attempts=conv.load_attempts(traj_path))
+                               price=price, attempts=conv.load_attempts(traj_path), requests_out=requests)
         text = "".join(json.dumps(x, ensure_ascii=False, separators=(",", ":")) + "\n" for x in lines)
         text, n = redact(text, secrets)
         total_redacted += n
         dest = sessions_dir / f"{stem}.jsonl"
         dest.write_text(text, encoding="utf-8")
         files.append(dest)
+        if requests:  # measured provider timing (streamed runs): uploaded next to the session
+            rtext, n2 = redact(json.dumps(requests, ensure_ascii=False), secrets)
+            dest.with_suffix(".requests.json").write_text(rtext + "\n", encoding="utf-8")
+            request_files.append(dest.with_suffix(".requests.json"))
         score = (r.get("score") or "").strip()
         verdict = (r.get("verdict") or "").strip() or {"1": "pass", "0": "fail"}.get(score, "unscored")
         results.append({"session_id": lines[0]["id"], "task": task, "model": model, "score": score, "verdict": verdict,
@@ -148,6 +153,16 @@ def main() -> None:
         cmd = [sys.executable, "-I", str(HERE / "pika_ingest.py"), "--server", a.server, "--token-file",
                str(a.token_file), "--project", bench, *map(str, files)]
         subprocess.run(cmd, check=True)
+        if request_files:
+            spec2 = importlib.util.spec_from_file_location("pika_ingest", HERE / "pika_ingest.py")
+            ing = importlib.util.module_from_spec(spec2); spec2.loader.exec_module(ing)
+            token = a.token_file.read_text().strip()
+            for rf in request_files:
+                reqs = json.loads(rf.read_text())
+                for i in range(0, len(reqs), 200):
+                    ing.post(a.server, "api/ingest/v1/batch", token,
+                             {"client": {"host": socket.gethostname(), "pikaVersion": "mswea-import/1"}, "requests": reqs[i:i + 200]})
+            print(f"uploaded provider timing for {len(request_files)} session(s)")
         print(f"ingested into {a.server} as project {bench!r}; NOT published (run scripts/publish.sh when ready)")
 
 

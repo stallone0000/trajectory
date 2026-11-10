@@ -1,0 +1,1 @@
+{"type":"message","id":"94691a5c","parentId":"15421f50","timestamp":"2026-11-10T09:10:59.301Z","message":{"role":"toolResult","toolCallId":"call_bebf392d778a49978bf6e7be","toolName":"bash","content":[{"type":"text","text":"byte mutation ok\nstructure mutation ok\n"}],"isError":false,"durationMs":15618,"timestamp":1794301859301}}

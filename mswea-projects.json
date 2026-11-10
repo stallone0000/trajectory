@@ -1,6 +1,7 @@
 {
  "projects": [
-  "netbench-360"
+  "netbench-360",
+  "netbench-360-streaming"
  ],
  "sessions": {
   "01a1b9ae-d3c7-7af6-9e69-afa1bdac6bca": {
@@ -327,6 +328,12 @@
    "model": "minimax/MiniMax-M3.1-Flash",
    "verdict": "pass"
   },
+  "01a1c431-ed40-700f-b233-54826b6fdfc6": {
+   "project": "netbench-360",
+   "task": "09-netnomos",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "fail"
+  },
   "01a1c229-6227-797f-a669-ac9c8a2d5afc": {
    "project": "netbench-360",
    "task": "10-omnipath-ping",
@@ -582,6 +589,13 @@
    "model": "qwen/qwen3.8-max",
    "verdict": "unscored",
    "detail": "API error"
+  },
+  "01a1c4a4-92cd-7213-8bbf-0b7cb96df131": {
+   "project": "netbench-360-streaming",
+   "task": "15-quic-attacker",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass",
+   "detail": "streamed trial"
   }
  }
 }

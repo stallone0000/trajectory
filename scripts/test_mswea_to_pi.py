@@ -167,5 +167,22 @@ class PhysicalRequestsAndPrices(unittest.TestCase):
         self.assertAlmostEqual(u["cost"]["total"], (60 * 2 + 40 * 2 + 10 * 10) / 1e6)
 
 
+class StreamedTiming(unittest.TestCase):
+    def test_request_records(self):
+        traj = json.loads(json.dumps(TOOL_TRAJ))
+        traj["messages"][2]["extra"]["adaptive_query_id"] = "q1"
+        rows = [{"event": "response", "query_id": "q1", "timestamp": "999.5", "duration_s": "9.0", "finish_reason": "tool_calls",
+                 "timing": {"sent_at": 990.4, "headers_at": 993.0, "first_token_at": 993.1, "first_token": "thinking", "end_at": 999.5}}]
+        reqs = []
+        lines = run(traj, provider="360", attempts=rows, requests_out=reqs)
+        a = msgs(lines, "assistant")[0]
+        self.assertEqual((a["timestamp"], a["durationMs"]), (990_400, 9100))
+        self.assertEqual(len(reqs), 1)
+        r = reqs[0]
+        self.assertEqual(r["assistant"]["timestamp"], a["timestamp"])
+        self.assertEqual(r["sessionId"], lines[0]["id"])
+        self.assertEqual(r["timing"], {"sentAt": 990_400, "responseAt": 993_000, "firstTokenAt": 993_100, "firstToken": "thinking"})
+
+
 if __name__ == "__main__":
     unittest.main()
