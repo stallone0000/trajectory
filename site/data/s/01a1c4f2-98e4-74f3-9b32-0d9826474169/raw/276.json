@@ -1,0 +1,1 @@
+{"type":"message","id":"f07a59df","parentId":"a601e442","timestamp":"2026-11-10T13:28:30.451Z","message":{"role":"toolResult","toolCallId":"call_uex0vqs7h11qpb6cq9evr8ey","toolName":"bash","content":[{"type":"text","text":"        ^^^^^^^^^^^^^^^^\nAttributeError: module 'gen3' has no attribute 'gen_instance'\n"}],"isError":false,"durationMs":207,"timestamp":1794317310451}}

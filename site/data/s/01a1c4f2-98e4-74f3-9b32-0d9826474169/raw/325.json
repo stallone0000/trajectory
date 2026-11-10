@@ -1,0 +1,1 @@
+{"type":"message","id":"e4b7d6ef","parentId":"ff36c096","timestamp":"2026-11-10T14:03:42.683Z","message":{"role":"toolResult","toolCallId":"call_fgw4aedzkkz2v0yem7n8ss74","toolName":"bash","content":[{"type":"text","text":"pattern counts over 90 full-size instances: {1: 90}\nworst enumeration time: 0.54s\n"}],"isError":false,"durationMs":28293,"timestamp":1794319422683}}

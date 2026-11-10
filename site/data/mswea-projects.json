@@ -53,18 +53,18 @@
    "cost": 2.350479,
    "durationMs": 14426738
   },
-  "01a1ba68-9dc5-7a17-a778-833680392601": {
+  "01a1c4f2-98e4-74f3-9b32-0d9826474169": {
    "project": "netbench",
    "task": "01-crosscheck",
    "model": "z-ai/glm-5.3",
-   "verdict": "fail",
-   "detail": "no gradable submission (output limit)",
-   "steps": 3,
+   "verdict": "pass",
+   "detail": "re-run with the robust runner",
+   "steps": 161,
    "failedRequests": 3,
-   "toolCalls": 6,
-   "tokens": 13325,
-   "cost": 0.013194,
-   "durationMs": 8887
+   "toolCalls": 164,
+   "tokens": 41282812,
+   "cost": 5.489114,
+   "durationMs": 14521035
   },
   "01a1ba73-ba03-783b-a631-7bbd39ad109c": {
    "project": "netbench",
