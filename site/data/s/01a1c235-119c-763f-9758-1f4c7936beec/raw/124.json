@@ -1,0 +1,1 @@
+{"type":"message","id":"65ed811d","parentId":"f0df1650","timestamp":"2026-11-09T21:56:20.730Z","message":{"role":"toolResult","toolCallId":"call_11672e26b3e24190a18569ec","toolName":"bash","content":[{"type":"text","text":"example match: True\nfails: 0\nchecked, mismatches: 0\nchecked 446 schema failures 0\n"}],"isError":false,"durationMs":4528,"timestamp":1794261380730}}

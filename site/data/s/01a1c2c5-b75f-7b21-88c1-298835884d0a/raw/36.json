@@ -1,1 +1,0 @@
-{"type":"message","id":"ab558fc5","parentId":"631ef62a","timestamp":"2026-11-10T00:11:12.436Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-839f72ecbe738d13","toolName":"bash","content":[{"type":"text","text":"random wire fuzz done bad= 0\nstructured fuzz done bad= 0\n"}],"isError":false,"durationMs":30193,"timestamp":1794269472436}}

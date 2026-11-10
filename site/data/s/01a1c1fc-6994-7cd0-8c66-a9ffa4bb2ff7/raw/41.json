@@ -1,1 +1,0 @@
-{"type":"custom_message","id":"a2c1a9a9","parentId":"89c39ca8","timestamp":"2026-11-09T20:30:32.093Z","customType":"mini-swe-agent.exit","content":"Agent exited: RepeatedFormatError","display":true,"details":{"exit_status":"RepeatedFormatError"}}

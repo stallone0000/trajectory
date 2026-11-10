@@ -1,0 +1,1 @@
+{"type":"message","id":"5f1d7002","parentId":"db6269ca","timestamp":"2026-11-08T12:05:37.573Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-b2cabc3898c346a2","toolName":"bash","content":[{"type":"text","text":"input bytes 49632347\ntime 12.02 rc 0\nresponses 200\nnon-ok: [] count 0\nstderr tail: \n"}],"isError":false,"durationMs":14537,"timestamp":1794139537573}}

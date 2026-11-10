@@ -1,1 +1,0 @@
-{"type":"message","id":"997f8e42","parentId":"a722a389","timestamp":"2026-11-10T02:40:30.148Z","message":{"role":"toolResult","toolCallId":"call_00790e77de0f467490deb930","toolName":"bash","content":[{"type":"text","text":"ok\nSafeNodes == {0,1}\nDoneNodes == {0,2}\n====\n\nexport checks done, failures: 84\n"}],"isError":false,"durationMs":73,"timestamp":1794278430148}}

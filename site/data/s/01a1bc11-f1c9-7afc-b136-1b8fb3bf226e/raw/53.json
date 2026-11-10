@@ -1,1 +1,0 @@
-{"type":"message","id":"8dfa6766","parentId":"b280ad3e","timestamp":"2026-11-08T17:13:01.050Z","message":{"role":"toolResult","toolCallId":"call_-7101067308210057612","toolName":"bash","content":[{"type":"text","text":"ok\ndone 150 fails 0 {'ambiguous': 23, 'infeasible': 119, 'unique': 8}\n"}],"isError":false,"durationMs":1390,"timestamp":1794157981050}}

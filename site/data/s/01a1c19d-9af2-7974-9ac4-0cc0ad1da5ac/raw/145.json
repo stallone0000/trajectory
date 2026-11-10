@@ -1,1 +1,0 @@
-{"type":"message","id":"defc690e","parentId":"ae6a56ce","timestamp":"2026-11-09T20:11:10.903Z","message":{"role":"toolResult","toolCallId":"call_2c50d705ca224dc69f8c84d0","toolName":"bash","content":[{"type":"text","text":"depth scan differential done, failures 0\n"}],"isError":false,"durationMs":1293,"timestamp":1794255070903}}

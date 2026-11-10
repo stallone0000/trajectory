@@ -1,1 +1,0 @@
-{"type":"message","id":"e7450812","parentId":"2db81708","timestamp":"2026-11-09T21:30:15.702Z","message":{"role":"toolResult","toolCallId":"call_75f4828893fd45f29018f195","toolName":"bash","content":[{"type":"text","text":"shape checks passed on 580 responses\n"}],"isError":false,"durationMs":24695,"timestamp":1794259815702}}

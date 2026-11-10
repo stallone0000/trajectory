@@ -1,0 +1,1 @@
+{"type":"message","id":"1cffa4e5","parentId":"8d87b5a7","timestamp":"2026-11-10T05:27:13.092Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"360","model":"z-ai/glm-5.3","stopReason":"error","errorMessage":"Timeout: HTTP 504 litellm.Timeout: Timeout Error: OpenAIException - Error code: 504","timestamp":1794286632278,"durationMs":1800814}}

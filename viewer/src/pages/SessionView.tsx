@@ -293,7 +293,7 @@ function SessionPage({ id }: { id: string }) {
 							</span>
 						)}
 					</div>
-					{isMswea && <MsweaNotice compact />}
+					{isMswea && <MsweaNotice compact id={session.data.id} />}
 				</div>
 				<div className="flex shrink-0 flex-wrap items-center gap-2 pt-1">
 					{shown === "transcript" && (

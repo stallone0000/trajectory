@@ -76,6 +76,7 @@ def main() -> None:
     ap.add_argument("--out", type=Path, help="default /root/pi-runs/<benchmark>")
     ap.add_argument("--ingest", action="store_true", help="upload to the local pika (does not publish)")
     ap.add_argument("--prices", type=Path, help="prices JSON for cost (e.g. scripts/prices-360.json)")
+    ap.add_argument("--tasks", type=Path, help="JSON {task id: one or two sentence description} shown on session pages")
     ap.add_argument("--server", default="http://127.0.0.1:7171")
     ap.add_argument("--token-file", type=Path, default=Path("/root/pika-data/ingest.token"))
     ap.add_argument("--secret-file", type=Path, action="append", default=[],
@@ -139,7 +140,9 @@ def main() -> None:
     # The static site's mini-swe-agent page: its projects, and per session the task, model and verifier result.
     reg = HERE.parent / "mswea-projects.json"
     known = json.loads(reg.read_text()) if reg.exists() else {}
-    known.setdefault("projects", []); known.setdefault("sessions", {})
+    known.setdefault("projects", []); known.setdefault("sessions", {}); known.setdefault("tasks", {})
+    if a.tasks:
+        known["tasks"].update(json.loads(a.tasks.read_text(encoding="utf-8")))
     if bench not in known["projects"]:
         known["projects"].append(bench)
     known["sessions"] = {k: v for k, v in known["sessions"].items() if v.get("project") != bench}

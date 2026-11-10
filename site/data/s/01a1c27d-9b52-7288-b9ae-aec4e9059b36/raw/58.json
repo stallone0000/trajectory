@@ -1,0 +1,1 @@
+{"type":"message","id":"93dcebe8","parentId":"713844d4","timestamp":"2026-11-09T23:00:26.362Z","message":{"role":"toolResult","toolCallId":"call_e99034fd19d04fcf86d01efb","toolName":"bash","content":[{"type":"text","text":"budget.json: PASS\ninvalid.json: PASS\nwildcard.json: PASS\n--- official examples PASS ---\n"}],"isError":false,"durationMs":143,"timestamp":1794265226362}}

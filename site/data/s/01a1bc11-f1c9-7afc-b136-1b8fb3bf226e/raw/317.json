@@ -1,1 +1,0 @@
-{"type":"message","id":"699e4685","parentId":"2aa1b707","timestamp":"2026-11-08T20:42:14.615Z","message":{"role":"toolResult","toolCallId":"call_-7101065143546538118","toolName":"bash","content":[{"type":"text","text":"ok   obs id noname\nok   dup obs ids\n\n2 FAILURES\n"}],"isError":false,"durationMs":3588,"timestamp":1794170534615}}

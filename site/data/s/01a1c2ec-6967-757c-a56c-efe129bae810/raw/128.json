@@ -1,1 +1,0 @@
-{"type":"message","id":"8a7049c2","parentId":"688d853b","timestamp":"2026-11-10T01:20:58.182Z","message":{"role":"toolResult","toolCallId":"call_ebd423de55114fdca5a36640","toolName":"bash","content":[{"type":"text","text":"rc 0 wall 0.30 cpu 0.27 rss 65.2MB out 0.1MB\nstreams 0\nCounter({'dropped': 1500})\n"}],"isError":false,"durationMs":525,"timestamp":1794273658182}}

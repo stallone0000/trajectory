@@ -1,0 +1,1 @@
+{"type":"message","id":"48cd8e0b","parentId":"44b3421b","timestamp":"2026-11-08T15:58:04.481Z","message":{"role":"toolResult","toolCallId":"call_f1551c7644cf41468e81e960","toolName":"bash","content":[{"type":"text","text":"maxrules       compile 0.08s prog 234.3 KiB  stream 4.07s  in 48.9 MiB out 2.9 MiB\n"}],"isError":false,"durationMs":6641,"timestamp":1794153484481}}

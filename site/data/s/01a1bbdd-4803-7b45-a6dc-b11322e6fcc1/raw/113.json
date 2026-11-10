@@ -1,0 +1,1 @@
+{"type":"message","id":"793fd24b","parentId":"1f11ac9b","timestamp":"2026-11-08T16:42:51.998Z","message":{"role":"toolResult","toolCallId":"call_-7100497314510267905","toolName":"bash","content":[{"type":"text","text":"PASS fb depth 17 \nPASS fb depth 18 \nTraceback (most recent call last):\n43\n7\n"}],"isError":false,"durationMs":2672,"timestamp":1794156171998}}

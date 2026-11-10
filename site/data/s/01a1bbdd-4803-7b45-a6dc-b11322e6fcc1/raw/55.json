@@ -1,0 +1,1 @@
+{"type":"message","id":"d65a9f1e","parentId":"c1346478","timestamp":"2026-11-08T16:28:40.224Z","message":{"role":"toolResult","toolCallId":"call_-7100499479173785381","toolName":"bash","content":[{"type":"text","text":"PASS flow bool \nPASS valid seq exit0 \nPASS too many flows \nFAILS: []\n"}],"isError":false,"durationMs":1309,"timestamp":1794155320224}}

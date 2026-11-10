@@ -1,0 +1,1 @@
+{"type":"message","id":"e78309db","parentId":"98ee09e6","timestamp":"2026-11-09T23:19:10.472Z","message":{"role":"toolResult","toolCallId":"call_883f9b9ea2014c3c91e46ed0","toolName":"bash","content":[{"type":"text","text":"canonicalization tests: 8 checks, 0 failures\nexit=0\n"}],"isError":false,"durationMs":389,"timestamp":1794266350472}}

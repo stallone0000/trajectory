@@ -1,0 +1,1 @@
+{"type":"message","id":"4b0453f1","parentId":"f10ec996","timestamp":"2026-11-09T20:07:44.589Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-bfa0c548b05f33b4","toolName":"bash","content":[{"type":"text","text":"plan match: True\nreplay match: True\nCLI boundary checks passed (14 invocations).\n"}],"isError":false,"durationMs":880,"timestamp":1794254864589}}

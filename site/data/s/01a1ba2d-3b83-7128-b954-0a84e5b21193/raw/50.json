@@ -1,0 +1,1 @@
+{"type":"message","id":"eb8eb692","parentId":"2ac99382","timestamp":"2026-11-08T08:09:06.971Z","message":{"role":"toolResult","toolCallId":"call_01a1ba34117173619597118b","toolName":"bash","content":[{"type":"text","text":"MISMATCH at 153723 2318593537 16 2479708607 0\n\n\n[exit code 1]"}],"isError":true,"durationMs":9384,"timestamp":1794125346971}}

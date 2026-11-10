@@ -1,1 +1,0 @@
-{"type":"message","id":"04b623cf","parentId":"0637bc0c","timestamp":"2026-11-10T00:19:16.511Z","message":{"role":"toolResult","toolCallId":"call_-7101056897209330146","toolName":"bash","content":[{"type":"text","text":"rc 0 max threads 0 out bytes 17858\n"}],"isError":false,"durationMs":840,"timestamp":1794269956511}}

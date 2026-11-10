@@ -1,1 +1,0 @@
-{"type":"message","id":"3dcc2222","parentId":"3106d845","timestamp":"2026-11-08T08:17:26.088Z","message":{"role":"toolResult","toolCallId":"call_01a1ba3bcef474e09c69bef8","toolName":"bash","content":[{"type":"text","text":"real\t0m0.115s\nreal\t0m0.505s\n1000000\nreal\t0m0.404s\nscalar == batch output OK\n"}],"isError":false,"durationMs":1175,"timestamp":1794125846088}}

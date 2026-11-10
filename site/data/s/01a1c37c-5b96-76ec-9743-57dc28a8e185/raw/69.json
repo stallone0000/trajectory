@@ -1,1 +1,0 @@
-{"type":"message","id":"4cb94362","parentId":"2dff1da2","timestamp":"2026-11-10T05:10:41.829Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"360","model":"qwen/qwen3.8-max","stopReason":"error","errorMessage":"request failed","timestamp":1794287411497,"durationMs":30332}}

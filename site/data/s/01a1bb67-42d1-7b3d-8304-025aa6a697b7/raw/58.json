@@ -1,0 +1,1 @@
+{"type":"message","id":"8d6f97a3","parentId":"b6b24764","timestamp":"2026-11-08T14:09:10.362Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-aab2fdfe293fdbd6","toolName":"bash","content":[{"type":"text","text":"build 0.03284931182861328\nstream 1e6 across 500 flows: 5.61 s\nmaxrss MB 34.5859375\n"}],"isError":false,"durationMs":5798,"timestamp":1794146950362}}

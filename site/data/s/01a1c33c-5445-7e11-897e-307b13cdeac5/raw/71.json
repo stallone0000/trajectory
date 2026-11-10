@@ -1,1 +1,0 @@
-{"type":"message","id":"81dfc08d","parentId":"17da6e23","timestamp":"2026-11-10T02:46:03.046Z","message":{"role":"toolResult","toolCallId":"call_1287137cfe7c4c7fa9a412dd","toolName":"bash","content":[{"type":"text","text":"total 1250 terminates=True: 496 terminates=False: 754 unsafe: 581\n"}],"isError":false,"durationMs":190,"timestamp":1794278763046}}

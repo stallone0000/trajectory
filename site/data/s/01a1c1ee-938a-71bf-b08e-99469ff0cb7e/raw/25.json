@@ -1,1 +1,0 @@
-{"type":"message","id":"f37d7f47","parentId":"408f1baa","timestamp":"2026-11-09T20:25:59.701Z","message":{"role":"toolResult","toolCallId":"call_-7100362555616393709","toolName":"bash","content":[{"type":"text","text":"patched\nburst: PASS\nstream: PASS\ninvalid: PASS\nexit=0\n"}],"isError":false,"durationMs":231,"timestamp":1794255959701}}

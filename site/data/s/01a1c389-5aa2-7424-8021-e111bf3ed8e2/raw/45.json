@@ -1,0 +1,1 @@
+{"type":"message","id":"a595ddfe","parentId":"47874774","timestamp":"2026-11-10T03:55:13.624Z","message":{"role":"toolResult","toolCallId":"call_-7100335480142560778","toolName":"bash","content":[{"type":"text","text":"OK: 150 bundles validated\n"}],"isError":false,"durationMs":242,"timestamp":1794282913624}}

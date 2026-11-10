@@ -19,8 +19,10 @@ export interface MsweaSession {
 export interface MsweaData {
 	projects: Set<string>;
 	sessions: Map<string, MsweaSession>;
+	/** Task id -> a one or two sentence description of what it tests. */
+	tasks: Map<string, string>;
 }
-type RawData = { projects?: string[]; sessions?: Record<string, MsweaSession> };
+type RawData = { projects?: string[]; sessions?: Record<string, MsweaSession>; tasks?: Record<string, string> };
 
 let cached: Promise<MsweaData> | undefined;
 
@@ -28,7 +30,11 @@ export function msweaData(): Promise<MsweaData> {
 	cached ??= fetch(withBase(readBasePath(), "data/mswea-projects.json"))
 		.then(async (r): Promise<RawData> => (r.ok ? ((await r.json()) as RawData) : {}))
 		.catch((): RawData => ({}))
-		.then((raw) => ({ projects: new Set(raw.projects ?? []), sessions: new Map(Object.entries(raw.sessions ?? {})) }));
+		.then((raw) => ({
+			projects: new Set(raw.projects ?? []),
+			sessions: new Map(Object.entries(raw.sessions ?? {})),
+			tasks: new Map(Object.entries(raw.tasks ?? {})),
+		}));
 	return cached;
 }
 
@@ -78,7 +84,21 @@ export function VerdictBadge({ id, large = false }: { id: string; large?: boolea
 	);
 }
 
-export function MsweaNotice({ compact = false }: { compact?: boolean }) {
+/** The task a translated session ran, and what it tests; nothing for other sessions. */
+export function TaskBrief({ id }: { id: string }) {
+	const data = useMsweaData();
+	const task = data?.sessions.get(id)?.task;
+	const brief = task ? data?.tasks.get(task) : undefined;
+	if (!task || !brief) return null;
+	return (
+		<div className="mt-1.5 text-[13px] leading-[1.55] text-muted" data-task-brief="">
+			<span className="mr-1.5 font-medium text-ink">Task {task}</span>
+			{brief}
+		</div>
+	);
+}
+
+export function MsweaNotice({ compact = false, id }: { compact?: boolean; id?: string }) {
 	return (
 		<div
 			className="mt-3 rounded-md border border-line bg-soft px-3.5 py-2.5 text-[13px] leading-[1.55] text-muted"
@@ -91,6 +111,7 @@ export function MsweaNotice({ compact = false }: { compact?: boolean }) {
 				<>
 					This trajectory was recorded by <span className="text-ink">mini-swe-agent</span> (bash-only harness), not by pi,
 					and translated into pi's session format for display. The badge is the hidden verifier's result.
+					{id && <TaskBrief id={id} />}
 				</>
 			) : (
 				<>
@@ -99,9 +120,9 @@ export function MsweaNotice({ compact = false }: { compact?: boolean }) {
 					the run ended without a gradable submission (API failure, output limit, format errors, grader error), which is not
 					counted as a wrong answer. Red shell steps are commands that exited non-zero (usually failing tests while the model
 					works), not API failures; failed or superseded model requests (e.g. gateway timeouts) appear as red model calls.
-					Durations are measured by the client; there is no time-to-first-token because requests were not streamed. Cached
-					input is shown as the provider reported it (most 360 routes report no cache hits). Costs are estimated from the
-					provider's list prices (cache hits at 1/10 of the input price; CNY converted to USD at about ¥7.1/$).
+					Durations are measured by the client. Runs whose requests were not streamed have no time-to-first-token or cache
+					figures (the provider reports none for them); streamed runs show full provider timing. Costs are estimated from
+					the provider's list prices (cache hits at 1/10 of the input price; CNY converted to USD at about ¥7.1/$).
 				</>
 			)}
 		</div>

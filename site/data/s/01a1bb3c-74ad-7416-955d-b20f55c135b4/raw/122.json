@@ -1,1 +1,0 @@
-{"type":"message","id":"3dd576ae","parentId":"d8473fd3","timestamp":"2026-11-08T13:47:36.240Z","message":{"role":"toolResult","toolCallId":"call_-7100504358256633403","toolName":"bash","content":[{"type":"text","text":"input file 60.3MB\nstatus=0 out=1.00MB peakrss=84.9MB\n"}],"isError":false,"durationMs":7497,"timestamp":1794145656240}}

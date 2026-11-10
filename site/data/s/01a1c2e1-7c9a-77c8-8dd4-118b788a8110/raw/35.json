@@ -1,1 +1,0 @@
-{"type":"message","id":"cdc00117","parentId":"9f2cff85","timestamp":"2026-11-10T00:43:20.618Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-9cfdcf93371df80a","toolName":"bash","content":[{"type":"text","text":"fuzz done, crashes: 0\n"}],"isError":false,"durationMs":16970,"timestamp":1794271400618}}

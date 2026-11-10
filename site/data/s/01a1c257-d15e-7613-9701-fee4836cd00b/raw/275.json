@@ -1,1 +1,0 @@
-{"type":"message","id":"ce420bac","parentId":"5aa744ae","timestamp":"2026-11-10T00:25:37.603Z","message":{"role":"toolResult","toolCallId":"call_-7101061570133748452","toolName":"bash","content":[{"type":"text","text":" peak child RSS MiB 123.5  wall 4.08s  out 14757 bytes\n\n"}],"isError":false,"durationMs":4245,"timestamp":1794270337603}}

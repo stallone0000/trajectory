@@ -1,1 +1,0 @@
-{"type":"message","id":"c1767970","parentId":"af6ec644","timestamp":"2026-11-08T15:05:49.936Z","message":{"role":"toolResult","toolCallId":"call_5970dde5dd43410a91e029e4","toolName":"bash","content":[{"type":"text","text":"done 11 cases 300 mismatch 0 mutant-still-valid 110\n"}],"isError":false,"durationMs":778,"timestamp":1794150349936}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"5334168d","parentId":"e24a0653","timestamp":"2026-11-09T22:45:34.676Z","message":{"role":"toolResult","toolCallId":"call_e3a3ece33f2d4ae5a07e8133","toolName":"bash","content":[{"type":"text","text":"/bin/bash: file: command not found\nrc=127\n"}],"isError":false,"durationMs":20,"timestamp":1794264334676}}

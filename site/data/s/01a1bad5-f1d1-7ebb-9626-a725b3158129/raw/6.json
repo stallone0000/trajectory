@@ -1,0 +1,1 @@
+{"type":"message","id":"b72ebb93","parentId":"6073e1b8","timestamp":"2026-11-08T11:05:54.718Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-ae4974c5595bf8a4","toolName":"bash","content":[{"type":"text","text":"/bin/bash: ls: command not found\n\n\n[exit code 127]"}],"isError":true,"durationMs":22,"timestamp":1794135954718}}

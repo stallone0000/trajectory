@@ -1,0 +1,18 @@
+{
+ "01-crosscheck": "WAN telemetry validation: reconcile link counters, demand matrices and a forwarding plan under correlated telemetry faults, reporting every best explanation (inspired by CrossCheck, NSDI '26). Tests traffic-engineering telemetry, flow conservation and fault localization.",
+ "02-planb": "IP forwarding: repair a C FIB compiler and lookup tool that reduces longest-prefix match to predecessor search over disjoint address intervals (inspired by PlanB). Tests routing-table semantics and prefix boundaries.",
+ "03-scamp-trie": "IPv6 route lookup: build an auditable compiler and lookup pipeline for IPv6 prefix tables. Tests IPv6 addressing, longest-prefix match and forwarding-table construction.",
+ "04-synecdoche": "Traffic classification: compile key-segment signatures and match them on bidirectional, resumable packet-sequence streams (inspired by Synecdoche). Tests flow and packet-sequence analysis.",
+ "05-emicro": "Microservice network policy: compile allow/deny rules over service-call paths into a stable automaton with exact deny precedence (inspired by eMicro). Tests service-mesh access control and policy compilation.",
+ "06-residential-ipv6-firewall": "IPv6 firewall measurement: plan probe targets in residential IPv6 networks and reconcile replayed responses into firewall-behaviour evidence. Tests IPv6 addressing and stateful-firewall inference.",
+ "07-fenix": "In-network inference: replay per-flow feature streams through a packet-level ML pipeline and reproduce its decisions (inspired by FENIX). Tests flow feature extraction and data-plane traffic analysis.",
+ "08-scale-up-pifo": "Packet scheduling: simulate a clocked Scale-up PIFO built from interleaved priority queues and certify its rank errors. Tests programmable packet schedulers and priority queueing.",
+ "09-netnomos": "Network rule mining: infer finite-domain rules from network data while reporting ambiguity honestly (inspired by NetNomos). Tests reasoning about network state and configuration constraints.",
+ "10-omnipath-ping": "Multipath measurement: replay probe rounds over a multipath routing graph and decide which routes the evidence supports (inspired by OmniPath ping). Tests multipath routing and active probing.",
+ "11-onlinete": "Traffic engineering: plan certified WAN reconfigurations that respect link capacities during the update (inspired by online TE). Tests routing optimization and consistent network updates.",
+ "12-eywa": "DNS: build a resolver model and a regression workbench that adjudicates DNS behaviour (inspired by Eywa's model-based DNS testing). Tests DNS resolution semantics.",
+ "13-sipconfusion": "VoIP security: audit SIP identity fields at a trust boundary to catch components that authenticate and display different callers (inspired by SIPConfusion, NDSS '26). Tests SIP parsing and caller authentication.",
+ "14-h3act": "HTTP/3 to HTTP/1.1: repair an edge bridge that turns HTTP/3 request events into HTTP/1.1 bytes with correct framing, duplicate fields and cache identity. Tests HTTP semantics and request-smuggling pitfalls.",
+ "15-quic-attacker": "QUIC: implement a defensive, offline auditor that checks synthetic QUIC v1 receiver traces against the protocol's rules. Tests detailed knowledge of the QUIC transport protocol.",
+ "16-epic": "Reliable in-network collectives: model a switch-assisted AllReduce pipe with cumulative acknowledgements, windows and safe buffer reuse, and audit its termination claims (inspired by EPIC). Tests reliable transport design."
+}

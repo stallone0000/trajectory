@@ -1,1 +1,0 @@
-{"type":"message","id":"470fdd95","parentId":"26ca65e9","timestamp":"2026-11-08T16:05:10.445Z","message":{"role":"toolResult","toolCallId":"call_qfok5y0uqux51s93a5zrbwcn","toolName":"bash","content":[{"type":"text","text":"ok: 1786 filter/window checks, 614 involved exact .5 ties\n"}],"isError":false,"durationMs":244,"timestamp":1794153910445}}

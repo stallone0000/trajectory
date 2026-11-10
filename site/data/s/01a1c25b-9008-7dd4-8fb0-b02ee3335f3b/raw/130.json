@@ -1,0 +1,1 @@
+{"type":"message","id":"1820b4fa","parentId":"033719f9","timestamp":"2026-11-09T23:30:23.563Z","message":{"role":"toolResult","toolCallId":"call_e3322b5af09743b7a3f7f4d1","toolName":"bash","content":[{"type":"text","text":"canonical 0.00\nindep opt 0.06 -> 1.0\n"}],"isError":false,"durationMs":400,"timestamp":1794267023563}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"20794461","parentId":"c067ed4c","timestamp":"2026-11-09T22:05:01.907Z","message":{"role":"toolResult","toolCallId":"call_01a1c2578746717c92cf4340","toolName":"bash","content":[{"type":"text","text":"schema check done, failures: 0\n"}],"isError":false,"durationMs":22489,"timestamp":1794261901907}}

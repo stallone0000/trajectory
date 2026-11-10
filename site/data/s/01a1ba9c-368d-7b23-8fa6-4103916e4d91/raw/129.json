@@ -1,0 +1,1 @@
+{"type":"message","id":"590bd4ee","parentId":"14866f76","timestamp":"2026-11-08T10:42:32.284Z","message":{"role":"toolResult","toolCallId":"call_-7101063528638834725","toolName":"bash","content":[{"type":"text","text":"FAIL: 256-byte trace line\n-1 -1\n400002 max.idx\nPASS=28 FAIL=1\n\n\n[exit code 1]"}],"isError":true,"durationMs":475,"timestamp":1794134552284}}

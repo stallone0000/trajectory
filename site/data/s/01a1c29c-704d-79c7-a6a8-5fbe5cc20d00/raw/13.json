@@ -1,1 +1,0 @@
-{"type":"message","id":"bf63af64","parentId":"a08e2304","timestamp":"2026-11-09T23:27:36.127Z","message":{"role":"toolResult","toolCallId":"call_bf9e8edac7824857b3e93c35","toolName":"bash","content":[{"type":"text","text":"('F', '1e400')\n('C', 'NaN')\nRecursionError ok\n"}],"isError":false,"durationMs":93,"timestamp":1794266856127}}

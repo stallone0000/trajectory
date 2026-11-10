@@ -1,0 +1,1 @@
+{"type":"message","id":"bc461ae1","parentId":"dc91dcef","timestamp":"2026-11-09T21:01:23.052Z","message":{"role":"toolResult","toolCallId":"call_-7100359978636017076","toolName":"bash","content":[{"type":"text","text":"utf-8 ok, bytes = 19279 limit 262144\nregular file: True symlink: False\n"}],"isError":false,"durationMs":46,"timestamp":1794258083052}}

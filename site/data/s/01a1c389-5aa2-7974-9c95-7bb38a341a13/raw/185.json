@@ -1,1 +1,0 @@
-{"type":"message","id":"7ee2d77c","parentId":"839e4981","timestamp":"2026-11-10T04:45:52.492Z","message":{"role":"toolResult","toolCallId":"call_-7100327062006660158","toolName":"bash","content":[{"type":"text","text":"validated 120 overlapping-pattern bundles\n"}],"isError":false,"durationMs":504,"timestamp":1794285952492}}

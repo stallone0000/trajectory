@@ -1,1 +1,0 @@
-{"type":"message","id":"0c025822","parentId":"b7d6806f","timestamp":"2026-11-09T19:30:40.212Z","message":{"role":"toolResult","toolCallId":"call_f4242538dd524f27bcf42d29","toolName":"bash","content":[{"type":"text","text":"1048576 0 ok\n1048577 2 ipv6_replay: manifest exceeds 1 MiB\n1048575 0 ok\n"}],"isError":false,"durationMs":244,"timestamp":1794252640212}}

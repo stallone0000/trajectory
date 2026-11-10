@@ -1,1 +1,0 @@
-{"type":"message","id":"d41db934","parentId":"2080b694","timestamp":"2026-11-08T08:38:18.013Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-9eae8cec81f8b25a","toolName":"bash","content":[{"type":"text","text":"asan build rc=0\n-rwxr-xr-x    1 64002    64002      1875792 Nov  8 08:38 planb64_asan\n"}],"isError":false,"durationMs":3670,"timestamp":1794127098013}}

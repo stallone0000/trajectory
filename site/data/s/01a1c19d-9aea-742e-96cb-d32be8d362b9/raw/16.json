@@ -1,0 +1,1 @@
+{"type":"message","id":"e47c5566","parentId":"5afc1d8c","timestamp":"2026-11-09T18:50:27.876Z","message":{"role":"toolResult","toolCallId":"bash_5_5763b217","toolName":"bash","content":[{"type":"text","text":"..........\nOK\nMONITORS OK\nstandalone minimization OK\n"}],"isError":false,"durationMs":1909,"timestamp":1794250227876}}

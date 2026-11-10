@@ -1,0 +1,1 @@
+{"type":"message","id":"116c6423","parentId":"bc01a68c","timestamp":"2026-11-09T21:43:08.974Z","message":{"role":"toolResult","toolCallId":"call_20ee5625b3ac43ed83c2f02c","toolName":"bash","content":[{"type":"text","text":"hand1 schema OK\nhand2 schema OK\nstream schema OK\nburst schema OK\n"}],"isError":false,"durationMs":220,"timestamp":1794260588974}}

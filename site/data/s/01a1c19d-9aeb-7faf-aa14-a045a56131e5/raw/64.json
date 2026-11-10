@@ -1,1 +1,0 @@
-{"type":"message","id":"9538f6b7","parentId":"4996510b","timestamp":"2026-11-09T18:48:57.985Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-993c8d91b06a7c3a","toolName":"bash","content":[{"type":"text","text":"hopcroft matches naive (set-of-frozensets) on 3000 DFAs up to n=50\n"}],"isError":false,"durationMs":928,"timestamp":1794250137985}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"c0f0cd15","parentId":"567fcecd","timestamp":"2026-11-10T01:19:39.123Z","message":{"role":"toolResult","toolCallId":"call_f68bb31ae92d4a6db25803b6","toolName":"bash","content":[{"type":"text","text":"b'{\"error\":\"INVALID_INPUT\"}\\n'\n\n"}],"isError":false,"durationMs":353,"timestamp":1794273579123}}

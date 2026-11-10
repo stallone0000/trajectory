@@ -1,1 +1,0 @@
-{"type":"message","id":"611fa192","parentId":"f8d827f1","timestamp":"2026-11-09T23:37:48.005Z","message":{"role":"toolResult","toolCallId":"bash_11_2752db52","toolName":"bash","content":[{"type":"text","text":"local assertions passed\n"}],"isError":false,"durationMs":2237,"timestamp":1794267468005}}

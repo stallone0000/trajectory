@@ -1,1 +1,0 @@
-{"type":"message","id":"eb5dec82","parentId":"6b14de60","timestamp":"2026-11-08T16:12:30.682Z","message":{"role":"toolResult","toolCallId":"call_3ce48519512f4625881be758","toolName":"bash","content":[{"type":"text","text":"seed 5190 ok\nseed 5195 ok\nALL OK\n\nreal\t0m31.296s\nuser\t0m24.794s\nsys\t0m4.241s\n"}],"isError":false,"durationMs":31351,"timestamp":1794154350682}}

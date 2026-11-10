@@ -1,1 +1,0 @@
-{"type":"message","id":"bdf840d1","parentId":"93e11c4a","timestamp":"2026-11-10T09:13:29.498Z","message":{"role":"toolResult","toolCallId":"call_b5bd316a90dd4c038b80f402","toolName":"bash","content":[{"type":"text","text":"basic example: OK\n{\"version\":1,\"results\":[]}\n/app/submission/entry.py\n"}],"isError":false,"durationMs":126,"timestamp":1794302009498}}

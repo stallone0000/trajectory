@@ -1,0 +1,1 @@
+{"type":"message","id":"2f794fef","parentId":"08e42531","timestamp":"2026-11-10T02:10:46.613Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a784178b1dbf9939","toolName":"bash","content":[{"type":"text","text":"batched witness bad 0\n"}],"isError":false,"durationMs":764,"timestamp":1794276646613}}

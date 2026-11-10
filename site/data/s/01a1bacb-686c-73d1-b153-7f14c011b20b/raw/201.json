@@ -1,1 +1,0 @@
-{"type":"message","id":"ff0f6117","parentId":"cca360af","timestamp":"2026-11-08T12:42:28.284Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-baea6893ffba933c","toolName":"bash","content":[{"type":"text","text":"tight-capacity audits: 18 infeasible: 42\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180124,"timestamp":1794141748284}}

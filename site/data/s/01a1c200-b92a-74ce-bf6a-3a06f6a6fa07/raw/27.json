@@ -1,0 +1,1 @@
+{"type":"message","id":"0b72cfa1","parentId":"5b96333f","timestamp":"2026-11-09T20:32:34.116Z","message":{"role":"toolResult","toolCallId":"call_01a1c2033848755b8fb9f5f7","toolName":"bash","content":[{"type":"text","text":"burst: PASS\nstream: PASS\ninvalid: PASS\nsanity exit=0\n"}],"isError":false,"durationMs":183,"timestamp":1794256354116}}

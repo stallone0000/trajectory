@@ -1,0 +1,1 @@
+{"type":"message","id":"91eec681","parentId":"ee999058","timestamp":"2026-11-09T19:18:56.466Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-8d2866ea44c705a9","toolName":"bash","content":[{"type":"text","text":"alias_suspect excluded [0, 1] ['2001:db8::1'] [] []\n['alias_suspect', 'alias_suspect']\n"}],"isError":false,"durationMs":110,"timestamp":1794251936466}}

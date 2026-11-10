@@ -1,1 +1,0 @@
-{"type":"message","id":"c7e39cea","parentId":"caf5c8bf","timestamp":"2026-11-09T22:31:53.259Z","message":{"role":"toolResult","toolCallId":"call_01a1c27065e472d2a45c5e66","toolName":"bash","content":[{"type":"text","text":"worst migration-row excess: 0\n"}],"isError":false,"durationMs":3640,"timestamp":1794263513259}}

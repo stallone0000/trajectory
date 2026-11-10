@@ -1,0 +1,1 @@
+{"type":"message","id":"026000d1","parentId":"eac610f3","timestamp":"2026-11-09T23:55:28.381Z","message":{"role":"toolResult","toolCallId":"call_-7101052224284913500","toolName":"bash","content":[{"type":"text","text":"ok callid case differs key\n\nALL PASS\n"}],"isError":false,"durationMs":982,"timestamp":1794268528381}}

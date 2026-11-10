@@ -1,1 +1,0 @@
-{"type":"message","id":"c37b9325","parentId":"e2e86a5f","timestamp":"2026-11-08T16:12:43.558Z","message":{"role":"toolResult","toolCallId":"call_dkotmk5vq1w274r0ksi01osf","toolName":"bash","content":[{"type":"text","text":"stress cross-check: MATCH (ref took 2.0s)\n"}],"isError":false,"durationMs":2268,"timestamp":1794154363558}}

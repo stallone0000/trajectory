@@ -1,0 +1,1 @@
+{"type":"message","id":"d972f69f","parentId":"a5410ccf","timestamp":"2026-11-10T08:43:56.972Z","message":{"role":"toolResult","toolCallId":"call_76738932bba64bd2bec4a5a6","toolName":"bash","content":[{"type":"text","text":"{\"error\": \"E_SCHEMA\"}\n\natom 0 E_SCHEMA     die(\"E_SCHEMA\")\n"}],"isError":false,"durationMs":151,"timestamp":1794300236972}}

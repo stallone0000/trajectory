@@ -1,0 +1,1 @@
+{"type":"message","id":"b126a2df","parentId":"bcdb0adc","timestamp":"2026-11-08T08:15:28.494Z","message":{"role":"toolResult","toolCallId":"call_01a1ba3a083f7208a76f3e74","toolName":"bash","content":[{"type":"text","text":"256:\n7 32\nrc=0\n257:\nERROR: trace: line too long\nrc=2\n"}],"isError":false,"durationMs":49,"timestamp":1794125728494}}

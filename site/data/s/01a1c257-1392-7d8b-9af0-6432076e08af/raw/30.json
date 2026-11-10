@@ -1,0 +1,1 @@
+{"type":"message","id":"0d8d1df6","parentId":"f7695402","timestamp":"2026-11-09T22:15:54.921Z","message":{"role":"toolResult","toolCallId":"bash_12_027f40fc","toolName":"bash","content":[{"type":"text","text":"Public protocol smoke passed.\n"}],"isError":false,"durationMs":388,"timestamp":1794262554921}}

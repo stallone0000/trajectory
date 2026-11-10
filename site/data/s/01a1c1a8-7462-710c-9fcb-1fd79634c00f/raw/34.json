@@ -1,0 +1,1 @@
+{"type":"message","id":"4fdba837","parentId":"1b550926","timestamp":"2026-11-09T19:07:24.196Z","message":{"role":"toolResult","toolCallId":"bash_14_a4462eca","toolName":"bash","content":[{"type":"text","text":"responses bytes 40744159\nreplay max 0 wall 8.351376064121723 cpu 8.349792 maxrss 272180 stderr b''\n"}],"isError":false,"durationMs":11630,"timestamp":1794251244196}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"aabcffe3","parentId":"5af70d97","timestamp":"2026-11-09T22:03:49.134Z","message":{"role":"toolResult","toolCallId":"call_485b97583671435fb337bb0d","toolName":"bash","content":[{"type":"text","text":"ok: M3.evidence\nok: M3.coverage\n\nFAILURES: 0\n"}],"isError":false,"durationMs":183,"timestamp":1794261829134}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"7f36150a","parentId":"2f182874","timestamp":"2026-11-08T19:30:28.567Z","message":{"role":"toolResult","toolCallId":"call_-7101067789246394626","toolName":"bash","content":[{"type":"text","text":"patched\n269:    def __init__(self, inst, always=None, never=None):\n"}],"isError":false,"durationMs":50,"timestamp":1794166228567}}

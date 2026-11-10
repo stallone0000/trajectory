@@ -1,0 +1,1 @@
+{"type":"message","id":"11775f68","parentId":"af2c9790","timestamp":"2026-11-08T18:39:24.503Z","message":{"role":"toolResult","toolCallId":"call_f784d9433d2e4aaea5c94a97","toolName":"bash","content":[{"type":"text","text":"total addrs 50000 lines 8 bytes 13.9MB\nagg: 5.72s rc=0 out 18.8MB\nAGG OK\n"}],"isError":false,"durationMs":6764,"timestamp":1794163164503}}

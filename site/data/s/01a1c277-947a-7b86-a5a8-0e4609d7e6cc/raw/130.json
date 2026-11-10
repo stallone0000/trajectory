@@ -1,1 +1,0 @@
-{"type":"message","id":"2d2c92e8","parentId":"9142adf1","timestamp":"2026-11-09T23:15:00.562Z","message":{"role":"toolResult","toolCallId":"call_10e5eda6744f4ec9bb7869fd","toolName":"bash","content":[{"type":"text","text":"done {}\nschema ok for 1400 documents\n"}],"isError":false,"durationMs":62127,"timestamp":1794266100562}}

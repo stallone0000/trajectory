@@ -1,1 +1,0 @@
-{"type":"message","id":"2c904902","parentId":"34411d06","timestamp":"2026-11-08T09:48:50.649Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-89d2931269483592","toolName":"bash","content":[{"type":"text","text":"MILP 12 demand max 0.05132889747619629\n"}],"isError":false,"durationMs":172,"timestamp":1794131330649}}

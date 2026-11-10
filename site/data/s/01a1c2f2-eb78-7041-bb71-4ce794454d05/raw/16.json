@@ -1,1 +1,0 @@
-{"type":"message","id":"27228eb3","parentId":"db6110d6","timestamp":"2026-11-10T01:35:52.318Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-9eaeb9e34c2a4f44","toolName":"bash","content":[{"type":"text","text":"dup keys: silently accepted by default\n{'a': nan}\n{'a': inf}\n{'a': 1.0}\n"}],"isError":false,"durationMs":100,"timestamp":1794274552318}}

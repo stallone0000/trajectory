@@ -1,0 +1,1 @@
+{"type":"message","id":"c190477f","parentId":"68395809","timestamp":"2026-11-08T14:55:06.189Z","message":{"role":"toolResult","toolCallId":"call_deef46d458a24451903ff6f0","toolName":"bash","content":[{"type":"text","text":"/bin/bash: /tmp/actual.json: No such file or directory\n\n\n[exit code 1]"}],"isError":true,"durationMs":20,"timestamp":1794149706189}}

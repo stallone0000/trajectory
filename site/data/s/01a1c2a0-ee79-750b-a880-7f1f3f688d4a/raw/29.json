@@ -1,0 +1,1 @@
+{"type":"message","id":"425c8212","parentId":"48f4410e","timestamp":"2026-11-09T23:38:36.314Z","message":{"role":"toolResult","toolCallId":"bash_12_d2884343","toolName":"bash","content":[{"type":"text","text":"random request fuzz passed\nenvelope type fuzz passed\n"}],"isError":false,"durationMs":26115,"timestamp":1794267516314}}

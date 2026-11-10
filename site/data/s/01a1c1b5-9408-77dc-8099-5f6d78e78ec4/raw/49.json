@@ -1,1 +1,0 @@
-{"type":"message","id":"4c9e5507","parentId":"f3169fd0","timestamp":"2026-11-09T19:20:35.537Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-bdf1f30f4e321fce","toolName":"bash","content":[{"type":"text","text":"FAIL canary properties: \n40/41 passed\n\n\n[exit code 1]"}],"isError":true,"durationMs":4283,"timestamp":1794252035537}}

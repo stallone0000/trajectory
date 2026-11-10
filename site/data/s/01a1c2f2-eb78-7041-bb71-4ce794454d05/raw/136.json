@@ -1,1 +1,0 @@
-{"type":"message","id":"8a0c6b42","parentId":"b468d23d","timestamp":"2026-11-10T02:00:41.460Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-bb4c8fb3fa92292c","toolName":"bash","content":[{"type":"text","text":"packets: 20000 frames: 60000 data: 2100000 events: 20001\nbytes: 11181295\n"}],"isError":false,"durationMs":256,"timestamp":1794276041460}}

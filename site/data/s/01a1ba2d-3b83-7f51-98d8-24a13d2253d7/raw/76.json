@@ -1,1 +1,0 @@
-{"type":"message","id":"4c9a1e74","parentId":"a35ba81f","timestamp":"2026-11-08T08:14:16.729Z","message":{"role":"toolResult","toolCallId":"call_01a1ba38edd1769f8bd155fc","toolName":"bash","content":[{"type":"text","text":"MAX2 MATCH\nreader on 200000-row image rc=2\n0 64\nbig image lookup ok\n"}],"isError":false,"durationMs":638,"timestamp":1794125656729}}

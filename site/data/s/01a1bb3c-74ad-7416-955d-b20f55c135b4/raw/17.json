@@ -1,1 +1,0 @@
-{"type":"message","id":"7c7d8511","parentId":"a18f3ee9","timestamp":"2026-11-08T13:19:33.183Z","message":{"role":"toolResult","toolCallId":"call_-7100516899561137155","toolName":"bash","content":[{"type":"text","text":"bytes per state 8448\nper packet us: 4.413567017763853\n"}],"isError":false,"durationMs":13067,"timestamp":1794143973183}}

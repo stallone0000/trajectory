@@ -1,0 +1,1 @@
+{"type":"message","id":"0fc87a7c","parentId":"f7853f42","timestamp":"2026-11-08T14:56:03.765Z","message":{"role":"toolResult","toolCallId":"call_e28b8cd0f1d7478da3c15b52","toolName":"bash","content":[{"type":"text","text":"OK 400 cases from seed 1000\n\nreal\t0m1.075s\nuser\t0m1.063s\nsys\t0m0.012s\n"}],"isError":false,"durationMs":1115,"timestamp":1794149763765}}

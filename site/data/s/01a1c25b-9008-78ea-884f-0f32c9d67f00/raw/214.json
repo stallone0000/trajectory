@@ -1,1 +1,0 @@
-{"type":"message","id":"dada284e","parentId":"917e7a16","timestamp":"2026-11-09T23:59:39.887Z","message":{"role":"toolResult","toolCallId":"call_6577209353514131833235e7","toolName":"bash","content":[{"type":"text","text":"instances 139\nmax |dual y| = 1.0  max |dual q| = 1.0\nmax |witness entry| = 16.0\n"}],"isError":false,"durationMs":7441,"timestamp":1794268779887}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"218aca27","parentId":"5888a3b6","timestamp":"2026-11-10T01:13:58.502Z","message":{"role":"toolResult","toolCallId":"call_-7101050884255115759","toolName":"bash","content":[{"type":"text","text":"'a.b'\nNone\nNone\n'a.b:8080'\n'a.b:81'\n<re.Match object; span=(0, 5), match='99999'>\n"}],"isError":false,"durationMs":37,"timestamp":1794273238502}}

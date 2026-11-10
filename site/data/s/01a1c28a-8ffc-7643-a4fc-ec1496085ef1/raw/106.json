@@ -1,0 +1,1 @@
+{"type":"message","id":"ed1a1ee2","parentId":"e437401d","timestamp":"2026-11-09T23:22:40.349Z","message":{"role":"toolResult","toolCallId":"call_01a1c29ed81175458f69f7f0","toolName":"bash","content":[{"type":"text","text":"schema OK on 200 random docs\n"}],"isError":false,"durationMs":7441,"timestamp":1794266560349}}

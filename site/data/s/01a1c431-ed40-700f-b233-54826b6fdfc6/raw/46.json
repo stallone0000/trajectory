@@ -1,1 +1,0 @@
-{"type":"message","id":"5ca1a0e7","parentId":"d3c8a8cb","timestamp":"2026-11-10T07:58:33.315Z","message":{"role":"toolResult","toolCallId":"call_15ae8fe9814240fca041012c","toolName":"bash","content":[{"type":"text","text":"25:    bits = M.eval_partition(ctxs, fns)\neval test done bad= 0 atom-evals= 66247\n"}],"isError":false,"durationMs":812,"timestamp":1794297513315}}

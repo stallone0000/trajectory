@@ -1,0 +1,1 @@
+{"type":"message","id":"7b972399","parentId":"34891eea","timestamp":"2026-11-09T21:12:06.530Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a8415188c1731490","toolName":"bash","content":[{"type":"text","text":"{\"error\":\"E_JSON\"} invalid utf8\n{\"error\":\"E_JSON\"} dup nested\n"}],"isError":false,"durationMs":83,"timestamp":1794258726530}}
