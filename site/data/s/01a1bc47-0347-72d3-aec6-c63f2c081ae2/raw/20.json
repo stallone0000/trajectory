@@ -1,1 +1,0 @@
-{"type":"custom_message","id":"344a2670","parentId":"2cece9c6","timestamp":"2026-11-08T18:07:47.359Z","customType":"mini-swe-agent.exit","content":"Agent exited: Timeout — litellm.Timeout: Timeout Error: OpenAIException - Error code: 504","display":true,"details":{"exit_status":"Timeout"}}

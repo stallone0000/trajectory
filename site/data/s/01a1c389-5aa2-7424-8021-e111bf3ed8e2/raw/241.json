@@ -1,1 +1,0 @@
-{"type":"custom_message","id":"5f3e91d4","parentId":"00872d69","timestamp":"2026-11-10T04:56:48.412Z","customType":"mini-swe-agent.exit","content":"Agent exited: InfrastructureError — invalid tool command","display":true,"details":{"exit_status":"InfrastructureError"}}
