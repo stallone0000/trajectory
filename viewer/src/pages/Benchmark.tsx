@@ -153,7 +153,7 @@ export function BenchmarkPage() {
 									<td className="pl-1.5 text-[15px] font-semibold tabular-nums">{rank ?? ""}</td>
 									<td>
 										<Link
-											to={`/public/mswea?project=${encodeURIComponent(project ?? "")}&model=${encodeURIComponent(r.name)}`}
+											to={`/mswea?project=${encodeURIComponent(project ?? "")}&model=${encodeURIComponent(r.name)}`}
 											className="inline-flex min-w-0 items-center gap-1.5 font-medium hover:underline"
 											title={`Open ${r.name}'s trajectories`}
 										>
@@ -230,7 +230,7 @@ export function BenchmarkPage() {
 									return (
 										<td key={t} className="size-8 p-0">
 											<Link
-												to={`/public/s/${encodeURIComponent(c.id)}`}
+												to={`/s/${encodeURIComponent(c.id)}`}
 												aria-label={label}
 												title={label}
 												onMouseEnter={() => setHover(c)}
