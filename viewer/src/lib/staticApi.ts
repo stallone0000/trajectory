@@ -62,10 +62,16 @@ export function createStaticFetch(base: string): typeof fetch {
 		const root = params.get("root") === "true";
 		// trajectory fork: sessions translated from mini-swe-agent live on their own page (`source=mswea`);
 		// every other list shows only native pi sessions.
-		const mswea = new Set((await load<{ projects: string[] }>("mswea-projects.json"))?.projects ?? []);
+		const msweaRaw = await load<{ projects?: string[]; sessions?: Record<string, { task?: string; verdict?: string }> }>("mswea-projects.json");
+		const mswea = new Set(msweaRaw?.projects ?? []);
+		const results = msweaRaw?.sessions ?? {};
 		const wantMswea = params.get("source") === "mswea";
+		const task = params.get("task");
+		const verdict = params.get("verdict");
 		const items = all.filter((s) => {
 			if (mswea.has(s.project ?? "") !== wantMswea) return false;
+			if (task && results[s.id]?.task !== task) return false;
+			if (verdict && results[s.id]?.verdict !== verdict) return false;
 			if (project && s.project !== project) return false;
 			if (device && s.device !== device) return false;
 			if (model && !(s.models ?? []).includes(model)) return false;

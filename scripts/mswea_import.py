@@ -8,7 +8,9 @@ manifest.csv columns (header required; extra columns ignored):
     task        task id                       -> title <benchmark>/<task>/<bare model name>
     model       model id as requested          (also shown in pika)
     provider    optional, e.g. 360             (default: model prefix)
-    score       optional, kept only in results.csv (the site never shows scores)
+    score       optional 1/0
+    verdict     optional pass|fail|unscored (default from score); shown as a badge on the site
+    detail      optional reason for unscored / how a verdict was decided
     thinking    optional thinking-level note
     label       optional suffix to tell repeated attempts apart (e.g. attempt2)
 
@@ -117,21 +119,29 @@ def main() -> None:
         dest = sessions_dir / f"{stem}.jsonl"
         dest.write_text(text, encoding="utf-8")
         files.append(dest)
-        results.append({"session_id": lines[0]["id"], "task": task, "model": model,
-                        "score": (r.get("score") or "").strip(), "label": label, "trajectory": str(traj_path)})
+        score = (r.get("score") or "").strip()
+        verdict = (r.get("verdict") or "").strip() or {"1": "pass", "0": "fail"}.get(score, "unscored")
+        results.append({"session_id": lines[0]["id"], "task": task, "model": model, "score": score, "verdict": verdict,
+                        "detail": (r.get("detail") or "").strip(), "label": label, "trajectory": str(traj_path)})
         print(f"{stem}: {len(lines)} lines" + (f", {n} secret occurrence(s) redacted" if n else ""))
 
     with (out / "results.csv").open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["session_id", "task", "model", "score", "label", "trajectory"])
+        w = csv.DictWriter(f, fieldnames=["session_id", "task", "model", "score", "verdict", "detail", "label", "trajectory"])
         w.writeheader()
         w.writerows(results)
     print(f"{len(files)} sessions -> {sessions_dir}; scores -> {out / 'results.csv'}; redacted {total_redacted}")
 
-    reg = HERE.parent / "mswea-projects.json"  # projects the static site shows on its mini-swe-agent page
-    known = json.loads(reg.read_text()) if reg.exists() else {"projects": []}
+    # The static site's mini-swe-agent page: its projects, and per session the task, model and verifier result.
+    reg = HERE.parent / "mswea-projects.json"
+    known = json.loads(reg.read_text()) if reg.exists() else {}
+    known.setdefault("projects", []); known.setdefault("sessions", {})
     if bench not in known["projects"]:
         known["projects"].append(bench)
-        reg.write_text(json.dumps(known, indent=1) + "\n")
+    known["sessions"] = {k: v for k, v in known["sessions"].items() if v.get("project") != bench}
+    for x in results:
+        known["sessions"][x["session_id"]] = {"project": bench, "task": x["task"], "model": x["model"],
+                                             "verdict": x["verdict"], **({"detail": x["detail"]} if x["detail"] else {})}
+    reg.write_text(json.dumps(known, indent=1, ensure_ascii=False) + "\n")
 
     if a.ingest:
         subprocess.run([str(HERE / "pika_serve.sh")], check=True) if a.server.endswith(":7171") else None

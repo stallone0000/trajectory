@@ -1,5 +1,587 @@
 {
  "projects": [
   "netbench-360"
- ]
+ ],
+ "sessions": {
+  "01a1b9ae-d3c7-7af6-9e69-afa1bdac6bca": {
+   "project": "netbench-360",
+   "task": "01-crosscheck",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1bc11-f1c9-7afc-b136-1b8fb3bf226e": {
+   "project": "netbench-360",
+   "task": "01-crosscheck",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "fail"
+  },
+  "01a1ba68-9dc5-7ba7-90c9-34d815de0ced": {
+   "project": "netbench-360",
+   "task": "01-crosscheck",
+   "model": "z-ai/glm-5.3",
+   "verdict": "unscored",
+   "detail": "output limit"
+  },
+  "01a1ba73-ba03-76ef-bb83-65cbed2348c6": {
+   "project": "netbench-360",
+   "task": "01-crosscheck",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "fail"
+  },
+  "01a1b9c4-5032-7b75-9f9a-646cdfad6212": {
+   "project": "netbench-360",
+   "task": "01-crosscheck",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1ba95-598f-7b9e-8886-36463ac0c008": {
+   "project": "netbench-360",
+   "task": "01-crosscheck",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1ba17-186d-7ca8-9a88-133abe8bb4d2": {
+   "project": "netbench-360",
+   "task": "02-planb",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1ba9c-368d-727d-8b88-9864ce1ab187": {
+   "project": "netbench-360",
+   "task": "02-planb",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1ba1b-8cba-7db1-a0a1-71c8c18d2ee6": {
+   "project": "netbench-360",
+   "task": "02-planb",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1ba27-ead2-7fda-8cbe-95130941d6c0": {
+   "project": "netbench-360",
+   "task": "02-planb",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass"
+  },
+  "01a1ba2d-3b83-7f51-98d8-24a13d2253d7": {
+   "project": "netbench-360",
+   "task": "02-planb",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1ba3c-7e00-7690-90f9-ccffbe672330": {
+   "project": "netbench-360",
+   "task": "02-planb",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1ba4a-793e-7078-ac0c-814831d7bfde": {
+   "project": "netbench-360",
+   "task": "03-scamp-trie",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1bc11-ef85-7786-b3ae-c8ef5cccc69a": {
+   "project": "netbench-360",
+   "task": "03-scamp-trie",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1bacb-686c-73d1-b153-7f14c011b20b": {
+   "project": "netbench-360",
+   "task": "03-scamp-trie",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1bad5-f1d1-781c-aad4-e7cf838714f6": {
+   "project": "netbench-360",
+   "task": "03-scamp-trie",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass"
+  },
+  "01a1bb05-e243-79b7-a7de-cf8e30339f41": {
+   "project": "netbench-360",
+   "task": "03-scamp-trie",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "unscored",
+   "detail": "output limit"
+  },
+  "01a1bc47-0347-79c1-b2b8-81bbc54d0942": {
+   "project": "netbench-360",
+   "task": "03-scamp-trie",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "unscored",
+   "detail": "API error"
+  },
+  "01a1bb17-f6d6-71fd-be1e-43f7d68387e1": {
+   "project": "netbench-360",
+   "task": "04-synecdoche",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1bbdd-4803-7602-ad7b-1ba5c7b80ff4": {
+   "project": "netbench-360",
+   "task": "04-synecdoche",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "fail"
+  },
+  "01a1bb3c-74ad-7416-955d-b20f55c135b4": {
+   "project": "netbench-360",
+   "task": "04-synecdoche",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1bb67-42d1-72ea-abff-a72920e3b515": {
+   "project": "netbench-360",
+   "task": "04-synecdoche",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass"
+  },
+  "01a1bbc7-c778-70ea-a163-ea9c0d0b641d": {
+   "project": "netbench-360",
+   "task": "04-synecdoche",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1bbc8-e67c-7eee-8a94-bb74e5c6412e": {
+   "project": "netbench-360",
+   "task": "04-synecdoche",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c19d-9aea-7a1c-a1d3-9b0e10ad57f0": {
+   "project": "netbench-360",
+   "task": "05-emicro",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "fail"
+  },
+  "01a1c19d-9af2-7974-9ac4-0cc0ad1da5ac": {
+   "project": "netbench-360",
+   "task": "05-emicro",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "fail"
+  },
+  "01a1c389-5aa2-7974-9c95-7bb38a341a13": {
+   "project": "netbench-360",
+   "task": "05-emicro",
+   "model": "z-ai/glm-5.3",
+   "verdict": "unscored",
+   "detail": "invalid tool command (NUL byte)"
+  },
+  "01a1c19d-9aeb-7faf-aa14-a045a56131e5": {
+   "project": "netbench-360",
+   "task": "05-emicro",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "fail"
+  },
+  "01a1c19d-9ae7-774f-8a2d-60ce66f1f155": {
+   "project": "netbench-360",
+   "task": "05-emicro",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "fail"
+  },
+  "01a1c3f9-72f4-7227-aba1-1a604bc43897": {
+   "project": "netbench-360",
+   "task": "05-emicro",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "fail"
+  },
+  "01a1c1a8-7462-7172-8b22-b317e4d87d5a": {
+   "project": "netbench-360",
+   "task": "06-residential-ipv6-firewall",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "fail"
+  },
+  "01a1c1b5-6c75-794f-bf50-36b840b42abf": {
+   "project": "netbench-360",
+   "task": "06-residential-ipv6-firewall",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c1b5-9408-77dc-8099-5f6d78e78ec4": {
+   "project": "netbench-360",
+   "task": "06-residential-ipv6-firewall",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1c1bd-0d50-754b-bd3c-95ce2cc59be7": {
+   "project": "netbench-360",
+   "task": "06-residential-ipv6-firewall",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass"
+  },
+  "01a1c1cb-03df-730d-91af-b247646c2965": {
+   "project": "netbench-360",
+   "task": "06-residential-ipv6-firewall",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c1dd-cc8a-7f1e-a4a1-149efa5aead6": {
+   "project": "netbench-360",
+   "task": "06-residential-ipv6-firewall",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "fail"
+  },
+  "01a1bb8a-0ad8-7e46-95e4-d954cd71ce68": {
+   "project": "netbench-360",
+   "task": "07-fenix",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1bb99-9d51-7686-b238-42f714114e70": {
+   "project": "netbench-360",
+   "task": "07-fenix",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1bbdb-2b07-77b5-b6e8-285ae5318971": {
+   "project": "netbench-360",
+   "task": "07-fenix",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1b9aa-b8ba-70eb-b610-0557da7c76b6": {
+   "project": "netbench-360",
+   "task": "07-fenix",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass"
+  },
+  "01a1bba2-1fb9-7966-8d7c-31e29dd913fd": {
+   "project": "netbench-360",
+   "task": "07-fenix",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1bba2-448a-7da9-b5a6-ab8012317c37": {
+   "project": "netbench-360",
+   "task": "07-fenix",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c1e8-6a10-7bde-97c4-559dc758e807": {
+   "project": "netbench-360",
+   "task": "08-scale-up-pifo",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1c1ee-938a-71bf-b08e-99469ff0cb7e": {
+   "project": "netbench-360",
+   "task": "08-scale-up-pifo",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c1f9-bc20-7890-812d-3647b6fd9926": {
+   "project": "netbench-360",
+   "task": "08-scale-up-pifo",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1c1fc-6994-7cd0-8c66-a9ffa4bb2ff7": {
+   "project": "netbench-360",
+   "task": "08-scale-up-pifo",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "unscored",
+   "detail": "format errors"
+  },
+  "01a1c200-b92a-7dad-ac86-5087dacb4513": {
+   "project": "netbench-360",
+   "task": "08-scale-up-pifo",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c202-0c8e-75f0-8b84-66938112dece": {
+   "project": "netbench-360",
+   "task": "08-scale-up-pifo",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c20a-bfcd-77d6-953d-0e7ae12210ce": {
+   "project": "netbench-360",
+   "task": "09-netnomos",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1c20f-1c15-7ce4-9476-32457bdffc5f": {
+   "project": "netbench-360",
+   "task": "09-netnomos",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c3d1-09db-78e1-a354-1149a320e606": {
+   "project": "netbench-360",
+   "task": "09-netnomos",
+   "model": "z-ai/glm-5.3",
+   "verdict": "unscored",
+   "detail": "API error"
+  },
+  "01a1c222-a78a-7cc6-bc58-b6423f2621dc": {
+   "project": "netbench-360",
+   "task": "09-netnomos",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "fail"
+  },
+  "01a1c223-2841-7e8b-ae40-b68d77ea69b2": {
+   "project": "netbench-360",
+   "task": "09-netnomos",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c229-6227-797f-a669-ac9c8a2d5afc": {
+   "project": "netbench-360",
+   "task": "10-omnipath-ping",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "fail"
+  },
+  "01a1c235-119c-75f1-91be-dd0312f56d66": {
+   "project": "netbench-360",
+   "task": "10-omnipath-ping",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c23c-73dd-728b-8204-91b505a7a9b2": {
+   "project": "netbench-360",
+   "task": "10-omnipath-ping",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1c246-937d-7ab7-b55b-e5a0aa8deef2": {
+   "project": "netbench-360",
+   "task": "10-omnipath-ping",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "fail"
+  },
+  "01a1c24e-94e8-7135-909e-0b86d178db46": {
+   "project": "netbench-360",
+   "task": "10-omnipath-ping",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c251-ba6c-71ba-850a-bc95599ca05f": {
+   "project": "netbench-360",
+   "task": "10-omnipath-ping",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c257-1392-7baf-be08-7c24d6fda7b2": {
+   "project": "netbench-360",
+   "task": "11-onlinete",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1c257-d15e-7613-9701-fee4836cd00b": {
+   "project": "netbench-360",
+   "task": "11-onlinete",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c25b-9008-78ea-884f-0f32c9d67f00": {
+   "project": "netbench-360",
+   "task": "11-onlinete",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1c260-d309-7ed7-b5aa-0bde0ea2ac71": {
+   "project": "netbench-360",
+   "task": "11-onlinete",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass"
+  },
+  "01a1c261-3131-750a-ae58-e155234cbc53": {
+   "project": "netbench-360",
+   "task": "11-onlinete",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c26a-be3a-7350-a04d-14f4c5e3bdb4": {
+   "project": "netbench-360",
+   "task": "11-onlinete",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c26d-1a58-774d-9707-a6c868dddd28": {
+   "project": "netbench-360",
+   "task": "12-eywa",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1c277-947a-7b86-a5a8-0e4609d7e6cc": {
+   "project": "netbench-360",
+   "task": "12-eywa",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c27d-9b52-7b3d-aace-11cc50b0fe9c": {
+   "project": "netbench-360",
+   "task": "12-eywa",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1c284-3f05-7a4d-922e-4a7b68e7c243": {
+   "project": "netbench-360",
+   "task": "12-eywa",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "unscored",
+   "detail": "format errors"
+  },
+  "01a1c28a-8ffc-77e4-92c3-9468b0123393": {
+   "project": "netbench-360",
+   "task": "12-eywa",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c29c-704d-79c7-a6a8-5fbe5cc20d00": {
+   "project": "netbench-360",
+   "task": "12-eywa",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c2a0-ee79-749b-9b5e-41f5e5a2a28c": {
+   "project": "netbench-360",
+   "task": "13-sipconfusion",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1c2a1-4af7-70a6-8d4a-7dec97e3e9a0": {
+   "project": "netbench-360",
+   "task": "13-sipconfusion",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c2b7-c5f8-7f3d-a5f0-867fc18b47ba": {
+   "project": "netbench-360",
+   "task": "13-sipconfusion",
+   "model": "z-ai/glm-5.3",
+   "verdict": "fail"
+  },
+  "01a1c2c5-b75f-7b21-88c1-298835884d0a": {
+   "project": "netbench-360",
+   "task": "13-sipconfusion",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass"
+  },
+  "01a1c2cc-6b93-77c6-9692-91466ac68c5b": {
+   "project": "netbench-360",
+   "task": "13-sipconfusion",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c370-da29-765d-bb19-f15006765183": {
+   "project": "netbench-360",
+   "task": "13-sipconfusion",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c2cf-8608-7ab7-9cb2-840abd834269": {
+   "project": "netbench-360",
+   "task": "14-h3act",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1c2d7-6fc9-702d-a283-f2f0d6fc0107": {
+   "project": "netbench-360",
+   "task": "14-h3act",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c2d9-4555-7769-b5f3-99d15fe63d30": {
+   "project": "netbench-360",
+   "task": "14-h3act",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1c2e1-36b7-7535-9ec2-6ce58c996a1a": {
+   "project": "netbench-360",
+   "task": "14-h3act",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "fail"
+  },
+  "01a1c2e1-7c9a-77c8-8dd4-118b788a8110": {
+   "project": "netbench-360",
+   "task": "14-h3act",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c2e2-ea8f-73c7-8421-2b2d37aec421": {
+   "project": "netbench-360",
+   "task": "14-h3act",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c2e5-3928-7b27-8ae0-0f2e3ec03dca": {
+   "project": "netbench-360",
+   "task": "15-quic-attacker",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1c2ec-6967-757c-a56c-efe129bae810": {
+   "project": "netbench-360",
+   "task": "15-quic-attacker",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "pass"
+  },
+  "01a1c2f2-eb78-7041-bb71-4ce794454d05": {
+   "project": "netbench-360",
+   "task": "15-quic-attacker",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass"
+  },
+  "01a1c2fb-b1ba-7be9-9424-6f3ec88f64a2": {
+   "project": "netbench-360",
+   "task": "15-quic-attacker",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "pass"
+  },
+  "01a1c305-8109-7649-8053-2a0b3cc36cce": {
+   "project": "netbench-360",
+   "task": "15-quic-attacker",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "pass"
+  },
+  "01a1c37c-5b96-76ec-9743-57dc28a8e185": {
+   "project": "netbench-360",
+   "task": "15-quic-attacker",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass"
+  },
+  "01a1c315-d26f-7bf6-9a8a-68a4787aec76": {
+   "project": "netbench-360",
+   "task": "16-epic",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass"
+  },
+  "01a1c31b-efb3-769d-bd35-8a0530001334": {
+   "project": "netbench-360",
+   "task": "16-epic",
+   "model": "z-ai/glm-5.3-flash",
+   "verdict": "fail"
+  },
+  "01a1c418-6cc5-7b68-925f-93a4214bc001": {
+   "project": "netbench-360",
+   "task": "16-epic",
+   "model": "z-ai/glm-5.3",
+   "verdict": "unscored",
+   "detail": "API error"
+  },
+  "01a1c320-86ee-7c95-a826-1a30bb7dba02": {
+   "project": "netbench-360",
+   "task": "16-epic",
+   "model": "huaweicloud/deepseek/deepseek-v4.1-flash",
+   "verdict": "fail",
+   "detail": "adjudicated: malformed output crashed the grader"
+  },
+  "01a1c33c-5445-7e11-897e-307b13cdeac5": {
+   "project": "netbench-360",
+   "task": "16-epic",
+   "model": "minimax/MiniMax-M3.1-Flash",
+   "verdict": "fail"
+  },
+  "01a1c458-8af9-785f-925f-2b42e9ab5743": {
+   "project": "netbench-360",
+   "task": "16-epic",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "unscored",
+   "detail": "API error"
+  }
+ }
 }

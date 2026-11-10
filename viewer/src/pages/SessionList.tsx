@@ -1,5 +1,5 @@
 import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
-import { MsweaNotice } from "../lib/mswea";
+import { MsweaNotice, VERDICT_LABELS, VerdictBadge, useMsweaData, type Verdict } from "../lib/mswea";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { useSearchParams } from "react-router";
@@ -165,6 +165,7 @@ function SessionCard({ session, depth = 0, lines, tones, parent, tree, toggle, s
 					{tree && <KindIcon kind={kind} />}
 					<span className="min-w-0 text-[13.5px] font-medium text-ink max-md:line-clamp-2 max-md:[overflow-wrap:anywhere] md:truncate">{title}</span>
 					<span className="mono shrink-0 text-[11.5px] leading-5 text-muted max-md:hidden">{session.id.slice(0, 8)}</span>
+					<VerdictBadge id={session.id} />
 					{isLive(session.lastAt) && (
 						<span className="flex shrink-0" data-live="">
 							<Pill tone="green">Live</Pill>
@@ -402,8 +403,9 @@ function BrowseIndex() {
 	);
 }
 
-function Filters() {
+function Filters({ mswea = false }: { mswea?: boolean }) {
 	const api = useApi();
+	const msweaInfo = useMsweaData();
 	const [params, setParams] = useSearchParams();
 	const facets = useQuery({ queryKey: ["facets"], queryFn: () => api.facets(), staleTime: 60_000 });
 
@@ -463,13 +465,52 @@ function Filters() {
 	const to = params.get("to") ?? "";
 	const dateValue = from || to ? `${from || "…"} → ${to || "…"}` : undefined;
 	const includeChildren = params.get("children") === "1";
-	const active = ["device", "project", "model", "from", "to"].some((key) => params.get(key));
+	const active = ["device", "project", "model", "from", "to", "task", "verdict"].some((key) => params.get(key));
+	// trajectory fork: on the mini-swe-agent page, filter by benchmark task and verifier result as well.
+	const simple = (key: "task" | "verdict", label: string, icon: "tag" | "alert", options: FilterOption[]) => (
+		<FilterChip key={key} icon={icon} label={label} value={optionLabel(options, params.get(key))}>
+			{(close) => (
+				<>
+					<MenuOption
+						selected={!params.get(key)}
+						onSelect={() => {
+							set(key, undefined);
+							close();
+						}}
+					>
+						Any {label.toLowerCase()}
+					</MenuOption>
+					{options.map((option) => (
+						<MenuOption
+							key={option.value}
+							selected={params.get(key) === option.value}
+							onSelect={() => {
+								set(key, option.value);
+								close();
+							}}
+						>
+							{option.label}
+						</MenuOption>
+					))}
+				</>
+			)}
+		</FilterChip>
+	);
+	const tasks = [...new Set([...(msweaInfo?.sessions.values() ?? [])].map((s) => s.task))].sort();
 
 	return (
 		<div className="flex flex-wrap items-center gap-2" aria-label="Filters">
 			{facet("device", "Device", "device", deviceOptions(facets.data?.devices ?? []))}
 			{facet("project", "Project", "folder", plainOptions(facets.data?.projects ?? []))}
+			{mswea && simple("task", "Task", "tag", plainOptions(tasks))}
 			{facet("model", "Model", "model", plainOptions(facets.data?.models ?? []))}
+			{mswea &&
+				simple(
+					"verdict",
+					"Result",
+					"alert",
+					(["pass", "fail", "unscored"] as Verdict[]).map((v) => ({ value: v, label: VERDICT_LABELS[v] })),
+				)}
 			<FilterChip icon="calendar" label="Date" value={dateValue}>
 				{() => (
 					<div className="space-y-2 p-2 text-[13px]">
@@ -527,8 +568,9 @@ export function SessionListPage({ source }: { source?: "mswea" } = {}) {
 	const [params] = useSearchParams();
 	const filters = useMemo(() => filtersFromParams(params), [params]);
 	const sessions = useInfiniteQuery({
-		queryKey: ["sessions", filters, source],
-		queryFn: ({ pageParam }) => api.sessions(filters, pageParam, PAGE_SIZE, source),
+		queryKey: ["sessions", filters, source, params.get("task"), params.get("verdict")],
+		queryFn: ({ pageParam }) =>
+			api.sessions(filters, pageParam, PAGE_SIZE, source ? { source, task: params.get("task") ?? undefined, verdict: params.get("verdict") ?? undefined } : undefined),
 		initialPageParam: undefined as string | undefined,
 		getNextPageParam: (last) => last.nextCursor ?? undefined,
 	});
@@ -614,7 +656,7 @@ export function SessionListPage({ source }: { source?: "mswea" } = {}) {
 			<PageTitle>{source === "mswea" ? "mini-swe-agent trajectories" : api.publicView ? "Published trajectories" : "Sessions"}</PageTitle>
 			{source === "mswea" && <MsweaNotice />}
 			<div className="mt-5">
-				<Filters />
+				<Filters mswea={source === "mswea"} />
 			</div>
 			<div className={cx("mt-6", !api.publicView && "min-[1100px]:grid min-[1100px]:grid-cols-[184px_minmax(0,1fr)] min-[1100px]:gap-x-10")}>
 				{!api.publicView && <BrowseIndex />}

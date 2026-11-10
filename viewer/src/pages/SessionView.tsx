@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { MsweaNotice, useIsMswea } from "../lib/mswea";
+import { MsweaNotice, VerdictBadge, useIsMswea } from "../lib/mswea";
 import { lazy, Suspense, useCallback, useMemo, useState, type ReactNode } from "react";
 import { useParams, useSearchParams } from "react-router";
 import { PikaLink as Link } from "../components/PikaLink";
@@ -271,6 +271,9 @@ function SessionPage({ id }: { id: string }) {
 						>
 							{session.data.title || "Untitled session"}
 						</h1>
+						<span className="mt-[5px]">
+							<VerdictBadge id={session.data.id} large />
+						</span>
 						{(live || online || session.data.hidden) && (
 							<span className="mt-[7px] inline-flex shrink-0 gap-1.5 text-[12px] leading-5" data-title-badges="">
 								{live && (

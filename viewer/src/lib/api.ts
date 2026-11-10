@@ -238,8 +238,8 @@ export class PikaApi {
 		return this.request("facets");
 	}
 
-	sessions(filters: SessionFilters, cursor?: string, limit?: number, source?: "mswea"): Promise<Page<SessionSummary>> {
-		return this.request("sessions", { ...filters, root: filters.root ? true : undefined, cursor, limit, source });
+	sessions(filters: SessionFilters, cursor?: string, limit?: number, extra?: { source?: string; task?: string; verdict?: string }): Promise<Page<SessionSummary>> {
+		return this.request("sessions", { ...filters, root: filters.root ? true : undefined, cursor, limit, ...extra });
 	}
 
 	session(id: string): Promise<SessionDetail> {
