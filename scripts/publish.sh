@@ -16,7 +16,9 @@ if [[ $# -gt 0 ]]; then
   [[ -n "$PROJECT" ]] || { echo "--project NAME is required when ingesting files" >&2; exit 2; }
   python3 -I scripts/pika_ingest.py --token-file /root/pika-data/ingest.token --project "$PROJECT" --publish "$@"
 fi
-python3 -I scripts/pika_publish_all.py
+# PUBLISH_ALL=0 publishes only projects already marked published in pika (e.g. after unpublishing someone else's
+# test sessions); the default keeps the original behaviour of publishing every project.
+if [[ "${PUBLISH_ALL:-1}" == 1 ]]; then python3 -I scripts/pika_publish_all.py; fi
 scripts/build_site.sh
 
 git add -A

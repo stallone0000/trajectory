@@ -1,1 +1,0 @@
-{"type":"message","id":"bae41585","parentId":"37aec22f","timestamp":"2026-11-10T15:17:06.740Z","message":{"role":"toolResult","toolCallId":"1d6c5ef09b682000","toolName":"read","content":[{"type":"text","text":"ENOENT: no such file or directory, access '/root/bench/smoke-new/ERNIE-5.1/out.txt'"}],"details":{},"isError":true,"durationMs":3,"timestamp":1794323826740}}

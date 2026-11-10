@@ -1,1 +1,0 @@
-{"type":"message","id":"6d24c932","parentId":"b4d6b55b","timestamp":"2026-11-10T15:36:55.254Z","message":{"role":"toolResult","toolCallId":"call_49505346b9b14007b4d710c4","toolName":"read","content":[{"type":"text","text":"OK_DONE"}],"isError":false,"durationMs":8,"timestamp":1794325015254}}

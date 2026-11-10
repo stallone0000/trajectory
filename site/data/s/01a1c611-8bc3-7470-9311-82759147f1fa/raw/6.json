@@ -1,1 +1,0 @@
-{"type":"message","id":"9943d015","parentId":"ba2f47f1","timestamp":"2026-11-10T15:26:47.884Z","message":{"role":"toolResult","toolCallId":"1d6c612719a9a000","toolName":"write","content":[{"type":"text","text":"Successfully wrote to /root/bench/smoke-all/ERNIE-5.1/out.txt"}],"isError":false,"durationMs":6,"timestamp":1794324407884}}
