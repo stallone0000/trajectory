@@ -1,1 +1,0 @@
-{"type":"message","id":"cda72fcb","parentId":"ec26678e","timestamp":"2026-11-10T01:19:27.592Z","message":{"role":"toolResult","toolCallId":"call_4e3e52d51ed14c96b72a0c6d","toolName":"bash","content":[{"type":"text","text":"67:    return {\"routes\": ROUTES, \"events\": out}, None\ndone, bad = 0\n"}],"isError":false,"durationMs":14237,"timestamp":1794273567592}}

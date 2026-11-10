@@ -1,0 +1,1 @@
+{"type":"message","id":"9d99a534","parentId":"8baa028d","timestamp":"2026-11-09T23:45:08.407Z","message":{"role":"toolResult","toolCallId":"call_05a74b541ac247488f7b5a24","toolName":"bash","content":[{"type":"text","text":"written\nfuzz2 seed 11 failures 0\nfuzz2 seed 12 failures 0\n"}],"isError":false,"durationMs":34254,"timestamp":1794267908407}}

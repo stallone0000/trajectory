@@ -1,1 +1,0 @@
-{"type":"message","id":"147469f9","parentId":"98c1ad28","timestamp":"2026-11-08T18:14:47.985Z","message":{"role":"toolResult","toolCallId":"call_-7103858796434285112","toolName":"bash","content":[{"type":"text","text":"---- simpler: instrument model.py to expose viol\n"}],"isError":false,"durationMs":45191,"timestamp":1794161687985}}

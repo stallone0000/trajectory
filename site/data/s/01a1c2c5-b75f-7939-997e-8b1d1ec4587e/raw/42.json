@@ -1,1 +1,0 @@
-{"type":"message","id":"dc675461","parentId":"78ee5ae8","timestamp":"2026-11-10T00:13:31.343Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-9fe17a4555fe6b0b","toolName":"bash","content":[{"type":"text","text":"envelope fuzz bad= 0\nraw fuzz bad= 0\n"}],"isError":false,"durationMs":97154,"timestamp":1794269611343}}

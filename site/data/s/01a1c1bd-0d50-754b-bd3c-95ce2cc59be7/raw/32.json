@@ -1,0 +1,1 @@
+{"type":"message","id":"249e0508","parentId":"a31646f0","timestamp":"2026-11-09T19:19:07.928Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-ba6d52b6b12da829","toolName":"bash","content":[{"type":"text","text":"2 0 selected /64 overlaps within window\n"}],"isError":false,"durationMs":98,"timestamp":1794251947928}}

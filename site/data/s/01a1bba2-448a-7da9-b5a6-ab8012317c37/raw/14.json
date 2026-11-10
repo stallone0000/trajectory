@@ -1,0 +1,1 @@
+{"type":"message","id":"20b49196","parentId":"ec762f95","timestamp":"2026-11-08T14:59:19.670Z","message":{"role":"toolResult","toolCallId":"call_2aa7ac136d86443a869b0187","toolName":"bash","content":[{"type":"text","text":"('F', '1e400')\n[[[[1]]]]\n1000\n"}],"isError":false,"durationMs":126,"timestamp":1794149959670}}

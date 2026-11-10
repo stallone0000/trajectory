@@ -1,0 +1,1 @@
+{"type":"message","id":"e5997e80","parentId":"e0e75f71","timestamp":"2026-11-08T13:54:33.246Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-9604442546a6a84e","toolName":"bash","content":[{"type":"text","text":"Public example and restart sanity passed\n"}],"isError":false,"durationMs":182,"timestamp":1794146073246}}

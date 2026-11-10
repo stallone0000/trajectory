@@ -1,0 +1,1 @@
+{"type":"message","id":"23899cda","parentId":"3829f2c8","timestamp":"2026-11-10T02:27:40.447Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"360","model":"moonshotai/kimi-k3.1-pro","stopReason":"error","errorMessage":"request failed","timestamp":1794277529925,"durationMs":130522}}

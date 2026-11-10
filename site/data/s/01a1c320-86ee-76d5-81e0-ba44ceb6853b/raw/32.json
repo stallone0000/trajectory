@@ -1,1 +1,0 @@
-{"type":"message","id":"eb584040","parentId":"ea59bb98","timestamp":"2026-11-10T02:00:43.246Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-96619ef2c69b55af","toolName":"bash","content":[{"type":"text","text":"rc 0 time 0.061 out b'{\"error\": \"E_LIMIT\"}\\n' b''\n"}],"isError":false,"durationMs":196,"timestamp":1794276043246}}

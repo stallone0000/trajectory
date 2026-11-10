@@ -1,1 +1,0 @@
-{"type":"message","id":"9361ccf3","parentId":"3811a1c1","timestamp":"2026-11-09T23:18:46.120Z","message":{"role":"toolResult","toolCallId":"call_01a1c29aafea771bb6ccab40","toolName":"bash","content":[{"type":"text","text":"fuzz subprocess OK: valid=96 invalid=504\n"}],"isError":false,"durationMs":45550,"timestamp":1794266326120}}

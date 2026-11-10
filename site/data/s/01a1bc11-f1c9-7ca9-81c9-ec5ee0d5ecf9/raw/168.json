@@ -1,1 +1,0 @@
-{"type":"message","id":"3418a659","parentId":"32a2d44a","timestamp":"2026-11-08T18:30:17.199Z","message":{"role":"toolResult","toolCallId":"call_-7101066414856859340","toolName":"bash","content":[{"type":"text","text":"ps: can't open '/proc': No such file or directory\n0\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180156,"timestamp":1794162617199}}

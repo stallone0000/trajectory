@@ -1,0 +1,1 @@
+{"type":"message","id":"28f2d8cb","parentId":"393433e1","timestamp":"2026-11-09T19:52:45.039Z","message":{"role":"toolResult","toolCallId":"call_9def4b12a0824b6d85054e18","toolName":"bash","content":[{"type":"text","text":"manifest/cli failures: 0\n"}],"isError":false,"durationMs":5975,"timestamp":1794253965039}}

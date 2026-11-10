@@ -1,1 +1,0 @@
-{"type":"message","id":"12545797","parentId":"8db4a10d","timestamp":"2026-11-09T20:55:46.146Z","message":{"role":"toolResult","toolCallId":"call_5238c6342f094c9a93ab49ff","toolName":"bash","content":[{"type":"text","text":"513:def train_source_masks(source_names, ctx_sources, n_train):\nsyntax ok\n"}],"isError":false,"durationMs":101,"timestamp":1794257746146}}

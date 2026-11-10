@@ -1,1 +1,0 @@
-{"type":"message","id":"c5a1fddc","parentId":"8f5fed89","timestamp":"2026-11-09T19:07:42.113Z","message":{"role":"toolResult","toolCallId":"bash_15_a0725437","toolName":"bash","content":[{"type":"text","text":"bytes 12165194 accepted 208896 duplicates 91104 diagnostics 0 segments 2048 states {'alias_suspect'}\n"}],"isError":false,"durationMs":8573,"timestamp":1794251262113}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"2906f1f4","parentId":"19f6d2c4","timestamp":"2026-11-09T22:53:29.860Z","message":{"role":"toolResult","toolCallId":"call_8c00ff413e3e436e89e511fd","toolName":"bash","content":[{"type":"text","text":"done {'rejected': (82, [3, 20, 26, 38, 44])}\n"}],"isError":false,"durationMs":21046,"timestamp":1794264809860}}

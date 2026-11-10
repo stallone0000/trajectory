@@ -1,1 +1,0 @@
-{"type":"message","id":"985cdab1","parentId":"8a80e77c","timestamp":"2026-11-08T18:33:45.779Z","message":{"role":"toolResult","toolCallId":"call_-7101061776292175875","toolName":"bash","content":[{"type":"text","text":"start\nimported\nsat\ndone\nexit=0\n"}],"isError":false,"durationMs":30044,"timestamp":1794162825779}}

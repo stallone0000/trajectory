@@ -1,1 +1,0 @@
-{"type":"message","id":"151166ad","parentId":"284d356c","timestamp":"2026-11-10T03:21:35.034Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-853bf9af72811e2b","toolName":"bash","content":[{"type":"text","text":"ok\n0\nPublic examples passed.\ndone bad= 0\ndone bad= 0 150\n"}],"isError":false,"durationMs":370,"timestamp":1794280895034}}

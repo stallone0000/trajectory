@@ -1,0 +1,1 @@
+{"type":"message","id":"ab669b77","parentId":"3cfa9821","timestamp":"2026-11-08T17:33:31.149Z","message":{"role":"toolResult","toolCallId":"call_25396a56ec9449699d8a8e88","toolName":"bash","content":[{"type":"text","text":"/workspace\n---\n/bin/bash: ls: command not found\n---\n/bin/bash: ls: command not found\n"}],"isError":false,"durationMs":21,"timestamp":1794159211149}}

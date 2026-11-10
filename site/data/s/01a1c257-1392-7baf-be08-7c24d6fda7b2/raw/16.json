@@ -1,0 +1,1 @@
+{"type":"message","id":"fae2a832","parentId":"11cc72ac","timestamp":"2026-11-09T22:12:02.877Z","message":{"role":"toolResult","toolCallId":"bash_5_3f794e2e","toolName":"bash","content":[{"type":"text","text":"runtime 0.7456204891204834 return 0 stderr \n{'infeasible': 85, 'optimal': 15}\n"}],"isError":false,"durationMs":1258,"timestamp":1794262322877}}

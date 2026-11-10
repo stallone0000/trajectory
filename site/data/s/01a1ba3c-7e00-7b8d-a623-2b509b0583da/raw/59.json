@@ -1,1 +1,0 @@
-{"type":"message","id":"487f08ef","parentId":"4cc232ea","timestamp":"2026-11-08T09:02:00.014Z","message":{"role":"toolResult","toolCallId":"call_fc0415c6eceb4d67b386909c","toolName":"bash","content":[{"type":"text","text":"-1 -1\n512MiB OK\n4294967294 33\n512MiB BIG OK\n"}],"isError":false,"durationMs":5476,"timestamp":1794128520014}}

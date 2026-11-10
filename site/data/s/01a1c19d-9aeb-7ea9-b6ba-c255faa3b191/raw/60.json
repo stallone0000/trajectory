@@ -1,1 +1,0 @@
-{"type":"message","id":"3d91ab19","parentId":"f4f24039","timestamp":"2026-11-09T18:48:43.905Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-806b20dbf97631b0","toolName":"bash","content":[{"type":"text","text":"MISMATCH 0 31 1\n\n\n[exit code 1]"}],"isError":true,"durationMs":136,"timestamp":1794250123905}}

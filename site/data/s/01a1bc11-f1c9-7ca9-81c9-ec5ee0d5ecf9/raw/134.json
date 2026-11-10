@@ -1,1 +1,0 @@
-{"type":"message","id":"4e9abcb4","parentId":"31fabe9a","timestamp":"2026-11-08T18:04:10.047Z","message":{"role":"toolResult","toolCallId":"call_-7101065830741308244","toolName":"bash","content":[{"type":"text","text":"/bin/bash: pkill: command not found\nstarted\n"}],"isError":false,"durationMs":21156,"timestamp":1794161050047}}

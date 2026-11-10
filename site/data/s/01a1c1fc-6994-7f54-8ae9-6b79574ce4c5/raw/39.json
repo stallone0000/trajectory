@@ -1,1 +1,0 @@
-{"type":"message","id":"26a53014","parentId":"070c2a4e","timestamp":"2026-11-09T20:30:47.939Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"360","model":"huaweicloud/deepseek/deepseek-v4.1-flash","stopReason":"error","errorMessage":"request failed","timestamp":1794256242072,"durationMs":5867}}

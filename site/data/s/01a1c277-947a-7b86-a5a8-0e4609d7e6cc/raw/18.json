@@ -1,0 +1,1 @@
+{"type":"message","id":"992f6dfa","parentId":"1458d4bd","timestamp":"2026-11-09T22:47:10.943Z","message":{"role":"toolResult","toolCallId":"call_649045dc5f4949b889d59a78","toolName":"bash","content":[{"type":"text","text":"nan caught nonfinite\n<class 'float'> inf\n{'a': 1.0}\nTrue\n"}],"isError":false,"durationMs":94,"timestamp":1794264430943}}

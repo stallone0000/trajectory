@@ -1,0 +1,1 @@
+{"type":"message","id":"864d1400","parentId":"cfbce202","timestamp":"2026-11-08T14:54:52.659Z","message":{"role":"toolResult","toolCallId":"call_9ecfb162901f4a5b8301345a","toolName":"bash","content":[{"type":"text","text":"ls: /tmp: No such file or directory\nrc=0\n{\"error\":\"invalid-input\"}"}],"isError":false,"durationMs":62,"timestamp":1794149692659}}

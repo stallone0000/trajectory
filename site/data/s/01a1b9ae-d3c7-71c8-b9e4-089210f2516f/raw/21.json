@@ -1,1 +1,0 @@
-{"type":"message","id":"ce5da9ef","parentId":"942c266d","timestamp":"2026-11-08T05:51:59.481Z","message":{"role":"toolResult","toolCallId":"bash_8_7f41031d","toolName":"bash","content":[{"type":"text","text":"return 0 wall 0.2875640392303467 out 4659 err \nambiguous 0 [[0, 10000], [0, 10000]]\n"}],"isError":false,"durationMs":388,"timestamp":1794117119481}}

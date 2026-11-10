@@ -5,7 +5,7 @@
         --usd-per-cny 0.1408 > scripts/prices-360.json
 
 The table repeats: model name, TPM, RPM, input price, output price. Only per-1M-token prices ("¥X / 1M tokens")
-are kept. 360 lists no cache price, so cached input is billed at the input price.
+are kept. Cache hits are billed at cache_read_ratio x the input price (360: 1/10).
 """
 import argparse, json, re, sys
 PRICE = re.compile(r"^¥\s*([0-9.]+)\s*/\s*1M tokens$")
@@ -17,7 +17,7 @@ for i in range(len(lines) - 4):
     pin, pout = PRICE.match(lines[i + 3]), PRICE.match(lines[i + 4])
     if pin and pout and re.fullmatch(r"[0-9,]+", lines[i + 1]) and re.fullmatch(r"[0-9,]+", lines[i + 2]):
         models[lines[i]] = {"input_cny_per_m": float(pin.group(1)), "output_cny_per_m": float(pout.group(1))}
-json.dump({"source": a.table, "currency": "CNY", "usd_per_cny": a.usd_per_cny,
-           "note": "360 list prices per 1M tokens; cached input billed as input; USD = CNY * usd_per_cny",
+json.dump({"source": a.table, "currency": "CNY", "usd_per_cny": a.usd_per_cny, "cache_read_ratio": 0.1,
+           "note": "360 list prices per 1M tokens; cache hits billed at 1/10 of input; USD = CNY * usd_per_cny",
            "models": models}, sys.stdout, ensure_ascii=False, indent=1)
 print(f"{len(models)} models", file=sys.stderr)

@@ -1,1 +1,0 @@
-{"type":"message","id":"d44e4c4b","parentId":"055027da","timestamp":"2026-11-10T00:17:43.053Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-8751ceee9904b272","toolName":"bash","content":[{"type":"text","text":"ok\nFAIL to mismatch/result \nFAIL to with params/result \nFAILS: 2\n"}],"isError":false,"durationMs":1209,"timestamp":1794269863053}}

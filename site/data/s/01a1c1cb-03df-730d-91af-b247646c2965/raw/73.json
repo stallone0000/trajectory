@@ -1,0 +1,1 @@
+{"type":"message","id":"1ff05030","parentId":"d4daf9a3","timestamp":"2026-11-09T20:04:04.787Z","message":{"role":"toolResult","toolCallId":"call_58d93b52fc684bb3a4aace5a","toolName":"bash","content":[{"type":"text","text":"sed: bad option in substitution expression\n\n\n[exit code 1]"}],"isError":true,"durationMs":23,"timestamp":1794254644787}}

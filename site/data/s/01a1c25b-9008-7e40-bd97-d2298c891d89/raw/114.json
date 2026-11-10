@@ -1,1 +1,0 @@
-{"type":"message","id":"f91995f1","parentId":"b99c8ef7","timestamp":"2026-11-09T23:20:37.455Z","message":{"role":"toolResult","toolCallId":"call_a4048b2581e14373a763fe26","toolName":"bash","content":[{"type":"text","text":"4 req_culprit.jsonl\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180115,"timestamp":1794266437455}}

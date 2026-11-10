@@ -1,0 +1,1 @@
+{"type":"message","id":"56c41505","parentId":"3ae8fc1a","timestamp":"2026-11-10T02:09:27.509Z","message":{"role":"toolResult","toolCallId":"bash_32_1dc7569f","toolName":"bash","content":[{"type":"text","text":"{\"error\":\"E_LIMIT\"}\n{\"error\":\"E_SCHEMA\"}\n{\"error\":\"E_SCHEMA\"}\n b''\n"}],"isError":false,"durationMs":104,"timestamp":1794276567509}}

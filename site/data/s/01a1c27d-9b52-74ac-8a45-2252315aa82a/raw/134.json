@@ -1,1 +1,0 @@
-{"type":"message","id":"68a77a18","parentId":"6149fe6d","timestamp":"2026-11-09T23:17:15.664Z","message":{"role":"toolResult","toolCallId":"call_da3bb06e9f3246508df4de5e","toolName":"bash","content":[{"type":"text","text":"cost selection tests: 8 checks, 0 failures\nexit=0\n"}],"isError":false,"durationMs":159,"timestamp":1794266235664}}

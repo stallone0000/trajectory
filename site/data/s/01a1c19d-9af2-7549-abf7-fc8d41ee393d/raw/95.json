@@ -1,1 +1,0 @@
-{"type":"message","id":"5171ca2d","parentId":"329c9fc4","timestamp":"2026-11-09T19:29:59.172Z","message":{"role":"toolResult","toolCallId":"call_2b721466b69449e286c8198e","toolName":"bash","content":[{"type":"text","text":"depth ok? True\n{'ok': False, 'error': 'E_LIMIT'}\n{'ok': False, 'error': 'E_LIMIT'}\n"}],"isError":false,"durationMs":68,"timestamp":1794252599172}}

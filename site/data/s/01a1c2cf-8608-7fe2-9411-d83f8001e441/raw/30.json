@@ -1,1 +1,0 @@
-{"type":"message","id":"accc07e7","parentId":"12eaa8fe","timestamp":"2026-11-10T00:30:12.193Z","message":{"role":"toolResult","toolCallId":"bash_12_fe6406be","toolName":"bash","content":[{"type":"text","text":"100,000 arbitrary Latin-1 authorities handled without exceptions\n"}],"isError":false,"durationMs":1258,"timestamp":1794270612193}}

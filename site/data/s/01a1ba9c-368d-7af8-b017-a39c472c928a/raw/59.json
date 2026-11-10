@@ -1,1 +1,0 @@
-{"type":"message","id":"be9f77bd","parentId":"55d1958e","timestamp":"2026-11-08T10:26:45.534Z","message":{"role":"toolResult","toolCallId":"call_-7101067170771103648","toolName":"bash","content":[{"type":"text","text":"EQPAIR 1929 a3f284c694650000 [REDACTED:SECRET]\n"}],"isError":false,"durationMs":5390,"timestamp":1794133605534}}

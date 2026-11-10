@@ -2,7 +2,8 @@
  "source": "/root/api-agent-audit-20261107/qihoo360/360model_20261107.txt",
  "currency": "CNY",
  "usd_per_cny": 0.1408,
- "note": "360 list prices per 1M tokens; cached input billed as input; USD = CNY * usd_per_cny",
+ "cache_read_ratio": 0.1,
+ "note": "360 list prices per 1M tokens; cache hits billed at 1/10 of input; USD = CNY * usd_per_cny",
  "models": {
   "ppinfra/anthropic/claude-sonnet-5": {
    "input_cny_per_m": 14.0,

@@ -1,1 +1,0 @@
-{"type":"message","id":"a8bb839f","parentId":"5a453edf","timestamp":"2026-11-10T04:28:43.501Z","message":{"role":"toolResult","toolCallId":"call_-7100336304776279814","toolName":"bash","content":[{"type":"text","text":"All four public examples passed.\nOK: 100 bundles validated\nOK: 20 big bundles\n"}],"isError":false,"durationMs":450,"timestamp":1794284923501}}

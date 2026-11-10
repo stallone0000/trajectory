@@ -1,0 +1,1 @@
+{"type":"message","id":"45692cea","parentId":"05bff3a8","timestamp":"2026-11-08T16:32:14.993Z","message":{"role":"toolResult","toolCallId":"call_-7100503258745011433","toolName":"bash","content":[{"type":"text","text":"prog bytes 203877\npackets 102400 time 1.4 peak RSS MB 46.53515625\nckpt bytes 1092542\n"}],"isError":false,"durationMs":1665,"timestamp":1794155534993}}

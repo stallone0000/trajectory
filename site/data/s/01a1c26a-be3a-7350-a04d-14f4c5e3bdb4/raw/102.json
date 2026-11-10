@@ -1,0 +1,1 @@
+{"type":"message","id":"352fc3a4","parentId":"e439cbc8","timestamp":"2026-11-09T23:41:54.569Z","message":{"role":"toolResult","toolCallId":"call_e51167e3be6e4dda82c425b7","toolName":"bash","content":[{"type":"text","text":"campaign seed=11 n=250 time=4.1s fails=0 stats={'infeasible': 165, 'optimal': 85}\n"}],"isError":false,"durationMs":25676,"timestamp":1794267714569}}

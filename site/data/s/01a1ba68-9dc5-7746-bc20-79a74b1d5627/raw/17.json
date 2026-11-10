@@ -1,1 +1,0 @@
-{"type":"custom_message","id":"acb55272","parentId":"b0709ebe","timestamp":"2026-11-08T09:06:29.628Z","customType":"mini-swe-agent.exit","content":"Agent exited: output_limit_exhausted — Output limit exhausted","display":true,"details":{"exit_status":"output_limit_exhausted"}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"1cda8e92","parentId":"7d5ee4b4","timestamp":"2026-11-09T23:14:27.403Z","message":{"role":"toolResult","toolCallId":"call_750ec8b90ec747859c0357c0","toolName":"bash","content":[{"type":"text","text":"started background fuzz\nfuzz777.log\n"}],"isError":false,"durationMs":2026,"timestamp":1794266067403}}

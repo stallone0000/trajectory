@@ -1,0 +1,1 @@
+{"type":"message","id":"83df9da0","parentId":"c85ca1d3","timestamp":"2026-11-08T18:08:22.286Z","message":{"role":"toolResult","toolCallId":"call_ea7858bf84184e7bafb34226","toolName":"bash","content":[{"type":"text","text":"rc=0\nforeign-image acceptance OK\nimage rejection OK\n"}],"isError":false,"durationMs":4387,"timestamp":1794161302286}}

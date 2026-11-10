@@ -1,0 +1,1 @@
+{"type":"message","id":"02b10154","parentId":"06146ad4","timestamp":"2026-11-08T10:42:42.505Z","message":{"role":"toolResult","toolCallId":"call_-7101062807084334139","toolName":"bash","content":[{"type":"text","text":"400002 max.idx\nPASS=29 FAIL=0\n"}],"isError":false,"durationMs":506,"timestamp":1794134562505}}

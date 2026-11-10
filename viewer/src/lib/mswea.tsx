@@ -47,8 +47,9 @@ export function MsweaNotice({ compact = false }: { compact?: boolean }) {
 					These trajectories were recorded by <span className="text-ink">mini-swe-agent</span>, a bash-only agent harness, not by
 					pi, and translated into pi's session format for display. Each model request is shown as a model call; failed or
 					superseded requests (e.g. gateway timeouts) appear as errors. Durations are measured by the client; there is no
-					time-to-first-token because requests were not streamed. Costs are estimated from the provider's list prices
-					(CNY converted to USD). Scores are not shown.
+					time-to-first-token because requests were not streamed. Cached input is shown as the provider reported it (most
+					360 routes report no cache hits). Costs are estimated from the provider's list prices (cache hits at 1/10 of the
+					input price; CNY converted to USD at about ¥7.1/$). Scores are not shown.
 				</>
 			)}
 		</div>

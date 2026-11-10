@@ -1,1 +1,0 @@
-{"type":"message","id":"b7e5a1a3","parentId":"f8f62b8f","timestamp":"2026-11-08T17:37:21.053Z","message":{"role":"toolResult","toolCallId":"call_e2ae691ff77741208011c15e","toolName":"bash","content":[{"type":"text","text":"--- log:\n/bin/bash: setsid: command not found\n"}],"isError":false,"durationMs":25058,"timestamp":1794159441053}}

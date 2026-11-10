@@ -1,0 +1,1 @@
+{"type":"message","id":"c502aeae","parentId":"5508a40e","timestamp":"2026-11-10T02:18:26.446Z","message":{"role":"toolResult","toolCallId":"bash_42_e7b96a80","toolName":"bash","content":[{"type":"text","text":"stress witnesses valid\n"}],"isError":false,"durationMs":191,"timestamp":1794277106446}}

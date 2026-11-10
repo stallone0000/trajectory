@@ -1,0 +1,1 @@
+{"type":"message","id":"61de5868","parentId":"22f2f69e","timestamp":"2026-11-09T23:31:51.884Z","message":{"role":"toolResult","toolCallId":"call_-7101056931569073289","toolName":"bash","content":[{"type":"text","text":"b'\\x01\\x01\\x01\\x01\\x01\\x01'\ndup ok dup\n100.0 1.0\n"}],"isError":false,"durationMs":85,"timestamp":1794267111884}}

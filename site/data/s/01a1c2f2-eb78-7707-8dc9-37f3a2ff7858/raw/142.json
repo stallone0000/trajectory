@@ -1,1 +1,0 @@
-{"type":"message","id":"4f6f0851","parentId":"181d4c55","timestamp":"2026-11-10T02:01:21.329Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-b7714589898a5b9e","toolName":"bash","content":[{"type":"text","text":"events 20000 packets 20000 frames 60000 data 2100000\nINVALID\nconfig ok\n"}],"isError":false,"durationMs":614,"timestamp":1794276081329}}

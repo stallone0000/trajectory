@@ -1,1 +1,0 @@
-{"type":"message","id":"4aa9b822","parentId":"84c6c862","timestamp":"2026-11-10T02:23:05.747Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-9dfdbca654e217dd","toolName":"bash","content":[{"type":"text","text":"{\"safe\": false, \"safety\": {\"prefix\": [5]}, \"terminates\": true, \"liveness\": null}\n"}],"isError":false,"durationMs":80,"timestamp":1794277385747}}

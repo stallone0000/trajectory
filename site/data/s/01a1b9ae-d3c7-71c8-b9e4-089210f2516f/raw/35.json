@@ -1,1 +1,0 @@
-{"type":"message","id":"e9c5a86a","parentId":"c4f4a01b","timestamp":"2026-11-08T05:57:54.963Z","message":{"role":"toolResult","toolCallId":"bash_15_8207ff0e","toolName":"bash","content":[{"type":"text","text":"sed: /dev/stdin: No such file or directory\n"}],"isError":false,"durationMs":98,"timestamp":1794117474963}}

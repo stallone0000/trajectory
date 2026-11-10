@@ -1,1 +1,0 @@
-{"type":"message","id":"6ad347fe","parentId":"4c5ed536","timestamp":"2026-11-09T23:28:21.759Z","message":{"role":"toolResult","toolCallId":"call_b620ec1c661a44d2b9047387","toolName":"bash","content":[{"type":"text","text":"Public protocol smoke passed.\nvalidation cases: 92, failures: 0\n"}],"isError":false,"durationMs":1575,"timestamp":1794266901759}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"0a03a4cf","parentId":"2bf06346","timestamp":"2026-11-09T19:02:18.210Z","message":{"role":"toolResult","toolCallId":"bash_5_f1c97f79","toolName":"bash","content":[{"type":"text","text":"actual-plan.json True\nactual-replay.json True\n"}],"isError":false,"durationMs":189,"timestamp":1794250938210}}

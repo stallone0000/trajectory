@@ -1,1 +1,0 @@
-{"type":"message","id":"37b74e0f","parentId":"fa10c7d8","timestamp":"2026-11-08T14:06:16.246Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-993bee9f02e8a7aa","toolName":"bash","content":[{"type":"text","text":"ALL OK 300\nALL OK 300\n"}],"isError":false,"durationMs":45071,"timestamp":1794146776246}}

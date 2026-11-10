@@ -1,0 +1,1 @@
+{"type":"message","id":"c7e226fc","parentId":"573b655e","timestamp":"2026-11-09T19:22:43.797Z","message":{"role":"toolResult","toolCallId":"call_001b763ecdeb476e99a226d1","toolName":"bash","content":[{"type":"text","text":"sed: unmatched '|'\n\n\n[exit code 1]"}],"isError":true,"durationMs":25,"timestamp":1794252163797}}

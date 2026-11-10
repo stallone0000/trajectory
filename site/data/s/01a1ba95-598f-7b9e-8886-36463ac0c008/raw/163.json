@@ -1,0 +1,1 @@
+{"type":"message","id":"7217dce4","parentId":"15047102","timestamp":"2026-11-08T11:33:36.304Z","message":{"role":"toolResult","toolCallId":"call_cf5f056edfda4340be449be6","toolName":"bash","content":[{"type":"text","text":"err [Errno 2] No such file or directory: '/proc/3493325/status'\nmax threads 0 rc None\n"}],"isError":false,"durationMs":3111,"timestamp":1794137616304}}

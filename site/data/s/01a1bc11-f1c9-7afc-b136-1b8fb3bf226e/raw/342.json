@@ -1,0 +1,1 @@
+{"type":"custom_message","id":"7f42807e","parentId":"a66af43b","timestamp":"2026-11-08T20:51:21.787Z","customType":"mini-swe-agent.exit","content":"Agent exited: TimeExceeded","display":true,"details":{"exit_status":"TimeExceeded"}}

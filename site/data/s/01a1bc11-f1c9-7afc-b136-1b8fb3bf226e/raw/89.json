@@ -1,0 +1,1 @@
+{"type":"message","id":"a2049d12","parentId":"373d9b95","timestamp":"2026-11-08T17:22:00.261Z","message":{"role":"toolResult","toolCallId":"call_-7101061845011658442","toolName":"bash","content":[{"type":"text","text":"done 120 fails 0 skipped 4 {'infeasible': 107, 'unique': 3, 'ambiguous': 6}\n"}],"isError":false,"durationMs":39091,"timestamp":1794158520261}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"f5589ee2","parentId":"af524662","timestamp":"2026-11-09T20:30:32.093Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-81bdb27113181e62","toolName":"bash","content":[{"type":"text","text":"burst: PASS\nstream: PASS\ninvalid: PASS\nCOMPLETE_TASK_AND_SUBMIT_FINAL_OUTPUT\n"}],"isError":false,"durationMs":154,"timestamp":1794256232093}}

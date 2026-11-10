@@ -1,1 +1,0 @@
-{"type":"message","id":"efbd2eac","parentId":"46e31301","timestamp":"2026-11-08T18:17:15.009Z","message":{"role":"toolResult","toolCallId":"call_-7101070297507297526","toolName":"bash","content":[{"type":"text","text":"params of Optimize:\n  err too many values to unpack (expected 4)\n"}],"isError":false,"durationMs":5243,"timestamp":1794161835009}}

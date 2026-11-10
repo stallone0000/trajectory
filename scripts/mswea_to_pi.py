@@ -43,6 +43,7 @@ import re
 import sys
 from pathlib import Path
 
+TRANSLATOR_VERSION = "mswea_to_pi/3"
 ACTION_RE = re.compile(r"```(?:bash|mswea_bash_command)\s*\n(.*?)\n```", re.DOTALL)
 RETURNCODE_RE = re.compile(r"<returncode>\s*(-?\d+)\s*</returncode>")
 OUTPUT_RE = re.compile(r"<output>\n?(.*?)\n?</output>", re.DOTALL)
@@ -191,7 +192,9 @@ def translate(traj: dict, *, name: str, provider: str | None, model: str | None,
         start_ms = first - 1000
     else:
         start_ms = fallback_end_ms - 1000 * len(messages)
-    digest = hashlib.sha256(source_bytes + json.dumps([name, provider, model, cwd]).encode()).digest()
+    # The version is part of the id: pika discards re-uploads of a deleted session id, so a changed translation
+    # must get new ids (delete the old sessions first, then ingest).
+    digest = hashlib.sha256(source_bytes + json.dumps([TRANSLATOR_VERSION, name, provider, model, cwd]).encode()).digest()
     sid = uuid7_like(start_ms, digest)
     w = Writer(digest)
     w.lines.append({"type": "session", "version": 3, "id": sid, "timestamp": iso(start_ms), "cwd": cwd})
@@ -386,8 +389,14 @@ def load_price(prices_path: Path | None, model: str) -> dict | None:
     if not row:
         return None
     rate = float(table.get("usd_per_cny", 1.0)) if table.get("currency") == "CNY" else 1.0
-    return {"input": row["input_cny_per_m"] * rate if "input_cny_per_m" in row else row["input"],
-            "output": row["output_cny_per_m"] * rate if "output_cny_per_m" in row else row["output"]}
+    price = {"input": row["input_cny_per_m"] * rate if "input_cny_per_m" in row else row["input"],
+             "output": row["output_cny_per_m"] * rate if "output_cny_per_m" in row else row["output"]}
+    # Cache hits are billed at a fraction of the input price (360: one tenth) unless the table gives a price.
+    if "cache_read_cny_per_m" in row:
+        price["cacheRead"] = row["cache_read_cny_per_m"] * rate
+    else:
+        price["cacheRead"] = price["input"] * float(table.get("cache_read_ratio", 1.0))
+    return price
 
 
 def load_attempts(traj_path: Path, explicit: Path | None = None) -> list[dict] | None:

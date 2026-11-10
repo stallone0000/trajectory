@@ -1,0 +1,1 @@
+{"type":"message","id":"def72fa3","parentId":"8a52665e","timestamp":"2026-11-09T19:15:18.024Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-b493cb66e305206f","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 0: cd: /tmp: No such file or directory\n\n\n[exit code 1]"}],"isError":true,"durationMs":18,"timestamp":1794251718024}}

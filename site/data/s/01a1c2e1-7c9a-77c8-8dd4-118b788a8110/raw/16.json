@@ -1,0 +1,1 @@
+{"type":"message","id":"490c4eb5","parentId":"b7a1c727","timestamp":"2026-11-10T00:37:38.030Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a8feefe1f6d0ee02","toolName":"bash","content":[{"type":"text","text":"Public example differs. Compare your result with examples/expected.json.\nexit=1\n"}],"isError":false,"durationMs":114,"timestamp":1794271058030}}
