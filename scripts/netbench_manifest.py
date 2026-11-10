@@ -48,6 +48,10 @@ for j in json.loads(LEDGER.read_text())["jobs"]:
             verdict, detail = ADJUDICATED[j["id"]]
             score = 0 if verdict == "fail" else score
         if x.get("v9"):
+            att = run / "model-attempts.jsonl"
+            cuts = att.exists() and sum('"empty reply' in line for line in att.open(errors="replace"))
+            if verdict == "unscored" and cuts >= 3:  # the "format errors" were replies the provider cut off
+                detail = f"provider cut the model's long reasoning {cuts} times"
             detail = "re-run with the robust runner" + (f"; {detail}" if detail else "")
         if a.binary and verdict == "unscored":  # no gradable submission counts as not solved
             verdict, detail, score = "fail", f"no gradable submission ({detail})", 0

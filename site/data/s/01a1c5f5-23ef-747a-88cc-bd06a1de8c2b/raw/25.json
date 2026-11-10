@@ -1,0 +1,1 @@
+{"type":"message","id":"830707c7","parentId":"d29957b9","timestamp":"2026-11-10T17:12:23.751Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"360","model":"qwen/qwen3.8-max","stopReason":"error","errorMessage":"TransientStreamError: empty reply after 499 s (63755 reasoning chars, no answer)","timestamp":1794330244656,"durationMs":499095}}
