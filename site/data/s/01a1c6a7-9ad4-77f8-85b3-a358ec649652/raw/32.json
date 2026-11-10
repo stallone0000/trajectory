@@ -1,0 +1,1 @@
+{"type":"message","id":"a943d3ce","parentId":"0186e940","timestamp":"2026-11-10T18:22:13.309Z","message":{"role":"toolResult","toolCallId":"bash_13_377584f5","toolName":"bash","content":[{"type":"text","text":"targeted replay and CNN tests passed\n"}],"isError":false,"durationMs":579,"timestamp":1794334933309}}

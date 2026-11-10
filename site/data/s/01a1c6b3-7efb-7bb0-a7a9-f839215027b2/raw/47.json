@@ -1,0 +1,1 @@
+{"type":"message","id":"c644bf46","parentId":"161ddc68","timestamp":"2026-11-10T18:35:27.014Z","message":{"role":"toolResult","toolCallId":"call_34c1248498294927a62ff5ca","toolName":"bash","content":[{"type":"text","text":"forwards: [0, 0, 0, 0, 0, 1, 1, 1]\nstatuses: [(0, 'applied')]\n"}],"isError":false,"durationMs":55,"timestamp":1794335727014}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"c7a68f1d","parentId":"5c121359","timestamp":"2026-11-10T18:16:42.743Z","message":{"role":"toolResult","toolCallId":"toolu_01KPZEhuHUjKzs4HHpqu4s9s","toolName":"bash","content":[{"type":"text","text":"0\n   1119 applied\n   1050 stale\n     25 superseded\n"}],"isError":false,"durationMs":31690,"timestamp":1794334602743}}

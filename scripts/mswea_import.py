@@ -33,6 +33,8 @@ import json
 import os
 import re
 import socket
+import urllib.parse
+import urllib.request
 import subprocess
 import sys
 from pathlib import Path
@@ -176,6 +178,15 @@ def main() -> None:
                     ing.post(a.server, "api/ingest/v1/batch", token,
                              {"client": {"host": socket.gethostname(), "pikaVersion": "mswea-import/1"}, "requests": reqs[i:i + 200]})
             print(f"uploaded provider timing for {len(request_files)} session(s)")
+        # A re-run replaces a job's trajectory with a new session; drop the project's sessions that are no longer current.
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        listed = json.load(opener.open(f"{a.server}/api/v1/sessions?project={urllib.parse.quote(bench)}&limit=1000"))["items"]
+        current = {x["session_id"] for x in results}
+        for s in listed:
+            if s.get("project") == bench and s["id"] not in current:
+                subprocess.run(["/root/pika-build/bin/pika", "--data-dir", "/root/pika-data", "delete", "session", s["id"], "--yes"],
+                               check=True, capture_output=True)
+                print("removed superseded session", s["id"], s.get("title"))
         print(f"ingested into {a.server} as project {bench!r}; NOT published (run scripts/publish.sh when ready)")
 
 

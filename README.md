@@ -45,7 +45,7 @@ score; `--ingest` uploads to the local pika under project `<benchmark>` but does
 ```bash
 python3 scripts/mswea_import.py --benchmark <benchmark> --manifest manifest.csv --ingest \
     --secret-file /path/to/api.key        # any key file whose contents must never appear (redacted, never printed)
-scripts/publish.sh                        # separate, deliberate step: publishes everything in the local pika
+PUBLISH_ALL=0 scripts/publish.sh          # separate step; PUBLISH_ALL=0 keeps unpublished pika projects private
 ```
 
 `manifest.csv` columns: `trajectory,task,model[,provider,score,thinking,label]`. `scripts/netbench_manifest.py` builds
@@ -59,3 +59,9 @@ Static site. **Build command:** empty. **Publish directory:** `site`. Every rout
 ## Credits
 
 UI: [pika](https://github.com/minhuw/pi-extensions/tree/master/services/pika) by [@minhuw](https://github.com/minhuw), MIT License (`site/LICENSE-pika.txt`). Model marks from [LobeHub lobe-icons](https://github.com/lobehub/lobe-icons) (MIT); Aileron font (CC0).
+
+## Publishing caveat (2026-11-11)
+
+`scripts/publish.sh` by default publishes **every** project in the local pika, including sessions other agents
+captured on this machine. Use `PUBLISH_ALL=0 scripts/publish.sh` to publish only projects already marked published.
+`mswea_import.py --ingest` removes a project's superseded sessions (a re-run replaces a job's trajectory).

@@ -1,0 +1,1 @@
+{"type":"message","id":"0dfe876d","parentId":"d0c90d25","timestamp":"2026-11-10T18:43:32.088Z","message":{"role":"toolResult","toolCallId":"call_18b40a2fda174e7789753d41","toolName":"bash","content":[{"type":"text","text":"main 0.17s ref 1.05s MATCH jobs 1540\n"}],"isError":false,"durationMs":1336,"timestamp":1794336212088}}

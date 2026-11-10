@@ -1,0 +1,1 @@
+{"type":"message","id":"3fb89ecc","parentId":"eb1f3153","timestamp":"2026-11-10T18:24:08.184Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-957930886d2fa480","toolName":"bash","content":[{"type":"text","text":"rc 0\nout b'{\"error\":\"invalid-input\"}'\nerr b''\n"}],"isError":false,"durationMs":169,"timestamp":1794335048184}}

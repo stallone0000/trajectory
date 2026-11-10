@@ -1,7 +1,8 @@
 {
  "projects": [
   "netbench",
-  "netbench-streaming"
+  "netbench-streaming",
+  "provider-compare"
  ],
  "sessions": {
   "01a1c4a4-92cd-7c70-9cf7-c9080f35aad8": {
@@ -1190,6 +1191,138 @@
    "tokens": 15055,
    "cost": 0.013598,
    "durationMs": 23666
+  },
+  "01a1c6a7-a4eb-7c91-93a8-e62755bdc7a3": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass",
+   "steps": 63,
+   "failedRequests": 0,
+   "toolCalls": 76,
+   "tokens": 5093786,
+   "cost": 1.577377,
+   "durationMs": 2732362
+  },
+  "01a1c6a7-9d24-7d80-b782-dd2b8aa6620e": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass",
+   "steps": 69,
+   "failedRequests": 0,
+   "toolCalls": 72,
+   "tokens": 5465474,
+   "cost": 1.044684,
+   "durationMs": 1481896
+  },
+  "01a1c6a7-9ad4-77f8-85b3-a358ec649652": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass",
+   "steps": 16,
+   "failedRequests": 0,
+   "toolCalls": 16,
+   "tokens": 314520,
+   "cost": 0.321341,
+   "durationMs": 756895
+  },
+  "01a1c6a7-a007-7dae-9ea0-56f7f3a296f7": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass",
+   "steps": 46,
+   "failedRequests": 0,
+   "toolCalls": 48,
+   "tokens": 2865597,
+   "cost": 1.072768,
+   "durationMs": 2489458
+  },
+  "01a1c6a7-9a91-734c-a497-8c7e45369e3c": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass",
+   "steps": 70,
+   "failedRequests": 0,
+   "toolCalls": 73,
+   "tokens": 4847171,
+   "cost": 0.845469,
+   "durationMs": 1989860
+  },
+  "01a1c6a7-a293-779e-ae9a-bb264edbfee6": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass",
+   "steps": 9,
+   "failedRequests": 0,
+   "toolCalls": 9,
+   "tokens": 61190,
+   "cost": 0.077861,
+   "durationMs": 173712
+  },
+  "01a1c6aa-90f6-73c2-b7cb-d0a88fbfdb8d": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "anthropic/claude-haiku-5.5",
+   "verdict": "pass",
+   "steps": 9,
+   "failedRequests": 0,
+   "toolCalls": 10,
+   "tokens": 245534,
+   "cost": 0.0,
+   "durationMs": 199847
+  },
+  "01a1c6ad-c5dd-753f-adff-1ffedaeda0f6": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "openai/gpt-6.1-terra",
+   "verdict": "fail",
+   "steps": 4,
+   "failedRequests": 0,
+   "toolCalls": 4,
+   "tokens": 20528,
+   "cost": 0.021567,
+   "durationMs": 81940
+  },
+  "01a1c6af-2509-742d-aae0-3c4b19b6516f": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "qwen/qwen3.8-max",
+   "verdict": "pass",
+   "steps": 60,
+   "failedRequests": 0,
+   "toolCalls": 74,
+   "tokens": 5350557,
+   "cost": 1.74765,
+   "durationMs": 3874448
+  },
+  "01a1c6b3-7efb-7bb0-a7a9-f839215027b2": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "z-ai/glm-5.3",
+   "verdict": "pass",
+   "steps": 54,
+   "failedRequests": 0,
+   "toolCalls": 59,
+   "tokens": 4023604,
+   "cost": 0.799826,
+   "durationMs": 1398626
+  },
+  "01a1c6be-7b71-7324-8300-ec2356d27e9e": {
+   "project": "provider-compare",
+   "task": "07-fenix",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "verdict": "pass",
+   "steps": 14,
+   "failedRequests": 0,
+   "toolCalls": 14,
+   "tokens": 275373,
+   "cost": 0.33349,
+   "durationMs": 519490
   }
  },
  "tasks": {

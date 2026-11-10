@@ -1,0 +1,1 @@
+{"type":"message","id":"b07afb93","parentId":"d86640ae","timestamp":"2026-11-10T18:40:54.425Z","message":{"role":"toolResult","toolCallId":"call_3975cb34a079400cb900d238","toolName":"bash","content":[{"type":"text","text":"ps: can't open '/proc': No such file or directory\n0\n\n\n[exit code 1]"}],"isError":true,"durationMs":199,"timestamp":1794336054425}}

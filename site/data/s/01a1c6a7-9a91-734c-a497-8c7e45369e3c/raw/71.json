@@ -1,0 +1,1 @@
+{"type":"message","id":"2b270e58","parentId":"f9c51b67","timestamp":"2026-11-10T18:27:44.738Z","message":{"role":"toolResult","toolCallId":"call_719e1399ccbf429288747658","toolName":"bash","content":[{"type":"text","text":"FAIL _ck_int 256 0 255\n"}],"isError":false,"durationMs":96,"timestamp":1794335264738}}
