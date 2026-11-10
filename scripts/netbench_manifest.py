@@ -18,7 +18,13 @@ ap = argparse.ArgumentParser(); ap.add_argument("--all-attempts", action="store_
 ap.add_argument("--binary", action="store_true", help="site mode: jobs re-run with v9 use the v9 result, and any run without a "
                 "gradable submission is shown as fail (reason kept in detail)")
 a = ap.parse_args()
-reruns = json.loads(RERUN.read_text())["jobs"] if a.binary and RERUN.exists() else {}
+reruns = {}
+if a.binary:  # all v9 re-run ledgers (auto route, then pinned-route rounds), trials in start order
+    for led in sorted(RERUN.parent.glob("rerun*-ledger.json")):
+        for jid, job in json.loads(led.read_text())["jobs"].items():
+            reruns.setdefault(jid, {"trials": []})["trials"].extend(job["trials"])
+    for job in reruns.values():
+        job["trials"].sort(key=lambda t: t.get("started", 0))
 w = csv.writer(sys.stdout); w.writerow(["trajectory", "task", "model", "provider", "score", "verdict", "detail", "label"])
 for j in json.loads(LEDGER.read_text())["jobs"]:
     attempts = (j.get("historical_attempts") or []) + (j.get("attempts") or [])

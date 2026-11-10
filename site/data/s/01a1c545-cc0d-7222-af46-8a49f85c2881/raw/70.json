@@ -1,0 +1,1 @@
+{"type":"message","id":"7f550894","parentId":"17bb5968","timestamp":"2026-11-10T12:07:14.705Z","message":{"role":"toolResult","toolCallId":"call_e5f5230d3774448fba587448","toolName":"bash","content":[{"type":"text","text":"done seed 2 bad 0 of 250\ndone seed 3 bad 0 of 250\ndone seed 4 bad 0 of 250\n"}],"isError":false,"durationMs":27711,"timestamp":1794312434705}}

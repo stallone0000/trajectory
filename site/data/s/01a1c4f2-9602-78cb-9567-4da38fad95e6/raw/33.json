@@ -1,0 +1,1 @@
+{"type":"message","id":"5137bee7","parentId":"4944b2bb","timestamp":"2026-11-10T11:18:35.274Z","message":{"role":"toolResult","toolCallId":"call_fc6eb6e824c84dbeb62531a5","toolName":"bash","content":[{"type":"text","text":"stderr: \nkeys  {'max_stride', 'used_bits', 'peak', 'stages', 'cuts', 'capacities'}\n"}],"isError":false,"durationMs":255,"timestamp":1794309515274}}

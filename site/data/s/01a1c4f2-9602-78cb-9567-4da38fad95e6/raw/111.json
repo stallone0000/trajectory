@@ -1,0 +1,1 @@
+{"type":"message","id":"42459b0f","parentId":"e581b021","timestamp":"2026-11-10T11:54:58.802Z","message":{"role":"toolResult","toolCallId":"call_89d430a1b0204ab2b1351d72","toolName":"bash","content":[{"type":"text","text":"fuzz responses: {'invalid': 632, 'ok': 67, 'infeasible': 1} stderr: b''\nFUZZ1 OK\n"}],"isError":false,"durationMs":380,"timestamp":1794311698802}}
