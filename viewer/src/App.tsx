@@ -1,5 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BenchmarkPage } from "./pages/Benchmark";
+import { NetbenchTaskPage, NetbenchTasksPage } from "./pages/NetbenchTasks";
 import { lazy, Suspense, useState, type ReactNode } from "react";
 import { BrowserRouter, Navigate, Route, Routes, useParams } from "react-router";
 import { AuthGate } from "./components/AuthGate";
@@ -68,6 +69,8 @@ export function AppRoutes() {
 				<Route index element={<SessionListPage />} />
 				<Route path="mswea" element={<SessionListPage source="mswea" />} />
 				<Route path="benchmark" element={<BenchmarkPage />} />
+				<Route path="tasks" element={<NetbenchTasksPage />} />
+				<Route path="tasks/:id" element={<NetbenchTaskPage />} />
 				<Route path="s/:id" element={<Suspense fallback={<SessionPageLoading />}><SessionViewPage /></Suspense>} />
 				<Route path="statistics" element={<Suspense fallback={<SessionPageLoading />}><StatisticsPage /></Suspense>} />
 				<Route path="search" element={<SearchPage />} />
