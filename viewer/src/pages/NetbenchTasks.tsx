@@ -28,9 +28,6 @@ export interface NetbenchTask {
 	description: string;
 	keywords: string[];
 	category: string;
-	paper: string;
-	conference: string;
-	source: string;
 	hardware: string;
 	resources: { cpus?: number; memory_mb?: number; storage_mb?: number; gpus?: number; network_mode?: string; workdir?: string };
 	agentTimeoutSec?: number;
@@ -81,7 +78,7 @@ export function NetbenchTasksPage() {
 	const [query, setQuery] = useState("");
 	const tasks = useMemo(() => {
 		const q = query.trim().toLowerCase();
-		return (data?.tasks ?? []).filter((t) => !q || [t.id, t.description, t.paper, ...t.keywords].join(" ").toLowerCase().includes(q));
+		return (data?.tasks ?? []).filter((t) => !q || [t.id, t.description, ...t.keywords].join(" ").toLowerCase().includes(q));
 	}, [data, query]);
 	if (data === undefined) return <Page><div role="status" className="text-muted">Loading tasks…</div></Page>;
 	return (
@@ -89,7 +86,7 @@ export function NetbenchTasksPage() {
 			<div className="text-[13px] text-muted">Datasets / netbench</div>
 			<PageTitle>netbench / tasks</PageTitle>
 			<p className="mt-2 max-w-[760px] text-[14px] leading-[1.6] text-muted">
-				Network-research agent tasks synthesised from 2026 networking and security papers. Each task was authored, given an
+				Network-research agent tasks. Each task was authored, given an
 				independent grader, and reviewed by three separate agents; tasks shown here passed local review. Reference solutions
 				and hidden tests are withheld to prevent benchmark contamination.
 			</p>
@@ -124,7 +121,6 @@ export function NetbenchTasksPage() {
 									</td>
 									<td className="py-3 pr-4 leading-[1.5]">
 										{t.description}
-										<div className="mt-0.5 text-[12px] text-muted">{t.paper} · {t.conference}</div>
 									</td>
 									<td className="py-3 pr-4"><Tags task={t} /></td>
 									<td className="py-3 pr-0 text-right tabular-nums">{t.review.score ?? "—"}</td>
@@ -212,7 +208,6 @@ function FilesTab({ task }: { task: NetbenchTask }) {
 function Facts({ task }: { task: NetbenchTask }) {
 	const r = task.resources;
 	const rows: [string, string][] = [
-		["Paper", `${task.paper} (${task.conference})`],
 		["Hardware", task.hardware],
 		["Resources", `${r.cpus ?? "?"} CPU · ${r.memory_mb ?? "?"} MiB RAM · ${r.storage_mb ?? "?"} MiB disk · ${r.gpus ?? 0} GPU · ${r.network_mode ?? ""}`],
 		["Agent timeout", task.agentTimeoutSec ? `${Math.round(task.agentTimeoutSec / 60)} min` : "—"],
@@ -226,12 +221,6 @@ function Facts({ task }: { task: NetbenchTask }) {
 					<dd className="min-w-0 break-words">{v}</dd>
 				</div>
 			))}
-			{task.source && (
-				<div className="contents">
-					<dt className="text-muted">Source</dt>
-					<dd className="min-w-0 truncate"><a href={task.source} target="_blank" rel="noreferrer noopener" className="underline">{task.source}</a></dd>
-				</div>
-			)}
 		</dl>
 	);
 }

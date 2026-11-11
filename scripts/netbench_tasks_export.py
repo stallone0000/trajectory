@@ -7,7 +7,7 @@ Only public material is exported: instruction.md, task.toml and files under envi
 tests/ are listed by name and size only (content withheld to avoid benchmark contamination). Per-task READMEs are the
 public drafts in netbench-site/readme/<id>.md.
 """
-import json, pathlib, sys, tomllib
+import json, pathlib, re, sys, tomllib
 
 ROOT = pathlib.Path("/share/network-agent-benchmark-20261107")
 HERE = pathlib.Path(__file__).resolve().parent.parent
@@ -30,6 +30,14 @@ def text_or_none(p: pathlib.Path):
         return None
 
 
+PROVENANCE_KEYS = re.compile(r"^\s*(source|paper|conference|venue|authors?|doi|paper_url|artifact|implementation)\s*=.*\n?", re.M)
+
+
+def scrub_toml(text: str) -> str:
+    """Seed-paper provenance is internal metadata; the public page shows task.toml without it."""
+    return PROVENANCE_KEYS.sub("", text)
+
+
 def task_entry(tid: str):
     d = ROOT / "tasks" / tid
     toml_text = (d / "task.toml").read_text()
@@ -47,6 +55,8 @@ def task_entry(tid: str):
             entry["withheld"] = True
         elif rel in ("instruction.md", "task.toml", "LICENSE") or rel.startswith("environment/"):
             c = text_or_none(p)
+            if c is not None and rel == "task.toml":
+                c = scrub_toml(c)
             if c is None:
                 entry["binary"] = True
             else:
@@ -70,12 +80,6 @@ def task_entry(tid: str):
         status = {"score": s.get("score"), "scope": s.get("acceptance_scope")}
     readme_p = HERE / "netbench-site" / "readme" / f"{tid}.md"
     readme = readme_p.read_text() if readme_p.exists() else ""
-    paper, conference = md.get("paper", ""), md.get("conference", "")
-    if not paper or not conference or paper.startswith("http"):  # task.toml may carry only a URL; the README names it
-        import re
-        m = re.search(r"^- Paper: (.+?) \(([^()]+)\)\s*$", readme, re.M)
-        if m:
-            paper, conference = m.group(1).strip(), m.group(2).strip()
     description = t.get("description", "")
     if not description:  # fall back to the public README's title
         import re
@@ -89,9 +93,6 @@ def task_entry(tid: str):
         "description": description,
         "keywords": keywords,
         "category": category,
-        "paper": paper,
-        "conference": conference,
-        "source": cfg.get("source", ""),
         "hardware": md.get("hardware", ""),
         "resources": {k: env.get(k) for k in ("cpus", "memory_mb", "storage_mb", "gpus", "network_mode", "workdir")},
         "agentTimeoutSec": agent.get("timeout_sec"),
