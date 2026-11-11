@@ -24,6 +24,9 @@ interface TaskFile {
 }
 export interface NetbenchTask {
 	id: string;
+	/** Task directory name (same for a legacy v1 task and its regenerated version). */
+	slug: string;
+	version: "current" | "legacy-v1";
 	name: string;
 	description: string;
 	keywords: string[];
@@ -60,11 +63,13 @@ function useNetbench(): SiteData | null | undefined {
 const fmtBytes = (n: number) => (n < 1024 ? `${n} B` : n < 1048576 ? `${(n / 1024).toFixed(1)} KB` : `${(n / 1048576).toFixed(1)} MB`);
 const LANGS: Record<string, string> = { py: "python", sh: "bash", md: "markdown", json: "json", jsonl: "json", toml: "ini", c: "c", h: "c", rs: "rust", go: "go", yaml: "yaml", yml: "yaml" };
 const langOf = (path: string) => (path.endsWith("Dockerfile") ? "dockerfile" : LANGS[path.split(".").pop() ?? ""]);
-const runCommand = (t: NetbenchTask) => `harbor run -p tasks/${t.id}`;
+const isLegacy = (t: NetbenchTask) => t.version === "legacy-v1";
+const runCommand = (t: NetbenchTask) => (isLegacy(t) ? `harbor run -p archive/batch-1-v1-20261111/tasks/${t.slug}` : `harbor run -p tasks/${t.slug}`);
 
 function Tags({ task }: { task: NetbenchTask }) {
 	return (
 		<div className="flex flex-wrap gap-1.5">
+			{isLegacy(task) && <Pill tone="yellow" title="Archived first version; being regenerated">legacy v1</Pill>}
 			<Pill tone="accent">{task.category}</Pill>
 			{task.keywords.map((k) => (
 				<Pill key={k}>{k}</Pill>
@@ -87,8 +92,9 @@ export function NetbenchTasksPage() {
 			<PageTitle>netbench / tasks</PageTitle>
 			<p className="mt-2 max-w-[760px] text-[14px] leading-[1.6] text-muted">
 				Network-research agent tasks. Each task was authored, given an
-				independent grader, and reviewed by three separate agents; tasks shown here passed local review. Reference solutions
-				and hidden tests are withheld to prevent benchmark contamination.
+				independent grader, and reviewed by three separate agents. Tasks marked <b>legacy v1</b> are the archived first versions of
+				tasks 01–16; they are being regenerated with the current process and will be replaced under the same IDs. Reference
+				solutions and hidden tests are withheld to prevent benchmark contamination.
 			</p>
 			<div className="mt-6 flex items-center gap-3">
 				<input
@@ -117,7 +123,7 @@ export function NetbenchTasksPage() {
 							{tasks.map((t) => (
 								<tr key={t.id} className="border-b border-line align-top hover:bg-hover">
 									<td className="py-3 pr-4 font-medium whitespace-nowrap">
-										<Link to={`/tasks/${t.id}`} className="hover:underline">{t.id}</Link>
+										<Link to={`/tasks/${t.id}`} className="hover:underline">{t.slug}</Link>
 									</td>
 									<td className="py-3 pr-4 leading-[1.5]">
 										{t.description}
@@ -236,9 +242,9 @@ export function NetbenchTaskPage() {
 	return (
 		<Page className="pb-16">
 			<div className="text-[13px] text-muted">
-				<Link to="/tasks" className="hover:underline">Tasks</Link> / netbench / {task.id}
+				<Link to="/tasks" className="hover:underline">Tasks</Link> / netbench / {task.slug}
 			</div>
-			<PageTitle>netbench / {task.id}</PageTitle>
+			<PageTitle>netbench / {task.slug}{isLegacy(task) ? " (legacy v1)" : ""}</PageTitle>
 			<p className="mt-2 max-w-[820px] text-[15px] leading-[1.55]">{task.description}</p>
 			<div className="mt-3"><Tags task={task} /></div>
 			<div className="mt-4 grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
