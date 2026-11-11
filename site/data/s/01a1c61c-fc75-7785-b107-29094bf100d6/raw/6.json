@@ -1,1 +1,0 @@
-{"type":"message","id":"3f9d04b6","parentId":"f1562e33","timestamp":"2026-11-10T15:39:17.550Z","message":{"role":"toolResult","toolCallId":"write_0_f70d105c","toolName":"write","content":[{"type":"text","text":"Successfully wrote to out.txt"}],"isError":false,"durationMs":3,"timestamp":1794325157550}}
