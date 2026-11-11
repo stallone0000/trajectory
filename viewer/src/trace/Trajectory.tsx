@@ -702,7 +702,8 @@ export function Trajectory({ sessionId, trace, live, focusSeq, onFocusHandled }:
 				</ErrorBoundary>
 				<TimeBreakdown trace={trace} live={live} range={range} rangeLabel={rangeLabel} onClearRange={clearRange} />
 			</section>
-			<div className="relative flex min-h-0 flex-1">
+			{/* trajectory fork: the ledger and inspector get almost a full screen of height below the timeline; the page scrolls. */}
+			<div className="relative flex h-[calc(100dvh-56px)] min-h-[520px] flex-none">
 				<div className="min-w-0 flex-1">
 					<Ledger
 						ref={ledger}

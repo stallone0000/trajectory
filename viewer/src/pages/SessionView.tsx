@@ -351,7 +351,7 @@ function SessionPage({ id }: { id: string }) {
 					)}
 				</div>
 			) : shown === "trajectory" ? (
-				<div className="flex h-full min-h-[660px] flex-col" data-session-page="trajectory">
+				<div className="flex min-h-full flex-col" data-session-page="trajectory">
 					{header}
 					<div className="mt-3 flex min-h-0 flex-1 flex-col border-t border-line">
 						{trace.data ? (
