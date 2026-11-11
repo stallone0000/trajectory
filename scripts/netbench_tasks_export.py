@@ -76,12 +76,19 @@ def task_entry(tid: str):
         m = re.search(r"^- Paper: (.+?) \(([^()]+)\)\s*$", readme, re.M)
         if m:
             paper, conference = m.group(1).strip(), m.group(2).strip()
+    description = t.get("description", "")
+    if not description:  # fall back to the public README's title
+        import re
+        m = re.search(r"^# (.+)$", readme, re.M)
+        description = m.group(1).strip() if m else ""
+    category = md.get("category", "networking")
+    keywords = [k for k in dict.fromkeys(t.get("keywords", [])) if k != category]
     return {
         "id": tid,
         "name": f"netbench/{tid}",
-        "description": t.get("description", ""),
-        "keywords": t.get("keywords", []),
-        "category": md.get("category", "networking"),
+        "description": description,
+        "keywords": keywords,
+        "category": category,
         "paper": paper,
         "conference": conference,
         "source": cfg.get("source", ""),

@@ -7,7 +7,6 @@
    "name": "netbench/29-fast",
    "description": "Exact fluid All-to-All(v) relay routing and bottleneck-optimal scale-out scheduling",
    "keywords": [
-    "networking",
     "alltoallv",
     "python",
     "scheduling",
@@ -193,7 +192,7 @@
   {
    "id": "24-ez-save",
    "name": "netbench/24-ez-save",
-   "description": "",
+   "description": "EZ-SAVE Source Address Validation Replay",
    "keywords": [],
    "category": "networking",
    "paper": "EZ-SAVE: Evaluation of Easy-to-Deploy Source Address Validation Policies",
@@ -311,7 +310,6 @@
    "name": "netbench/28-oscar",
    "description": "Exact packet simulation of batched congestion control",
    "keywords": [
-    "networking",
     "congestion-control",
     "simulation",
     "python",
@@ -411,7 +409,7 @@
   {
    "id": "22-hedge",
    "name": "netbench/22-hedge",
-   "description": "",
+   "description": "HEDGE Correlated Optical LAG Provisioning",
    "keywords": [],
    "category": "networking",
    "paper": "HEDGE: Traffic Engineering with Probabilistic Link Capacities",
@@ -507,7 +505,7 @@
   {
    "id": "23-titrate",
    "name": "netbench/23-titrate",
-   "description": "",
+   "description": "Titrate Queue Controller",
    "keywords": [],
    "category": "networking",
    "paper": "Controlling Arbitrary Internet Queues with Titrate",
@@ -613,7 +611,7 @@
   {
    "id": "27-fizzle",
    "name": "netbench/27-fizzle",
-   "description": "",
+   "description": "Fizzle Deterministic Network Replay VM",
    "keywords": [],
    "category": "networking",
    "paper": "Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing",
@@ -719,7 +717,7 @@
   {
    "id": "39-geminet",
    "name": "netbench/39-geminet",
-   "description": "",
+   "description": "Geminet Certified Traffic Engineering",
    "keywords": [],
    "category": "network-traffic-engineering",
    "paper": "Geminet: Learning the Duality-based Topology-Agnostic Update Operator for Lightweight Traffic Engineering in Changing Topologies",
@@ -820,7 +818,7 @@
   {
    "id": "41-prvtel",
    "name": "netbench/41-prvtel",
-   "description": "",
+   "description": "PrvTel Telemetry Correlation Retention",
    "keywords": [],
    "category": "network-telemetry",
    "paper": "PrvTel: Lightweight Models for Private and Accurate Telemetry Data Retention",
@@ -921,7 +919,7 @@
   {
    "id": "43-vedrfolnir",
    "name": "netbench/43-vedrfolnir",
-   "description": "",
+   "description": "Vedrfolnir RDMA Collective Diagnosis",
    "keywords": [],
    "category": "networking",
    "paper": "Vedrfolnir: RDMA Network Performance Anomalies Diagnosis in Collective Communications",
