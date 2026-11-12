@@ -21,6 +21,8 @@ interface TaskFile {
 	binary?: boolean;
 	withheld?: boolean;
 	collapsed?: boolean;
+	vendored?: boolean;
+	large?: boolean;
 	count?: number;
 }
 export interface NetbenchTask {
@@ -36,6 +38,8 @@ export interface NetbenchTask {
 	resources: { cpus?: number; memory_mb?: number; storage_mb?: number; gpus?: number; network_mode?: string; workdir?: string };
 	agentTimeoutSec?: number;
 	review: { score?: number; status: string; formal: string };
+	/** Seed paper (site metadata only; never shown to the agent). */
+	inspiredBy?: { title: string; venue: string } | null;
 	readme: string;
 	instruction: string;
 	files: TaskFile[];
@@ -219,7 +223,15 @@ function FilesTab({ task }: { task: NetbenchTask }) {
 						<CodeBlock code={file.content} language={langOf(file.path)} maxHeight="70vh" />
 					</>
 				) : (
-					<div className="text-[13px] text-muted">{file ? `${file.path} is a binary or large file (${fmtBytes(file.size)}).` : "Select a file."}</div>
+					<div className="text-[13px] text-muted">
+						{!file
+							? "Select a file."
+							: file.vendored
+								? `${file.path} (${fmtBytes(file.size)}) is part of vendored upstream code; its content is not reproduced on this preview page (it is in the full release repository).`
+								: file.large
+									? `${file.path} is larger than 1 MB (${fmtBytes(file.size)}); only its presence is shown here (full content is in the release repository).`
+									: `${file.path} is a binary file (${fmtBytes(file.size)}).`}
+					</div>
 				)}
 			</div>
 		</div>
@@ -234,6 +246,7 @@ function Facts({ task }: { task: NetbenchTask }) {
 		["Agent timeout", task.agentTimeoutSec ? `${Math.round(task.agentTimeoutSec / 60)} min` : "—"],
 		["Review", `${task.review.score ?? "—"}/100 · ${task.review.status} · ${task.review.formal}`],
 	];
+	if (task.inspiredBy) rows.push(["Inspired by", `${task.inspiredBy.title} (${task.inspiredBy.venue})`]);
 	return (
 		<dl className="grid grid-cols-[110px_minmax(0,1fr)] gap-x-3 gap-y-1.5 text-[13px]">
 			{rows.map(([k, v]) => (

@@ -16,9 +16,9 @@ ROOT = pathlib.Path("/share/network-agent-benchmark-20261107")
 HERE = pathlib.Path(__file__).resolve().parent.parent
 TASK_RANGE = (1, 30)          # publish tasks 01..30 (current versions)
 INCLUDE_LEGACY = False
-MAX_FILE_CONTENT = 64_000     # per-file content cap for display
-TASK_CONTENT_BUDGET = 600_000 # per-task total displayed bytes
-DIR_COLLAPSE = 40             # directories with more files than this are summarised
+MAX_FILE_CONTENT = 1_000_000   # text files up to 1 MB are shown in full; larger ones get a placeholder
+TASK_CONTENT_BUDGET = 4_000_000 # safety cap per task (task-authored files first)
+VENDOR_DIR_FILES = 40         # files inside environment/ dirs with more files than this are treated as vendored upstream code
 LEGACY_ROOT = ROOT / "archive" / "batch-1-v1-20261111"
 MAX_TEXT = 200_000
 WITHHELD_DIRS = ("solution/", "tests/")
@@ -85,21 +85,27 @@ def scrub_prose(text: str) -> str:
 
 
 def collect_files(d: pathlib.Path, legacy: bool):
+    """Every public file is listed with its size. Text files up to 1 MB are shown in full; files over 1 MB, binaries and
+    files inside large vendored upstream directories get a placeholder (the full release repository has them)."""
     allp = [p for p in sorted(d.rglob("*")) if p.is_file() and not (SKIP_PARTS & set(p.parts))]
     rels = [p.relative_to(d).as_posix() for p in allp]
-    # directories (under environment/) holding many files, e.g. vendored upstream code, are summarised
     counts = {}
     for r in rels:
         parts = r.split("/")
         for k in range(2, len(parts)):
-            counts["/".join(parts[:k]) + "/"] = counts.get("/".join(parts[:k]) + "/", 0) + 1
-    big = sorted([k for k, n in counts.items() if n > DIR_COLLAPSE and k.startswith("environment/")], key=len)
-    collapse_roots = []
-    for k in big:
-        if not any(k.startswith(r) for r in collapse_roots):
-            collapse_roots.append(k)
-    files, hidden, collapsed, budget = [], {}, {}, TASK_CONTENT_BUDGET
-    for p, rel in zip(allp, rels):
+            key = "/".join(parts[:k]) + "/"
+            counts[key] = counts.get(key, 0) + 1
+    vendor_roots = []
+    candidates = [k for k, n in counts.items() if n > VENDOR_DIR_FILES and k.startswith("environment/")
+                  and k not in ("environment/", "environment/workspace/", "environment/workspace/submission/")]
+    for k in sorted(candidates, key=len):
+        if not any(k.startswith(r) for r in vendor_roots):
+            vendor_roots.append(k)
+    files, hidden, budget = [], {}, TASK_CONTENT_BUDGET
+    order = sorted(range(len(allp)), key=lambda i: (any(rels[i].startswith(r) for r in vendor_roots), rels[i]))
+    entries = {}
+    for i in order:
+        p, rel = allp[i], rels[i]
         if rel == "README.md" or rel.endswith(".pyc"):
             continue
         size = p.stat().st_size
@@ -107,24 +113,27 @@ def collect_files(d: pathlib.Path, legacy: bool):
             top = rel.split("/")[0] + ("/" if "/" in rel else "")
             n, sz = hidden.get(top, (0, 0)); hidden[top] = (n + 1, sz + size)
             continue
-        root = next((r for r in collapse_roots if rel.startswith(r)), None)
-        if root:
-            n, sz = collapsed.get(root, (0, 0)); collapsed[root] = (n + 1, sz + size)
-            continue
         entry = {"path": rel, "size": size}
-        c = text_or_none(p) if size <= MAX_FILE_CONTENT and budget > 0 else None
-        if c is not None:
-            if rel == "task.toml":
-                c = scrub_toml(c)
-            elif rel.endswith((".md", ".txt")):
-                c = scrub_prose(c)
-            else:
-                c = "\n".join(l for l in c.splitlines() if not re.search(r"(?i)arxiv\.org|doi\.org|usenix\.org|dl\.acm", l)) + "\n"
-            entry["content"] = c; budget -= len(c)
+        if any(rel.startswith(r) for r in vendor_roots):
+            entry["vendored"] = True
+        elif size > MAX_FILE_CONTENT:
+            entry["large"] = True
         else:
-            entry["binary"] = True
-        files.append(entry)
-    files += [{"path": r, "collapsed": True, "count": n, "size": sz} for r, (n, sz) in sorted(collapsed.items())]
+            c = text_or_none(p)
+            if c is None:
+                entry["binary"] = True
+            elif len(c) > budget:
+                entry["large"] = True
+            else:
+                if rel == "task.toml":
+                    c = scrub_toml(c)
+                elif rel.endswith((".md", ".txt")):
+                    c = scrub_prose(c)
+                else:
+                    c = "\n".join(l for l in c.splitlines() if not re.search(r"(?i)arxiv\.org|doi\.org|usenix\.org|dl\.acm", l)) + "\n"
+                entry["content"] = c; budget -= len(c)
+        entries[rel] = entry
+    files = [entries[r] for r in sorted(entries)]
     files += [{"path": top, "withheld": True, "count": n, "size": sz} for top, (n, sz) in sorted(hidden.items())]
     return files
 
@@ -142,6 +151,9 @@ def base_entry(tid, d, cfg):
         "resources": {k: env.get(k) for k in ("cpus", "memory_mb", "storage_mb", "gpus", "network_mode", "workdir")},
         "agentTimeoutSec": agent.get("timeout_sec"),
     }
+
+
+PAPERS_FILE = HERE / "netbench-site" / "papers.json"   # task number -> [full paper title, venue] (site metadata only)
 
 
 def task_entry(tid: str):
@@ -170,6 +182,8 @@ def task_entry(tid: str):
     e.update({
         "slug": tid, "version": "current",
         "review": {"score": score, "status": status, "formal": "pending Docker/Harbor validation"},
+        "inspiredBy": (lambda pp: {"title": pp[0], "venue": pp[1]} if pp else None)(
+            json.loads(PAPERS_FILE.read_text()).get(tid[:2]) if PAPERS_FILE.exists() else None),
         "readme": readme,
         "instruction": scrub_prose((d / "instruction.md").read_text()),
         "files": collect_files(d, legacy=True),  # display-side provenance filter as a safety net
