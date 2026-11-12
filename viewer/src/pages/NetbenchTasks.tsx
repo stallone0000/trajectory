@@ -20,6 +20,7 @@ interface TaskFile {
 	content?: string;
 	binary?: boolean;
 	withheld?: boolean;
+	collapsed?: boolean;
 	count?: number;
 }
 export interface NetbenchTask {
@@ -66,6 +67,12 @@ const langOf = (path: string) => (path.endsWith("Dockerfile") ? "dockerfile" : L
 const isLegacy = (t: NetbenchTask) => t.version === "legacy-v1";
 const runCommand = (t: NetbenchTask) => (isLegacy(t) ? `harbor run -p archive/batch-1-v1-20261111/tasks/${t.slug}` : `harbor run -p tasks/${t.slug}`);
 
+function StatusPill({ task }: { task: NetbenchTask }) {
+	const s = task.review.status;
+	const tone = s === "accepted" ? "accent" : s.startsWith("difficulty gate passed") ? "neutral" : "yellow";
+	return <Pill tone={tone} title={s}>{s === "accepted" ? "accepted" : s.split(" · ")[1] ?? s}</Pill>;
+}
+
 function Tags({ task }: { task: NetbenchTask }) {
 	return (
 		<div className="flex flex-wrap gap-1.5">
@@ -92,9 +99,9 @@ export function NetbenchTasksPage() {
 			<PageTitle>netbench / tasks</PageTitle>
 			<p className="mt-2 max-w-[760px] text-[14px] leading-[1.6] text-muted">
 				Network-research agent tasks. Each task was authored, given an
-				independent grader, and reviewed by three separate agents. Tasks marked <b>legacy v1</b> are the archived first versions of
-				tasks 01–16; they are being regenerated with the current process and will be replaced under the same IDs. Reference
-				solutions and hidden tests are withheld to prevent benchmark contamination.
+				independent grader, reviewed by a separate agent, and must defeat a gpt-6-luna (high) baseline in at least one of two
+				attempts. Tasks marked <b>in progress</b> are still being revised and may change. Large vendored code directories are
+				summarised rather than expanded. Reference solutions and hidden tests are withheld to prevent benchmark contamination.
 			</p>
 			<div className="mt-6 flex items-center gap-3">
 				<input
@@ -116,6 +123,7 @@ export function NetbenchTasksPage() {
 								<th className="py-2 pr-4 font-medium">Task</th>
 								<th className="py-2 pr-4 font-medium">Description</th>
 								<th className="py-2 pr-4 font-medium">Tags</th>
+								<th className="py-2 pr-4 font-medium">Status</th>
 								<th className="py-2 pr-0 text-right font-medium" title="Independent reviewer score (0–100)">Review</th>
 							</tr>
 						</thead>
@@ -129,6 +137,7 @@ export function NetbenchTasksPage() {
 										{t.description}
 									</td>
 									<td className="py-3 pr-4"><Tags task={t} /></td>
+									<td className="py-3 pr-4"><StatusPill task={t} /></td>
 									<td className="py-3 pr-0 text-right tabular-nums">{t.review.score ?? "—"}</td>
 								</tr>
 							))}
@@ -177,7 +186,13 @@ function FilesTab({ task }: { task: NetbenchTask }) {
 			<ul className="text-[13px]">
 				{task.files.map((f) => (
 					<li key={f.path}>
-						{f.withheld ? (
+						{f.collapsed ? (
+							<div className="flex items-center gap-1.5 px-2 py-1 text-muted" title="Large directory (e.g. vendored upstream code) — not expanded on this page">
+								<Icon name="folder" size={13} />
+								<span className="truncate">{f.path}</span>
+								<span className="ml-auto shrink-0 text-[11.5px]">{f.count} files · {fmtBytes(f.size)}</span>
+							</div>
+						) : f.withheld ? (
 							<div className="flex items-center gap-1.5 px-2 py-1 text-muted" title="Withheld to prevent benchmark contamination">
 								<Icon name="key" size={13} />
 								<span className="truncate">{f.path}</span>
@@ -246,7 +261,7 @@ export function NetbenchTaskPage() {
 			</div>
 			<PageTitle>netbench / {task.slug}{isLegacy(task) ? " (legacy v1)" : ""}</PageTitle>
 			<p className="mt-2 max-w-[820px] text-[15px] leading-[1.55]">{task.description}</p>
-			<div className="mt-3"><Tags task={task} /></div>
+			<div className="mt-3 flex flex-wrap items-center gap-2"><StatusPill task={task} /><Tags task={task} /></div>
 			<div className="mt-4 grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
 				<CopyCommand text={runCommand(task)} />
 			</div>
