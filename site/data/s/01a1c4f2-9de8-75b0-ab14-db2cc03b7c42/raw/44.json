@@ -1,1 +1,0 @@
-{"type":"message","id":"97d9b733","parentId":"745f81c5","timestamp":"2026-11-10T10:50:06.853Z","message":{"role":"toolResult","toolCallId":"call_e41c126f7ad64968bd79b66e","toolName":"bash","content":[{"type":"text","text":"ok\npassed 132 of 1\nFAIL ('atom_deep_chain_invalid', 0, '{\"error\":\"E_JSON\"}', '')\n"}],"isError":false,"durationMs":5434,"timestamp":1794307806853}}

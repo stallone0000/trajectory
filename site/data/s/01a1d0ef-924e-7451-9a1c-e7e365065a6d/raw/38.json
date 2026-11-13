@@ -1,0 +1,1 @@
+{"type":"message","id":"204c9c2b","parentId":"752bc7c8","timestamp":"2026-11-12T18:10:45.761Z","message":{"role":"toolResult","toolCallId":"call_f3b182967d55414bb168944c","toolName":"bash","content":[{"type":"text","text":"pid 2165109 ppid 2165108 pgrp 2165108 sid 2165108\n[Errno 2] No such file or directory: 'ps'\n"}],"isError":false,"durationMs":59,"timestamp":1794507045761}}

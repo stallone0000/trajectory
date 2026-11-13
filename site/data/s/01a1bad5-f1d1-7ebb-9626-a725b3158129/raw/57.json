@@ -1,1 +1,0 @@
-{"type":"message","id":"e256dc98","parentId":"d1673c2b","timestamp":"2026-11-08T11:21:22.033Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-bfba5f2e854c28bd","toolName":"bash","content":[{"type":"text","text":"e2e lookup requests 30 issues 0\ne2e done\n"}],"isError":false,"durationMs":697,"timestamp":1794136882033}}

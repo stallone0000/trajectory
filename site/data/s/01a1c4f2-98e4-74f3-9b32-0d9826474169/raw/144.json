@@ -1,1 +1,0 @@
-{"type":"message","id":"58b957a0","parentId":"d81fe94f","timestamp":"2026-11-10T12:28:54.902Z","message":{"role":"toolResult","toolCallId":"call_kt91zot3lv9gffbv2hxi59a9","toolName":"bash","content":[{"type":"text","text":"N=10 total 22.39s worst 8.20s\nN=16 total 20.54s worst 7.40s\nN=30 total 18.72s worst 7.01s\n"}],"isError":false,"durationMs":62001,"timestamp":1794313734902}}

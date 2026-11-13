@@ -1,1 +1,0 @@
-{"type":"message","id":"b48bd805","parentId":"2367aeed","timestamp":"2026-11-10T01:16:18.070Z","message":{"role":"toolResult","toolCallId":"call_3ac7fd2436374a83bdaed1eb","toolName":"bash","content":[{"type":"text","text":"1024*2048 = False\n1025*2048 = True\n60001 frames = True\n60000 frames = True\n"}],"isError":false,"durationMs":600,"timestamp":1794273378070}}

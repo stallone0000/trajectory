@@ -1,1 +1,0 @@
-{"type":"message","id":"f3275538","parentId":"90cab001","timestamp":"2026-11-10T13:53:11.046Z","message":{"role":"toolResult","toolCallId":"call_zlkfjujutquohflpolo5rv03","toolName":"bash","content":[{"type":"text","text":"domains 14 observations 256 commodities 12\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180096,"timestamp":1794318791046}}

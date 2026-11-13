@@ -1,0 +1,1 @@
+{"type":"message","id":"8dd6a548","parentId":"a72dfdf4","timestamp":"2026-11-13T00:04:55.990Z","message":{"role":"toolResult","toolCallId":"call_8387c967b715418daf09b83e","toolName":"bash","content":[{"type":"text","text":"multi-stream fuzz: 60 cases, 0 mismatches\n"}],"isError":false,"durationMs":1643,"timestamp":1794528295990}}

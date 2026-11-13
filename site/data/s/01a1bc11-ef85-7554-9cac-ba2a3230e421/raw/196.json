@@ -1,1 +1,0 @@
-{"type":"message","id":"7e7447a1","parentId":"1027a784","timestamp":"2026-11-08T18:11:09.143Z","message":{"role":"toolResult","toolCallId":"call_734d27b00edd47e5903c29bc","toolName":"bash","content":[{"type":"text","text":"'infeasible' 'invalid'\n[(64, 'infeasible')]\n"}],"isError":false,"durationMs":132,"timestamp":1794161469143}}

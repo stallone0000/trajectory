@@ -1,1 +1,0 @@
-{"type":"message","id":"b77c63ae","parentId":"6ba5e178","timestamp":"2026-11-09T19:09:24.780Z","message":{"role":"toolResult","toolCallId":"call_8e240b97c8a64dbcb03e0201","toolName":"bash","content":[{"type":"text","text":"patched\nPublic examples did not match.\n\n\n[exit code 1]"}],"isError":true,"durationMs":145,"timestamp":1794251364780}}

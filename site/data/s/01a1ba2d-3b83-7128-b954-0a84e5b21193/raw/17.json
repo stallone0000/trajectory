@@ -1,1 +1,0 @@
-{"type":"message","id":"f55dce2e","parentId":"78d86f66","timestamp":"2026-11-08T08:06:35.591Z","message":{"role":"toolResult","toolCallId":"call_01a1ba31e64a72159b1b2a3c","toolName":"bash","content":[{"type":"text","text":"IDX OK\nSCALAR OK\nBATCH3 OK\nBATCH003 OK\n"}],"isError":false,"durationMs":128,"timestamp":1794125195591}}

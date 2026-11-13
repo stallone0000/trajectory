@@ -1,1 +1,0 @@
-{"type":"message","id":"08c68cd0","parentId":"a4f7ce4c","timestamp":"2026-11-09T21:37:37.515Z","message":{"role":"toolResult","toolCallId":"call_3c777ef1fdf24797bb52d660","toolName":"bash","content":[{"type":"text","text":"quant-biased difftest: bad=0 of 200, classes=47 members=68\n"}],"isError":false,"durationMs":8042,"timestamp":1794260257515}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"efb53369","parentId":"050c5500","timestamp":"2026-11-09T21:31:45.724Z","message":{"role":"toolResult","toolCallId":"call_c06e68336e0342f6a70b5d81","toolName":"bash","content":[{"type":"text","text":"({'a': nan}, 10)\n({'a': 1.5}, 10)\n({'a': 2}, 13)\n(0, 1)\n"}],"isError":false,"durationMs":94,"timestamp":1794259905724}}

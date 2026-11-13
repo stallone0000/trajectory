@@ -1,1 +1,0 @@
-{"type":"message","id":"9f0041cc","parentId":"ae15530e","timestamp":"2026-11-09T23:05:26.160Z","message":{"role":"toolResult","toolCallId":"call_3d3b4964610b4ef591c004fc","toolName":"bash","content":[{"type":"text","text":"{\"error\":\"invalid-input\"}\n\nno obs: {\"error\":\"invalid-input\"}\n\n"}],"isError":false,"durationMs":257,"timestamp":1794265526160}}

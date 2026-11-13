@@ -1,1 +1,0 @@
-{"type":"message","id":"eae79d33","parentId":"877076e6","timestamp":"2026-11-10T18:24:43.315Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-81260b1dbf67d90d","toolName":"bash","content":[{"type":"text","text":"INVALID: Invalid out of range\n"}],"isError":false,"durationMs":67,"timestamp":1794335083315}}

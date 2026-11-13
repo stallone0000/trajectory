@@ -1,0 +1,1 @@
+{"type":"message","id":"c505ac24","parentId":"f3cd01b4","timestamp":"2026-11-13T06:21:42.766Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-854f13ae2260792a","toolName":"bash","content":[{"type":"text","text":"entries 8 bytes 37580 limit 2MiB 2097152\n"}],"isError":false,"durationMs":66,"timestamp":1794550902766}}

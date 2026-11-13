@@ -1,1 +1,0 @@
-{"type":"message","id":"e95935b0","parentId":"b7bd3527","timestamp":"2026-11-08T15:20:56.279Z","message":{"role":"toolResult","toolCallId":"call_37097c99582a4e5693f0d85f","toolName":"bash","content":[{"type":"text","text":"done bad: 0 max packets 3000\n"}],"isError":false,"durationMs":2371,"timestamp":1794151256279}}

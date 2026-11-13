@@ -1,1 +1,0 @@
-{"type":"message","id":"1af515d7","parentId":"3e954013","timestamp":"2026-11-10T18:25:14.689Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-86f4909f5fe6fba9","toolName":"bash","content":[{"type":"text","text":"\nVALIDATION FAILURES: 0\n136\n"}],"isError":false,"durationMs":7347,"timestamp":1794335114689}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"1ee71aa7","parentId":"d722f22e","timestamp":"2026-11-08T17:33:04.561Z","message":{"role":"toolResult","toolCallId":"call_85b483770a734ca1aaa6bcc9","toolName":"bash","content":[{"type":"text","text":"hello\n/proc/[0-9]*  \n"}],"isError":false,"durationMs":22,"timestamp":1794159184561}}

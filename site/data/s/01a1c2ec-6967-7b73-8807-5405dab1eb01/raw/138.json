@@ -1,1 +1,0 @@
-{"type":"message","id":"026e1cc1","parentId":"ebb0870a","timestamp":"2026-11-10T01:22:00.749Z","message":{"role":"toolResult","toolCallId":"call_c4e632b2adbc4f3db23a292b","toolName":"bash","content":[{"type":"text","text":"distinct sids in request 128 1016\nout streams 128 missing 0 extra 0\nreceived_total 7666743\n"}],"isError":false,"durationMs":735,"timestamp":1794273720749}}

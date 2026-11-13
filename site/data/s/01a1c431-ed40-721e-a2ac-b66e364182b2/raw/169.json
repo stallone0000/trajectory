@@ -1,1 +1,0 @@
-{"type":"message","id":"26c9c22f","parentId":"3b001c32","timestamp":"2026-11-10T08:55:26.723Z","message":{"role":"toolResult","toolCallId":"call_367e8277824f42a4a7b0e122","toolName":"bash","content":[{"type":"text","text":"fuzz done bad= 0 {'E_JSON': 873, 'ok': 17, 'E_SCHEMA': 10}\n"}],"isError":false,"durationMs":57712,"timestamp":1794300926723}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"5f00402b","parentId":"d3ac4a67","timestamp":"2026-11-10T10:15:52.339Z","message":{"role":"toolResult","toolCallId":"call_83cb8143dc924bd0ab848c90","toolName":"bash","content":[{"type":"text","text":"burst: FAIL\nstream: FAIL\ninvalid: PASS\n\n\n[exit code 1]"}],"isError":true,"durationMs":171,"timestamp":1794305752339}}

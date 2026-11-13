@@ -1,1 +1,0 @@
-{"type":"message","id":"87ffe66c","parentId":"5c3873d5","timestamp":"2026-11-10T10:37:40.529Z","message":{"role":"toolResult","toolCallId":"call_4cwd844wtb65z6pdi0klntkl","toolName":"bash","content":[{"type":"text","text":"And True False\nAnd([]) solver: sat\nOr([]) solver: unsat\n"}],"isError":false,"durationMs":90,"timestamp":1794307060529}}

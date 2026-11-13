@@ -1,1 +1,0 @@
-{"type":"message","id":"2a4c38bf","parentId":"e9475b3c","timestamp":"2026-11-09T20:42:53.707Z","message":{"role":"toolResult","toolCallId":"call_01a1c20c8f9077968d76c77a","toolName":"bash","content":[{"type":"text","text":"checks 381 violations 0\n"}],"isError":false,"durationMs":7476,"timestamp":1794256973707}}

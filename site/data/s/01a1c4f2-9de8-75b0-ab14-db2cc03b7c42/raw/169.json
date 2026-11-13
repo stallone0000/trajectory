@@ -1,1 +1,0 @@
-{"type":"message","id":"8cb74d63","parentId":"761996bd","timestamp":"2026-11-10T11:23:48.053Z","message":{"role":"toolResult","toolCallId":"call_3c93d9913be54a409a458c95","toolName":"bash","content":[{"type":"text","text":"8388428\n{\"error\":\"E_SCHEMA\"}\nreal\t0m2.138s\nuser\t0m2.046s\n"}],"isError":false,"durationMs":2223,"timestamp":1794309828053}}

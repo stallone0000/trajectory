@@ -1,1 +1,0 @@
-{"type":"message","id":"322064e4","parentId":"1a3a0471","timestamp":"2026-11-10T18:54:30.644Z","message":{"role":"toolResult","toolCallId":"call_d8b7621b25a94ea7b6a91dec","toolName":"bash","content":[{"type":"text","text":"[[[15, 0]], [[15, 1]], [[15, 15]]]\n[[0, 115], [0, 116], [0, 127]]\n"}],"isError":false,"durationMs":137,"timestamp":1794336870644}}

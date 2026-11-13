@@ -1,1 +1,0 @@
-{"type":"message","id":"9e02065e","parentId":"ca6b8a18","timestamp":"2026-11-09T20:16:37.463Z","message":{"role":"toolResult","toolCallId":"call_b082ade975bc4c00a51a7bea","toolName":"bash","content":[{"type":"text","text":" key diagnostics\n  got [{\"line\": 1, \"reason\": \"json\"}]\n  exp []\nbigfuzz bad = 2\n"}],"isError":false,"durationMs":39196,"timestamp":1794255397463}}

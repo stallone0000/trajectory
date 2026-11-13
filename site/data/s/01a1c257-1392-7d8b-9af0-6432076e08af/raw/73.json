@@ -1,1 +1,0 @@
-{"type":"custom_message","id":"f0701152","parentId":"283cce6b","timestamp":"2026-11-09T22:27:46.666Z","customType":"mini-swe-agent.feedback","content":"No tool calls found in the response. Every response MUST include at least one tool call.","display":true}

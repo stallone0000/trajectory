@@ -1,1 +1,0 @@
-{"type":"message","id":"960e03a4","parentId":"ece87f07","timestamp":"2026-11-09T23:11:22.597Z","message":{"role":"toolResult","toolCallId":"call_2aead94cacae402f8772e953","toolName":"bash","content":[{"type":"text","text":"checked 120 cases in 2.6s; failures=0; stats={'infeasible': 78, 'optimal': 42}\n"}],"isError":false,"durationMs":11939,"timestamp":1794265882597}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"e2832282","parentId":"c5cf7d1c","timestamp":"2026-11-10T02:13:17.097Z","message":{"role":"toolResult","toolCallId":"bash_39_ee7e7119","toolName":"bash","content":[{"type":"text","text":"{'safe': False, 'safety': {'prefix': []}, 'terminates': False, 'liveness': {'prefix': [], 'loop': [-1]}}\n"}],"isError":false,"durationMs":64,"timestamp":1794276797097}}

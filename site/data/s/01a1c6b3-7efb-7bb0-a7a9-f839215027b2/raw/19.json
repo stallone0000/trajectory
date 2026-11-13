@@ -1,1 +1,0 @@
-{"type":"message","id":"8879bfdf","parentId":"13100c5f","timestamp":"2026-11-10T18:30:44.145Z","message":{"role":"toolResult","toolCallId":"call_83a8311698d94e26a8a249bc","toolName":"bash","content":[{"type":"text","text":"               ^^^^^^^^^^^^^^^^^^^^^^\n  File \"<string>\", line 6, in hook\nValueError: dup\n"}],"isError":false,"durationMs":87,"timestamp":1794335444145}}

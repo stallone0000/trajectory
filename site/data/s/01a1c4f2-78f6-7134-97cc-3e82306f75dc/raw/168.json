@@ -1,1 +1,0 @@
-{"type":"message","id":"e7ec44af","parentId":"a7a9ab6e","timestamp":"2026-11-10T11:54:33.840Z","message":{"role":"toolResult","toolCallId":"call_pb9k7v526ldke1p723js1vzr","toolName":"bash","content":[{"type":"text","text":"diff: can't stat '/dev/fd/63': No such file or directory\n\n\n[exit code 2]"}],"isError":true,"durationMs":104,"timestamp":1794311673840}}

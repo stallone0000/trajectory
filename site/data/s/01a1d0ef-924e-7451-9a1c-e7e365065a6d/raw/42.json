@@ -1,0 +1,1 @@
+{"type":"message","id":"0aa9fe02","parentId":"23f7bd58","timestamp":"2026-11-12T18:11:00.117Z","message":{"role":"toolResult","toolCallId":"call_665ea950ff4a4fbb892e31ea","toolName":"bash","content":[{"type":"text","text":"two-router-clean-replay 0 \nequal True\nduplicate-json-key 0 \nequal True\n"}],"isError":false,"durationMs":143,"timestamp":1794507060117}}

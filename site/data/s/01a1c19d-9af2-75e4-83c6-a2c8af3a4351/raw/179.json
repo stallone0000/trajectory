@@ -1,1 +1,0 @@
-{"type":"message","id":"7b0f3325","parentId":"1099d54c","timestamp":"2026-11-09T20:17:20.596Z","message":{"role":"toolResult","toolCallId":"call_3865a83c2fec4b9f8e4d16c3","toolName":"bash","content":[{"type":"text","text":"ok\ncases 25 failures 0\ncases 25 failures 0\n"}],"isError":false,"durationMs":600,"timestamp":1794255440596}}

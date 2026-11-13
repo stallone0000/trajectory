@@ -1,1 +1,0 @@
-{"type":"message","id":"51b573b5","parentId":"40ce8b80","timestamp":"2026-11-10T11:47:57.019Z","message":{"role":"toolResult","toolCallId":"call_rqs532cpapdxzuqlv9q8zz7j","toolName":"bash","content":[{"type":"text","text":"fuzz4 seeds 200..699 ok: maxstates=274 maxprod=1584 skipped=0 time=5.3s\n"}],"isError":false,"durationMs":5373,"timestamp":1794311277019}}

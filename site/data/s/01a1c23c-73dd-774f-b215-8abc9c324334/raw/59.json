@@ -1,1 +1,0 @@
-{"type":"message","id":"d71e5511","parentId":"a3b23e93","timestamp":"2026-11-09T21:48:27.172Z","message":{"role":"toolResult","toolCallId":"call_81ac3b7e54e7499fbe53f5ee","toolName":"bash","content":[{"type":"text","text":"witness eq: True\nrest eq: True\n"}],"isError":false,"durationMs":102,"timestamp":1794260907172}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"95321627","parentId":"37d6288c","timestamp":"2026-11-13T08:12:01.554Z","message":{"role":"toolResult","toolCallId":"call_4230ac60ad6047ccbead1c83","toolName":"bash","content":[{"type":"text","text":"PASS cache hit replaces snapshot; validate idempotent & cutoff-filtered (hand-verified)\n"}],"isError":false,"durationMs":95,"timestamp":1794557521554}}

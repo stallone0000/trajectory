@@ -1,1 +1,0 @@
-{"type":"message","id":"feb20457","parentId":"9a5f552f","timestamp":"2026-11-08T08:22:36.275Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-b51fb11af52f34e1","toolName":"bash","content":[{"type":"text","text":"/work/example.idx /work/examples/expected.idx differ: char 187, line 10\n\n\n[exit code 1]"}],"isError":true,"durationMs":25,"timestamp":1794126156275}}

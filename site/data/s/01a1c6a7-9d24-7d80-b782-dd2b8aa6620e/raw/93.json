@@ -1,1 +1,0 @@
-{"type":"message","id":"7efb156a","parentId":"40075b53","timestamp":"2026-11-10T18:27:52.341Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-b9096ffc72fe7f34","toolName":"bash","content":[{"type":"text","text":"MISMATCH 3\nstatuses: {'applied': 433} mismatches: 1\n"}],"isError":false,"durationMs":79,"timestamp":1794335272341}}

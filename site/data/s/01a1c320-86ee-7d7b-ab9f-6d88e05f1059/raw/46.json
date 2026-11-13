@@ -1,1 +1,0 @@
-{"type":"message","id":"36fa9800","parentId":"e7ee76a8","timestamp":"2026-11-10T02:03:27.345Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-abc11c61fba0b648","toolName":"bash","content":[{"type":"text","text":"rc 0 lines in 1500 out 1500 err b''\nall outputs structurally ok\n"}],"isError":false,"durationMs":305,"timestamp":1794276207345}}

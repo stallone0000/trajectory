@@ -1,1 +1,0 @@
-{"type":"message","id":"91c33cab","parentId":"bd3ba953","timestamp":"2026-11-08T06:35:47.999Z","message":{"role":"toolResult","toolCallId":"call_01a1b9dec5d2722bb0fcbcd8","toolName":"bash","content":[{"type":"text","text":"Extra data: line 2 column 1 (char 54)\n\n\n[exit code 1]"}],"isError":true,"durationMs":106,"timestamp":1794119747999}}

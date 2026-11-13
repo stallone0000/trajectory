@@ -1,1 +1,0 @@
-{"type":"message","id":"39fa2968","parentId":"35a210a9","timestamp":"2026-11-10T18:24:14.761Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-8fb6fde1de8751c0","toolName":"bash","content":[{"type":"text","text":"INVALID: Invalid bad conv_weights shape\n"}],"isError":false,"durationMs":67,"timestamp":1794335054761}}

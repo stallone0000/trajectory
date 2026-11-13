@@ -1,1 +1,0 @@
-{"type":"message","id":"abf94c00","parentId":"281f3ec7","timestamp":"2026-11-10T13:24:02.276Z","message":{"role":"toolResult","toolCallId":"call_obenwuwypxf3dj4r4d0lp1j2","toolName":"bash","content":[{"type":"text","text":"wrote 11 lines\nexit=127\n---- output lines:\n0\n"}],"isError":false,"durationMs":108,"timestamp":1794317042276}}

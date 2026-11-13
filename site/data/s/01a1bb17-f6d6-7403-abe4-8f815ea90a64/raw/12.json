@@ -1,1 +1,0 @@
-{"type":"message","id":"08906eb3","parentId":"a9c1920a","timestamp":"2026-11-08T12:52:20.184Z","message":{"role":"toolResult","toolCallId":"bash_2_55b2a625","toolName":"bash","content":[{"type":"text","text":"Public example and restart sanity passed\n"}],"isError":false,"durationMs":217,"timestamp":1794142340184}}

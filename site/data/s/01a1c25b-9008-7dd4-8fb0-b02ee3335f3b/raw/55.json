@@ -1,1 +1,0 @@
-{"type":"message","id":"54caea1d","parentId":"7e3912a3","timestamp":"2026-11-09T22:39:26.171Z","message":{"role":"toolResult","toolCallId":"call_a34d62e5062643a995b9de73","toolName":"bash","content":[{"type":"text","text":"stderr: \ninvalid-suite: 113/113 ok\n"}],"isError":false,"durationMs":477,"timestamp":1794263966171}}

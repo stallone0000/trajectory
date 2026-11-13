@@ -1,1 +1,0 @@
-{"type":"message","id":"7d007a00","parentId":"49a1292d","timestamp":"2026-11-10T11:52:43.569Z","message":{"role":"toolResult","toolCallId":"call_xbme52b7u2gyulxci3x3o5do","toolName":"bash","content":[{"type":"text","text":"cases with dead states: 103, without: 86, max dead fraction 0.88\n"}],"isError":false,"durationMs":357,"timestamp":1794311563569}}

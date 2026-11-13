@@ -1,1 +1,0 @@
-{"type":"message","id":"d60f6f4c","parentId":"0f27c8c0","timestamp":"2026-11-10T00:44:55.088Z","message":{"role":"toolResult","toolCallId":"call_527d4d5406634f78a2e7c59d","toolName":"bash","content":[{"type":"text","text":"/bin/bash: /tmp/result.json: No such file or directory\n\n\n[exit code 1]"}],"isError":true,"durationMs":21,"timestamp":1794271495088}}

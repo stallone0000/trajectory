@@ -1,1 +1,0 @@
-{"type":"message","id":"135294ff","parentId":"2f827301","timestamp":"2026-11-10T10:50:33.956Z","message":{"role":"toolResult","toolCallId":"call_1232752733614df994c30e57","toolName":"bash","content":[{"type":"text","text":"passed 133 of 133\n"}],"isError":false,"durationMs":5193,"timestamp":1794307833956}}

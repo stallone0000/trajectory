@@ -1,1 +1,0 @@
-{"type":"message","id":"c8e76d8c","parentId":"a010f51a","timestamp":"2026-11-09T21:53:48.508Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-ad1af424dbba4fce","toolName":"bash","content":[{"type":"text","text":"done bad 0\n"}],"isError":false,"durationMs":35832,"timestamp":1794261228508}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"0723811a","parentId":"39e7d8d0","timestamp":"2026-11-10T08:04:54.490Z","message":{"role":"toolResult","toolCallId":"call_6ef7810d94b3474abd61a2ad","toolName":"bash","content":[{"type":"text","text":"519:def compile_atoms(atoms, fidx):\n523:def eval_partition(contexts, fns):\n"}],"isError":false,"durationMs":47,"timestamp":1794297894490}}

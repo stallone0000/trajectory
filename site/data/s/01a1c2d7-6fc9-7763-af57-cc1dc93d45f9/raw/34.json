@@ -1,1 +1,0 @@
-{"type":"message","id":"4c2c1baf","parentId":"b63f5ff5","timestamp":"2026-11-10T00:37:35.465Z","message":{"role":"toolResult","toolCallId":"call_-7101055076143196228","toolName":"bash","content":[{"type":"text","text":"ok   reset-first\nok   third-headers\nok   data-after-trailer\n\nALL PASSED\n"}],"isError":false,"durationMs":408,"timestamp":1794271055465}}

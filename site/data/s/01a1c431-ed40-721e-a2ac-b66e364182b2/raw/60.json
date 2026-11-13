@@ -1,1 +1,0 @@
-{"type":"message","id":"38b9e65a","parentId":"748976d2","timestamp":"2026-11-10T08:06:23.839Z","message":{"role":"toolResult","toolCallId":"call_023505935f114e40991f1310","toolName":"bash","content":[{"type":"text","text":"empty MATCH\nbad-type MATCH\nambiguity MATCH\neval test done bad= 0 atom-evals= 52423\n"}],"isError":false,"durationMs":11701,"timestamp":1794297983839}}

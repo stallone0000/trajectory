@@ -1,1 +1,0 @@
-{"type":"message","id":"67026203","parentId":"df7f2012","timestamp":"2026-11-09T20:49:27.467Z","message":{"role":"toolResult","toolCallId":"call_-7100366300827869951","toolName":"bash","content":[{"type":"text","text":"/bin/bash: pgrep: command not found\n"}],"isError":false,"durationMs":120024,"timestamp":1794257367467}}

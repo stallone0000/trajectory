@@ -1,1 +1,0 @@
-{"type":"message","id":"f86110b4","parentId":"6ad2cb46","timestamp":"2026-11-10T18:17:12.680Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-985c78c90e3a1ce1","toolName":"bash","content":[{"type":"text","text":"ls: /tmp: No such file or directory\nexit=0\nMATCH\n"}],"isError":false,"durationMs":100,"timestamp":1794334632680}}

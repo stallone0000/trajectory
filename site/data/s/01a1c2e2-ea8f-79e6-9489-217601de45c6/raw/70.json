@@ -1,1 +1,0 @@
-{"type":"message","id":"c34da8bb","parentId":"410bfbca","timestamp":"2026-11-10T01:30:46.216Z","message":{"role":"toolResult","toolCallId":"call_4df64b882341469f8b014752","toolName":"bash","content":[{"type":"text","text":"done, bad = 0\ndone, bad = 0\ndone, bad = 0\ndone bad = 0\ndone bad = 0\ndone bad = 0\n"}],"isError":false,"durationMs":1302,"timestamp":1794274246216}}

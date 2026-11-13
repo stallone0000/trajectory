@@ -1,1 +1,0 @@
-{"type":"message","id":"7b7dac8d","parentId":"ab9941fc","timestamp":"2026-11-10T01:09:31.840Z","message":{"role":"toolResult","toolCallId":"call_05b15a918efc46b588b8e170","toolName":"bash","content":[{"type":"text","text":"FAILS: 1\n - path-bad-'/A%2f': status 'forwarded' != 'rejected'\n"}],"isError":false,"durationMs":2761,"timestamp":1794272971840}}

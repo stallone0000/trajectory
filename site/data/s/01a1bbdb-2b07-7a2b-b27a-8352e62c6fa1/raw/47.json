@@ -1,1 +1,0 @@
-{"type":"message","id":"b931b268","parentId":"7911ec12","timestamp":"2026-11-08T16:01:08.103Z","message":{"role":"toolResult","toolCallId":"call_nuy0tirwngktd3yw989rwxgd","toolName":"bash","content":[{"type":"text","text":"Invalid: integer out of range\n"}],"isError":false,"durationMs":68,"timestamp":1794153668103}}

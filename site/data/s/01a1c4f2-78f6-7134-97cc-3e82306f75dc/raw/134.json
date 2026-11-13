@@ -1,1 +1,0 @@
-{"type":"message","id":"cd4e02e3","parentId":"c68770ea","timestamp":"2026-11-10T11:46:26.461Z","message":{"role":"toolResult","toolCallId":"call_558tt1oufo9gkyo3ys1gv76w","toolName":"bash","content":[{"type":"text","text":"ok: seeds 300..2600\n"}],"isError":false,"durationMs":818,"timestamp":1794311186461}}

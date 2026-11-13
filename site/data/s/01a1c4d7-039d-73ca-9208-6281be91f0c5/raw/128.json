@@ -1,1 +1,0 @@
-{"type":"message","id":"3e464e04","parentId":"b4087103","timestamp":"2026-11-10T10:33:52.149Z","message":{"role":"toolResult","toolCallId":"call_e604245dc2454907a9302e50","toolName":"bash","content":[{"type":"text","text":"invariants+fuzz ok (1500 docs)\n"}],"isError":false,"durationMs":3178,"timestamp":1794306832149}}

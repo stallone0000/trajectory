@@ -1,1 +1,0 @@
-{"type":"message","id":"205f915e","parentId":"8007d496","timestamp":"2026-11-08T12:57:32.678Z","message":{"role":"toolResult","toolCallId":"bash_8_42660fa2","toolName":"bash","content":[{"type":"text","text":"sec 0.6410164069384336 rc 0 size 16993615\ncanonical checkpoint 16935863 budget 33554944\n"}],"isError":false,"durationMs":1126,"timestamp":1794142652678}}

@@ -1,1 +1,0 @@
-{"type":"custom_message","id":"170827fc","parentId":"bea97caf","timestamp":"2026-11-10T11:15:14.322Z","customType":"mini-swe-agent.feedback","content":"Error parsing tool call arguments: Unterminated string starting at: line 1 column 13 (char 12).Missing 'command' argument in bash tool call.","display":true}

@@ -1,1 +1,0 @@
-{"type":"message","id":"0280865a","parentId":"fe9f0c1c","timestamp":"2026-11-08T06:26:03.782Z","message":{"role":"toolResult","toolCallId":"call_01a1b9d5dc0b702b957ef891","toolName":"bash","content":[{"type":"text","text":"{\"id\":\"t\",\"status\":\"error\",\"error\":\"invalid_instance\"}\n"}],"isError":false,"durationMs":141,"timestamp":1794119163782}}

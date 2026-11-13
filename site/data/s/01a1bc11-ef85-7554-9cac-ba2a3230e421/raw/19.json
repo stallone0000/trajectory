@@ -1,1 +1,0 @@
-{"type":"message","id":"c4653d50","parentId":"1395eb7c","timestamp":"2026-11-08T17:01:33.668Z","message":{"role":"toolResult","toolCallId":"call_6cbefac52d0d4f509a7a8a25","toolName":"bash","content":[{"type":"text","text":"maxrss MB 16.92578125\n4.000024 MB\nparsed 2\nmaxrss MB 39.66015625\n"}],"isError":false,"durationMs":308,"timestamp":1794157293668}}

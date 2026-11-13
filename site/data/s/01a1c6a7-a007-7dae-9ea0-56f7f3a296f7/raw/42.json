@@ -1,1 +1,0 @@
-{"type":"message","id":"9a9e8070","parentId":"09ac2336","timestamp":"2026-11-10T18:28:33.271Z","message":{"role":"toolResult","toolCallId":"call_ca4622686ce4450485839a01","toolName":"bash","content":[{"type":"text","text":"FAIL(expected valid, got error): 2048 connections b''\ntotal failures: 1\n"}],"isError":false,"durationMs":8190,"timestamp":1794335313271}}

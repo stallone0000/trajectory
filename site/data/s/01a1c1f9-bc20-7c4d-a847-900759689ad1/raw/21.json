@@ -1,1 +1,0 @@
-{"type":"message","id":"ccea8f62","parentId":"80a07657","timestamp":"2026-11-09T20:52:07.037Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-931c40c38ca5ad32","toolName":"bash","content":[{"type":"text","text":"burst ref-vs-expected: MATCH\nstream ref-vs-expected: MATCH\n"}],"isError":false,"durationMs":165,"timestamp":1794257527037}}

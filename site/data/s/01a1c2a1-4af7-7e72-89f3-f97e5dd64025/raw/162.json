@@ -1,1 +1,0 @@
-{"type":"message","id":"b4fb5672","parentId":"406224ff","timestamp":"2026-11-10T00:06:00.052Z","message":{"role":"toolResult","toolCallId":"call_-7101061020377933518","toolName":"bash","content":[{"type":"text","text":"ok relay allowed bob\nok 256 accounts\n\nALL PASS\n"}],"isError":false,"durationMs":288,"timestamp":1794269160052}}

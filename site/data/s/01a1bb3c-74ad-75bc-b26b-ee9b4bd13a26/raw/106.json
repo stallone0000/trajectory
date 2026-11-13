@@ -1,1 +1,0 @@
-{"type":"message","id":"1ec1ef4d","parentId":"14fd8627","timestamp":"2026-11-08T13:41:17.161Z","message":{"role":"toolResult","toolCallId":"call_-7100509134260266185","toolName":"bash","content":[{"type":"text","text":"patched\n737:        engine.restore(value)\n738-        return '{\"events\":[]}'\nOK\n"}],"isError":false,"durationMs":73,"timestamp":1794145277161}}
