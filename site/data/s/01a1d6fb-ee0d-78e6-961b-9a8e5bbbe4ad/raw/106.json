@@ -1,0 +1,1 @@
+{"type":"message","id":"ab785ef2","parentId":"0b58ea97","timestamp":"2026-11-13T23:00:03.317Z","message":{"role":"toolResult","toolCallId":"call_57602f534790474095ec70dd","toolName":"bash","content":[{"type":"text","text":"events 7303 wire 8634997 ids 2 traces 1\ncap events 8192 wire 8388608\n"}],"isError":false,"durationMs":153,"timestamp":1794610803317}}

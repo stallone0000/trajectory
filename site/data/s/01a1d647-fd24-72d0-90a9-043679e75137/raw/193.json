@@ -1,0 +1,1 @@
+{"type":"message","id":"4ba94e0d","parentId":"f1a06e65","timestamp":"2026-11-13T20:35:10.591Z","message":{"role":"toolResult","toolCallId":"call_6950970e2201428b8c5b9c6e","toolName":"bash","content":[{"type":"text","text":"kept 256 hits sample [[2], [4], [4]]\ntotal hits 1058\nexact entries 256\ndistinct ranges 256\n"}],"isError":false,"durationMs":488,"timestamp":1794602110591}}

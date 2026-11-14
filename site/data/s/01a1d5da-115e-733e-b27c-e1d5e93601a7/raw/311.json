@@ -1,0 +1,1 @@
+{"type":"message","id":"061738c1","parentId":"2be622c3","timestamp":"2026-11-13T18:19:30.166Z","message":{"role":"toolResult","toolCallId":"call_ccbeff587234492aaae75528","toolName":"bash","content":[{"type":"text","text":"half: in=1.1MB seconds=171.4 exit=0 err=\n   plan 1024 523776 active 1024 pairs 65536\n"}],"isError":false,"durationMs":171654,"timestamp":1794593970166}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"398b6ccc","parentId":"b78bce20","timestamp":"2026-11-13T15:14:15.468Z","message":{"role":"toolResult","toolCallId":"call_859ae067d65f4356a3f26953","toolName":"bash","content":[{"type":"text","text":"done, bad = 0\nelapsed 147.79\n\n\n[exit code 124]"}],"isError":true,"durationMs":147930,"timestamp":1794582855468}}

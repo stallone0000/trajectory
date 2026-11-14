@@ -1,0 +1,1 @@
+{"type":"message","id":"cb611a1a","parentId":"fe6bf622","timestamp":"2026-11-12T22:29:17.659Z","message":{"role":"toolResult","toolCallId":"call_caa53c7bddd84db8bdf293cd","toolName":"bash","content":[{"type":"text","text":"FAIL rib ok long path (0, {'error': 'invalid'})\nvalidation cases: 88 failures: 1\n"}],"isError":false,"durationMs":2260,"timestamp":1794522557659}}

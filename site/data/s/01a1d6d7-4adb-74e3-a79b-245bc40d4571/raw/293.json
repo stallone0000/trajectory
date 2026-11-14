@@ -1,0 +1,1 @@
+{"type":"message","id":"c42d5a12","parentId":"2c829e6a","timestamp":"2026-11-13T22:23:03.754Z","message":{"role":"toolResult","toolCallId":"call_d041f3ea99e540b8843856ba","toolName":"bash","content":[{"type":"text","text":"large rep cache ok\nmixed cache ok\n"}],"isError":false,"durationMs":3204,"timestamp":1794608583754}}

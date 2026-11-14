@@ -1,0 +1,1 @@
+{"type":"message","id":"007666f1","parentId":"02ae2909","timestamp":"2026-11-13T21:32:07.725Z","message":{"role":"toolResult","toolCallId":"call_84c13ff3982d43479dbf2380","toolName":"bash","content":[{"type":"text","text":"kill denied: [Errno 1] Operation not permitted\nprctl subreaper: 0 0\n"}],"isError":false,"durationMs":69,"timestamp":1794605527725}}

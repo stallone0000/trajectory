@@ -1,0 +1,1 @@
+{"type":"message","id":"d363228a","parentId":"1d282d8b","timestamp":"2026-11-13T17:01:24.895Z","message":{"role":"toolResult","toolCallId":"call_8c3eb41fc1ef440ca5140413","toolName":"bash","content":[{"type":"text","text":"rejected [[0, 1]] ledger {'live': 2, 'deleted': 0, 'conflict': 0}\n"}],"isError":false,"durationMs":97,"timestamp":1794589284895}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"bf62784a","parentId":"e6ec5f4b","timestamp":"2026-11-13T00:41:14.256Z","message":{"role":"toolResult","toolCallId":"call_6f4df148fe914a249fe3caad","toolName":"bash","content":[{"type":"text","text":"done bad = 0\ndone kind=plan bad=0 checktime=0.0\n"}],"isError":false,"durationMs":376,"timestamp":1794530474256}}

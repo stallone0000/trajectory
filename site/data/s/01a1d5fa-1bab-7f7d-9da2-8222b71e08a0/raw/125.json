@@ -1,0 +1,1 @@
+{"type":"message","id":"82d23951","parentId":"3656cacf","timestamp":"2026-11-13T18:26:21.304Z","message":{"role":"toolResult","toolCallId":"call_181508d0a4784baba54d4cf2","toolName":"bash","content":[{"type":"text","text":"mode=raw seeds 0..200 checked=154 skipped=46 failures=0 (12.5s)\n"}],"isError":false,"durationMs":12626,"timestamp":1794594381304}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"04c380cb","parentId":"9e450051","timestamp":"2026-11-13T17:00:15.323Z","message":{"role":"toolResult","toolCallId":"call_165fb259c87c413eb585ed38","toolName":"bash","content":[{"type":"text","text":"ok decoded byte budget\n"}],"isError":false,"durationMs":87,"timestamp":1794589215323}}

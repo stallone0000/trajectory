@@ -1,0 +1,1 @@
+{"type":"message","id":"f3e4e763","parentId":"aec1bab4","timestamp":"2026-11-13T13:49:40.202Z","message":{"role":"toolResult","toolCallId":"call_178d4b30080d41149535034f","toolName":"bash","content":[{"type":"text","text":"prctl subreaper 0 0\n"}],"isError":false,"durationMs":39,"timestamp":1794577780202}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"9e37f06f","parentId":"82556455","timestamp":"2026-11-13T23:32:58.034Z","message":{"role":"toolResult","toolCallId":"call_778f79dec67d47a3bf2fd1dd","toolName":"bash","content":[{"type":"text","text":"ring32 tight (D large, p large)\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180114,"timestamp":1794612778034}}

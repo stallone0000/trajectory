@@ -1,0 +1,1 @@
+{"type":"message","id":"26d9555e","parentId":"4757b172","timestamp":"2026-11-13T16:36:23.750Z","message":{"role":"toolResult","toolCallId":"call_30eb5c4b4cb94d0186e081ec","toolName":"bash","content":[{"type":"text","text":"fuzz OK 400 iterations, seed 5\n"}],"isError":false,"durationMs":22794,"timestamp":1794587783750}}

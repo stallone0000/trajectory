@@ -1,0 +1,1 @@
+{"type":"message","id":"2d707a54","parentId":"943c7da9","timestamp":"2026-11-13T19:32:53.500Z","message":{"role":"toolResult","toolCallId":"call_8606063a8210404d95128266","toolName":"bash","content":[{"type":"text","text":"N 400 fails 0 time 10.75s\n"}],"isError":false,"durationMs":11164,"timestamp":1794598373500}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"83679074","parentId":"2060243e","timestamp":"2026-11-13T15:57:54.461Z","message":{"role":"toolResult","toolCallId":"call_518ba9497fd74d31833fe38e","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 41: whoami: command not found\n64007\n"}],"isError":false,"durationMs":2068,"timestamp":1794585474461}}

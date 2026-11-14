@@ -1,0 +1,1 @@
+{"type":"message","id":"e041dbfa","parentId":"7bb81814","timestamp":"2026-11-12T19:17:13.726Z","message":{"role":"toolResult","toolCallId":"call_6ffa9fa11e0146c887446333","toolName":"bash","content":[{"type":"text","text":"all inference tests passed\n\nreal\t0m2.454s\nuser\t0m2.436s\nsys\t0m0.016s\n"}],"isError":false,"durationMs":2468,"timestamp":1794511033726}}

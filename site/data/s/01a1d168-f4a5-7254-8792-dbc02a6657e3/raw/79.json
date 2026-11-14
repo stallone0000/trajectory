@@ -1,1 +1,0 @@
-{"type":"message","id":"81a39957","parentId":"0373d1d8","timestamp":"2026-11-12T20:43:08.910Z","message":{"role":"toolResult","toolCallId":"call_b3816821334148b3a63b769a","toolName":"bash","content":[{"type":"text","text":"flows 1054 links 511\ndense-degree repair 0.67s\nnull routes 0.38s\neps0 0.60s\n"}],"isError":false,"durationMs":1963,"timestamp":1794516188910}}

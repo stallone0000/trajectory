@@ -1,0 +1,1 @@
+{"type":"message","id":"1fb7bbe5","parentId":"c3efe9c4","timestamp":"2026-11-13T22:22:28.055Z","message":{"role":"toolResult","toolCallId":"call_1e2f80ef55804512a2f2bbbb","toolName":"bash","content":[{"type":"text","text":"ok   trailing newline ok\nok   2048 jobs\nok   2048 jobs time<10s\n\nFAILS: 0 of 25\n"}],"isError":false,"durationMs":754,"timestamp":1794608548055}}

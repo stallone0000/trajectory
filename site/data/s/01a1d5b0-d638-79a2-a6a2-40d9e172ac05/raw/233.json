@@ -1,0 +1,1 @@
+{"type":"message","id":"2cede968","parentId":"b9e46740","timestamp":"2026-11-13T17:18:43.882Z","message":{"role":"toolResult","toolCallId":"call_0a8aa362fb904e6f94e719ed","toolName":"bash","content":[{"type":"text","text":"fuzz 300..1100 invalid=738 valid=62 fails=0\n"}],"isError":false,"durationMs":10651,"timestamp":1794590323882}}

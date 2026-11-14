@@ -1,0 +1,1 @@
+{"type":"message","id":"3b234d9c","parentId":"fff86a43","timestamp":"2026-11-13T09:12:08.443Z","message":{"role":"toolResult","toolCallId":"call_90d7ed844c724d1bab6918c0","toolName":"bash","content":[{"type":"text","text":"round 14 ok\nFUZZ OK\nCORRUPT OK 242\n"}],"isError":false,"durationMs":2992,"timestamp":1794561128443}}

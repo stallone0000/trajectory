@@ -1,0 +1,1 @@
+{"type":"message","id":"3d824b7e","parentId":"e8983f60","timestamp":"2026-11-13T19:24:15.483Z","message":{"role":"toolResult","toolCallId":"call_da3cc19bd218415a93452929","toolName":"bash","content":[{"type":"text","text":"False\n['', '/opt/deps', '/usr/local/lib/python311.zip', '/usr/local/lib/python3.11']\n"}],"isError":false,"durationMs":84,"timestamp":1794597855483}}

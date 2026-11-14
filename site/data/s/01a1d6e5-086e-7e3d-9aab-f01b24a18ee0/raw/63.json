@@ -1,0 +1,1 @@
+{"type":"message","id":"26b4750a","parentId":"2e040008","timestamp":"2026-11-13T22:34:48.565Z","message":{"role":"toolResult","toolCallId":"call_30e67ad8777b44f79982beb1","toolName":"bash","content":[{"type":"text","text":"differential parse OK for 3000 random captures\n"}],"isError":false,"durationMs":499,"timestamp":1794609288565}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"9082386e","parentId":"45eee993","timestamp":"2026-11-13T17:08:37.724Z","message":{"role":"toolResult","toolCallId":"call_c76d075cb6f04e2cb216dcec","toolName":"bash","content":[{"type":"text","text":"317:def _dijkstra(net, cap):\n429:            _full_dijkstra(net, cap)\n"}],"isError":false,"durationMs":67,"timestamp":1794589717724}}

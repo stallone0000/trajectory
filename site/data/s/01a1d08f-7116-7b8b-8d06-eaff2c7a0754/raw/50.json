@@ -1,1 +1,0 @@
-{"type":"message","id":"6e230937","parentId":"93a0b167","timestamp":"2026-11-12T16:35:56.179Z","message":{"role":"toolResult","toolCallId":"call_4ff8a733e88b4176b3a37e57","toolName":"bash","content":[{"type":"text","text":"prctl mode: 0\nget seccomp: -1\n"}],"isError":false,"durationMs":53,"timestamp":1794501356179}}

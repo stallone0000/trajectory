@@ -1,0 +1,1 @@
+{"type":"message","id":"8433fb16","parentId":"3d875da6","timestamp":"2026-11-13T22:45:06.603Z","message":{"role":"toolResult","toolCallId":"call_57f7c7ab0a5e4cff9640ebb6","toolName":"bash","content":[{"type":"text","text":"batchret 0 \nbatchret 0 \nALL TARGET OK\n\nreal\t0m0.898s\nuser\t0m0.843s\nsys\t0m0.056s\n"}],"isError":false,"durationMs":945,"timestamp":1794609906603}}

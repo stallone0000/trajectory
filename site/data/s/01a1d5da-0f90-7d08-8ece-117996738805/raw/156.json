@@ -1,0 +1,1 @@
+{"type":"message","id":"c5af1dee","parentId":"9d25c1f3","timestamp":"2026-11-13T17:43:16.712Z","message":{"role":"toolResult","toolCallId":"call_01a1d6018b067229b95f0e7b","toolName":"bash","content":[{"type":"text","text":"ok   decoded budget -> capture\nfailures 0\n{\n \"public_checks_passed\": true,\n"}],"isError":false,"durationMs":7734,"timestamp":1794591796712}}

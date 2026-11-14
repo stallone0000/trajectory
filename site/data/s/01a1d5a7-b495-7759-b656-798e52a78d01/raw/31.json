@@ -1,0 +1,1 @@
+{"type":"message","id":"19621743","parentId":"1e4b65f1","timestamp":"2026-11-13T16:22:59.791Z","message":{"role":"toolResult","toolCallId":"call_d44e0141769c42a58ba2d9b3","toolName":"bash","content":[{"type":"text","text":"tqdm 0.08887743949890137\npydantic 0.061139583587646484\n"}],"isError":false,"durationMs":266,"timestamp":1794586979791}}

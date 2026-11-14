@@ -1,0 +1,1 @@
+{"type":"message","id":"e57e032f","parentId":"2771ac78","timestamp":"2026-11-13T15:47:26.499Z","message":{"role":"toolResult","toolCallId":"call_dd407720bc7f4eb180f01032","toolName":"bash","content":[{"type":"text","text":"(805, 1, 1)\n(480, 1, 1)\n{\"status\": \"pass\", \"public_fixtures\": 8, \"failures\": []}\n"}],"isError":false,"durationMs":207,"timestamp":1794584846499}}

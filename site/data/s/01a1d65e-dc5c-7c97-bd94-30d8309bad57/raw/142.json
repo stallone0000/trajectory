@@ -1,0 +1,1 @@
+{"type":"message","id":"14510416","parentId":"2158bcd3","timestamp":"2026-11-13T20:59:37.057Z","message":{"role":"toolResult","toolCallId":"call_6110348defe545de8270f4d8","toolName":"bash","content":[{"type":"text","text":"invalfuzz done bad=0\n"}],"isError":false,"durationMs":71782,"timestamp":1794603577057}}

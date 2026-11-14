@@ -1,0 +1,1 @@
+{"type":"message","id":"1459d0e7","parentId":"cb3bdb76","timestamp":"2026-11-13T21:55:47.248Z","message":{"role":"toolResult","toolCallId":"call_2c9bfc98428f4d4c9cb50b94","toolName":"bash","content":[{"type":"text","text":"1 1\n2 2\n126 126\n127 127\n128 128\n129 depth err expression nesting depth\n"}],"isError":false,"durationMs":66,"timestamp":1794606947248}}

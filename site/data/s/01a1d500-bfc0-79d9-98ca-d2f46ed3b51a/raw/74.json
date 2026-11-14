@@ -1,0 +1,1 @@
+{"type":"message","id":"2c458016","parentId":"3dce2b9c","timestamp":"2026-11-13T13:21:26.008Z","message":{"role":"toolResult","toolCallId":"call_f7da7e13235940039f15396f","toolName":"bash","content":[{"type":"text","text":"PROTOCOL FUZZ PASS\n"}],"isError":false,"durationMs":344,"timestamp":1794576086008}}

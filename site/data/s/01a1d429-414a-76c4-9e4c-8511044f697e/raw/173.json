@@ -1,0 +1,1 @@
+{"type":"message","id":"f5d2a8c0","parentId":"a57d249c","timestamp":"2026-11-13T11:04:31.629Z","message":{"role":"toolResult","toolCallId":"call_fc449b454760467d9ea8fff6","toolName":"bash","content":[{"type":"text","text":"done, bad= 0\ndone bad= 0 max warm 3 n 56\ndone bad= 0\ndone bad= 0\n"}],"isError":false,"durationMs":3417,"timestamp":1794567871629}}

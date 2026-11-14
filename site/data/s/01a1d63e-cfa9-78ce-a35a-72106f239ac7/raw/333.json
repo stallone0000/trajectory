@@ -1,0 +1,1 @@
+{"type":"message","id":"727a70c9","parentId":"59db83d7","timestamp":"2026-11-13T20:53:42.134Z","message":{"role":"toolResult","toolCallId":"call_5cbc56c967b449e790629435","toolName":"bash","content":[{"type":"text","text":"exit 0 stderr \ntraces 40 statuses 156\n"}],"isError":false,"durationMs":372,"timestamp":1794603222134}}

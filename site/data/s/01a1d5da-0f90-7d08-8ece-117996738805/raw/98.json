@@ -1,0 +1,1 @@
+{"type":"message","id":"f9e23c8b","parentId":"318a10d2","timestamp":"2026-11-13T17:22:46.924Z","message":{"role":"toolResult","toolCallId":"call_01a1d5ec27117159ba003c89","toolName":"bash","content":[{"type":"text","text":"validate 0.24s\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180112,"timestamp":1794590566924}}

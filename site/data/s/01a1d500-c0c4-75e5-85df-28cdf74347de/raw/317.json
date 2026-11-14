@@ -1,0 +1,1 @@
+{"type":"message","id":"1bf046b8","parentId":"9a77a8c8","timestamp":"2026-11-13T14:40:47.949Z","message":{"role":"toolResult","toolCallId":"call_709e7bb6815f42c8948d7d3c","toolName":"bash","content":[{"type":"text","text":"NATIVE_OK\nALL PASS\nnative: [1371181000000, 64]\npython: [1371181000000, 64]\nOK\n"}],"isError":false,"durationMs":37759,"timestamp":1794580847949}}

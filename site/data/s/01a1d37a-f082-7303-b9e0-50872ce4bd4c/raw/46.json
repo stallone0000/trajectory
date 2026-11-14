@@ -1,0 +1,1 @@
+{"type":"message","id":"f02fecb1","parentId":"be752975","timestamp":"2026-11-13T06:21:04.514Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-ad01b41e7674432e","toolName":"bash","content":[{"type":"text","text":"{\"results\":[capture not implemented\nrc=1\n"}],"isError":false,"durationMs":109,"timestamp":1794550864514}}

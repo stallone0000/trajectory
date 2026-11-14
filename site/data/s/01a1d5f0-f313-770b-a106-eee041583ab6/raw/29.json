@@ -1,0 +1,1 @@
+{"type":"message","id":"56b055cb","parentId":"34de0e7c","timestamp":"2026-11-13T17:27:22.420Z","message":{"role":"toolResult","toolCallId":"call_01a1d5f2dfa5708e9d8d567a","toolName":"bash","content":[{"type":"text","text":"templates 117306 sum footprint 2352294 max 64 bytes usize 18.818352 MB\n"}],"isError":false,"durationMs":11251,"timestamp":1794590842420}}

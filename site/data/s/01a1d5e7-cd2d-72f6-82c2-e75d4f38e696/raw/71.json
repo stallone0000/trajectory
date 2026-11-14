@@ -1,0 +1,1 @@
+{"type":"message","id":"f8094dc4","parentId":"a89b4b4b","timestamp":"2026-11-13T17:49:44.229Z","message":{"role":"toolResult","toolCallId":"call_5d6df86f398a4da3a1196d1e","toolName":"bash","content":[{"type":"text","text":"case 0 ok\ncase 10 ok\ncase 11: unexpected error {'error': 'invalid'}\n\n\n[exit code 1]"}],"isError":true,"durationMs":1885,"timestamp":1794592184229}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"27901518","parentId":"5d98b7e4","timestamp":"2026-11-13T19:24:09.211Z","message":{"role":"toolResult","toolCallId":"call_147c2c2c9ba44694b8b035cf","toolName":"bash","content":[{"type":"text","text":"rc=0\nMATCH\n--- dup key case ---\n{\"error\":\"invalid_request\"}\n"}],"isError":false,"durationMs":3817,"timestamp":1794597849211}}

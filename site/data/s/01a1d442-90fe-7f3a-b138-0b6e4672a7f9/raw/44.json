@@ -1,0 +1,1 @@
+{"type":"message","id":"af986f08","parentId":"200437c0","timestamp":"2026-11-13T10:24:02.148Z","message":{"role":"toolResult","toolCallId":"call_c14a475736fd449f9d80cf1b","toolName":"bash","content":[{"type":"text","text":"match: True\npublic sanity: 9 child invocations passed\n"}],"isError":false,"durationMs":664,"timestamp":1794565442148}}

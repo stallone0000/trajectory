@@ -1,0 +1,1 @@
+{"type":"message","id":"385629d3","parentId":"fcd1fdad","timestamp":"2026-11-13T22:13:19.478Z","message":{"role":"toolResult","toolCallId":"call_cac907f57fd74a1985cd1bf6","toolName":"bash","content":[{"type":"text","text":"all stream optional-flag tests match\n"}],"isError":false,"durationMs":2089,"timestamp":1794607999478}}

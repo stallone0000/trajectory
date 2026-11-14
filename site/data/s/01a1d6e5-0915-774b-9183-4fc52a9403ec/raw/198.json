@@ -1,0 +1,1 @@
+{"type":"message","id":"662fad1b","parentId":"49b8a28a","timestamp":"2026-11-13T22:47:42.382Z","message":{"role":"toolResult","toolCallId":"call_33c76deac98a4770b2504d91","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: ps: command not found\ncat: /proc/meminfo: No such file or directory\n"}],"isError":false,"durationMs":29,"timestamp":1794610062382}}

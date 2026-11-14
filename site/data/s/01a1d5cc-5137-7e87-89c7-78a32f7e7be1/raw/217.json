@@ -1,0 +1,1 @@
+{"type":"message","id":"b64a72db","parentId":"9d8b07db","timestamp":"2026-11-13T18:06:50.312Z","message":{"role":"toolResult","toolCallId":"call_edb38c284ab740f4a8535f2f","toolName":"bash","content":[{"type":"text","text":"invalid invalid metadata\npairs 256000\n"}],"isError":false,"durationMs":1639,"timestamp":1794593210312}}

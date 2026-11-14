@@ -1,0 +1,1 @@
+{"type":"message","id":"2faa13d7","parentId":"20860ed7","timestamp":"2026-11-14T01:08:50.114Z","message":{"role":"toolResult","toolCallId":"call_48ed5db661b2423483bceccf","toolName":"bash","content":[{"type":"text","text":"ADV3 FAIL saved\ntightened=38 buildfails=1 maxtime=8.05s\n"}],"isError":false,"durationMs":17096,"timestamp":1794618530114}}

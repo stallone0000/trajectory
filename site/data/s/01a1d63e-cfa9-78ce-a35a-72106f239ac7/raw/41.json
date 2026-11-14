@@ -1,0 +1,1 @@
+{"type":"message","id":"9dc7d644","parentId":"35370004","timestamp":"2026-11-13T19:13:59.609Z","message":{"role":"toolResult","toolCallId":"call_d414277309484c39b07a1b0a","toolName":"bash","content":[{"type":"text","text":"Public fixture failed: short-stream\n"}],"isError":false,"durationMs":4330,"timestamp":1794597239609}}

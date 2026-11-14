@@ -1,0 +1,1 @@
+{"type":"message","id":"c50b85c8","parentId":"901d3410","timestamp":"2026-11-13T13:05:42.503Z","message":{"role":"toolResult","toolCallId":"call_01f7e032da094a08a4777945","toolName":"bash","content":[{"type":"text","text":"self check passed: envelope, policy language, canonical image and replay rules.\n"}],"isError":false,"durationMs":341,"timestamp":1794575142503}}

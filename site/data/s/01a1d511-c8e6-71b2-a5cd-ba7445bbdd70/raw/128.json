@@ -1,0 +1,1 @@
+{"type":"message","id":"b7c51ccd","parentId":"bd1cfe31","timestamp":"2026-11-13T14:20:22.534Z","message":{"role":"toolResult","toolCallId":"call_1974a2afa2124ac6ac4f6c55","toolName":"bash","content":[{"type":"text","text":"parse Invalid: batch budget\n"}],"isError":false,"durationMs":246,"timestamp":1794579622534}}

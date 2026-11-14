@@ -1,0 +1,1 @@
+{"type":"message","id":"c5214e4a","parentId":"b3665168","timestamp":"2026-11-13T12:53:31.207Z","message":{"role":"toolResult","toolCallId":"call_8dde826e2f2b44898ca90e85","toolName":"bash","content":[{"type":"text","text":"47:WS_INLINE: (\" \"|/\\t/)+\n48:WS: /[ \\t\\f\\r\\n]/+\n"}],"isError":false,"durationMs":14052,"timestamp":1794574411207}}

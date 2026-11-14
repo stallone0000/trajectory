@@ -1,0 +1,1 @@
+{"type":"message","id":"58edd56e","parentId":"5b3cd454","timestamp":"2026-11-14T00:11:19.478Z","message":{"role":"toolResult","toolCallId":"call_cb89e7dde5544bdbb5f322b8","toolName":"bash","content":[{"type":"text","text":"total 29.080389738082886 build 4.181489706039429 flow 23.794899225234985\n"}],"isError":false,"durationMs":30067,"timestamp":1794615079478}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"9c627b46","parentId":"d42f7354","timestamp":"2026-11-13T13:45:59.266Z","message":{"role":"toolResult","toolCallId":"call_1a510ef3ad574e719d3e0308","toolName":"bash","content":[{"type":"text","text":"\nR per version [1]\n0 True [{'lo': 0, 'span': 1, 'mode': 0, 'cached': 0, 'children': []}]\n"}],"isError":false,"durationMs":164,"timestamp":1794577559266}}

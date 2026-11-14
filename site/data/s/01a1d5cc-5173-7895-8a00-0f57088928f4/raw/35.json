@@ -1,0 +1,1 @@
+{"type":"message","id":"11aa2fa2","parentId":"589fb40e","timestamp":"2026-11-13T17:14:55.130Z","message":{"role":"toolResult","toolCallId":"call_b246d2b39cfc45389291aec9","toolName":"bash","content":[{"type":"text","text":"zstd import 0.01820206642150879\nnx import 0.4988269805908203\n"}],"isError":false,"durationMs":612,"timestamp":1794590095130}}

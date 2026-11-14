@@ -1,0 +1,1 @@
+{"type":"message","id":"3e48e5a6","parentId":"d36e9b9e","timestamp":"2026-11-13T16:30:10.769Z","message":{"role":"toolResult","toolCallId":"call_02cab21fc93e4eb7b2ab6e7a","toolName":"bash","content":[{"type":"text","text":"done tiny 300 mismatches 0 ours+ref time 5.50s\nEXIT=0\n"}],"isError":false,"durationMs":11470,"timestamp":1794587410769}}

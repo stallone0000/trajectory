@@ -1,0 +1,1 @@
+{"type":"message","id":"9e59d6f6","parentId":"92bb4393","timestamp":"2026-11-13T15:32:21.955Z","message":{"role":"toolResult","toolCallId":"call_add0cd1eef344f218b441f14","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: od: command not found\n"}],"isError":false,"durationMs":34,"timestamp":1794583941955}}

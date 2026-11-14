@@ -1,0 +1,1 @@
+{"type":"message","id":"2a7522df","parentId":"6183b755","timestamp":"2026-11-13T14:25:14.764Z","message":{"role":"toolResult","toolCallId":"call_c1446e591f9b458a8232ffa3","toolName":"bash","content":[{"type":"text","text":"atoms 7211 paths 50421\ntime 0.9108726978302002 ok True rows 8168\n[[1, 8168, 130681, 0]]\n"}],"isError":false,"durationMs":1126,"timestamp":1794579914764}}

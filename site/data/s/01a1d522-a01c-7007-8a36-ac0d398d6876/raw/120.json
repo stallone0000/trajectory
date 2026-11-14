@@ -1,0 +1,1 @@
+{"type":"message","id":"51b9d77a","parentId":"a82a2c72","timestamp":"2026-11-13T14:27:21.231Z","message":{"role":"toolResult","toolCallId":"call_e68a2d316d2b49b49f661ab1","toolName":"bash","content":[{"type":"text","text":"=== rerun brute with fixed traffic\ndone, 0 failures\n"}],"isError":false,"durationMs":4265,"timestamp":1794580041231}}

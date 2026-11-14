@@ -1,0 +1,1 @@
+{"type":"message","id":"a81fa56c","parentId":"ac8e2c54","timestamp":"2026-11-13T23:35:33.996Z","message":{"role":"toolResult","toolCallId":"call_05071aca93d44f1b9dd77f94","toolName":"bash","content":[{"type":"text","text":"\n{\"status\": \"denied\", \"id\": \"hard\", \"rev\": 0, \"kind\": \"cut\", \"cut\": [1]}\n"}],"isError":false,"durationMs":240,"timestamp":1794612933996}}

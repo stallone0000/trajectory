@@ -1,0 +1,1 @@
+{"type":"message","id":"c40d255d","parentId":"5290c18e","timestamp":"2026-11-13T23:07:35.925Z","message":{"role":"toolResult","toolCallId":"call_d965859ee5914e61993b4728","toolName":"bash","content":[{"type":"text","text":"replay differential done tested 3000 bad = 0\n"}],"isError":false,"durationMs":8457,"timestamp":1794611255925}}

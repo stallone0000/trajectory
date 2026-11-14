@@ -1,0 +1,1 @@
+{"type":"message","id":"77256cc4","parentId":"071594b6","timestamp":"2026-11-13T20:19:01.390Z","message":{"role":"toolResult","toolCallId":"call_5ead2539d66348d08d8f94aa","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: native: command not found\n"}],"isError":false,"durationMs":79,"timestamp":1794601141390}}

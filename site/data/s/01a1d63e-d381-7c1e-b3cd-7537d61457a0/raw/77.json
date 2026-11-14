@@ -1,0 +1,1 @@
+{"type":"message","id":"5c13cf79","parentId":"75878a64","timestamp":"2026-11-13T19:25:47.291Z","message":{"role":"toolResult","toolCallId":"call_bc7b046d545e46e1a3f2337d","toolName":"bash","content":[{"type":"text","text":"cluster trials done, bad = 0\nmixed-length trials done, bad = 0\n"}],"isError":false,"durationMs":700,"timestamp":1794597947291}}

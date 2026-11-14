@@ -1,0 +1,1 @@
+{"type":"message","id":"bc509e99","parentId":"364020d9","timestamp":"2026-11-13T17:24:29.187Z","message":{"role":"toolResult","toolCallId":"call_c608dd55d12448f4a7175c5a","toolName":"bash","content":[{"type":"text","text":"hard plan tests done, failures: 0\n"}],"isError":false,"durationMs":317,"timestamp":1794590669187}}

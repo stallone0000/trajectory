@@ -1,0 +1,1 @@
+{"type":"message","id":"afdb22c8","parentId":"2084ebbf","timestamp":"2026-11-13T15:29:46.468Z","message":{"role":"toolResult","toolCallId":"call_ce53a177023842968eb1979a","toolName":"bash","content":[{"type":"text","text":"alt builder produced an invalid image: bulk stage\n\n\n[exit code 1]"}],"isError":true,"durationMs":99,"timestamp":1794583786468}}

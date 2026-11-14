@@ -1,0 +1,1 @@
+{"type":"message","id":"c85d3ba5","parentId":"9ad53c7f","timestamp":"2026-11-13T00:47:07.929Z","message":{"role":"toolResult","toolCallId":"call_fbabd737cf954a4d9e7786cb","toolName":"bash","content":[{"type":"text","text":"seeds 1..3 fails=0 total=0.1s worst=0.08s\ncoverage histogram: [('0', 2)]\n"}],"isError":false,"durationMs":483,"timestamp":1794530827929}}

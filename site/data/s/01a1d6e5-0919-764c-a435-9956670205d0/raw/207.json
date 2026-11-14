@@ -1,0 +1,1 @@
+{"type":"message","id":"688d9396","parentId":"d1b92cf7","timestamp":"2026-11-13T22:14:37.989Z","message":{"role":"toolResult","toolCallId":"call_ce3ed342b54742e1b26badbf","toolName":"bash","content":[{"type":"text","text":"all multi-packet ack tests match\n"}],"isError":false,"durationMs":1299,"timestamp":1794608077989}}

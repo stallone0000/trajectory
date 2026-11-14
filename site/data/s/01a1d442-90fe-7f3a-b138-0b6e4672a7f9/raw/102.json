@@ -1,0 +1,1 @@
+{"type":"message","id":"c97720e4","parentId":"0cb3c50b","timestamp":"2026-11-13T10:46:16.487Z","message":{"role":"toolResult","toolCallId":"call_5d1ce6dbee8440008cdfcdbe","toolName":"bash","content":[{"type":"text","text":"input bytes 2177400 runs 8 events 75247\nrc 0 wall 0.21 out 20\nrc 0 wall 0.28 out 20\n"}],"isError":false,"durationMs":739,"timestamp":1794566776487}}

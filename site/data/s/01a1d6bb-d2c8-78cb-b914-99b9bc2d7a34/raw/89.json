@@ -1,0 +1,1 @@
+{"type":"message","id":"bba3fe7a","parentId":"60ecda45","timestamp":"2026-11-13T21:20:40.546Z","message":{"role":"toolResult","toolCallId":"call_01a1d6c8a15f7457abfeeadc","toolName":"bash","content":[{"type":"text","text":"0\n{\n \"results\": [\n  {\n   \"status\": \"reject\",\n   \"reason\": \"syntax\"\n  }\n ]\n}\n"}],"isError":false,"durationMs":107,"timestamp":1794604840546}}

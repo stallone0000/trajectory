@@ -1,0 +1,1 @@
+{"type":"message","id":"4c0160ea","parentId":"47d3135f","timestamp":"2026-11-13T14:48:30.359Z","message":{"role":"toolResult","toolCallId":"call_d6785c188c5143d8a69d21b4","toolName":"bash","content":[{"type":"text","text":"PASS empty.input.json (0.08s)\nPASS smoke.input.json (0.07s)\n2/2 fixtures passed\n"}],"isError":false,"durationMs":299,"timestamp":1794581310359}}

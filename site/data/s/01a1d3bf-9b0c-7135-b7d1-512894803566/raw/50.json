@@ -1,0 +1,1 @@
+{"type":"message","id":"2d2c5054","parentId":"d3af2270","timestamp":"2026-11-13T07:31:30.195Z","message":{"role":"toolResult","toolCallId":"call_01a1d3d1690476ed82afd99a","toolName":"bash","content":[{"type":"text","text":"unsatisfiable curve combos: 0\n"}],"isError":false,"durationMs":121,"timestamp":1794555090195}}

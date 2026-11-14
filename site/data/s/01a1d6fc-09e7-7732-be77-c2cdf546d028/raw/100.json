@@ -1,0 +1,1 @@
+{"type":"message","id":"f70c0dc1","parentId":"10de2f73","timestamp":"2026-11-13T22:37:27.364Z","message":{"role":"toolResult","toolCallId":"call_05b491acbfd34a40a6d5cdb7","toolName":"bash","content":[{"type":"text","text":"PASS: empty-capture\nPASS: one-allreduce\n2/2 public examples passed\nexit=0\n"}],"isError":false,"durationMs":860,"timestamp":1794609447364}}

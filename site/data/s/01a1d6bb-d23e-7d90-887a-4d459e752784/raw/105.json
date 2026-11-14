@@ -1,0 +1,1 @@
+{"type":"message","id":"61ab8ec4","parentId":"dbfcb373","timestamp":"2026-11-13T21:45:33.676Z","message":{"role":"toolResult","toolCallId":"call_1cbe4598e58d44b39bec3a19","toolName":"bash","content":[{"type":"text","text":"T1 OK\nT2 OK\nT3 OK\nT4 OK\nT5 OK\nT6 OK\nT7 OK\nT8 OK\nsmoke PASS\nempty PASS\n"}],"isError":false,"durationMs":4960,"timestamp":1794606333676}}

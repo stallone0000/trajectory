@@ -1,0 +1,1 @@
+{"type":"message","id":"5bbdb9da","parentId":"5a6f5b72","timestamp":"2026-11-13T13:27:34.456Z","message":{"role":"toolResult","toolCallId":"call_4ae79b9f368e499aae48745a","toolName":"bash","content":[{"type":"text","text":"types/output roundtrip ok; chars 16349\n"}],"isError":false,"durationMs":110,"timestamp":1794576454456}}

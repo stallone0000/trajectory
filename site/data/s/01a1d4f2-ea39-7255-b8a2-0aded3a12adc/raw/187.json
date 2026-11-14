@@ -1,0 +1,1 @@
+{"type":"message","id":"44c9bd3c","parentId":"72164b5e","timestamp":"2026-11-13T14:50:03.355Z","message":{"role":"toolResult","toolCallId":"call_33040ee1acce4c8c8684c506","toolName":"bash","content":[{"type":"text","text":"FAIL exhausted rid\nfailures: ['exhausted rid']\n"}],"isError":false,"durationMs":68,"timestamp":1794581403355}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"edeb5ff8","parentId":"a804b0c7","timestamp":"2026-11-12T20:20:48.762Z","message":{"role":"toolResult","toolCallId":"call_4b8f1cd1e8fd499c819957c6","toolName":"bash","content":[{"type":"text","text":"e2e all ok 3053 5119\n{\"public_checks\": 4, \"passed\": 4, \"failures\": []}\n"}],"isError":false,"durationMs":2834,"timestamp":1794514848762}}

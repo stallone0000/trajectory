@@ -1,0 +1,1 @@
+{"type":"message","id":"32d18884","parentId":"40a93b86","timestamp":"2026-11-12T16:49:40.102Z","message":{"role":"toolResult","toolCallId":"call_7d081a48d6184cf58b1dc0bf","toolName":"bash","content":[{"type":"text","text":"nodes 150 types {5: 1, 4: 136, 3: 3, 2: 10}\ntargeted mutations all rejected consistently\n"}],"isError":false,"durationMs":6803,"timestamp":1794502180102}}

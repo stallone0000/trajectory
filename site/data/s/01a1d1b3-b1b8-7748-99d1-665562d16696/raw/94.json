@@ -1,0 +1,1 @@
+{"type":"message","id":"dbed78ad","parentId":"f34e4c8b","timestamp":"2026-11-12T22:22:27.732Z","message":{"role":"toolResult","toolCallId":"call_a1d8d7cdf93c466785d03872","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: /usr/bin/time: No such file or directory\n"}],"isError":false,"durationMs":26,"timestamp":1794522147732}}

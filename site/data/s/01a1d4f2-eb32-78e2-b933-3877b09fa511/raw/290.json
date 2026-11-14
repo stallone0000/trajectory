@@ -1,0 +1,1 @@
+{"type":"message","id":"f3cba099","parentId":"a369209b","timestamp":"2026-11-13T14:06:06.383Z","message":{"role":"toolResult","toolCallId":"call_6bd81e0f5e344668bf3a5fa3","toolName":"bash","content":[{"type":"text","text":"size fail 16806 op 3.97429067924282e-05 rid 999 size 301 dlen 300\n"}],"isError":false,"durationMs":4799,"timestamp":1794578766383}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"20e31173","parentId":"72835a22","timestamp":"2026-11-13T18:19:05.518Z","message":{"role":"toolResult","toolCallId":"call_91dc4acbe03549b780ae836f","toolName":"bash","content":[{"type":"text","text":"FAIL /128 prefix\n got: [\nwant: [\nFAILURES\n"}],"isError":false,"durationMs":2610,"timestamp":1794593945518}}

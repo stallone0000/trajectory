@@ -1,0 +1,1 @@
+{"type":"message","id":"e99306fa","parentId":"89090b27","timestamp":"2026-11-13T23:25:34.718Z","message":{"role":"toolResult","toolCallId":"call_35310070d38a4f4682312886","toolName":"bash","content":[{"type":"text","text":"done wirefuzz seed=11 iters=60 bad=0\n"}],"isError":false,"durationMs":584,"timestamp":1794612334718}}

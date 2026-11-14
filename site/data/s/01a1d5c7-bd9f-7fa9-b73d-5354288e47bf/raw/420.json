@@ -1,0 +1,1 @@
+{"type":"message","id":"dc38ec85","parentId":"8f778c20","timestamp":"2026-11-13T17:47:38.332Z","message":{"role":"toolResult","toolCallId":"call_e9bf89d548b341babd78ca06","toolName":"bash","content":[{"type":"text","text":"time 0.949561357498169 resolved 4096 assignlen 4096 bytes approx 4145152\n"}],"isError":false,"durationMs":1091,"timestamp":1794592058332}}

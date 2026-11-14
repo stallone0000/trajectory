@@ -1,0 +1,1 @@
+{"type":"message","id":"d44b58e4","parentId":"a78b910c","timestamp":"2026-11-13T21:46:36.755Z","message":{"role":"toolResult","toolCallId":"call_2c3dfd24530c40fabc18ae8f","toolName":"bash","content":[{"type":"text","text":"corpus: 2048 commands: 2100224 chars: 10499072\nstress1 OK\n"}],"isError":false,"durationMs":3879,"timestamp":1794606396755}}

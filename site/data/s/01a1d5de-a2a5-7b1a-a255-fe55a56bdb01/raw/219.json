@@ -1,0 +1,1 @@
+{"type":"message","id":"74ab4478","parentId":"08c5ee93","timestamp":"2026-11-13T17:53:22.048Z","message":{"role":"toolResult","toolCallId":"call_ed452c4987d04857a551c08f","toolName":"bash","content":[{"type":"text","text":"plan fuzz done, failures = 0 of 300\n"}],"isError":false,"durationMs":789,"timestamp":1794592402048}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"e0a65102","parentId":"4cd83076","timestamp":"2026-11-13T17:22:44.259Z","message":{"role":"toolResult","toolCallId":"call_bc5996c771c842acabcb178a","toolName":"bash","content":[{"type":"text","text":"LEN /plan/assignments[0]/send 2 0\n"}],"isError":false,"durationMs":224,"timestamp":1794590564259}}

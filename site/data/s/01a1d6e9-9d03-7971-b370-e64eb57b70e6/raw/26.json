@@ -1,0 +1,1 @@
+{"type":"message","id":"d64988d4","parentId":"c4187acd","timestamp":"2026-11-13T22:15:30.109Z","message":{"role":"toolResult","toolCallId":"call_61a57ea0329b47fdb89621e6","toolName":"bash","content":[{"type":"text","text":"ok   unknown v compact discarded\n\nFAILS: 0 of 42\n"}],"isError":false,"durationMs":1041,"timestamp":1794608130109}}

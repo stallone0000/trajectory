@@ -1,0 +1,1 @@
+{"type":"message","id":"4ff23f5f","parentId":"1ca20115","timestamp":"2026-11-13T10:53:59.807Z","message":{"role":"toolResult","toolCallId":"call_4e5ea6659bfe4f95ae920ace","toolName":"bash","content":[{"type":"text","text":"e2e ok, bad= 0 stderr: \ne2e ok, bad= 0 stderr: \n"}],"isError":false,"durationMs":3696,"timestamp":1794567239807}}

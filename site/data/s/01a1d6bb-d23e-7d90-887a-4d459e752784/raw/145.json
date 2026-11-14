@@ -1,0 +1,1 @@
+{"type":"message","id":"8e3be7a4","parentId":"ae0cdaac","timestamp":"2026-11-13T21:58:51.204Z","message":{"role":"toolResult","toolCallId":"call_0a104c5756344ba5b943017e","toolName":"bash","content":[{"type":"text","text":"PARSE ERR '[a-d]***|([--b])()(()(b)\\\\)(*[))*))***' string index out of range\n\n\n[exit code 1]"}],"isError":true,"durationMs":65,"timestamp":1794607131204}}

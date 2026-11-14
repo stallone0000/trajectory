@@ -1,0 +1,1 @@
+{"type":"message","id":"6714c34f","parentId":"a48da842","timestamp":"2026-11-13T22:22:52.599Z","message":{"role":"toolResult","toolCallId":"call_f56f348a97cb4b8388abd93c","toolName":"bash","content":[{"type":"text","text":"/usr/local/bin/pip: 2: exec: ./python3.11: not found\n"}],"isError":false,"durationMs":44,"timestamp":1794608572599}}

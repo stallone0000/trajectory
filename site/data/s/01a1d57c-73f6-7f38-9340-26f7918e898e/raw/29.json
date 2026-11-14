@@ -1,0 +1,1 @@
+{"type":"message","id":"5ff704f6","parentId":"db1fd9d7","timestamp":"2026-11-13T15:42:02.149Z","message":{"role":"toolResult","toolCallId":"call_04e1f189a30d4683b7eb332c","toolName":"bash","content":[{"type":"text","text":"parse ok\nprocess invalid: order is not a permutation of the core links\n"}],"isError":false,"durationMs":51,"timestamp":1794584522149}}

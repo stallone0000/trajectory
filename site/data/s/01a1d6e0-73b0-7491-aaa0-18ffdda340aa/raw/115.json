@@ -1,0 +1,1 @@
+{"type":"message","id":"85cab332","parentId":"84c0bd0c","timestamp":"2026-11-13T22:37:16.414Z","message":{"role":"toolResult","toolCallId":"call_63e4f9565b6243d79cad720b","toolName":"bash","content":[{"type":"text","text":"PASS count:\n71\n"}],"isError":false,"durationMs":54384,"timestamp":1794609436414}}

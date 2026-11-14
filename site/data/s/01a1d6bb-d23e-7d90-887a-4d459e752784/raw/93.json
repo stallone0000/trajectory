@@ -1,0 +1,1 @@
+{"type":"message","id":"f5be20de","parentId":"45170e48","timestamp":"2026-11-13T21:43:47.754Z","message":{"role":"toolResult","toolCallId":"call_36ce24bb684b45c08fcec190","toolName":"bash","content":[{"type":"text","text":"campaign error: NameError: name 'seen' is not defined\n{\"error\":\"INVALID_INPUT\"}\nrc=0\n"}],"isError":false,"durationMs":169,"timestamp":1794606227754}}

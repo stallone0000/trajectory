@@ -1,0 +1,1 @@
+{"type":"message","id":"2b7fa5fe","parentId":"411e0f51","timestamp":"2026-11-13T09:14:41.525Z","message":{"role":"toolResult","toolCallId":"call_015797d8ff1d440ca109d7de","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: /usr/bin/time: No such file or directory\n\n\n[exit code 127]"}],"isError":true,"durationMs":32,"timestamp":1794561281525}}

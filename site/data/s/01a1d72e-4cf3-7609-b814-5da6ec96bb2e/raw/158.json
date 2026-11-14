@@ -1,0 +1,1 @@
+{"type":"message","id":"ea17a10f","parentId":"f4ea7713","timestamp":"2026-11-14T01:01:25.686Z","message":{"role":"toolResult","toolCallId":"call_1b3504bfd23540febdb1e573","toolName":"bash","content":[{"type":"text","text":"patched noise candidates\nFAIL 25.0s BuildFailure('no plan found')\n"}],"isError":false,"durationMs":25084,"timestamp":1794618085686}}

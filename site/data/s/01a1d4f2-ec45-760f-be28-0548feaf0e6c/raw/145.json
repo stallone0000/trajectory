@@ -1,0 +1,1 @@
+{"type":"message","id":"1bdf6241","parentId":"ae712857","timestamp":"2026-11-13T13:25:50.178Z","message":{"role":"toolResult","toolCallId":"call_7705f5a4f16c4f628d6fe832","toolName":"bash","content":[{"type":"text","text":"replay fuzz rounds=400 failures=0\n"}],"isError":false,"durationMs":525,"timestamp":1794576350178}}

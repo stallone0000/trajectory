@@ -1,0 +1,1 @@
+{"type":"message","id":"17ece9dd","parentId":"2f6a1031","timestamp":"2026-11-13T14:20:06.167Z","message":{"role":"toolResult","toolCallId":"call_0eaad5f0b9ae4a7baf8e41ca","toolName":"bash","content":[{"type":"text","text":"[ok] inspect refs\n[ok] denied context can be sent\n\nAll tests passed.\n"}],"isError":false,"durationMs":1698,"timestamp":1794579606167}}

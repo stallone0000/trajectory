@@ -1,0 +1,1 @@
+{"type":"message","id":"c41308e9","parentId":"efcddc15","timestamp":"2026-11-13T20:35:08.936Z","message":{"role":"toolResult","toolCallId":"call_a9a739504e5ecd8141d814a9","toolName":"bash","content":[{"type":"text","text":"4097 fragments -> ['error'] 4.2s\n"}],"isError":false,"durationMs":4439,"timestamp":1794602108936}}

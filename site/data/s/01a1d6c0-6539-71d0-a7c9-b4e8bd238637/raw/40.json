@@ -1,0 +1,1 @@
+{"type":"message","id":"03f516b5","parentId":"31eacbf8","timestamp":"2026-11-13T21:38:55.514Z","message":{"role":"toolResult","toolCallId":"call_2f3291484573448f9e38dcda","toolName":"bash","content":[{"type":"text","text":"ok   case record keys\nok   root keys\nALL TESTS PASSED\n"}],"isError":false,"durationMs":8828,"timestamp":1794605935514}}

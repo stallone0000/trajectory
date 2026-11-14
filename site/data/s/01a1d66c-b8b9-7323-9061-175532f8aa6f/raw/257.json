@@ -1,0 +1,1 @@
+{"type":"message","id":"83ea9207","parentId":"57591607","timestamp":"2026-11-13T20:45:03.520Z","message":{"role":"toolResult","toolCallId":"call_6ee305e7b6a64591a618063b","toolName":"bash","content":[{"type":"text","text":"./README.md:14:The authoritative behavior and output contract are in /workspace/PROTOCOL.md.\n"}],"isError":false,"durationMs":96,"timestamp":1794602703520}}

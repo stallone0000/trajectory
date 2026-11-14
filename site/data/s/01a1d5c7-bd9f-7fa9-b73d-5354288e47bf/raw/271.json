@@ -1,0 +1,1 @@
+{"type":"message","id":"a1b32e4b","parentId":"d07c3d27","timestamp":"2026-11-13T17:17:20.565Z","message":{"role":"toolResult","toolCallId":"call_4236e897e278406da5e5dd29","toolName":"bash","content":[{"type":"text","text":"parsed len 131072 raw bytes 196748 limit 131072\nrecs 0 rej [[0, 0]]\n"}],"isError":false,"durationMs":74,"timestamp":1794590240565}}

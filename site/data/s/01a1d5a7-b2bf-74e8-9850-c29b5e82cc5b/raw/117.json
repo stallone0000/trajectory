@@ -1,0 +1,1 @@
+{"type":"message","id":"e4a897b2","parentId":"adf843c4","timestamp":"2026-11-13T16:36:07.458Z","message":{"role":"toolResult","toolCallId":"call_56d3305eacc846a5afad7632","toolName":"bash","content":[{"type":"text","text":"13\n/bin/bash: line 1: du: command not found\n\n\n[exit code 127]"}],"isError":true,"durationMs":51,"timestamp":1794587767458}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"939450a4","parentId":"4084cb4d","timestamp":"2026-11-13T19:17:07.001Z","message":{"role":"toolResult","toolCallId":"call_7b1ab7a148d445bb9baa7b6c","toolName":"bash","content":[{"type":"text","text":"no new privs 0 0\nsubreaper 0 0\nmemfd 3 0 Success\n"}],"isError":false,"durationMs":104,"timestamp":1794597427001}}

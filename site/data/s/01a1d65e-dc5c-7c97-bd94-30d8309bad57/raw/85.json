@@ -1,0 +1,1 @@
+{"type":"message","id":"8160569f","parentId":"1533e2c9","timestamp":"2026-11-13T20:33:40.723Z","message":{"role":"toolResult","toolCallId":"call_eb6e3849237d4e24a9032c73","toolName":"bash","content":[{"type":"text","text":"degen done bad=0\ndegen done bad=0\ndegen done bad=0\ndegen done bad=0\n"}],"isError":false,"durationMs":4027,"timestamp":1794602020723}}

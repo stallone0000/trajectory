@@ -1,0 +1,1 @@
+{"type":"message","id":"0fa7d2e4","parentId":"f9010b77","timestamp":"2026-11-13T07:24:18.456Z","message":{"role":"toolResult","toolCallId":"call_01a1d3cac622726a9bcf64a7","toolName":"bash","content":[{"type":"text","text":"core MATCH\nedge MATCH\nendpoint-cycle MATCH\nsingle MATCH\n"}],"isError":false,"durationMs":101,"timestamp":1794554658456}}

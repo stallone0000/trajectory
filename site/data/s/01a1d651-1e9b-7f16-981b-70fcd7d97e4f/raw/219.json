@@ -1,0 +1,1 @@
+{"type":"message","id":"28770e50","parentId":"5ee787c8","timestamp":"2026-11-13T20:40:35.258Z","message":{"role":"toolResult","toolCallId":"call_3c2c6eb06a394e0294280aba","toolName":"bash","content":[{"type":"text","text":"accepted\n{'source': 0, 'sink': 2, 'demand': 4, 'paths': [[0, 1], [2]]}\n"}],"isError":false,"durationMs":209,"timestamp":1794602435258}}

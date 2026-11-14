@@ -1,1 +1,0 @@
-{"type":"message","id":"e5befde7","parentId":"5db786af","timestamp":"2026-11-12T18:40:46.554Z","message":{"role":"toolResult","toolCallId":"call_d6f395195ff14064958bd2f8","toolName":"bash","content":[{"type":"text","text":"cache vs snap a same? False\nsnaps same? False links same? False\nsnapshot val 0\n"}],"isError":false,"durationMs":60,"timestamp":1794508846554}}

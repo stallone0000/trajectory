@@ -1,0 +1,1 @@
+{"type":"message","id":"a3691e4d","parentId":"fdf8e52f","timestamp":"2026-11-13T22:28:31.803Z","message":{"role":"toolResult","toolCallId":"call_5c082ec9a35a449fb2505c8d","toolName":"bash","content":[{"type":"text","text":"8192 None {'n': 8190, 'h': 'eaa9c76989e5653c'}\n8193 input None\n"}],"isError":false,"durationMs":226,"timestamp":1794608911803}}

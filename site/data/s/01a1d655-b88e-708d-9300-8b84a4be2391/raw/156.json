@@ -1,0 +1,1 @@
+{"type":"message","id":"0fa5ce75","parentId":"d6c42003","timestamp":"2026-11-13T20:54:40.968Z","message":{"role":"toolResult","toolCallId":"call_6acf563e0dc04e878b5911a7","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: ln: command not found\n\n\n[exit code 127]"}],"isError":true,"durationMs":26,"timestamp":1794603280968}}

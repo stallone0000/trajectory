@@ -1,0 +1,1 @@
+{"type":"message","id":"f1081091","parentId":"4982a794","timestamp":"2026-11-13T19:22:55.290Z","message":{"role":"toolResult","toolCallId":"call_0f460b788c284ca283ae10bd","toolName":"bash","content":[{"type":"text","text":"self\nsetsid -1 1\nmemfd 3 1\n"}],"isError":false,"durationMs":43,"timestamp":1794597775290}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"aa16334a","parentId":"9f457a5d","timestamp":"2026-11-13T17:07:25.691Z","message":{"role":"toolResult","toolCallId":"call_87bbff3eeba54efbb1825340","toolName":"bash","content":[{"type":"text","text":"Infrastructure error: Exception occurred in preexec_fn.\n"}],"isError":false,"durationMs":369,"timestamp":1794589645691}}

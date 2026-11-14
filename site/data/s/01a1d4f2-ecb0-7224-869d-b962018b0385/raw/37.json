@@ -1,0 +1,1 @@
+{"type":"message","id":"7921c538","parentId":"f22ada5d","timestamp":"2026-11-13T13:32:58.819Z","message":{"role":"toolResult","toolCallId":"call_f6001e34f7e64008a5408fb7","toolName":"bash","content":[{"type":"text","text":"checked 27 policies, 0 failures\n"}],"isError":false,"durationMs":100,"timestamp":1794576778819}}

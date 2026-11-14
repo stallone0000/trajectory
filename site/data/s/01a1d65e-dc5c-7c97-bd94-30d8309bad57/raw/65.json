@@ -1,0 +1,1 @@
+{"type":"message","id":"17ac3155","parentId":"cfd58712","timestamp":"2026-11-13T20:21:10.947Z","message":{"role":"toolResult","toolCallId":"call_906a9eff0bf04810b864ea38","toolName":"bash","content":[{"type":"text","text":"FAIL iter 13 : disposition superseded vs obsolete\ndone iters=30 bad=1 time=9.5s\n"}],"isError":false,"durationMs":21344,"timestamp":1794601270947}}

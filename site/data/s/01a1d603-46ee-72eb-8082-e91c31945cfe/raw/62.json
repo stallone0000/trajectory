@@ -1,0 +1,1 @@
+{"type":"message","id":"a5a03edb","parentId":"2bc9adf9","timestamp":"2026-11-13T18:10:50.570Z","message":{"role":"toolResult","toolCallId":"call_96014faf56204e66b5d36041","toolName":"bash","content":[{"type":"text","text":"subreaper 0 0\nkill-self fail [Errno 1] Operation not permitted\n---\n"}],"isError":false,"durationMs":58,"timestamp":1794593450570}}

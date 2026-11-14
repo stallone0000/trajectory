@@ -1,0 +1,1 @@
+{"type":"message","id":"718cf2ac","parentId":"9accc567","timestamp":"2026-11-13T17:53:05.748Z","message":{"role":"toolResult","toolCallId":"call_52706e7d2a5b4e98a0be1dac","toolName":"bash","content":[{"type":"text","text":"PASS rejected indices\nPASS rejected ledger\nALL OK\n"}],"isError":false,"durationMs":937,"timestamp":1794592385748}}

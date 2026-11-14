@@ -1,0 +1,1 @@
+{"type":"message","id":"abcb2de7","parentId":"6e113218","timestamp":"2026-11-13T10:47:21.623Z","message":{"role":"toolResult","toolCallId":"call_3d11231603c04d968a20fb8e","toolName":"bash","content":[{"type":"text","text":"ALL-ANCHORED OK\nINFEASIBLE GUARD OK\nHEAT OK\nZERO OK\n"}],"isError":false,"durationMs":276,"timestamp":1794566841623}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"fdf6b507","parentId":"b73574ca","timestamp":"2026-11-13T10:41:34.326Z","message":{"role":"toolResult","toolCallId":"call_b5512256a318462eba0ce810","toolName":"bash","content":[{"type":"text","text":"checked 650 batches\n---\nparsed\n"}],"isError":false,"durationMs":68,"timestamp":1794566494326}}

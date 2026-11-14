@@ -1,0 +1,1 @@
+{"type":"message","id":"36bb504e","parentId":"077f7c4b","timestamp":"2026-11-13T14:56:43.397Z","message":{"role":"toolResult","toolCallId":"call_ff4e667e7a484e27a8a6e020","toolName":"bash","content":[{"type":"text","text":"native-atlas MATCH\nnative-pack MATCH\nnative-trace MATCH\nimage trials 200 failures 0\n"}],"isError":false,"durationMs":3629,"timestamp":1794581803397}}

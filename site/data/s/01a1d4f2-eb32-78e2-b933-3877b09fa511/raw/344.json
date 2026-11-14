@@ -1,0 +1,1 @@
+{"type":"message","id":"969626c2","parentId":"3a4ec7fb","timestamp":"2026-11-13T14:15:36.484Z","message":{"role":"toolResult","toolCallId":"call_c5b551ae087e4c1ebe839303","toolName":"bash","content":[{"type":"text","text":"{'results': [{'events': [{'error': 'rejected'}]}]}\n{'results': [{'error': 'invalid'}]}\n"}],"isError":false,"durationMs":57,"timestamp":1794579336484}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"c874af6b","parentId":"769e1a59","timestamp":"2026-11-13T16:10:41.134Z","message":{"role":"toolResult","toolCallId":"call_816db3f8cc084b2ba38fa9fc","toolName":"bash","content":[{"type":"text","text":"prefix exhaustive-ish pass 5001\n"}],"isError":false,"durationMs":114,"timestamp":1794586241134}}

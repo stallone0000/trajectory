@@ -1,0 +1,1 @@
+{"type":"message","id":"e3f4b1b9","parentId":"93effa57","timestamp":"2026-11-12T20:56:49.645Z","message":{"role":"toolResult","toolCallId":"call_711564ce21074beabc1ae672","toolName":"bash","content":[{"type":"text","text":"/tmp/tc/opt/scamp-toolchain/cxx.py\nCOPYING\nNOTICE-GCC\ncxx.py\nlib\nnotices\nroot\n"}],"isError":false,"durationMs":905,"timestamp":1794517009645}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"285e8fde","parentId":"37f902f7","timestamp":"2026-11-13T22:33:44.038Z","message":{"role":"toolResult","toolCallId":"call_41998d179fb0411bb96c360e","toolName":"bash","content":[{"type":"text","text":"['identity', 'unsent_origin'] ['identity', 'unsent']\n"}],"isError":false,"durationMs":144,"timestamp":1794609224038}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"fa5e311d","parentId":"6612651c","timestamp":"2026-11-12T19:17:44.854Z","message":{"role":"toolResult","toolCallId":"call_75edeca7572444eeac70685e","toolName":"bash","content":[{"type":"text","text":"maxcalls matching 4686\ncap 1 max 819\ncap 2 max 2520\ncap 3 max 3819\ncap 5 max 1582\n"}],"isError":false,"durationMs":13312,"timestamp":1794511064854}}

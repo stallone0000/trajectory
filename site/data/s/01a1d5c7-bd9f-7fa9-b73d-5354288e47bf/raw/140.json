@@ -1,0 +1,1 @@
+{"type":"message","id":"dc0046dd","parentId":"81457fd9","timestamp":"2026-11-13T17:00:03.985Z","message":{"role":"toolResult","toolCallId":"call_7226bfad9fc2413dbe6cf7bf","toolName":"bash","content":[{"type":"text","text":"131072 ok rec 0 rej [[0, 0]]\n131073 CaptureError field byte budget\n"}],"isError":false,"durationMs":79,"timestamp":1794589203985}}

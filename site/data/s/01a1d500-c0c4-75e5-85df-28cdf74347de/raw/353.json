@@ -1,0 +1,1 @@
+{"type":"message","id":"3376d056","parentId":"07a85689","timestamp":"2026-11-13T14:57:28.262Z","message":{"role":"toolResult","toolCallId":"call_17fbc450712a43dfbb427ac6","toolName":"bash","content":[{"type":"text","text":"ALL PASS\nVERIFIED [[135, 9]]\nnarrow done, fails = 0\nfuzz3 failures 0\n"}],"isError":false,"durationMs":7370,"timestamp":1794581848262}}

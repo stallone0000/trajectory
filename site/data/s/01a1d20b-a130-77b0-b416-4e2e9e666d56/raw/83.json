@@ -1,0 +1,1 @@
+{"type":"message","id":"fadd1442","parentId":"b93f5959","timestamp":"2026-11-13T00:26:28.743Z","message":{"role":"toolResult","toolCallId":"call_ffcf80381c104404be9cd91f","toolName":"bash","content":[{"type":"text","text":"stress_cov ALL OK 1\nbatch8b ALL OK 8\n"}],"isError":false,"durationMs":1734,"timestamp":1794529588743}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"cb92ec3d","parentId":"8f1f924a","timestamp":"2026-11-13T13:50:35.242Z","message":{"role":"toolResult","toolCallId":"call_055dd34e80984c869f5e55d3","toolName":"bash","content":[{"type":"text","text":"ok   denied contexts may be sent\n\n0 failures\n"}],"isError":false,"durationMs":626,"timestamp":1794577835242}}

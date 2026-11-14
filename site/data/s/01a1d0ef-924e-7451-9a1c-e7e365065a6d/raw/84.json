@@ -1,1 +1,0 @@
-{"type":"message","id":"e1937e20","parentId":"f6729430","timestamp":"2026-11-12T18:18:40.667Z","message":{"role":"toolResult","toolCallId":"call_97482efd23d1498fab4dbfe7","toolName":"bash","content":[{"type":"text","text":"hello\nPermissionError: [Errno 1] Operation not permitted\nsitecustomize.py\n"}],"isError":false,"durationMs":104,"timestamp":1794507520667}}

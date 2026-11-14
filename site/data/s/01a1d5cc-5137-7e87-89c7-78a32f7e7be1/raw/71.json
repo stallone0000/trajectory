@@ -1,0 +1,1 @@
+{"type":"message","id":"e34e81d6","parentId":"9366f5cf","timestamp":"2026-11-13T17:36:02.527Z","message":{"role":"toolResult","toolCallId":"call_e8d471f73990427984c72162","toolName":"bash","content":[{"type":"text","text":"nodes 12298 edges 274440\nmaxflow 4096 4.108450174331665\n"}],"isError":false,"durationMs":30045,"timestamp":1794591362527}}

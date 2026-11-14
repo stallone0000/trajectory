@@ -1,0 +1,1 @@
+{"type":"message","id":"1b6b57c5","parentId":"19e499d6","timestamp":"2026-11-13T22:21:51.626Z","message":{"role":"toolResult","toolCallId":"call_27e982dd64a34e8aabe1c468","toolName":"bash","content":[{"type":"text","text":"len raw 32768\n{\"status\": \"reject\", \"reason\": \"identity\"}\n"}],"isError":false,"durationMs":112,"timestamp":1794608511626}}

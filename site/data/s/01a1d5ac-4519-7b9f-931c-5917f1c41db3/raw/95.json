@@ -1,0 +1,1 @@
+{"type":"message","id":"2e66cf68","parentId":"513dfbae","timestamp":"2026-11-13T18:23:16.279Z","message":{"role":"toolResult","toolCallId":"call_c2373bac0c324d5a932c8f49","toolName":"bash","content":[{"type":"text","text":"iters=300 plans=114 bad=0 both=0 noplancut=0 time=124.3s\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180087,"timestamp":1794594196279}}

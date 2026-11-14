@@ -1,0 +1,1 @@
+{"type":"message","id":"64215f1c","parentId":"7f7b320e","timestamp":"2026-11-13T13:06:00.821Z","message":{"role":"toolResult","toolCallId":"call_fc68d3c908374cb98f061a8f","toolName":"bash","content":[{"type":"text","text":"Public checks failed: policy image or transport sanity differs\nexit=1\n"}],"isError":false,"durationMs":428,"timestamp":1794575160821}}

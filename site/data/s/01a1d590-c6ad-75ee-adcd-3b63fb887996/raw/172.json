@@ -1,0 +1,1 @@
+{"type":"message","id":"e1a59baf","parentId":"289e48d5","timestamp":"2026-11-13T16:42:53.879Z","message":{"role":"toolResult","toolCallId":"call_8d58d9516cab42afbe455f7e","toolName":"bash","content":[{"type":"text","text":"inconsistent [4018, 3972]\n[(10, 11, -336), (11, 10, -752)]\n"}],"isError":false,"durationMs":275,"timestamp":1794588173879}}

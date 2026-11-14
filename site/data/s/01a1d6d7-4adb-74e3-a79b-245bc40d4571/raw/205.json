@@ -1,0 +1,1 @@
+{"type":"message","id":"19228329","parentId":"023f9509","timestamp":"2026-11-13T22:11:30.701Z","message":{"role":"toolResult","toolCallId":"call_231c3789798d4e549ed62ac1","toolName":"bash","content":[{"type":"text","text":"fstruct 0.480541467666626 0x1768fccc4284f000\nfarr 0.4500606060028076 0x1768fccc4284f000\n"}],"isError":false,"durationMs":1049,"timestamp":1794607890701}}

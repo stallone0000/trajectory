@@ -1,0 +1,1 @@
+{"type":"message","id":"d6604d57","parentId":"f63b6edc","timestamp":"2026-11-13T13:45:19.861Z","message":{"role":"toolResult","toolCallId":"call_ec5337dda9e0433dace984fa","toolName":"bash","content":[{"type":"text","text":"native-atlas PASS 0 b''\nnative-pack PASS 0 b''\nnative-trace PASS 0 b''\n"}],"isError":false,"durationMs":64,"timestamp":1794577519861}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"8f4f014d","parentId":"3b925b45","timestamp":"2026-11-13T17:55:10.705Z","message":{"role":"toolResult","toolCallId":"call_d49782f16c7b4fc7ac1cda49","toolName":"bash","content":[{"type":"text","text":"64010 3599600\nkillpg fail [Errno 1] Operation not permitted\nprctl36 0\n"}],"isError":false,"durationMs":59,"timestamp":1794592510705}}

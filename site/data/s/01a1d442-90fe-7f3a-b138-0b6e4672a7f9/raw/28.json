@@ -1,0 +1,1 @@
+{"type":"message","id":"0ca84e0b","parentId":"78460553","timestamp":"2026-11-13T10:14:13.822Z","message":{"role":"toolResult","toolCallId":"call_e32e2ffa418d4e1f8acf456c","toolName":"bash","content":[{"type":"text","text":"MISMATCH step 0 sl 1 ref 1 len 0 1\n"}],"isError":false,"durationMs":60,"timestamp":1794564853822}}

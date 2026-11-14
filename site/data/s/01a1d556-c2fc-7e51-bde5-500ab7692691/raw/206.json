@@ -1,0 +1,1 @@
+{"type":"message","id":"a108e129","parentId":"2c5125ba","timestamp":"2026-11-13T15:51:44.500Z","message":{"role":"toolResult","toolCallId":"call_4dd237e2f5b14e429ff54be1","toolName":"bash","content":[{"type":"text","text":"ok   event order at tie\nok   retained while paused\nFAILURES: 1\n"}],"isError":false,"durationMs":6580,"timestamp":1794585104500}}

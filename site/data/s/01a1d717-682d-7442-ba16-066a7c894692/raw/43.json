@@ -1,0 +1,1 @@
+{"type":"message","id":"fc39df40","parentId":"798e329c","timestamp":"2026-11-13T23:15:30.327Z","message":{"role":"toolResult","toolCallId":"call_d0adb97aaef14500954e5c10","toolName":"bash","content":[{"type":"text","text":"instances needing plan: 85 failures: 0\n"}],"isError":false,"durationMs":151,"timestamp":1794611730327}}

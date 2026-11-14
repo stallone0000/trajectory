@@ -1,0 +1,1 @@
+{"type":"message","id":"525541ad","parentId":"ca2e5d2e","timestamp":"2026-11-13T18:27:31.118Z","message":{"role":"toolResult","toolCallId":"call_2d61f00076eb47af9e227152","toolName":"bash","content":[{"type":"text","text":"JSON ROUNDTRIP 1000 OK 2.8534345626831055\n"}],"isError":false,"durationMs":3301,"timestamp":1794594451118}}

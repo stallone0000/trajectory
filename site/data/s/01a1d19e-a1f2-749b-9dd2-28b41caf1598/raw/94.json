@@ -1,0 +1,1 @@
+{"type":"message","id":"0d594e96","parentId":"ccc0a001","timestamp":"2026-11-12T22:10:00.066Z","message":{"role":"toolResult","toolCallId":"call_485e8e22a5af4147bc2f599d","toolName":"bash","content":[{"type":"text","text":"tested 1183 fails 0 zero-partition cases 0\n"}],"isError":false,"durationMs":33986,"timestamp":1794521400066}}

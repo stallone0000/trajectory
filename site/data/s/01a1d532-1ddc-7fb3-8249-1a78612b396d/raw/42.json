@@ -1,0 +1,1 @@
+{"type":"message","id":"aacec5cc","parentId":"81650cfb","timestamp":"2026-11-13T14:29:41.292Z","message":{"role":"toolResult","toolCallId":"call_d592ceb508e84c24af1251c4","toolName":"bash","content":[{"type":"text","text":"34:    uint64_t reghi = 0, reglo = 0;   // region bits (normalised prefix of 'depth' bits)\n"}],"isError":false,"durationMs":113,"timestamp":1794580181292}}

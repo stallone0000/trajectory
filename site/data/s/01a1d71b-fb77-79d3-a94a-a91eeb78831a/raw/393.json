@@ -1,0 +1,1 @@
+{"type":"message","id":"f66bdc42","parentId":"b75bd0b9","timestamp":"2026-11-14T01:01:01.743Z","message":{"role":"toolResult","toolCallId":"call_503b9e0bd59448a5aa3436c7","toolName":"bash","content":[{"type":"text","text":"known100 pr 34.58002972602844 559\nmany300 pr 55.26980996131897 591\n"}],"isError":false,"durationMs":90709,"timestamp":1794618061743}}

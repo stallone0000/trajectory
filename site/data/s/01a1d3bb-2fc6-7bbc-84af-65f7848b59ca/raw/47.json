@@ -1,1 +1,0 @@
-{"type":"message","id":"40ee682b","parentId":"e64e49cb","timestamp":"2026-11-13T07:32:37.869Z","message":{"role":"toolResult","toolCallId":"call_9afdede6507541ce948d68a0","toolName":"bash","content":[{"type":"text","text":"setsid fail: [Errno 1] Operation not permitted\n"}],"isError":false,"durationMs":69,"timestamp":1794555157869}}

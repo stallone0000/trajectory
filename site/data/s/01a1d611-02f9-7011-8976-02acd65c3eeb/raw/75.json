@@ -1,0 +1,1 @@
+{"type":"message","id":"dbe494ec","parentId":"6421d95d","timestamp":"2026-11-13T18:10:56.510Z","message":{"role":"toolResult","toolCallId":"call_01ecaa1059bb400f8bc530a9","toolName":"bash","content":[{"type":"text","text":"route all ok maxprod 0 maxstat 0.0003662109375 max1-sum 1.0\n"}],"isError":false,"durationMs":37098,"timestamp":1794593456510}}

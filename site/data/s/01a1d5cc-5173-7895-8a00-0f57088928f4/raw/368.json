@@ -1,0 +1,1 @@
+{"type":"message","id":"ee51661d","parentId":"986f1aaf","timestamp":"2026-11-13T20:28:29.922Z","message":{"role":"toolResult","toolCallId":"call_7e2e28e07d8d431d8e21cac8","toolName":"bash","content":[{"type":"text","text":"gc resolved=2000 cost=9401923281 96.6s maxrss=385MB\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180235,"timestamp":1794601709922}}

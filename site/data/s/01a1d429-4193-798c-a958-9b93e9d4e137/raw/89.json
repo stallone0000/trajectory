@@ -1,0 +1,1 @@
+{"type":"message","id":"137a4f45","parentId":"c41b2151","timestamp":"2026-11-13T10:12:55.028Z","message":{"role":"toolResult","toolCallId":"call_ae9b95658c48450a81b25387","toolName":"bash","content":[{"type":"text","text":"audit: accepted 55 valid artifacts; rejected 319 mutations\n"}],"isError":false,"durationMs":114896,"timestamp":1794564775028}}
