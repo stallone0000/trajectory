@@ -14,7 +14,7 @@ import json, pathlib, re, sys, tomllib
 
 ROOT = pathlib.Path("/share/network-agent-benchmark-20261107")
 HERE = pathlib.Path(__file__).resolve().parent.parent
-TASK_RANGE = (1, 30)          # publish tasks 01..30 (current versions)
+TASK_RANGE = (1, 20)          # publish tasks 01..20 only (user 2026-11-14)
 INCLUDE_LEGACY = False
 MAX_FILE_CONTENT = 1_000_000   # text files up to 1 MB are shown in full; larger ones get a placeholder
 TASK_CONTENT_BUDGET = 4_000_000 # safety cap per task (task-authored files first)
@@ -166,7 +166,11 @@ def task_entry(tid: str):
     gp = ROOT / "authoring" / tid / "LUNA-GATE.json"
     gate = (json.loads(gp.read_text()).get("status") or "") if gp.exists() else ""
     cscope = str(cdata.get("acceptance_scope") or cdata.get("task_status") or "")
-    if gate == "accepted" or (gate == "passed" and cscope.startswith(("local-accepted", "accepted"))):
+    cstat = str(cdata.get("status") or "").lower()
+    c_ok = (cdata.get("local_accepted") is True or cscope.startswith(("local-accepted", "accepted"))
+            or cstat in ("accepted", "local-accepted", "complete", "done")) and cdata.get("local_accepted") is not False \
+        and (score or 0) >= 80
+    if gate == "accepted" or (gate in ("passed", "luna-solvable") and c_ok):
         status = "accepted"
     elif gate in ("passed", "gate_passed_pending_C", "C_pending"):
         status = "difficulty gate passed · final review pending"

@@ -119,7 +119,7 @@ const MAKER_VARIANTS: ((colour: string) => string)[] = [
 /** Models of makers without a colour step through ink. */
 const INK_VARIANTS = SHADES.map((percent) => (c: string) => tint(c, percent));
 /** Makers pika colours in the chart without a mark of their own, by name as `modelMaker` reads it. */
-type Family = ModelMaker | "qwen" | "minimax" | "mistral" | "zai";
+type Family = ModelMaker | "mistral";
 /**
  * The colour each maker lends its models' layers: the colours of their names and marks, OpenAI's green, Kimi's blue,
  * and for the rest, Artificial Analysis's creator colours.
@@ -135,6 +135,7 @@ const MAKER_COLOURS: Partial<Record<Family, string>> = {
 	minimax: "var(--color-model-minimax)",
 	mistral: "var(--color-model-mistral)",
 	zai: "var(--color-model-zai)",
+	xiaomi: "var(--color-model-xiaomi)",
 };
 
 /** A model's colour family: its maker as `modelMaker` knows it, else a maker the chart alone colours. */
@@ -142,10 +143,7 @@ export function modelFamily(model: string): Family | undefined {
 	const known = modelMaker(model);
 	if (known) return known;
 	const name = bareModel(model).toLowerCase();
-	if (/qwen|qwq/.test(name)) return "qwen";
-	if (/minimax|^abab/.test(name)) return "minimax";
 	if (/mistral|mixtral|pixtral|(code|dev|magi|mini)stral/.test(name)) return "mistral";
-	if (/^(chat)?glm|zhipu/.test(name)) return "zai";
 	return undefined;
 }
 

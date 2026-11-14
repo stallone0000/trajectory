@@ -100,16 +100,20 @@
 	--color-model-claude: #ad4e2c;
 	--color-model-gemini: #1a66d9;
 	--color-model-deepseek: #3a57e8;
+	--color-model-qwen: #6336e7;
+	--color-model-minimax: #d4185f;
+	/* Xiaomi's grey MiMo wordmark, the two ends of its gradient; lightened in the dark theme, where grey would vanish. */
+	--color-model-xiaomi-mark: #3d3834;
+	--color-model-xiaomi-mark-fade: #736b68;
 	/*
 	 * Colours for makers whose names stay ink, used only to fill their models' layers in the usage chart, where at least
-	 * 3:1 against the page suffices: OpenAI's green and the blue of Kimi's mark; for the rest, Artificial Analysis's
-	 * creator colours (Qwen's darkened to reach 3:1), except a teal for Z AI, whose blue is Kimi's.
+	 * 3:1 against the page suffices: OpenAI's green and the blue of Kimi's mark; Xiaomi's orange, darkened to reach 3:1;
+	 * for the rest, Artificial Analysis's creator colours, except a teal for Z AI, whose blue is Kimi's.
 	 */
 	--color-model-openai: #10a37f;
 	--color-model-kimi: #1783ff;
 	--color-model-grok: #736cd3;
-	--color-model-qwen: #e05d00;
-	--color-model-minimax: #eb3568;
+	--color-model-xiaomi: #e05d00;
 	--color-model-mistral: #f32e02;
 	--color-model-zai: #0e9aa7;
 
@@ -165,8 +169,11 @@
 	--color-model-openai: #19c37d;
 	--color-model-kimi: #4a9dff;
 	--color-model-grok: #9d97ec;
-	--color-model-qwen: #ff8a3d;
+	--color-model-qwen: #9d8cff;
 	--color-model-minimax: #f25c86;
+	--color-model-xiaomi: #ff8a3d;
+	--color-model-xiaomi-mark: #e8e4e2;
+	--color-model-xiaomi-mark-fade: #a8a09c;
 	--color-model-mistral: #ff5a33;
 	--color-model-zai: #2cc3cf;
 	color-scheme: dark;
