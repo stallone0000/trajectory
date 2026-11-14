@@ -1,0 +1,1 @@
+{"type":"message","id":"cbbc6d5f","parentId":"96df057a","timestamp":"2026-11-14T17:54:18.328Z","message":{"role":"toolResult","toolCallId":"call_517f6619fedf4e1691c45a5579d54053","toolName":"bash","content":[{"type":"text","text":"extended assertions passed\n"}],"isError":false,"durationMs":13629,"timestamp":1794678858328}}

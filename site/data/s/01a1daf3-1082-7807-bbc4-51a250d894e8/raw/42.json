@@ -1,0 +1,1 @@
+{"type":"message","id":"3d35d6d9","parentId":"6700c096","timestamp":"2026-11-14T17:15:43.744Z","message":{"role":"toolResult","toolCallId":"call_e333adf98c914366a1dff52b28c988f9","toolName":"bash","content":[{"type":"text","text":"events 100000 cpu 108.82659724 rss_kb 213108 output_len 18359501\n"}],"isError":false,"durationMs":139343,"timestamp":1794676543744}}

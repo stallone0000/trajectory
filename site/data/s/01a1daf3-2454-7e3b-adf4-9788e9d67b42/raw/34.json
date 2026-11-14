@@ -1,0 +1,1 @@
+{"type":"message","id":"d2d694ac","parentId":"75c1c63b","timestamp":"2026-11-14T17:09:14.490Z","message":{"role":"toolResult","toolCallId":"call_bf6176d7b568456da380dd8880cefc94","toolName":"bash","content":[{"type":"text","text":"distances and ranges ok\ncoverage ok\nmatcher ok\nexact tables ok\n"}],"isError":false,"durationMs":32158,"timestamp":1794676154490}}

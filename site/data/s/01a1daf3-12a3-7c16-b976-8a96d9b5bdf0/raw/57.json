@@ -1,0 +1,1 @@
+{"type":"message","id":"6c58b4c4","parentId":"c11744a3","timestamp":"2026-11-14T17:16:41.498Z","message":{"role":"toolResult","toolCallId":"call_033fcea75e604cda976f11cf6fc57c6c","toolName":"bash","content":[{"type":"text","text":"depth64 layout 129 3 63\ndepth64 isolated PASS\n"}],"isError":false,"durationMs":287,"timestamp":1794676601498}}

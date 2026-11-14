@@ -1,0 +1,1 @@
+{"type":"message","id":"eec38410","parentId":"4b6b526e","timestamp":"2026-11-14T17:59:00.162Z","message":{"role":"toolResult","toolCallId":"call_d13c95b44f504cdab42c7b00f88aa0c3","toolName":"bash","content":[{"type":"text","text":"random replay compared against nanosecond simulation OK\n"}],"isError":false,"durationMs":3120,"timestamp":1794679140162}}

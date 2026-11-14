@@ -1,0 +1,1 @@
+{"type":"message","id":"7190d81e","parentId":"f6ab7379","timestamp":"2026-11-14T16:48:41.632Z","message":{"role":"toolResult","toolCallId":"call_7ba17ec684f14214afe557723fb28bf0","toolName":"bash","content":[{"type":"text","text":"No module named 'scipy'\n"}],"isError":false,"durationMs":86,"timestamp":1794674921632}}

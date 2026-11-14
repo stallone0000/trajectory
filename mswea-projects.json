@@ -16,6 +16,19 @@
    "cost": 0.26018,
    "durationMs": 5013054
   },
+  "01a1daf3-15ae-7b23-87aa-9c13ea40c440": {
+   "project": "netbench-v2",
+   "task": "01-crosscheck",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 136/136",
+   "steps": 33,
+   "failedRequests": 0,
+   "toolCalls": 33,
+   "tokens": 1098183,
+   "cost": 1.787864,
+   "durationMs": 2577310
+  },
   "01a1d3bb-2fc6-751c-b168-b33fd95dffff": {
    "project": "netbench-v2",
    "task": "01-crosscheck",
@@ -106,6 +119,19 @@
    "tokens": 23123609,
    "cost": 0.325582,
    "durationMs": 7098372
+  },
+  "01a1dad9-739d-7cdc-bb24-4a1c59ed1ceb": {
+   "project": "netbench-v2",
+   "task": "02-planb",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 172/172",
+   "steps": 16,
+   "failedRequests": 0,
+   "toolCalls": 18,
+   "tokens": 395119,
+   "cost": 0.587789,
+   "durationMs": 1141381
   },
   "01a1d511-c8e6-7384-86d3-cfe9673aee01": {
    "project": "netbench-v2",
@@ -198,6 +224,19 @@
    "cost": 0.749421,
    "durationMs": 7908950
   },
+  "01a1daf3-12ea-74e5-ac7f-45f2e20f2638": {
+   "project": "netbench-v2",
+   "task": "03-scamp-trie",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 89/89",
+   "steps": 33,
+   "failedRequests": 1,
+   "toolCalls": 35,
+   "tokens": 2430891,
+   "cost": 4.010871,
+   "durationMs": 3742740
+  },
   "01a1d3bb-2d6b-7ee9-91e4-ab0fa62b07d5": {
    "project": "netbench-v2",
    "task": "03-scamp-trie",
@@ -288,6 +327,19 @@
    "tokens": 26317192,
    "cost": 0.346833,
    "durationMs": 9841005
+  },
+  "01a1daf3-2454-7e3b-adf4-9788e9d67b42": {
+   "project": "netbench-v2",
+   "task": "04-synecdoche",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 120/120",
+   "steps": 35,
+   "failedRequests": 1,
+   "toolCalls": 35,
+   "tokens": 1338563,
+   "cost": 2.577205,
+   "durationMs": 3752989
   },
   "01a1d655-b88e-79a5-9c31-108213fb4942": {
    "project": "netbench-v2",
@@ -380,6 +432,19 @@
    "cost": 0.726464,
    "durationMs": 8587758
   },
+  "01a1daf3-1248-7c59-b5b7-46574eb46758": {
+   "project": "netbench-v2",
+   "task": "05-emicro",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 75/75",
+   "steps": 23,
+   "failedRequests": 0,
+   "toolCalls": 23,
+   "tokens": 725967,
+   "cost": 1.72028,
+   "durationMs": 2842486
+  },
   "01a1d4f2-ea7a-7a32-a687-f0d091122f3e": {
    "project": "netbench-v2",
    "task": "05-emicro",
@@ -470,6 +535,19 @@
    "tokens": 49026206,
    "cost": 0.615022,
    "durationMs": 7615250
+  },
+  "01a1daf3-12e6-7770-86fa-03205debd435": {
+   "project": "netbench-v2",
+   "task": "06-residential-ipv6-firewall",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 115/115",
+   "steps": 30,
+   "failedRequests": 1,
+   "toolCalls": 31,
+   "tokens": 1038204,
+   "cost": 1.581109,
+   "durationMs": 2767049
   },
   "01a1d5e7-cd2d-79c2-919e-9fbf03086869": {
    "project": "netbench-v2",
@@ -562,6 +640,19 @@
    "cost": 0.641894,
    "durationMs": 11102824
   },
+  "01a1daf3-1c07-7c62-afdc-d417e5179ca3": {
+   "project": "netbench-v2",
+   "task": "07-fenix",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 60/60",
+   "steps": 18,
+   "failedRequests": 0,
+   "toolCalls": 20,
+   "tokens": 453265,
+   "cost": 1.16441,
+   "durationMs": 1866349
+  },
   "01a1d3bb-30c5-7864-84c8-b21dfc458d2d": {
    "project": "netbench-v2",
    "task": "07-fenix",
@@ -652,6 +743,19 @@
    "tokens": 14839717,
    "cost": 0.291325,
    "durationMs": 6604211
+  },
+  "01a1daf3-1082-7807-bbc4-51a250d894e8": {
+   "project": "netbench-v2",
+   "task": "08-scale-up-pifo",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 70/70",
+   "steps": 39,
+   "failedRequests": 0,
+   "toolCalls": 48,
+   "tokens": 1273305,
+   "cost": 2.143874,
+   "durationMs": 4274855
   },
   "01a1d4f2-edce-7c5e-bb7f-04035128227b": {
    "project": "netbench-v2",
@@ -744,6 +848,19 @@
    "cost": 0.123999,
    "durationMs": 3476437
   },
+  "01a1dad9-4f44-73f6-939e-b7d4914e6876": {
+   "project": "netbench-v2",
+   "task": "09-netnomos",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 83/83",
+   "steps": 12,
+   "failedRequests": 1,
+   "toolCalls": 14,
+   "tokens": 193477,
+   "cost": 0.348352,
+   "durationMs": 742764
+  },
   "01a1d5ac-46d6-709d-ad5a-4d6a05ad1f79": {
    "project": "netbench-v2",
    "task": "09-netnomos",
@@ -834,6 +951,19 @@
    "tokens": 11168261,
    "cost": 0.182982,
    "durationMs": 3843755
+  },
+  "01a1daf3-0f0d-7912-8a13-482d40476402": {
+   "project": "netbench-v2",
+   "task": "10-omnipath-ping",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 196/196",
+   "steps": 25,
+   "failedRequests": 0,
+   "toolCalls": 25,
+   "tokens": 966117,
+   "cost": 1.660852,
+   "durationMs": 1858576
   },
   "01a1d5fe-b025-76d4-bf22-db110c7c19b4": {
    "project": "netbench-v2",
@@ -926,6 +1056,19 @@
    "cost": 0.582002,
    "durationMs": 10329635
   },
+  "01a1daf3-16db-747c-8703-2a5ca5167f61": {
+   "project": "netbench-v2",
+   "task": "11-onlinete",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 280/280",
+   "steps": 22,
+   "failedRequests": 0,
+   "toolCalls": 22,
+   "tokens": 539503,
+   "cost": 1.253796,
+   "durationMs": 2006032
+  },
   "01a1d65e-dc5c-7409-9d4b-c6fb4ea8309c": {
    "project": "netbench-v2",
    "task": "11-onlinete",
@@ -1016,6 +1159,19 @@
    "tokens": 24507668,
    "cost": 0.326275,
    "durationMs": 4724537
+  },
+  "01a1daf3-12a3-7c16-b976-8a96d9b5bdf0": {
+   "project": "netbench-v2",
+   "task": "12-eywa",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 116/116",
+   "steps": 29,
+   "failedRequests": 0,
+   "toolCalls": 29,
+   "tokens": 1125035,
+   "cost": 2.181519,
+   "durationMs": 2047091
   },
   "01a1d6bb-d23e-798d-9cdd-5620d7ac8578": {
    "project": "netbench-v2",
@@ -1108,6 +1264,19 @@
    "cost": 0.126938,
    "durationMs": 3600928
   },
+  "01a1db18-698c-78f6-a506-6f9eaeafa943": {
+   "project": "netbench-v2",
+   "task": "13-sipconfusion",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 9/9",
+   "steps": 13,
+   "failedRequests": 0,
+   "toolCalls": 13,
+   "tokens": 193843,
+   "cost": 0.621841,
+   "durationMs": 1081033
+  },
   "01a1d6e9-9d03-7a82-a5b9-0b89b17d35eb": {
    "project": "netbench-v2",
    "task": "13-sipconfusion",
@@ -1198,6 +1367,19 @@
    "tokens": 26457017,
    "cost": 0.360102,
    "durationMs": 7322159
+  },
+  "01a1db21-9351-7106-ab27-e325118fd1b9": {
+   "project": "netbench-v2",
+   "task": "14-h3act",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 176/176",
+   "steps": 32,
+   "failedRequests": 0,
+   "toolCalls": 32,
+   "tokens": 1136568,
+   "cost": 1.943382,
+   "durationMs": 2746309
   },
   "01a1d6c0-6539-72b5-ab06-953dd8d01c60": {
    "project": "netbench-v2",
@@ -1290,6 +1472,19 @@
    "cost": 0.403613,
    "durationMs": 7487069
   },
+  "01a1db23-040d-7684-9a5d-9974aea7f2b0": {
+   "project": "netbench-v2",
+   "task": "15-quic-attacker",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 64/64",
+   "steps": 24,
+   "failedRequests": 0,
+   "toolCalls": 24,
+   "tokens": 1010896,
+   "cost": 2.001443,
+   "durationMs": 2269201
+  },
   "01a1d6fb-ee0d-790c-bec1-f8fd2f050fb0": {
    "project": "netbench-v2",
    "task": "15-quic-attacker",
@@ -1380,6 +1575,19 @@
    "tokens": 18504939,
    "cost": 0.264947,
    "durationMs": 4052175
+  },
+  "01a1db27-08f3-7345-9666-64b757befb3b": {
+   "project": "netbench-v2",
+   "task": "16-epic",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 103/103",
+   "steps": 22,
+   "failedRequests": 0,
+   "toolCalls": 22,
+   "tokens": 855563,
+   "cost": 1.828802,
+   "durationMs": 2230234
   },
   "01a1d745-3ad2-71e5-a652-0927b56e511f": {
    "project": "netbench-v2",
@@ -1472,6 +1680,19 @@
    "cost": 0.41497,
    "durationMs": 6065621
   },
+  "01a1db27-864d-7251-8a0b-2b6036d60083": {
+   "project": "netbench-v2",
+   "task": "17-syncwise",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 107/107",
+   "steps": 21,
+   "failedRequests": 0,
+   "toolCalls": 22,
+   "tokens": 637631,
+   "cost": 1.293167,
+   "durationMs": 2448286
+  },
   "01a1d429-4193-74d5-836e-2e0075af4784": {
    "project": "netbench-v2",
    "task": "17-syncwise",
@@ -1562,6 +1783,19 @@
    "tokens": 23311189,
    "cost": 0.331464,
    "durationMs": 5083861
+  },
+  "01a1db29-0bbe-7344-b90d-f438933652ad": {
+   "project": "netbench-v2",
+   "task": "18-pathprob",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 174/174",
+   "steps": 14,
+   "failedRequests": 0,
+   "toolCalls": 15,
+   "tokens": 236158,
+   "cost": 0.680804,
+   "durationMs": 1445118
   },
   "01a1d3bf-bf28-70c8-b0f0-dde06fd5b38d": {
    "project": "netbench-v2",
@@ -1654,6 +1888,19 @@
    "cost": 0.224107,
    "durationMs": 4599921
   },
+  "01a1db2e-7a1b-7ae6-a5ba-2797934c8d83": {
+   "project": "netbench-v2",
+   "task": "19-flowzip",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 769/769",
+   "steps": 8,
+   "failedRequests": 0,
+   "toolCalls": 8,
+   "tokens": 106885,
+   "cost": 0.393632,
+   "durationMs": 864670
+  },
   "01a1d3c4-53d5-7a47-881e-d0c224e44b05": {
    "project": "netbench-v2",
    "task": "19-flowzip",
@@ -1744,6 +1991,19 @@
    "tokens": 53371418,
    "cost": 0.78759,
    "durationMs": 14416693
+  },
+  "01a1db39-9841-7b63-9dd7-e8fcc71b63db": {
+   "project": "netbench-v2",
+   "task": "20-forestcoll",
+   "model": "GPT-6.1-Sol",
+   "verdict": "pass",
+   "detail": "hidden tests 80/80",
+   "steps": 25,
+   "failedRequests": 0,
+   "toolCalls": 25,
+   "tokens": 875991,
+   "cost": 1.093312,
+   "durationMs": 2362631
   },
   "01a1d72e-4cf3-784f-a444-698425083ae8": {
    "project": "netbench-v2",

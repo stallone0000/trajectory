@@ -1,0 +1,1 @@
+{"type":"message","id":"cc2262ef","parentId":"85a9b5f9","timestamp":"2026-11-14T17:51:13.230Z","message":{"role":"toolResult","toolCallId":"call_4bbd3bcaf1304a3a8915d7f3cca9bdd9","toolName":"bash","content":[{"type":"text","text":"4000 random cases match independent explicit-dependency replay\n"}],"isError":false,"durationMs":30304,"timestamp":1794678673230}}

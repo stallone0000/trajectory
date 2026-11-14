@@ -1,0 +1,1 @@
+{"type":"message","id":"b081f91a","parentId":"fcf4b899","timestamp":"2026-11-14T17:08:05.799Z","message":{"role":"toolResult","toolCallId":"call_3fb311acf11e4d129145b92cc01d2c7a","toolName":"bash","content":[{"type":"text","text":"400 medium checks passed 5.388\nequal/full resource cases passed\n"}],"isError":false,"durationMs":10559,"timestamp":1794676085799}}

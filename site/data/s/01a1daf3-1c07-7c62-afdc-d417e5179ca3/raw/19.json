@@ -1,0 +1,1 @@
+{"type":"message","id":"dbce3f27","parentId":"0f6e4e08","timestamp":"2026-11-14T16:57:54.735Z","message":{"role":"toolResult","toolCallId":"call_4d2e31da7d7a4dde8b627855f46f8df3","toolName":"bash","content":[{"type":"text","text":"PASS 2000 time 1.752946924418211\n"}],"isError":false,"durationMs":2002,"timestamp":1794675474735}}

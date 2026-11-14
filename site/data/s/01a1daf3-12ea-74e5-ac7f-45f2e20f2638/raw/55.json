@@ -1,0 +1,1 @@
+{"type":"message","id":"b95929d2","parentId":"57cda649","timestamp":"2026-11-14T17:26:11.540Z","message":{"role":"toolResult","toolCallId":"call_a71bc5f158834249ba76f69501ea9d53","toolName":"bash","content":[{"type":"text","text":"image fuzz no crashes\n"}],"isError":false,"durationMs":30452,"timestamp":1794677171540}}

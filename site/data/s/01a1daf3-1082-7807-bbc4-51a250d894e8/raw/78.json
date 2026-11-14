@@ -1,0 +1,1 @@
+{"type":"message","id":"212f2341","parentId":"39086913","timestamp":"2026-11-14T17:46:50.028Z","message":{"role":"toolResult","toolCallId":"call_b8d842d5b6f349e581e6c5f2bfc1e6b2","toolName":"bash","content":[{"type":"text","text":"maximum control shape: passed; CPU 1.227\npublic sanity: 9 child invocations passed\n"}],"isError":false,"durationMs":3419,"timestamp":1794678410028}}

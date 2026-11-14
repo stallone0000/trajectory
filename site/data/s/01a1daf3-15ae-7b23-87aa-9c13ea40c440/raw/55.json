@@ -1,0 +1,1 @@
+{"type":"message","id":"ea92b35c","parentId":"a6a11603","timestamp":"2026-11-14T17:17:59.519Z","message":{"role":"toolResult","toolCallId":"call_8d9bdaa0d4f54f96bafe489165d92d61","toolName":"bash","content":[{"type":"text","text":"PermissionError: [Errno 1] Operation not permitted\n\n\n[exit code 1]"}],"isError":true,"durationMs":286,"timestamp":1794676679519}}

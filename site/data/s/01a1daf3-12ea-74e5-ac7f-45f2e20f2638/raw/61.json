@@ -1,0 +1,1 @@
+{"type":"message","id":"f6ea5adc","parentId":"9070c3cb","timestamp":"2026-11-14T17:35:06.432Z","message":{"role":"toolResult","toolCallId":"call_044e0d9b8ec94dac8f93cc01f5764408","toolName":"bash","content":[{"type":"text","text":"all published fixtures passed\nBuild complete.\n"}],"isError":false,"durationMs":17741,"timestamp":1794677706432}}

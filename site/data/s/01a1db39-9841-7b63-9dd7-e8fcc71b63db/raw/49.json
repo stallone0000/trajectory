@@ -1,0 +1,1 @@
+{"type":"message","id":"48da2b04","parentId":"3e463a9f","timestamp":"2026-11-14T18:39:18.833Z","message":{"role":"toolResult","toolCallId":"call_1d8eef75039b42d7a580f052de4319fb","toolName":"bash","content":[{"type":"text","text":"large-integer and reversed-link tests passed\n"}],"isError":false,"durationMs":8938,"timestamp":1794681558833}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"624e67ca","parentId":"d664a896","timestamp":"2026-11-14T18:11:10.924Z","message":{"role":"toolResult","toolCallId":"call_1150ddbdb2874b9fa20dc157762d20c0","toolName":"bash","content":[{"type":"text","text":"2000 differential replay batches passed\n"}],"isError":false,"durationMs":3267,"timestamp":1794679870924}}

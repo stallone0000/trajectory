@@ -1,0 +1,1 @@
+{"type":"message","id":"fa484de2","parentId":"a3cb0256","timestamp":"2026-11-14T17:34:55.121Z","message":{"role":"toolResult","toolCallId":"call_c62ec184dfab4d78b3f4229a6ebbbde6","toolName":"bash","content":[{"type":"text","text":"Parser edge-case checks passed\n"}],"isError":false,"durationMs":332,"timestamp":1794677695121}}

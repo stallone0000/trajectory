@@ -1,0 +1,1 @@
+{"type":"message","id":"e45b09e8","parentId":"c7cea8af","timestamp":"2026-11-14T17:19:55.946Z","message":{"role":"toolResult","toolCallId":"call_8287935a15e84f3b8f876a0785e6e256","toolName":"bash","content":[{"type":"text","text":"census/protocol/capture tests passed\n300 exhaustive planner tests passed\n"}],"isError":false,"durationMs":2399,"timestamp":1794676795946}}

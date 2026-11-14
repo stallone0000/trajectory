@@ -1,0 +1,1 @@
+{"type":"message","id":"d69d8b2e","parentId":"1beeaaed","timestamp":"2026-11-14T17:18:45.140Z","message":{"role":"toolResult","toolCallId":"call_5023a2c6193d42ff8ac63bbe373baec1","toolName":"bash","content":[{"type":"text","text":"random complete offline certificates ok\npublic fixtures in-process ok\n"}],"isError":false,"durationMs":4525,"timestamp":1794676725140}}

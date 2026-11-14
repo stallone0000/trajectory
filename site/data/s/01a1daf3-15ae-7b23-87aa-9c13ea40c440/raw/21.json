@@ -1,0 +1,1 @@
+{"type":"message","id":"7f3edc62","parentId":"fc5c3aff","timestamp":"2026-11-14T16:55:05.307Z","message":{"role":"toolResult","toolCallId":"call_261d4d26fa1e4065bb0fc8a22df46f97","toolName":"bash","content":[{"type":"text","text":"two-router-clean-replay True\nb'{\"error\":\"invalid_json\"}\\n'\n"}],"isError":false,"durationMs":498,"timestamp":1794675305307}}

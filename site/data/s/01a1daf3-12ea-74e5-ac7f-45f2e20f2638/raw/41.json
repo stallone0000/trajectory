@@ -1,0 +1,1 @@
+{"type":"message","id":"1a0d4e11","parentId":"f1ed3590","timestamp":"2026-11-14T17:15:55.855Z","message":{"role":"toolResult","toolCallId":"call_e075460ec4394d7aa54bd3384b4635d0","toolName":"bash","content":[{"type":"text","text":"Build complete.\npublic examples ok\n"}],"isError":false,"durationMs":13723,"timestamp":1794676555855}}

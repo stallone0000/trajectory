@@ -1,0 +1,1 @@
+{"type":"message","id":"d1e733ea","parentId":"065ba6c0","timestamp":"2026-11-14T16:58:42.626Z","message":{"role":"toolResult","toolCallId":"call_53bae4dea0e449658223dc88eaf4a408","toolName":"bash","content":[{"type":"text","text":"bands okay\ndtp all okay\n"}],"isError":false,"durationMs":7393,"timestamp":1794675522626}}
