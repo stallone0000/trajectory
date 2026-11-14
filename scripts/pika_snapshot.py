@@ -100,7 +100,7 @@ def search_docs(entries: list) -> list:
         else:
             continue
         if text.strip():
-            docs.append({"seq": e['seq'], "entryId": e.get("id"), "kind": kind, "at": e.get("timestamp"), "text": text[:20000]})
+            docs.append({"seq": e['seq'], "entryId": e.get("id"), "kind": kind, "at": e.get("timestamp"), "text": text[:4000]})  # 2026-11-14: was 20000; search.json neared GitHub 100 MB file limit
     return docs
 
 
