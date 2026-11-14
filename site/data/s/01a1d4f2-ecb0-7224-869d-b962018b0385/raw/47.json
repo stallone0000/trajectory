@@ -1,1 +1,0 @@
-{"type":"message","id":"be911c2e","parentId":"c66df05b","timestamp":"2026-11-13T13:40:11.165Z","message":{"role":"toolResult","toolCallId":"call_2b46055ffb934c5e88d6eb22","toolName":"bash","content":[{"type":"text","text":"Public checks failed: nonzero child exit: 1\n\n\n[exit code 1]"}],"isError":true,"durationMs":263,"timestamp":1794577211165}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"5408af05","parentId":"e7e86311","timestamp":"2026-11-13T15:30:43.522Z","message":{"role":"toolResult","toolCallId":"call_7fd63e05f4ec4bf194686c01","toolName":"bash","content":[{"type":"text","text":"stage bug: parent type=1 stage=3 child stage=3 height=2 bulk_keys=0 fixed?\n"}],"isError":false,"durationMs":97,"timestamp":1794583843522}}

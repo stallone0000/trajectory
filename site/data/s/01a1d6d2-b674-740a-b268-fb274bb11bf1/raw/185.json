@@ -1,1 +1,0 @@
-{"type":"message","id":"3d2e8bb8","parentId":"e4c13105","timestamp":"2026-11-13T22:18:45.986Z","message":{"role":"toolResult","toolCallId":"call_554bde7399964d8685525170","toolName":"bash","content":[{"type":"text","text":"ok   request budget max\nok   chunk budget max\nok   chunk budget 40001\nedge: 0 failures\n"}],"isError":false,"durationMs":1394,"timestamp":1794608325986}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"1672d21e","parentId":"e0cfeadb","timestamp":"2026-11-13T19:14:09.436Z","message":{"role":"toolResult","toolCallId":"call_e582632c7d1d48c7a89e25e8","toolName":"bash","content":[{"type":"text","text":"build 0.07948017120361328\n200k no match 5.148632526397705\n"}],"isError":false,"durationMs":5329,"timestamp":1794597249436}}

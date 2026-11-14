@@ -1,0 +1,1 @@
+{"type":"message","id":"2cc5de59","parentId":"eea87e76","timestamp":"2026-11-13T14:08:46.440Z","message":{"role":"toolResult","toolCallId":"call_2694ae30d46d412da299dea7","toolName":"bash","content":[{"type":"text","text":"ATLAS ok\nPACK/TRACE ok\npython packer matches the native packer byte for byte\n"}],"isError":false,"durationMs":693,"timestamp":1794578926440}}

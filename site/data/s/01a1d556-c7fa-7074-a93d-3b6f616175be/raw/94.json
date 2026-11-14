@@ -1,1 +1,0 @@
-{"type":"message","id":"aca998ae","parentId":"046f74ed","timestamp":"2026-11-13T15:17:50.586Z","message":{"role":"toolResult","toolCallId":"call_508686d998e145789132a02c","toolName":"bash","content":[{"type":"text","text":"base 408 MB\nnumpy 408 MB\ntqdm 408 MB\nfinite 408 MB\nafter run 408 MB\nok\n"}],"isError":false,"durationMs":984,"timestamp":1794583070586}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"82f5de18","parentId":"8e815387","timestamp":"2026-11-13T14:17:28.822Z","message":{"role":"toolResult","toolCallId":"call_15dc461d5d4f4e09a6362f4d","toolName":"bash","content":[{"type":"text","text":"=== native-atlas\nrc=0\nMATCH\n=== native-pack\nrc=0\nMATCH\n=== native-trace\nrc=0\nMATCH\n"}],"isError":false,"durationMs":82,"timestamp":1794579448822}}

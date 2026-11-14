@@ -1,1 +1,0 @@
-{"type":"message","id":"c8c44bdc","parentId":"055276e5","timestamp":"2026-11-13T21:53:47.134Z","message":{"role":"toolResult","toolCallId":"call_09a9edaabf90427896e784c1","toolName":"bash","content":[{"type":"text","text":"252 252 reject identity\n253 253 reject identity\n254 254 reject syntax\n255 255 reject syntax\n"}],"isError":false,"durationMs":53,"timestamp":1794606827134}}

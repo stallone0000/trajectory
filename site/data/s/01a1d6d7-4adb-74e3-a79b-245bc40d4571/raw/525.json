@@ -1,1 +1,0 @@
-{"type":"message","id":"54252691","parentId":"d9275966","timestamp":"2026-11-13T22:45:29.114Z","message":{"role":"toolResult","toolCallId":"call_e5342490a6934c0d967e9c97","toolName":"bash","content":[{"type":"text","text":"sample ok\nPASS: 3 public CLI fixtures (no score)\ntree entries 11 regular bytes 80022\n"}],"isError":false,"durationMs":690,"timestamp":1794609929114}}

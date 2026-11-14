@@ -1,1 +1,0 @@
-{"type":"message","id":"3d274a6c","parentId":"36abce4f","timestamp":"2026-11-13T01:24:17.763Z","message":{"role":"toolResult","toolCallId":"call_f3b8f030003141e5aee06626","toolName":"bash","content":[{"type":"text","text":"max pops 9070 max n 1833 budget ratio worst 0.01259022765130483\n"}],"isError":false,"durationMs":24477,"timestamp":1794533057763}}

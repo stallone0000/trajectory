@@ -1,0 +1,1 @@
+{"type":"message","id":"50be28a9","parentId":"2016ad8d","timestamp":"2026-11-13T13:34:12.718Z","message":{"role":"toolResult","toolCallId":"call_21707db12f244453ae9c6811","toolName":"bash","content":[{"type":"text","text":"MUTATION PROTOCOL PASS\n"}],"isError":false,"durationMs":2506,"timestamp":1794576852718}}

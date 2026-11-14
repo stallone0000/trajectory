@@ -1,1 +1,0 @@
-{"type":"message","id":"7edbd19c","parentId":"05ed4d48","timestamp":"2026-11-12T17:50:30.110Z","message":{"role":"toolResult","toolCallId":"call_a0e2e4a576ac439d9d00ff19","toolName":"bash","content":[{"type":"text","text":"Counter({'ok': 386, 'skip-core': 11, 'skip-wide': 3}) bad 0 secs 10.1\n"}],"isError":false,"durationMs":10236,"timestamp":1794505830110}}

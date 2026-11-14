@@ -1,1 +1,0 @@
-{"type":"message","id":"c2b7d305","parentId":"a380b222","timestamp":"2026-11-13T14:08:44.121Z","message":{"role":"toolResult","toolCallId":"call_6231538dce484bf4bbc8e43e","toolName":"bash","content":[{"type":"text","text":"selftest passed: 111 checks\nreplay fuzz rounds=200 failures=0\n"}],"isError":false,"durationMs":2301,"timestamp":1794578924121}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"f27ed55c","parentId":"05cc1ab6","timestamp":"2026-11-13T22:28:27.384Z","message":{"role":"toolResult","toolCallId":"call_ba0b794b0f9640b8a2c32ae6","toolName":"bash","content":[{"type":"text","text":"n 8188 source 8190 error? None\nn 8189 source 8191 error? None\n"}],"isError":false,"durationMs":226,"timestamp":1794608907384}}

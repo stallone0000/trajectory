@@ -1,1 +1,0 @@
-{"type":"message","id":"0875f8c2","parentId":"57412edc","timestamp":"2026-11-12T23:52:59.517Z","message":{"role":"toolResult","toolCallId":"call_39e1a0e47d9041949fac81c8","toolName":"bash","content":[{"type":"text","text":"tested 60 skipped 0 zero-partition 0\n"}],"isError":false,"durationMs":110,"timestamp":1794527579517}}

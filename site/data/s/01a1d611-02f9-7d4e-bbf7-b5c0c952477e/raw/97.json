@@ -1,0 +1,1 @@
+{"type":"message","id":"2dd3c10d","parentId":"d246f603","timestamp":"2026-11-13T18:17:07.826Z","message":{"role":"toolResult","toolCallId":"call_dead61390eb54619b27649f5","toolName":"bash","content":[{"type":"text","text":"dup at event 25 commodity 1 [[0], [0]]\ndup at event 31 commodity 1 [[0], [0]]\n"}],"isError":false,"durationMs":811,"timestamp":1794593827826}}

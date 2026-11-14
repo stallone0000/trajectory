@@ -1,0 +1,1 @@
+{"type":"message","id":"c2ead966","parentId":"e663f824","timestamp":"2026-11-13T15:13:47.320Z","message":{"role":"toolResult","toolCallId":"call_cfc31e76762c4cb5ae11e973","toolName":"bash","content":[{"type":"text","text":"len 6504\nerr RecursionError('maximum recursion depth exceeded')\nlen 324 depth 65\nok 1 0\n"}],"isError":false,"durationMs":74,"timestamp":1794582827320}}

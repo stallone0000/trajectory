@@ -1,0 +1,1 @@
+{"type":"message","id":"a4d02033","parentId":"4ddb6d72","timestamp":"2026-11-13T15:13:19.547Z","message":{"role":"toolResult","toolCallId":"call_ed4fb26b6c774a9caa9dee38","toolName":"bash","content":[{"type":"text","text":"grouped masks: 384 clauses in 0.00s\nrandom dense: 0 clauses in 0.09s\n"}],"isError":false,"durationMs":3614,"timestamp":1794582799547}}

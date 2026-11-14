@@ -1,0 +1,1 @@
+{"type":"message","id":"44456294","parentId":"8a7893dc","timestamp":"2026-11-13T08:58:22.097Z","message":{"role":"toolResult","toolCallId":"call_bed070dc79f846438ad009e3","toolName":"bash","content":[{"type":"text","text":"P 1 seeds [0]\npeaks [0, 0]\nbest [0] prev [-1] kind [0]\nwarmup 0\n"}],"isError":false,"durationMs":305,"timestamp":1794560302097}}

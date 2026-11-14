@@ -1,1 +1,0 @@
-{"type":"message","id":"6c3b9d93","parentId":"015370a7","timestamp":"2026-11-13T18:42:12.733Z","message":{"role":"toolResult","toolCallId":"call_32839b7ed2084d0da2e2e9c5","toolName":"bash","content":[{"type":"text","text":"rc 0 stdout 1263848 stderr 0 sec 0.4766633193939924\nlarge child output cert verified\n"}],"isError":false,"durationMs":1155,"timestamp":1794595332733}}

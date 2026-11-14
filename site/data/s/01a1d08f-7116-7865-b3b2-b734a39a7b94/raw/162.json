@@ -1,0 +1,1 @@
+{"type":"message","id":"2bada815","parentId":"f1735084","timestamp":"2026-11-12T17:00:10.985Z","message":{"role":"toolResult","toolCallId":"call_104cc7ce5be84ba29c8a4171","toolName":"bash","content":[{"type":"text","text":"rc 0 bytes 1273172\nfork-based measurement skipped\n{\"error\":\"invalid_json\"}"}],"isError":false,"durationMs":1556,"timestamp":1794502810985}}

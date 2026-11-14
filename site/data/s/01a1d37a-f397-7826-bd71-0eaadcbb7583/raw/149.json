@@ -1,0 +1,1 @@
+{"type":"message","id":"754537ce","parentId":"4a785915","timestamp":"2026-11-13T07:27:05.372Z","message":{"role":"toolResult","toolCallId":"call_70a3335794364284cd209540","toolName":"bash","content":[{"type":"text","text":"sweep done, 0 failing seeds\nworst-ish batch -> 46.92s exit=0\n"}],"isError":false,"durationMs":98937,"timestamp":1794554825372}}

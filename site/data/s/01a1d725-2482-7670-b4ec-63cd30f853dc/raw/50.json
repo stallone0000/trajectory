@@ -1,0 +1,1 @@
+{"type":"message","id":"f6ac169d","parentId":"dcae778a","timestamp":"2026-11-13T23:23:19.458Z","message":{"role":"toolResult","toolCallId":"call_c1e98a361fc54b3390dd9d99","toolName":"bash","content":[{"type":"text","text":"ok   cancel\nok   cancel again\n\nFAILURES: 0\nok   cancel denied\n\nFAILURES: 0\n"}],"isError":false,"durationMs":235,"timestamp":1794612199458}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"2a7b039d","parentId":"c4ab29eb","timestamp":"2026-11-12T18:45:50.770Z","message":{"role":"toolResult","toolCallId":"call_61bdb6cb671e41598851b801","toolName":"bash","content":[{"type":"text","text":"self 2458332 2458329 2458329\nchild setsid fail [Errno 1] Operation not permitted\n"}],"isError":false,"durationMs":31,"timestamp":1794509150770}}

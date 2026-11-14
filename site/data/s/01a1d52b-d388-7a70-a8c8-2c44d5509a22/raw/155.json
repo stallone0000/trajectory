@@ -1,0 +1,1 @@
+{"type":"message","id":"fc742ea3","parentId":"7140fd43","timestamp":"2026-11-13T14:51:48.259Z","message":{"role":"toolResult","toolCallId":"call_6c378f85e6ac40c4bc981a6f","toolName":"bash","content":[{"type":"text","text":"pass zero marginals agree\npass failed marginals\nfailures []\n"}],"isError":false,"durationMs":81,"timestamp":1794581508259}}

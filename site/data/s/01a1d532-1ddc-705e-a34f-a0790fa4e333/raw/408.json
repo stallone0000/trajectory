@@ -1,0 +1,1 @@
+{"type":"message","id":"a2bd5d08","parentId":"66fc5d36","timestamp":"2026-11-13T15:51:08.961Z","message":{"role":"toolResult","toolCallId":"call_77aaaf555db3457dbaba2c48","toolName":"bash","content":[{"type":"text","text":"scamptrie_dynamic.h:18:    friend class MemInit;\n"}],"isError":false,"durationMs":56,"timestamp":1794585068961}}

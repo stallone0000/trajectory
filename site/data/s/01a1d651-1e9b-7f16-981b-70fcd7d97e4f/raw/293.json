@@ -1,1 +1,0 @@
-{"type":"message","id":"eee06cb0","parentId":"d96ce93e","timestamp":"2026-11-13T20:59:13.569Z","message":{"role":"toolResult","toolCallId":"call_c5ee899dfc124d469bc101b1","toolName":"bash","content":[{"type":"text","text":"max discrepancy vs engine controller: 2.842170943040401e-14\n"}],"isError":false,"durationMs":706,"timestamp":1794603553569}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"f1a5a933","parentId":"a752881c","timestamp":"2026-11-13T09:07:20.962Z","message":{"role":"toolResult","toolCallId":"call_51454d5a4d514131b6e92daf","toolName":"bash","content":[{"type":"text","text":"instrumented 33 points\nFAILPOINT 14 at line 142\naudit False\n"}],"isError":false,"durationMs":930,"timestamp":1794560840962}}

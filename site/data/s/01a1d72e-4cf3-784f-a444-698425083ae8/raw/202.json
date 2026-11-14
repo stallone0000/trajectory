@@ -1,0 +1,1 @@
+{"type":"message","id":"169c7e18","parentId":"99713b7e","timestamp":"2026-11-14T01:25:49.037Z","message":{"role":"toolResult","toolCallId":"call_6bea8e80466645d59cce1d72","toolName":"bash","content":[{"type":"text","text":"9\nlines=263 wall=0.06s\nfirst prepare: error plan trees: -\nsecond prepare: stale\n"}],"isError":false,"durationMs":137,"timestamp":1794619549037}}

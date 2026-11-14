@@ -1,0 +1,1 @@
+{"type":"message","id":"07aad140","parentId":"f008f203","timestamp":"2026-11-13T08:13:28.042Z","message":{"role":"toolResult","toolCallId":"call_cc9397accf6a4d02889e3fca","toolName":"bash","content":[{"type":"text","text":"pid 624881 pgid 624881 sid 624881\nleader? True\n"}],"isError":false,"durationMs":57,"timestamp":1794557608042}}

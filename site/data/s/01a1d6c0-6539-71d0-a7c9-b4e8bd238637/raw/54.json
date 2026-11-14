@@ -1,1 +1,0 @@
-{"type":"message","id":"7524004a","parentId":"d2d256a9","timestamp":"2026-11-13T21:45:32.161Z","message":{"role":"toolResult","toolCallId":"call_52c12409432a47d7a3572fa4","toolName":"bash","content":[{"type":"text","text":"compressed ops OK\nint def rejected (policy a)\n"}],"isError":false,"durationMs":61,"timestamp":1794606332161}}

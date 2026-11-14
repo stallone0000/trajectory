@@ -1,0 +1,1 @@
+{"type":"message","id":"607fb12d","parentId":"f78f17df","timestamp":"2026-11-12T23:51:27.603Z","message":{"role":"toolResult","toolCallId":"call_9e001d906bb44d848da9c6ab","toolName":"bash","content":[{"type":"text","text":"started\n/bin/bash: line 9: nohup: command not found\n"}],"isError":false,"durationMs":5101,"timestamp":1794527487603}}

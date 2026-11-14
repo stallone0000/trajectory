@@ -1,1 +1,0 @@
-{"type":"message","id":"841b6bda","parentId":"0efff58a","timestamp":"2026-11-13T23:45:04.434Z","message":{"role":"toolResult","toolCallId":"call_a3fd36742df540ad95c7b966","toolName":"bash","content":[{"type":"text","text":"nonuniform-tight instances: ok=25 fail=0 max=0.71 avg=0.10\n"}],"isError":false,"durationMs":70600,"timestamp":1794613504434}}

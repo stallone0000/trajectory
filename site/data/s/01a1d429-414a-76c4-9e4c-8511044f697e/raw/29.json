@@ -1,1 +1,0 @@
-{"type":"message","id":"ade0a41d","parentId":"23d758bf","timestamp":"2026-11-13T10:06:31.716Z","message":{"role":"toolResult","toolCallId":"call_7b9635c0a98e41b6ba6594be","toolName":"bash","content":[{"type":"text","text":"FAIL: mismatched public requests: 1, 2\n\n\n[exit code 1]"}],"isError":true,"durationMs":1836,"timestamp":1794564391716}}

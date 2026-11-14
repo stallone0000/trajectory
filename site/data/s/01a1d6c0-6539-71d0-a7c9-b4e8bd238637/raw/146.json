@@ -1,1 +1,0 @@
-{"type":"message","id":"566876d2","parentId":"e3a9170b","timestamp":"2026-11-13T22:35:35.650Z","message":{"role":"toolResult","toolCallId":"call_d24967c5edad4106a6adba82","toolName":"bash","content":[{"type":"text","text":"ok   e2e alpha case flags\nok   e2e beta case flags\nALL TESTS PASSED\n"}],"isError":false,"durationMs":386,"timestamp":1794609335650}}

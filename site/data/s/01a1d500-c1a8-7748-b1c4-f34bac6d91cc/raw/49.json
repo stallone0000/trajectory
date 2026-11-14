@@ -1,1 +1,0 @@
-{"type":"message","id":"f1fd8231","parentId":"930f0dd2","timestamp":"2026-11-13T13:12:33.297Z","message":{"role":"toolResult","toolCallId":"call_e1c5c666a41b468b9d5ef584","toolName":"bash","content":[{"type":"text","text":"atlas MATCH\npack MATCH\ntrace MATCH\n"}],"isError":false,"durationMs":92,"timestamp":1794575553297}}

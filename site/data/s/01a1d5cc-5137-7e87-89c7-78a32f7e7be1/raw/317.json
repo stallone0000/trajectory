@@ -1,1 +1,0 @@
-{"type":"message","id":"8ad2a104","parentId":"2e02a3e2","timestamp":"2026-11-13T18:31:44.149Z","message":{"role":"toolResult","toolCallId":"call_8ab58ef7f7c94c1c849ff9b0","toolName":"bash","content":[{"type":"text","text":"FAIL four queries active\nFAIL external eligible\nFAILURES\n"}],"isError":false,"durationMs":1043,"timestamp":1794594704149}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"d3ffc27b","parentId":"770ff6fd","timestamp":"2026-11-13T13:50:10.027Z","message":{"role":"toolResult","toolCallId":"call_e3e59a4263d14779a517cb01","toolName":"bash","content":[{"type":"text","text":"note: dequeue branch in ref needs fixing\n"}],"isError":false,"durationMs":24,"timestamp":1794577810027}}

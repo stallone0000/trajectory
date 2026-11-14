@@ -1,0 +1,1 @@
+{"type":"message","id":"1cebac32","parentId":"a09dca9a","timestamp":"2026-11-13T18:31:37.360Z","message":{"role":"toolResult","toolCallId":"call_429a6169e1f443998b8b57e0","toolName":"bash","content":[{"type":"text","text":"    adj[v].append(u)\n    ~~~^^^\nIndexError: list index out of range\n"}],"isError":false,"durationMs":2422,"timestamp":1794594697360}}

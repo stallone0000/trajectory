@@ -1,0 +1,1 @@
+{"type":"message","id":"39f6e5ad","parentId":"00be90ae","timestamp":"2026-11-13T19:21:36.306Z","message":{"role":"toolResult","toolCallId":"call_272e4f47653d44e8a8ad5e7e","toolName":"bash","content":[{"type":"text","text":"seccomp 0 0 0 errno=0\nfork denied [Errno 1] Operation not permitted\n"}],"isError":false,"durationMs":81,"timestamp":1794597696306}}

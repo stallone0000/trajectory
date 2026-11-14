@@ -1,1 +1,0 @@
-{"type":"message","id":"654763a8","parentId":"e76c7ded","timestamp":"2026-11-14T00:45:29.005Z","message":{"role":"toolResult","toolCallId":"call_4e094119a8574a9ea4b34673","toolName":"bash","content":[{"type":"text","text":"known100 group 12.827799797058105 559\nmany300 group 22.048731803894043 591\n"}],"isError":false,"durationMs":35738,"timestamp":1794617129005}}

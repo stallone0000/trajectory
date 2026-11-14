@@ -1,0 +1,1 @@
+{"type":"message","id":"10075db2","parentId":"cd46e5b4","timestamp":"2026-11-13T17:33:28.027Z","message":{"role":"toolResult","toolCallId":"call_01a1d5f74f467283a4eff0fe","toolName":"bash","content":[{"type":"text","text":"blocking flow: 87.72s 2048 270762935996\n"}],"isError":false,"durationMs":89086,"timestamp":1794591208027}}

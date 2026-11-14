@@ -1,0 +1,1 @@
+{"type":"message","id":"4540de4e","parentId":"931ccd57","timestamp":"2026-11-14T01:02:45.637Z","message":{"role":"toolResult","toolCallId":"call_b4d35c0747bf41d18f078349","toolName":"bash","content":[{"type":"text","text":"PASS: metadata and malformed-JSON format fixture only; full semantics untested\n"}],"isError":false,"durationMs":1058,"timestamp":1794618165637}}

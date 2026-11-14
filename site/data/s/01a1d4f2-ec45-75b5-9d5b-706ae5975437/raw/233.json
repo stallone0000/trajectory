@@ -1,0 +1,1 @@
+{"type":"message","id":"b174269f","parentId":"89c1c4e4","timestamp":"2026-11-13T13:47:27.918Z","message":{"role":"toolResult","toolCallId":"call_af0ae79957ae4ffba8c3c04c","toolName":"bash","content":[{"type":"text","text":"<returncode>1</returncode>\n<output>\n</output>\n\n[exit code 1]"}],"isError":true,"durationMs":45058,"timestamp":1794577647918}}

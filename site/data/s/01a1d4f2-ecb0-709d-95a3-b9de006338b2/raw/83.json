@@ -1,0 +1,1 @@
+{"type":"message","id":"a7367faa","parentId":"11d51517","timestamp":"2026-11-13T13:47:31.437Z","message":{"role":"toolResult","toolCallId":"call_db2efe3783e04998bb799d5a","toolName":"bash","content":[{"type":"text","text":"ok   exit removes contexts and their references; packets survive\n\n1 failures\n\n0 failures\n"}],"isError":false,"durationMs":1354,"timestamp":1794577651437}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"b98b2acb","parentId":"0d3c52ae","timestamp":"2026-11-13T15:45:30.986Z","message":{"role":"toolResult","toolCallId":"call_14e780ef65bc4b55ab25dc48","toolName":"bash","content":[{"type":"text","text":"sent 300000\nread 300000 bytes\n\n"}],"isError":false,"durationMs":121,"timestamp":1794584730986}}

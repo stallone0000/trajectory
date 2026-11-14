@@ -1,0 +1,1 @@
+{"type":"message","id":"e2a5443c","parentId":"b82343c2","timestamp":"2026-11-12T17:12:43.452Z","message":{"role":"toolResult","toolCallId":"call_ec5b9f85b63b48f18ac9024c","toolName":"bash","content":[{"type":"text","text":"notok 0 [0, 1] 0\nnotok 1 [0, 1] 980574\nnotok 2 [0, 1] 0\ninternal verify failures: 283\n"}],"isError":false,"durationMs":1093,"timestamp":1794503563452}}

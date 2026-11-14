@@ -1,0 +1,1 @@
+{"type":"message","id":"abc2f354","parentId":"a86cf130","timestamp":"2026-11-13T14:36:27.634Z","message":{"role":"toolResult","toolCallId":"call_61332e1d03684c84ba386dca","toolName":"bash","content":[{"type":"text","text":"400\n[[1, 1, 3276, 1, 15, 4854]]\n[4854]\n0.0009512901306152344\n512\n0.016717910766601562\n"}],"isError":false,"durationMs":395,"timestamp":1794580587634}}

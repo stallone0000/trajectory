@@ -1,1 +1,0 @@
-{"type":"message","id":"a8c526a4","parentId":"46fbf448","timestamp":"2026-11-13T21:31:58.970Z","message":{"role":"toolResult","toolCallId":"call_3337a30aca75412eadd2f1de","toolName":"bash","content":[{"type":"text","text":"uid=64002 gid=64002 groups=64002\nsmoke rc=0 PASS b''\nempty rc=0 PASS b''\n"}],"isError":false,"durationMs":156,"timestamp":1794605518970}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"faf16e98","parentId":"fc461c51","timestamp":"2026-11-13T18:55:13.495Z","message":{"role":"toolResult","toolCallId":"call_da4bb58254b14428a5ba903a","toolName":"bash","content":[{"type":"text","text":"audit-fuzz failures 0 of 60 time 26.0\n"}],"isError":false,"durationMs":26104,"timestamp":1794596113495}}

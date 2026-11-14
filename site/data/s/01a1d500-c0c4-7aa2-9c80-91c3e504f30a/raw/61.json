@@ -1,0 +1,1 @@
+{"type":"message","id":"be36da97","parentId":"1a27200f","timestamp":"2026-11-13T13:27:15.051Z","message":{"role":"toolResult","toolCallId":"call_82c1b9b882a64a058fc99fb3","toolName":"bash","content":[{"type":"text","text":"18:        raise RuntimeError(\"native subsystem unavailable\")\n"}],"isError":false,"durationMs":30,"timestamp":1794576435051}}

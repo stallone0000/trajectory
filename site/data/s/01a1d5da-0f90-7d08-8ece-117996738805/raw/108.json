@@ -1,1 +1,0 @@
-{"type":"message","id":"e0c6bff6","parentId":"02ae7cbd","timestamp":"2026-11-13T17:30:09.162Z","message":{"role":"toolResult","toolCallId":"call_01a1d5f4696e7031beac98d7","toolName":"bash","content":[{"type":"text","text":"nreq=2048 noff=4096 mine=(2048,270762935996) in 51.63s  nx=(2048,270762935996) in 26.74s\n"}],"isError":false,"durationMs":80391,"timestamp":1794591009162}}

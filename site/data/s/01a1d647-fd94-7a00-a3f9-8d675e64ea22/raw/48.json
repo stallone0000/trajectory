@@ -1,1 +1,0 @@
-{"type":"message","id":"ad159881","parentId":"7aeda3f9","timestamp":"2026-11-13T19:23:34.734Z","message":{"role":"toolResult","toolCallId":"call_f98bde633770404086ac4fd9","toolName":"bash","content":[{"type":"text","text":"child dumpable set: 0\nkill failed [Errno 1] Operation not permitted\n(1007805, 0)\n"}],"isError":false,"durationMs":30049,"timestamp":1794597814734}}

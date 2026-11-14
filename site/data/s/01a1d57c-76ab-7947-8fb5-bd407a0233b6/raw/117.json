@@ -1,1 +1,0 @@
-{"type":"message","id":"0e4a5bf1","parentId":"084fca27","timestamp":"2026-11-13T15:55:02.456Z","message":{"role":"toolResult","toolCallId":"call_9f7d492eb2c34535aa75e880","toolName":"bash","content":[{"type":"text","text":"done 500 failures 0\n\nreal\t1m13.311s\nuser\t1m11.624s\nsys\t0m0.850s\n"}],"isError":false,"durationMs":73338,"timestamp":1794585302456}}

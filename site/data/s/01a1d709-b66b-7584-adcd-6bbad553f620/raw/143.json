@@ -1,0 +1,1 @@
+{"type":"message","id":"ecf6c5fb","parentId":"c9c37b77","timestamp":"2026-11-13T23:50:21.336Z","message":{"role":"toolResult","toolCallId":"call_b4dd7acdf3a94ca48daf0161","toolName":"bash","content":[{"type":"text","text":"done fuzz2 seed=200 iters=40 bad=0\ndone wirefuzz seed=201 iters=60 bad=0\n"}],"isError":false,"durationMs":1555,"timestamp":1794613821336}}

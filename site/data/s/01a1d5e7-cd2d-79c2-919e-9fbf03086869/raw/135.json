@@ -1,0 +1,1 @@
+{"type":"message","id":"d065ff49","parentId":"1b89dd65","timestamp":"2026-11-13T18:39:00.477Z","message":{"role":"toolResult","toolCallId":"call_c1457e5312114b999b8003b4","toolName":"bash","content":[{"type":"text","text":"rejected: payload\nb64 len 87384\n"}],"isError":false,"durationMs":57,"timestamp":1794595140477}}

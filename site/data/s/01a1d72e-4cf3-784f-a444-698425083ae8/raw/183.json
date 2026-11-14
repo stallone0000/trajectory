@@ -1,0 +1,1 @@
+{"type":"message","id":"41bff444","parentId":"e0459a09","timestamp":"2026-11-14T01:22:06.265Z","message":{"role":"toolResult","toolCallId":"call_cdd5317b9ba545f0b1f43950","toolName":"bash","content":[{"type":"text","text":"unconstrained hard32 FAIL 25.0s\n"}],"isError":false,"durationMs":25078,"timestamp":1794619326265}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"c114172f","parentId":"f70d8cdd","timestamp":"2026-11-13T23:27:26.996Z","message":{"role":"toolResult","toolCallId":"call_fac9f398b36945119ea21a0e","toolName":"bash","content":[{"type":"text","text":"patched\nrelay FAILED\nmixed FAILED\ndirect FAILED\nchain FAILED\n"}],"isError":false,"durationMs":100,"timestamp":1794612446996}}

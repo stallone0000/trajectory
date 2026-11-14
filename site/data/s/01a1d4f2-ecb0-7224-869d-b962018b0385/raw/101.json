@@ -1,1 +1,0 @@
-{"type":"message","id":"7bca6950","parentId":"e0b2e003","timestamp":"2026-11-13T13:52:15.428Z","message":{"role":"toolResult","toolCallId":"call_fe0b3096cfa14b4aa8e21175","toolName":"bash","content":[{"type":"text","text":"ok   file handoff chain: store, load, store, load\n\n1 failures\n"}],"isError":false,"durationMs":416,"timestamp":1794577935428}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"73241ab5","parentId":"89e10f58","timestamp":"2026-11-13T16:54:40.425Z","message":{"role":"toolResult","toolCallId":"call_07eba6d8dcdb40849cbc821c","toolName":"bash","content":[{"type":"text","text":"FAIL exit releases refs\n1 failures\n0 failures\n0 failures\n"}],"isError":false,"durationMs":11012,"timestamp":1794588880425}}

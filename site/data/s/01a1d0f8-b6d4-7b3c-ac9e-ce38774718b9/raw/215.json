@@ -1,1 +1,0 @@
-{"type":"message","id":"84c27658","parentId":"556d25ed","timestamp":"2026-11-12T18:48:05.828Z","message":{"role":"toolResult","toolCallId":"call_4fcbfa5872ff4a72a366e2c2","toolName":"bash","content":[{"type":"text","text":"rc 0 stderr \nload [True] answers 1000\n"}],"isError":false,"durationMs":150,"timestamp":1794509285828}}

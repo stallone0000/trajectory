@@ -1,0 +1,1 @@
+{"type":"message","id":"f872e15c","parentId":"7cfce7d1","timestamp":"2026-11-14T00:32:09.814Z","message":{"role":"toolResult","toolCallId":"call_18a99cd46d7d488c83acb981","toolName":"bash","content":[{"type":"text","text":"wall: 0.05s status: denied\n"}],"isError":false,"durationMs":128,"timestamp":1794616329814}}

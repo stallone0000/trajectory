@@ -1,1 +1,0 @@
-{"type":"message","id":"cffa4a25","parentId":"dba660f1","timestamp":"2026-11-12T20:07:28.297Z","message":{"role":"toolResult","toolCallId":"call_f7bb3a1415d240ec9a5be1f2","toolName":"bash","content":[{"type":"text","text":"seed 30 time 34.872 ok True out 565470 err b''\n"}],"isError":false,"durationMs":38969,"timestamp":1794514048297}}

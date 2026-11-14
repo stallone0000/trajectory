@@ -1,1 +1,0 @@
-{"type":"message","id":"e2dfa64a","parentId":"cf96099c","timestamp":"2026-11-13T13:11:36.688Z","message":{"role":"toolResult","toolCallId":"call_03db2a4429b34ab8b7209bba","toolName":"bash","content":[{"type":"text","text":"LPM brute PASS\n"}],"isError":false,"durationMs":573,"timestamp":1794575496688}}

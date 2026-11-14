@@ -1,0 +1,1 @@
+{"type":"message","id":"e06fe33f","parentId":"d5b92cf8","timestamp":"2026-11-13T16:10:26.672Z","message":{"role":"toolResult","toolCallId":"call_ad77dd5d935947bb92ebc764","toolName":"bash","content":[{"type":"text","text":"jobs 6 input MiB 2.56\n"}],"isError":false,"durationMs":286,"timestamp":1794586226672}}

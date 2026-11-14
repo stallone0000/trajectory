@@ -1,1 +1,0 @@
-{"type":"message","id":"da5ad1d5","parentId":"f2b8c669","timestamp":"2026-11-13T19:40:39.325Z","message":{"role":"toolResult","toolCallId":"call_35491228e4af41b9add8cdda","toolName":"bash","content":[{"type":"text","text":"replay exc InvalidRequest('invalid_request')\nops 216401 packets 216000\n"}],"isError":false,"durationMs":3893,"timestamp":1794598839325}}

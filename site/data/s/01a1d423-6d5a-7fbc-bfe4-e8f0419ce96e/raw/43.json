@@ -1,0 +1,1 @@
+{"type":"message","id":"87b21a97","parentId":"5ecd6ffc","timestamp":"2026-11-13T09:13:59.614Z","message":{"role":"toolResult","toolCallId":"call_bc92c3ab38a847ec8d696230","toolName":"bash","content":[{"type":"text","text":"warm 1\nmaxage 91 (0, 1)\n"}],"isError":false,"durationMs":275,"timestamp":1794561239614}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"e6ba2758","parentId":"d1aac031","timestamp":"2026-11-13T15:57:58.066Z","message":{"role":"toolResult","toolCallId":"call_4d361259adb944e8aae582a1","toolName":"bash","content":[{"type":"text","text":"PASS: 3 public example\n\nreal\t0m1.914s\nuser\t0m1.701s\nsys\t0m0.216s\n"}],"isError":false,"durationMs":1933,"timestamp":1794585478066}}

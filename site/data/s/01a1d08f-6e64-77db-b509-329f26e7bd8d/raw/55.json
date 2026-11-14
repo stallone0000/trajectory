@@ -1,1 +1,0 @@
-{"type":"message","id":"0515bd77","parentId":"bf1c4d3c","timestamp":"2026-11-12T16:38:55.028Z","message":{"role":"toolResult","toolCallId":"call_21399d8854fb482c83f1114c","toolName":"bash","content":[{"type":"text","text":"no_new_privs ok\nseccomp prctl errno: 14 Bad address\nno_new_privs test done\n"}],"isError":false,"durationMs":130,"timestamp":1794501535028}}

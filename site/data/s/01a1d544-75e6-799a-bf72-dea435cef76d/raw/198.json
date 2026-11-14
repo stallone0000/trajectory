@@ -1,0 +1,1 @@
+{"type":"message","id":"119e7fe2","parentId":"2d9086f1","timestamp":"2026-11-13T16:35:17.028Z","message":{"role":"toolResult","toolCallId":"call_d44f8388912c47e1a4c74d8e","toolName":"bash","content":[{"type":"text","text":"empty-batch ok results 0\nratio-one ok ratio [0, 1] util 0 age 0\nbatch ok\nFAILS 0\n"}],"isError":false,"durationMs":4479,"timestamp":1794587717028}}

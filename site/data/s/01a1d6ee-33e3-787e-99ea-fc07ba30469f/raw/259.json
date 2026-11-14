@@ -1,0 +1,1 @@
+{"type":"message","id":"ab1cf805","parentId":"fbefa222","timestamp":"2026-11-13T23:02:10.801Z","message":{"role":"toolResult","toolCallId":"call_3fea53dc273e487b8349f099","toolName":"bash","content":[{"type":"text","text":"total wire 8370015\n1.5s 8150 8312996 8280400 OK\n0.3s 64 traces 64\n"}],"isError":false,"durationMs":1965,"timestamp":1794610930801}}

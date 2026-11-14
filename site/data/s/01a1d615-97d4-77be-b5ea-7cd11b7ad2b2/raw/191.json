@@ -1,0 +1,1 @@
+{"type":"message","id":"19b1f030","parentId":"6e96f28e","timestamp":"2026-11-13T19:02:16.316Z","message":{"role":"toolResult","toolCallId":"call_01a1d649d7a577629bc045cd","toolName":"bash","content":[{"type":"text","text":"ok\nFAIL restored age: got [1, 1] wanted [0, 0]\n1 failures\n\n\n[exit code 1]"}],"isError":true,"durationMs":3564,"timestamp":1794596536316}}

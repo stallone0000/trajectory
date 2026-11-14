@@ -1,1 +1,0 @@
-{"type":"message","id":"23548010","parentId":"0f628b0c","timestamp":"2026-11-13T17:43:06.961Z","message":{"role":"toolResult","toolCallId":"call_5705912afedc47699f1f6354","toolName":"bash","content":[{"type":"text","text":"ok 0\nok 1\nok 2\nok 3\nok 4\nok 5\nok 6\nok 7\nok 8\nALL PUBLIC UNDER CANDIDATE POLICY PASS\n"}],"isError":false,"durationMs":6404,"timestamp":1794591786961}}

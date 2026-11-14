@@ -1,0 +1,1 @@
+{"type":"message","id":"23bff94a","parentId":"c4a11892","timestamp":"2026-11-13T15:19:26.201Z","message":{"role":"toolResult","toolCallId":"call_fe26c1c27c9e4e14b61df007","toolName":"bash","content":[{"type":"text","text":"0 vs brute True vs ref2 True\n1 vs brute True vs ref2 True\n2 vs brute True vs ref2 True\n"}],"isError":false,"durationMs":699,"timestamp":1794583166201}}

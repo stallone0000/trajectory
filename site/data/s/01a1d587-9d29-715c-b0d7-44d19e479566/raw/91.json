@@ -1,0 +1,1 @@
+{"type":"message","id":"2aaca3cb","parentId":"770574dd","timestamp":"2026-11-13T17:00:46.187Z","message":{"role":"toolResult","toolCallId":"call_529b2039e39f4b0b964f14b2","toolName":"bash","content":[{"type":"text","text":"ref restore fixed\nfuzz done: 300 cases, 0 mismatches\n"}],"isError":false,"durationMs":493,"timestamp":1794589246187}}

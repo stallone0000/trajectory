@@ -1,0 +1,1 @@
+{"type":"message","id":"f16b5669","parentId":"6b63e096","timestamp":"2026-11-13T07:28:33.632Z","message":{"role":"toolResult","toolCallId":"call_01a1d3cec96a7779a494747a","toolName":"bash","content":[{"type":"text","text":"candidate paths 60\ncombos 35990 found 0\n"}],"isError":false,"durationMs":2152,"timestamp":1794554913632}}

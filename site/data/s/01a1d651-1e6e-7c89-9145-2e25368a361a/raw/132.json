@@ -1,0 +1,1 @@
+{"type":"message","id":"38ddd9e7","parentId":"c1ad42a2","timestamp":"2026-11-13T21:21:30.300Z","message":{"role":"toolResult","toolCallId":"call_1297aaa549744aedb971dbdc","toolName":"bash","content":[{"type":"text","text":"caseF ok\nall scenarios ok\ncaseG ok\ncaseH ok\ncaseI ok\nextra scenarios ok\n"}],"isError":false,"durationMs":3221,"timestamp":1794604890300}}

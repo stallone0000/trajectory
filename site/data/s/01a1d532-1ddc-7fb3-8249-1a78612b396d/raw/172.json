@@ -1,1 +1,0 @@
-{"type":"message","id":"d3d528ab","parentId":"cad9f7f7","timestamp":"2026-11-13T14:57:46.139Z","message":{"role":"toolResult","toolCallId":"call_91cfd83171e34a31a8b1a1e8","toolName":"bash","content":[{"type":"text","text":"case 0 ndiff 0 []\ncase 1 ndiff 0 []\n"}],"isError":false,"durationMs":233,"timestamp":1794581866139}}

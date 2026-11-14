@@ -1,0 +1,1 @@
+{"type":"message","id":"c7516647","parentId":"9b5c70af","timestamp":"2026-11-13T06:37:10.160Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-916919a175137537","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: tar: command not found\n\n\n[exit code 127]"}],"isError":true,"durationMs":13,"timestamp":1794551830160}}

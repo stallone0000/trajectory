@@ -1,1 +1,0 @@
-{"type":"message","id":"fb59ee03","parentId":"8efcfdbf","timestamp":"2026-11-13T16:05:19.790Z","message":{"role":"toolResult","toolCallId":"call_f554fa0168d349ff8366177a","toolName":"bash","content":[{"type":"text","text":"large value prefix tests pass\n"}],"isError":false,"durationMs":9847,"timestamp":1794585919790}}

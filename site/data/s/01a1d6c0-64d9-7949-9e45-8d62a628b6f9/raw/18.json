@@ -1,0 +1,1 @@
+{"type":"message","id":"0188ccd3","parentId":"1c13fcb6","timestamp":"2026-11-13T21:16:12.352Z","message":{"role":"toolResult","toolCallId":"call_9b108007d48042b1a0d60b80","toolName":"bash","content":[{"type":"text","text":"FAIL: public result mismatch\n\n\n[exit code 1]"}],"isError":true,"durationMs":217,"timestamp":1794604572352}}

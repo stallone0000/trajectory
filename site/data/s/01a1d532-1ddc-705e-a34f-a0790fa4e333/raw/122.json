@@ -1,0 +1,1 @@
+{"type":"message","id":"f00e387f","parentId":"2225573c","timestamp":"2026-11-13T14:47:43.160Z","message":{"role":"toolResult","toolCallId":"call_2fe827a1edb34394bb74be8b","toolName":"bash","content":[{"type":"text","text":"INVALID: inline length o64 d124 l4 lmin60 mx64\n"}],"isError":false,"durationMs":128,"timestamp":1794581263160}}

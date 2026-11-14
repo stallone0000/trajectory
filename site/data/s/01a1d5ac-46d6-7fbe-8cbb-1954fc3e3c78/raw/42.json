@@ -1,1 +1,0 @@
-{"type":"message","id":"5cc20c0b","parentId":"764f8434","timestamp":"2026-11-13T16:31:51.746Z","message":{"role":"toolResult","toolCallId":"call_efcd827768644158a1deacaa","toolName":"bash","content":[{"type":"text","text":"stress seed=0 compute=1.40s json=0.00s rules=[0, 0] out=0.0MB\n"}],"isError":false,"durationMs":1829,"timestamp":1794587511746}}

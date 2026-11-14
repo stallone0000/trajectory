@@ -1,1 +1,0 @@
-{"type":"message","id":"6faeddbd","parentId":"e85627c9","timestamp":"2026-11-13T17:22:50.545Z","message":{"role":"toolResult","toolCallId":"call_23da3b59acd042d5aea594e1","toolName":"bash","content":[{"type":"text","text":"empty-campaign PASS 205\none-follow-up PASS 765\nALL PASS\n"}],"isError":false,"durationMs":245,"timestamp":1794590570545}}

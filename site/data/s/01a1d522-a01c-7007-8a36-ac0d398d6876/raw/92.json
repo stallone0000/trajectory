@@ -1,1 +1,0 @@
-{"type":"message","id":"71a0fcd0","parentId":"53b0ce9f","timestamp":"2026-11-13T14:21:00.006Z","message":{"role":"toolResult","toolCallId":"call_142eba698c93447bbca8d7e9","toolName":"bash","content":[{"type":"text","text":"R 125\nspread32 False spread64 False\naddrs 3968 bursts 128\n"}],"isError":false,"durationMs":119,"timestamp":1794579660006}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"f75b957f","parentId":"a0682edc","timestamp":"2026-11-13T17:15:47.768Z","message":{"role":"toolResult","toolCallId":"call_842eb5536c8045cc822ac327","toolName":"bash","content":[{"type":"text","text":"{\"status\":\"ok\",\"upper_ps\":[[0,4],[-2,0]],\"pred\":[[null,0],[1,null]]}\nFROZEN TREE OK\n"}],"isError":false,"durationMs":1908,"timestamp":1794590147768}}

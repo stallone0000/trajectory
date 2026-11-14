@@ -1,0 +1,1 @@
+{"type":"message","id":"8ec0dc5a","parentId":"6b2b929d","timestamp":"2026-11-13T19:27:06.798Z","message":{"role":"toolResult","toolCallId":"call_e781b85a070c49c8b39c4915","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: /dev/fd/62: No such file or directory\nTraceback (most recent call last):\n"}],"isError":false,"durationMs":89,"timestamp":1794598026798}}

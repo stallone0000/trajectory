@@ -1,1 +1,0 @@
-{"type":"message","id":"a00497ce","parentId":"3ff07960","timestamp":"2026-11-13T15:29:39.719Z","message":{"role":"toolResult","toolCallId":"call_30ac84c421044a6096902bdd","toolName":"bash","content":[{"type":"text","text":"-r--r--r-- 44 0 0 15248368 Nov 11 15:12 /usr/lib/gcc/x86_64-linux-gnu/9/libasan.so\n"}],"isError":false,"durationMs":35,"timestamp":1794583779719}}

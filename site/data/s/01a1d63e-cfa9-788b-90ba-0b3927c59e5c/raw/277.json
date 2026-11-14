@@ -1,0 +1,1 @@
+{"type":"message","id":"c01310f9","parentId":"d22c5ec3","timestamp":"2026-11-13T20:35:08.939Z","message":{"role":"toolResult","toolCallId":"call_3e998f2bc337463eb569969c","toolName":"bash","content":[{"type":"text","text":"TypeError: can only concatenate str (not \"bytes\") to str\n"}],"isError":false,"durationMs":1559,"timestamp":1794602108939}}

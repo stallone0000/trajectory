@@ -1,0 +1,1 @@
+{"type":"message","id":"68af3662","parentId":"27488728","timestamp":"2026-11-13T18:42:40.830Z","message":{"role":"toolResult","toolCallId":"call_16c6c4fcecaf42e283f70b54","toolName":"bash","content":[{"type":"text","text":"caught name 'GLOBAL_CASE' is not defined\n"}],"isError":false,"durationMs":805,"timestamp":1794595360830}}

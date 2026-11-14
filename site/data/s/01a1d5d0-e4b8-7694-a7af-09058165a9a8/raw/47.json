@@ -1,1 +1,0 @@
-{"type":"message","id":"3c9d5dbb","parentId":"b89fe9fd","timestamp":"2026-11-13T17:04:52.398Z","message":{"role":"toolResult","toolCallId":"call_465192d830fa4c1ebdebfa10","toolName":"bash","content":[{"type":"text","text":"['clos', 4, 'tor', 1]\n['dragonfly-plus', 2, 2, 2, 1, 0, 'group']\n   invalid\n"}],"isError":false,"durationMs":125,"timestamp":1794589492398}}

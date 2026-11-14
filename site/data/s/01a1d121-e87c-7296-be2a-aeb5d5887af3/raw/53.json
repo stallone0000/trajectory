@@ -1,1 +1,0 @@
-{"type":"message","id":"a64ad0a2","parentId":"551ce1c3","timestamp":"2026-11-12T19:26:35.925Z","message":{"role":"toolResult","toolCallId":"call_882e1cc290014343a5aba88d","toolName":"bash","content":[{"type":"text","text":"bytes 320641 rib sumlen 39936\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180103,"timestamp":1794511595925}}

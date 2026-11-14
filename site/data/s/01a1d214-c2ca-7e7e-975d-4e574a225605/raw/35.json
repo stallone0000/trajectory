@@ -1,1 +1,0 @@
-{"type":"message","id":"589a47e5","parentId":"52fb90c9","timestamp":"2026-11-12T23:47:54.783Z","message":{"role":"toolResult","toolCallId":"call_d25b1fa3a38b4c158ab5709d","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: which: command not found\ncc -pthread\n"}],"isError":false,"durationMs":49,"timestamp":1794527274783}}

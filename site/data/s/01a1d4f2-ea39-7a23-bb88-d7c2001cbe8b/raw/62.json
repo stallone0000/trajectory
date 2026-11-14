@@ -1,0 +1,1 @@
+{"type":"message","id":"a877eaf6","parentId":"80efbcf3","timestamp":"2026-11-13T13:46:31.945Z","message":{"role":"toolResult","toolCallId":"call_879d6c03c8dc47e09f60f48b","toolName":"bash","content":[{"type":"text","text":"fuzz_fado seed 11 checked 93 bad 0 skip 57\nfuzz_fado seed 12 checked 90 bad 0 skip 60\n"}],"isError":false,"durationMs":614,"timestamp":1794577591945}}

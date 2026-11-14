@@ -1,1 +1,0 @@
-{"type":"message","id":"921ea8d2","parentId":"04e9533d","timestamp":"2026-11-13T15:30:01.454Z","message":{"role":"toolResult","toolCallId":"call_eee55c0add8a433cb0d72203","toolName":"bash","content":[{"type":"text","text":"alt builder produced an invalid image: child stage\n\n\n[exit code 1]"}],"isError":true,"durationMs":150,"timestamp":1794583801454}}

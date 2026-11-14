@@ -1,0 +1,1 @@
+{"type":"message","id":"efbc9773","parentId":"d197908f","timestamp":"2026-11-13T20:10:27.448Z","message":{"role":"toolResult","toolCallId":"call_db4164342d0b4928a73b5809","toolName":"bash","content":[{"type":"text","text":"input 126.4 KiB, pairs 9407\nrc 0 stderr \nplan 90 375 shape ok\n"}],"isError":false,"durationMs":5654,"timestamp":1794600627448}}

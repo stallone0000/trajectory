@@ -1,0 +1,1 @@
+{"type":"message","id":"25dfece8","parentId":"110d55f2","timestamp":"2026-11-13T22:40:48.980Z","message":{"role":"toolResult","toolCallId":"call_513ebf34d25e46e7b2e9be74","toolName":"bash","content":[{"type":"text","text":"   results ok: 180, err: 220\nok   fuzz 100 garbage inputs\nALL TESTS PASSED\n"}],"isError":false,"durationMs":302403,"timestamp":1794609648980}}

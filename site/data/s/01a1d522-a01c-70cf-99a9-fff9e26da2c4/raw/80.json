@@ -1,0 +1,1 @@
+{"type":"message","id":"7fcc7d1d","parentId":"cb89e9a4","timestamp":"2026-11-13T14:20:02.399Z","message":{"role":"toolResult","toolCallId":"call_dbd2968aadad4f879cbb25a2","toolName":"bash","content":[{"type":"text","text":"INVALID initial row\n"}],"isError":false,"durationMs":92,"timestamp":1794579602399}}

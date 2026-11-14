@@ -1,1 +1,0 @@
-{"type":"message","id":"feef6709","parentId":"5ef37e7f","timestamp":"2026-11-13T19:13:43.821Z","message":{"role":"toolResult","toolCallId":"call_e4cf9723d9624862a882921d","toolName":"bash","content":[{"type":"text","text":"Public fixture failed: long-envelope-normalization\n"}],"isError":false,"durationMs":3798,"timestamp":1794597223821}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"56871c4b","parentId":"5bfc28cf","timestamp":"2026-11-13T18:28:26.032Z","message":{"role":"toolResult","toolCallId":"call_57b93e6684784d74a4a4b764","toolName":"bash","content":[{"type":"text","text":"    raise CaptureError('invalid CSV header')\ncommon.CaptureError: invalid CSV header\n"}],"isError":false,"durationMs":234,"timestamp":1794594506032}}

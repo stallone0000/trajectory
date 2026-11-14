@@ -1,1 +1,0 @@
-{"type":"message","id":"5f22d034","parentId":"6b9a976a","timestamp":"2026-11-13T06:59:54.221Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"paratera","model":"MiniMax-M3.1-Flash","stopReason":"error","errorMessage":"request failed","timestamp":1794553171488,"durationMs":22733}}

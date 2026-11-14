@@ -1,1 +1,0 @@
-{"type":"message","id":"c1c2b77d","parentId":"7874e326","timestamp":"2026-11-12T16:23:44.168Z","message":{"role":"toolResult","toolCallId":"call_4e98e3fd45974a0d95756c46","toolName":"bash","content":[{"type":"text","text":"{\"results\":[capture not implemented\nexit=1\n"}],"isError":false,"durationMs":134,"timestamp":1794500624168}}

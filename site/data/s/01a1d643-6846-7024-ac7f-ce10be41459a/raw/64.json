@@ -1,1 +1,0 @@
-{"type":"message","id":"7c260e23","parentId":"fe9b93a3","timestamp":"2026-11-13T19:17:00.351Z","message":{"role":"toolResult","toolCallId":"call_2971247daa5347619dbd3a0b","toolName":"bash","content":[{"type":"text","text":"{\"status\": \"infrastructure_error\", \"message\": \"[Errno 1] Operation not permitted\"}\n"}],"isError":false,"durationMs":135,"timestamp":1794597420351}}

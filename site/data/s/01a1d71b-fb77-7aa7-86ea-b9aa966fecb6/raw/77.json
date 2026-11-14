@@ -1,0 +1,1 @@
+{"type":"message","id":"ddef4942","parentId":"ad197322","timestamp":"2026-11-13T23:16:43.604Z","message":{"role":"toolResult","toolCallId":"call_5665cb31f16b4507b22b5930","toolName":"bash","content":[{"type":"text","text":"p 1 denied [0, 2]\np 2 prepared True\np 3 prepared True\np 5 prepared True\n"}],"isError":false,"durationMs":847,"timestamp":1794611803604}}

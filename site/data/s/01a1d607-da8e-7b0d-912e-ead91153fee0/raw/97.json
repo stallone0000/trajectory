@@ -1,1 +1,0 @@
-{"type":"message","id":"7bf9f868","parentId":"ecf1b30a","timestamp":"2026-11-13T18:50:41.859Z","message":{"role":"toolResult","toolCallId":"call_52bb916627b549849f153379","toolName":"bash","content":[{"type":"text","text":"0 run 0.49 0 2114\n1 run 0.43 0 864\n2 run 0.49 0 1227\n3 run 0.43 0 1227\n"}],"isError":false,"durationMs":1910,"timestamp":1794595841859}}

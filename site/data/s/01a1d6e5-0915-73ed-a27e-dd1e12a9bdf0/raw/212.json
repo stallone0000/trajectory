@@ -1,0 +1,1 @@
+{"type":"message","id":"7be02a4f","parentId":"6cb00e2b","timestamp":"2026-11-13T22:49:59.028Z","message":{"role":"toolResult","toolCallId":"call_2a8597dabac949dd886ca3fa","toolName":"bash","content":[{"type":"text","text":"have kill\n['self']\nerr [Errno 2] No such file or directory: '/proc/self/status'\n"}],"isError":false,"durationMs":30,"timestamp":1794610199028}}

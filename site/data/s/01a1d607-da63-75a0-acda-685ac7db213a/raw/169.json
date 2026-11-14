@@ -1,0 +1,1 @@
+{"type":"message","id":"fdc88b1a","parentId":"31fef6b6","timestamp":"2026-11-13T18:35:12.984Z","message":{"role":"assistant","content":[],"api":"openai-completions","provider":"bailian","model":"qwen3.8-flash","stopReason":"error","errorMessage":"request failed","timestamp":1794594898296,"durationMs":14688}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"d842c568","parentId":"f31bde8d","timestamp":"2026-11-12T17:28:17.126Z","message":{"role":"toolResult","toolCallId":"call_59f4ceeede13486099576376","toolName":"bash","content":[{"type":"text","text":"invalid-suite cases 89 fails 0\n{\"public_checks\": 4, \"passed\": 4, \"failures\": []}\n"}],"isError":false,"durationMs":31909,"timestamp":1794504497126}}

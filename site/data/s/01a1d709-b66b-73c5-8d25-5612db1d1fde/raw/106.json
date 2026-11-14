@@ -1,1 +1,0 @@
-{"type":"message","id":"08586f85","parentId":"0b413e99","timestamp":"2026-11-13T23:35:36.382Z","message":{"role":"toolResult","toolCallId":"call_b575cb2948064518a17e7516","toolName":"bash","content":[{"type":"text","text":"barrier digest 69e406cc2105610d engine said 69e406cc2105610d\ns5 digest ea74672940c2f35a\n"}],"isError":false,"durationMs":39,"timestamp":1794612936382}}

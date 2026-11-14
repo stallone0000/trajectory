@@ -1,0 +1,1 @@
+{"type":"message","id":"686047ed","parentId":"7ce34467","timestamp":"2026-11-13T17:41:59.938Z","message":{"role":"toolResult","toolCallId":"call_101e97d2e4224376a0f9c0f3","toolName":"bash","content":[{"type":"text","text":"-rwxr-xr-x 1 64002 64002 2569872 Nov 13 17:41 tmp/eng_ubsan\nubsan clean, errs= 0\n"}],"isError":false,"durationMs":7441,"timestamp":1794591719938}}

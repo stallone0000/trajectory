@@ -1,1 +1,0 @@
-{"type":"message","id":"3aace04d","parentId":"fdb22f02","timestamp":"2026-11-13T17:39:21.862Z","message":{"role":"toolResult","toolCallId":"call_4b3b2d59d8d7414f87575391","toolName":"bash","content":[{"type":"text","text":"protocol tests done, failures: 0\n"}],"isError":false,"durationMs":96,"timestamp":1794591561862}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"048197f2","parentId":"0cbeec05","timestamp":"2026-11-13T07:22:15.112Z","message":{"role":"toolResult","toolCallId":"call_ecfe512d2f3593c12d63ac28","toolName":"bash","content":[{"type":"text","text":"sweep done, 0 failing seeds\n"}],"isError":false,"durationMs":56428,"timestamp":1794554535112}}

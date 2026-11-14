@@ -1,0 +1,1 @@
+{"type":"message","id":"db787c0b","parentId":"79be20ce","timestamp":"2026-11-12T18:03:10.106Z","message":{"role":"toolResult","toolCallId":"call_caf349f035c2423eafc0b69b","toolName":"bash","content":[{"type":"text","text":"lines 150 outs 150 elapsed 0.15 stderr \nbad 0\n"}],"isError":false,"durationMs":849,"timestamp":1794506590106}}

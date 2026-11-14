@@ -1,0 +1,1 @@
+{"type":"message","id":"64d4d617","parentId":"0e8bbe3e","timestamp":"2026-11-13T14:37:42.237Z","message":{"role":"toolResult","toolCallId":"call_01778b802e254e8682c7d262","toolName":"bash","content":[{"type":"text","text":"scamptrie\nt1.json\nt2.json\ntests\ntt.json\nskip\n"}],"isError":false,"durationMs":82,"timestamp":1794580662237}}

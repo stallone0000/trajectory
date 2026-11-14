@@ -1,0 +1,1 @@
+{"type":"message","id":"d92b50ad","parentId":"1904dfb4","timestamp":"2026-11-13T19:33:19.085Z","message":{"role":"toolResult","toolCallId":"call_31bf20951fcc48b3aa302e6f","toolName":"bash","content":[{"type":"text","text":"N 400 fails 0 time 10.62s\nfails 0 max time 0.028 mean 0.0025\n"}],"isError":false,"durationMs":12822,"timestamp":1794598399085}}

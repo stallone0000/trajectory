@@ -1,0 +1,1 @@
+{"type":"message","id":"c76d49ec","parentId":"73353ac5","timestamp":"2026-11-13T17:08:39.877Z","message":{"role":"toolResult","toolCallId":"call_01a1d5e1fa4e761fa3e1cf54","toolName":"bash","content":[{"type":"text","text":"ERR <class 'ValueError'> not allowed to raise maximum limit\n"}],"isError":false,"durationMs":84,"timestamp":1794589719877}}

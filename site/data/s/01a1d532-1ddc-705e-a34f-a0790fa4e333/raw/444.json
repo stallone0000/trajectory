@@ -1,0 +1,1 @@
+{"type":"message","id":"72658819","parentId":"450d4b2c","timestamp":"2026-11-13T16:01:48.740Z","message":{"role":"toolResult","toolCallId":"call_a5969217c092454099b015cb","toolName":"bash","content":[{"type":"text","text":"nnpriv 0\nseccomp -1 EFAULT\n"}],"isError":false,"durationMs":54,"timestamp":1794585708740}}

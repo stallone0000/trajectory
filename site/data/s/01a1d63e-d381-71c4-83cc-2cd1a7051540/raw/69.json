@@ -1,0 +1,1 @@
+{"type":"message","id":"4a7e5f28","parentId":"16c5d061","timestamp":"2026-11-13T19:24:12.986Z","message":{"role":"toolResult","toolCallId":"call_048ef93f78a049ecbe3be1e3","toolName":"bash","content":[{"type":"text","text":"fragment trials done, bad = 0\ninterval trials done, bad = 0\n"}],"isError":false,"durationMs":623,"timestamp":1794597852986}}

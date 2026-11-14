@@ -1,1 +1,0 @@
-{"type":"message","id":"9d850791","parentId":"5319751c","timestamp":"2026-11-13T20:51:23.119Z","message":{"role":"toolResult","toolCallId":"call_063092470de44bd081b80882","toolName":"bash","content":[{"type":"text","text":"euid 64001\nkill err [Errno 1] Operation not permitted\nprctl ret 0 errno 0 Success\n"}],"isError":false,"durationMs":63,"timestamp":1794603083119}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"b5a75294","parentId":"1754bcb2","timestamp":"2026-11-13T22:03:19.233Z","message":{"role":"toolResult","toolCallId":"call_22f37dd650954a628d6d680e","toolName":"bash","content":[{"type":"text","text":"ok   close+event tie input order 1\nok   close+event tie input order 2\nALL TESTS PASSED\n"}],"isError":false,"durationMs":5307,"timestamp":1794607399233}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"f753196d","parentId":"ca1d758f","timestamp":"2026-11-13T13:50:05.245Z","message":{"role":"toolResult","toolCallId":"call_2ffcc70962c443f9994be613","toolName":"bash","content":[{"type":"text","text":"PASS: all public child-process checks\nEXACT_COMMAND_RC=0\n"}],"isError":false,"durationMs":7669,"timestamp":1794577805245}}

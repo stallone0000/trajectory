@@ -1,1 +1,0 @@
-{"type":"message","id":"150ef200","parentId":"e897026c","timestamp":"2026-11-13T17:18:48.335Z","message":{"role":"toolResult","toolCallId":"call_f51dce430f9943338d9890d1","toolName":"bash","content":[{"type":"text","text":"trace rc 0 time 0.01 \nrows 8192\ntrace answers match python: True\n"}],"isError":false,"durationMs":134,"timestamp":1794590328335}}

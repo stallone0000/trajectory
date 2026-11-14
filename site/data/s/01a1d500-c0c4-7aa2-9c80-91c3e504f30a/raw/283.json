@@ -1,0 +1,1 @@
+{"type":"message","id":"633e79d8","parentId":"8ce0930f","timestamp":"2026-11-13T14:29:49.170Z","message":{"role":"toolResult","toolCallId":"call_e450603286b542bba7735702","toolName":"bash","content":[{"type":"text","text":"R native 58508 R python 58508\nprefix same, lengths differ 58508 58508\nchecked\n"}],"isError":false,"durationMs":761,"timestamp":1794580189170}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"3f5aac3a","parentId":"bb5c4563","timestamp":"2026-11-12T17:47:18.816Z","message":{"role":"toolResult","toolCallId":"call_7689870d5467453db69689d0","toolName":"bash","content":[{"type":"text","text":"skew trials 400 bad 0\n"}],"isError":false,"durationMs":42281,"timestamp":1794505638816}}

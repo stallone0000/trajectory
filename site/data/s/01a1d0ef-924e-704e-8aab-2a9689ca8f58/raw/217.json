@@ -1,0 +1,1 @@
+{"type":"message","id":"b8b77a98","parentId":"c7c78a15","timestamp":"2026-11-12T18:51:49.281Z","message":{"role":"toolResult","toolCallId":"call_5f0619bc0c9b4662bcbe2b34","toolName":"bash","content":[{"type":"text","text":"malformed suite okay\nvalid empty okay\n"}],"isError":false,"durationMs":40999,"timestamp":1794509509281}}

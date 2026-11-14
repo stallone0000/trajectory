@@ -1,1 +1,0 @@
-{"type":"message","id":"801ad635","parentId":"42a57bb2","timestamp":"2026-11-13T14:50:42.121Z","message":{"role":"toolResult","toolCallId":"call_dca1ca87282f458b9deeb6db","toolName":"bash","content":[{"type":"text","text":"empty jobs               -> 0 results []\nFAILS: []\n"}],"isError":false,"durationMs":1157,"timestamp":1794581442121}}

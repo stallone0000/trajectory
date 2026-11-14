@@ -1,0 +1,1 @@
+{"type":"message","id":"27d2776c","parentId":"c6475f6c","timestamp":"2026-11-13T13:47:00.584Z","message":{"role":"toolResult","toolCallId":"call_abe80a60336e4d258b51662b","toolName":"bash","content":[{"type":"text","text":"driver fuzz structure ok\n"}],"isError":false,"durationMs":1719,"timestamp":1794577620584}}

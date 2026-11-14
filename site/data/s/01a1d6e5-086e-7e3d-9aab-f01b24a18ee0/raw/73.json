@@ -1,1 +1,0 @@
-{"type":"message","id":"a59e0d62","parentId":"3e21cc1f","timestamp":"2026-11-13T22:38:01.041Z","message":{"role":"toolResult","toolCallId":"call_bba9221a5f074e1ab959f1df","toolName":"bash","content":[{"type":"text","text":"patched\ncompressed-vs-literal parse OK, bad = 0\n"}],"isError":false,"durationMs":761,"timestamp":1794609481041}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"1daa8331","parentId":"bb16d535","timestamp":"2026-11-12T17:00:26.932Z","message":{"role":"toolResult","toolCallId":"call_8f001d1f2f694c219bc6f6bd","toolName":"bash","content":[{"type":"text","text":"Build complete.\ntargeted mutations all rejected consistently\nALL OK\nALL OK\n"}],"isError":false,"durationMs":27960,"timestamp":1794502826932}}

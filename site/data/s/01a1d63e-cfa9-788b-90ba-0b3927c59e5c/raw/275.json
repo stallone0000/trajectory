@@ -1,0 +1,1 @@
+{"type":"message","id":"38e88b8c","parentId":"8b76e030","timestamp":"2026-11-13T20:35:03.325Z","message":{"role":"toolResult","toolCallId":"call_1251f1363ba34006b929cb89","toolName":"bash","content":[{"type":"text","text":"TypeError: unsupported operand type(s) for +: 'dict' and 'bytes'\n"}],"isError":false,"durationMs":1554,"timestamp":1794602103325}}

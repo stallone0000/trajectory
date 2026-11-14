@@ -1,0 +1,1 @@
+{"type":"message","id":"03e79a11","parentId":"b4382600","timestamp":"2026-11-13T14:24:01.859Z","message":{"role":"toolResult","toolCallId":"call_1e20081636f04648be0c6181","toolName":"bash","content":[{"type":"text","text":"kill -> -1 errno 1\nsetsid -> -1 errno 1\ngetpid -> 3125662 errno 0\n"}],"isError":false,"durationMs":98,"timestamp":1794579841859}}

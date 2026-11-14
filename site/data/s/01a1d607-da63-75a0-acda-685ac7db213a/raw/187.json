@@ -1,0 +1,1 @@
+{"type":"message","id":"d9808bfc","parentId":"5ea9bb0f","timestamp":"2026-11-13T18:39:39.547Z","message":{"role":"toolResult","toolCallId":"call_1409655d54804e3995ffb007","toolName":"bash","content":[{"type":"text","text":"bad 0 of 1200 infeasible 479 time 6.73\nscenario failures: 0\n"}],"isError":false,"durationMs":10508,"timestamp":1794595179547}}

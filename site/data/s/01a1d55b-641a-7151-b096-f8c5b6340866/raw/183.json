@@ -1,0 +1,1 @@
+{"type":"message","id":"823ef87d","parentId":"e53e88f9","timestamp":"2026-11-13T15:39:40.837Z","message":{"role":"toolResult","toolCallId":"call_c3e0f5b843d54753949191cd","toolName":"bash","content":[{"type":"text","text":"PASS a6\nFAIL done\nfailures ['done']\n"}],"isError":false,"durationMs":539,"timestamp":1794584380837}}

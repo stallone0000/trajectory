@@ -1,0 +1,1 @@
+{"type":"message","id":"fda515d8","parentId":"71cc058a","timestamp":"2026-11-13T23:08:34.534Z","message":{"role":"toolResult","toolCallId":"call_073532d8a15142b6aa1ed3c0","toolName":"bash","content":[{"type":"text","text":"digest cross-check failures 0 accel available: True\n"}],"isError":false,"durationMs":465,"timestamp":1794611314534}}

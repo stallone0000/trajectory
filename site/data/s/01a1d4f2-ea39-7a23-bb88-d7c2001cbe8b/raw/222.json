@@ -1,0 +1,1 @@
+{"type":"message","id":"68d53509","parentId":"c28a4eab","timestamp":"2026-11-13T15:12:10.572Z","message":{"role":"toolResult","toolCallId":"call_9d378e2a62f04a6e98394abc","toolName":"bash","content":[{"type":"text","text":"keyword-name fuzz checked 42 bad 0 skip 108\n"}],"isError":false,"durationMs":30051,"timestamp":1794582730572}}

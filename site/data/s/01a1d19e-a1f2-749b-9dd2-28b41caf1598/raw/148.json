@@ -1,1 +1,0 @@
-{"type":"message","id":"b0d097b6","parentId":"52e0e44f","timestamp":"2026-11-12T22:23:11.249Z","message":{"role":"toolResult","toolCallId":"call_84a1313229b14f7092b4e68e","toolName":"bash","content":[{"type":"text","text":"ok 244 fails 0 zero-partition 0 max rounds 14\ncore sizes: min 3 max 39 total links 244\n"}],"isError":false,"durationMs":40167,"timestamp":1794522191249}}

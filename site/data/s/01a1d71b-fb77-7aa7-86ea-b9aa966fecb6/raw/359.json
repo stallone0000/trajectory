@@ -1,0 +1,1 @@
+{"type":"message","id":"725dac96","parentId":"95acbecb","timestamp":"2026-11-14T00:37:12.981Z","message":{"role":"toolResult","toolCallId":"call_7f27f58b6a99474daf01439a","toolName":"bash","content":[{"type":"text","text":"submission/compiler.py:257:# ---------- recipe / route building ----------\n"}],"isError":false,"durationMs":24,"timestamp":1794616632981}}

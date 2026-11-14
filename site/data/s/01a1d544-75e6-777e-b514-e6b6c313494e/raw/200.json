@@ -1,1 +1,0 @@
-{"type":"message","id":"e7ea52de","parentId":"09dfe76f","timestamp":"2026-11-13T16:35:41.143Z","message":{"role":"toolResult","toolCallId":"call_2240d2fe3c2246629429016c","toolName":"bash","content":[{"type":"text","text":"ratio-one ok ratio [0, 1] util 0 age 0\nFAILS 0\n"}],"isError":false,"durationMs":4482,"timestamp":1794587741143}}

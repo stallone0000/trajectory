@@ -1,1 +1,0 @@
-{"type":"message","id":"8ab05099","parentId":"cb9da883","timestamp":"2026-11-13T17:07:21.026Z","message":{"role":"toolResult","toolCallId":"call_01a1d5e0c11977fa8810abee","toolName":"bash","content":[{"type":"text","text":"ok <module 'zstandard' from '/workspace/deps/zstandard/__init__.py'>\n"}],"isError":false,"durationMs":98,"timestamp":1794589641026}}

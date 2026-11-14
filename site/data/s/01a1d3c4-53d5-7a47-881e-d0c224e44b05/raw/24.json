@@ -1,0 +1,1 @@
+{"type":"message","id":"9e9dd46e","parentId":"8647396d","timestamp":"2026-11-13T07:41:37.736Z","message":{"role":"toolResult","toolCallId":"call_6ac92a4e22894e6daccded3c","toolName":"bash","content":[{"type":"text","text":"cap ok\nBad raised in _flows\n"}],"isError":false,"durationMs":52,"timestamp":1794555697736}}

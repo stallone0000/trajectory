@@ -1,1 +1,0 @@
-{"type":"message","id":"01053212","parentId":"653a86c8","timestamp":"2026-11-13T15:54:37.017Z","message":{"role":"toolResult","toolCallId":"call_06e8e9146e1c4f9aa6d1d578","toolName":"bash","content":[{"type":"text","text":"ok   owners split\nok   end offset\nFAILURES: 0\n"}],"isError":false,"durationMs":35813,"timestamp":1794585277017}}

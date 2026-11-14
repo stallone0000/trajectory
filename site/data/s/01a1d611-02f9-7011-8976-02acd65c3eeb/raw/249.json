@@ -1,1 +1,0 @@
-{"type":"message","id":"f55517f9","parentId":"6f0f23a3","timestamp":"2026-11-13T18:52:50.657Z","message":{"role":"toolResult","toolCallId":"call_faceaecda58b4ab88281b602","toolName":"bash","content":[{"type":"text","text":"-1.2345678901234567e-308 24\none event bytes 20280\n384 bytes 7787520 limit 8388608\n"}],"isError":false,"durationMs":50,"timestamp":1794595970657}}

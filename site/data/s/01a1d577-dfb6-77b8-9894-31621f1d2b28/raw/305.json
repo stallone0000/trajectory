@@ -1,0 +1,1 @@
+{"type":"message","id":"84f95b2f","parentId":"1c318c9d","timestamp":"2026-11-13T17:11:45.088Z","message":{"role":"toolResult","toolCallId":"call_73f04fab2c57486a80b11e74","toolName":"bash","content":[{"type":"text","text":"FAIL keyword service names\n1 failures\n"}],"isError":false,"durationMs":4163,"timestamp":1794589905088}}

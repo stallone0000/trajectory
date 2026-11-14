@@ -1,1 +1,0 @@
-{"type":"message","id":"ae756035","parentId":"905fc536","timestamp":"2026-11-13T22:21:11.131Z","message":{"role":"toolResult","toolCallId":"call_76f36e0842914b1d89b1bee1","toolName":"bash","content":[{"type":"text","text":"ack regression tests match\n"}],"isError":false,"durationMs":1267,"timestamp":1794608471131}}

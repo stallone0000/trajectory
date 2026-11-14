@@ -1,0 +1,1 @@
+{"type":"message","id":"073efd75","parentId":"64a1fbda","timestamp":"2026-11-13T17:31:21.517Z","message":{"role":"toolResult","toolCallId":"call_49fda9d22f744dd0b146083d","toolName":"bash","content":[{"type":"text","text":"neg residual count 689 min (-1, 1851, 1, 927, 1)\nexcess?\n"}],"isError":false,"durationMs":1712,"timestamp":1794591081517}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"5c5b59f5","parentId":"45caf0a5","timestamp":"2026-11-13T19:38:17.175Z","message":{"role":"toolResult","toolCallId":"call_c3376969007c4edba0298a03","toolName":"bash","content":[{"type":"text","text":"reasons {'close': 227}\nstatuses {'ok': 640}\nfrags 43 clusters 0 kept 0\n"}],"isError":false,"durationMs":3547,"timestamp":1794598697175}}

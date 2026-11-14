@@ -1,1 +1,0 @@
-{"type":"message","id":"83bcf50a","parentId":"07e385c4","timestamp":"2026-11-13T18:01:20.691Z","message":{"role":"toolResult","toolCallId":"call_ffc04f9340d740e690588478","toolName":"bash","content":[{"type":"text","text":"\nreal\t0m30.033s\nuser\t0m0.022s\nsys\t0m0.008s\nexit=124\n"}],"isError":false,"durationMs":30059,"timestamp":1794592880691}}

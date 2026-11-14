@@ -1,1 +1,0 @@
-{"type":"message","id":"d75f5dc7","parentId":"a44567cb","timestamp":"2026-11-13T22:33:03.125Z","message":{"role":"toolResult","toolCallId":"call_f2506683b16c423ca135806a","toolName":"bash","content":[{"type":"text","text":"sed: -e expression #1, char 52: Unmatched ) or \\)\n\n\n[exit code 1]"}],"isError":true,"durationMs":29,"timestamp":1794609183125}}

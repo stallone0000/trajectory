@@ -1,0 +1,1 @@
+{"type":"message","id":"d1aa6e6c","parentId":"f644cc04","timestamp":"2026-11-13T14:31:55.884Z","message":{"role":"toolResult","toolCallId":"call_fda995c553074a79ab1681aa","toolName":"bash","content":[{"type":"text","text":"engine.hpp:156:        if (b >= 1 && b < 2) throw std::runtime_error(\"child count\");\n"}],"isError":false,"durationMs":33,"timestamp":1794580315884}}

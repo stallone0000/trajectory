@@ -1,0 +1,1 @@
+{"type":"message","id":"48bdb2a7","parentId":"644523c5","timestamp":"2026-11-13T19:24:16.718Z","message":{"role":"toolResult","toolCallId":"call_cac671e3250c4e7fb5f99217","toolName":"bash","content":[{"type":"text","text":"SEED 9 REPLAY MISMATCH\nmismatches 1 invalid 0 of 1\n"}],"isError":false,"durationMs":2478,"timestamp":1794597856718}}

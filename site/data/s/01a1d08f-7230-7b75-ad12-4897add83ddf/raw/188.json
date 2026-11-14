@@ -1,1 +1,0 @@
-{"type":"message","id":"4f16cf29","parentId":"61ce132f","timestamp":"2026-11-12T17:41:10.491Z","message":{"role":"toolResult","toolCallId":"call_70f40d2d77e04bc98796e13b","toolName":"bash","content":[{"type":"text","text":"final regress 400 batches bad 0 worst 0.12s total 18.0s\n"}],"isError":false,"durationMs":18396,"timestamp":1794505270491}}

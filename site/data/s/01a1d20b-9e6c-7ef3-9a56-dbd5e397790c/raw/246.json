@@ -1,0 +1,1 @@
+{"type":"message","id":"c56a3ed5","parentId":"2af5ded3","timestamp":"2026-11-13T01:34:00.422Z","message":{"role":"toolResult","toolCallId":"call_6552e3f3365d4137a3eab95b","toolName":"bash","content":[{"type":"text","text":"=== t1\nFAILURES 0 of 42\n=== t5\nFAILS 0\n=== t7\nFAILS 0\n=== t22\nseed 42 runs 12 bad 0\n"}],"isError":false,"durationMs":3253,"timestamp":1794533640422}}

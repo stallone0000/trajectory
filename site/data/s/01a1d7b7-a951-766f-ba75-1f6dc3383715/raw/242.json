@@ -1,1 +1,0 @@
-{"type":"message","id":"71052e06","parentId":"877d83b5","timestamp":"2026-11-14T03:40:02.572Z","message":{"role":"toolResult","toolCallId":"call_84ddce42e8df44a69327219f","toolName":"bash","content":[{"type":"text","text":"origins[:5] [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1)]\nALL OK\n"}],"isError":false,"durationMs":120,"timestamp":1794627602572}}

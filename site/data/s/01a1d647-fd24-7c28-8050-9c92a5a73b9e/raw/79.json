@@ -1,0 +1,1 @@
+{"type":"message","id":"0cba3af5","parentId":"febac740","timestamp":"2026-11-13T19:27:11.124Z","message":{"role":"toolResult","toolCallId":"call_aee3bd7386884f0d9d0c430a","toolName":"bash","content":[{"type":"text","text":"{\"error\":\"invalid_request\"}\n"}],"isError":false,"durationMs":1843,"timestamp":1794598031124}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"c9c26511","parentId":"f756bb4e","timestamp":"2026-11-13T15:41:44.733Z","message":{"role":"toolResult","toolCallId":"call_a21ba633227e4a178c887787","toolName":"bash","content":[{"type":"text","text":"diff: /dev/fd/63: No such file or directory\n\n\n[exit code 2]"}],"isError":true,"durationMs":115,"timestamp":1794584504733}}

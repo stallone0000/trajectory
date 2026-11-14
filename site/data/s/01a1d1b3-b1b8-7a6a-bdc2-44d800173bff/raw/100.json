@@ -1,0 +1,1 @@
+{"type":"message","id":"889b0cae","parentId":"0b9c6d5c","timestamp":"2026-11-12T22:23:55.785Z","message":{"role":"toolResult","toolCallId":"call_7c76834006db4128b4257800","toolName":"bash","content":[{"type":"text","text":"LINE COUNT 117 109\n\n\n[exit code 1]"}],"isError":true,"durationMs":159,"timestamp":1794522235785}}

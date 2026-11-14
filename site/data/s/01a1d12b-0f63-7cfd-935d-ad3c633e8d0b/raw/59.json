@@ -1,1 +1,0 @@
-{"type":"message","id":"7e118e77","parentId":"5555f6e5","timestamp":"2026-11-12T19:30:26.792Z","message":{"role":"toolResult","toolCallId":"call_5d36226f2532469bab206099","toolName":"bash","content":[{"type":"text","text":"plan fallback 500 passed\n"}],"isError":false,"durationMs":1063,"timestamp":1794511826792}}

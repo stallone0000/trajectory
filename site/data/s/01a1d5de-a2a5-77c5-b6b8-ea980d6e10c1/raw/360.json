@@ -1,0 +1,1 @@
+{"type":"message","id":"5860eabb","parentId":"bfc902d9","timestamp":"2026-11-13T18:29:02.743Z","message":{"role":"toolResult","toolCallId":"call_e856d6631b1c458b8647329b","toolName":"bash","content":[{"type":"text","text":"nodes 12291 arcs 274433 active 4096\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180174,"timestamp":1794594542743}}

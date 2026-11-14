@@ -1,1 +1,0 @@
-{"type":"message","id":"55ee1f8e","parentId":"2f39dcc9","timestamp":"2026-11-13T17:24:03.143Z","message":{"role":"toolResult","toolCallId":"call_8b50a1124e294b73b48f250d","toolName":"bash","content":[{"type":"text","text":"---\nrustc 1.85.1 (4eb161250 2025-03-15)\n"}],"isError":false,"durationMs":47,"timestamp":1794590643143}}

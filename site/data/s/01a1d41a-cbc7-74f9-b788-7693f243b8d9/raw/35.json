@@ -1,1 +1,0 @@
-{"type":"message","id":"29b23c0b","parentId":"b3d6a0e7","timestamp":"2026-11-13T09:58:47.056Z","message":{"role":"toolResult","toolCallId":"call_9bbd34fcae4143fc9853aded","toolName":"bash","content":[{"type":"text","text":"big-int dijkstra 1.97s\n"}],"isError":false,"durationMs":8360,"timestamp":1794563927056}}

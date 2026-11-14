@@ -1,0 +1,1 @@
+{"type":"message","id":"71a8f8d2","parentId":"a397fb32","timestamp":"2026-11-13T18:40:07.120Z","message":{"role":"toolResult","toolCallId":"call_01a1d6355d3b74c4ae1e7708","toolName":"bash","content":[{"type":"text","text":"ok\nFAIL audit age: got [0, 1] wanted [1, 1]\n1 failures\n\n\n[exit code 1]"}],"isError":true,"durationMs":2920,"timestamp":1794595207120}}

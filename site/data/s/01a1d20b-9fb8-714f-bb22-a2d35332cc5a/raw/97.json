@@ -1,0 +1,1 @@
+{"type":"message","id":"8d9ee8c6","parentId":"b15318eb","timestamp":"2026-11-12T23:56:40.394Z","message":{"role":"toolResult","toolCallId":"call_a1c61f2e313d4facb29e9300","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: seq: command not found\n\nreal\t0m0.002s\nuser\t0m0.003s\nsys\t0m0.000s\n"}],"isError":false,"durationMs":24,"timestamp":1794527800394}}

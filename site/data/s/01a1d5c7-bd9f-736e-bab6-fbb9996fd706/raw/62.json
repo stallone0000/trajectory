@@ -1,0 +1,1 @@
+{"type":"message","id":"44e6e88b","parentId":"3bbd4ea9","timestamp":"2026-11-13T16:54:28.768Z","message":{"role":"toolResult","toolCallId":"call_8caf325301eb4026a33cbb17","toolName":"bash","content":[{"type":"text","text":"[['a\\x00b', 'c']]\n[['a', 'x\\x00y', 'z']]\n"}],"isError":false,"durationMs":45,"timestamp":1794588868768}}

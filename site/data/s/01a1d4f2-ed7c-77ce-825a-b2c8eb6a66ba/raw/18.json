@@ -1,0 +1,1 @@
+{"type":"message","id":"55776533","parentId":"f1936b7c","timestamp":"2026-11-13T12:56:01.982Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a54fe8020c1da4e2","toolName":"bash","content":[{"type":"text","text":"public sanity failed: candidate nonzero exit\nexit=1\n"}],"isError":false,"durationMs":274,"timestamp":1794574561982}}

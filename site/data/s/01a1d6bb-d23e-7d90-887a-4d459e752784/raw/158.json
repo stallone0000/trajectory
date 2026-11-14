@@ -1,1 +1,0 @@
-{"type":"message","id":"62de1eaa","parentId":"f298bc3b","timestamp":"2026-11-13T22:01:24.744Z","message":{"role":"toolResult","toolCallId":"call_115c24903bd74d69be097ae9","toolName":"bash","content":[{"type":"text","text":"bytes: 45496 entries: 14 bad: []\ntree bounds OK\nall parse OK\n"}],"isError":false,"durationMs":92,"timestamp":1794607284744}}

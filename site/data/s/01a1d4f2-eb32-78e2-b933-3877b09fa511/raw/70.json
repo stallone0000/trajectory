@@ -1,1 +1,0 @@
-{"type":"message","id":"3ed51432","parentId":"1302f368","timestamp":"2026-11-13T13:17:40.969Z","message":{"role":"toolResult","toolCallId":"call_0fd27ffcbf9443c6a1ca379c","toolName":"bash","content":[{"type":"text","text":"reject KeyError 0 time 0.6653542518615723\n"}],"isError":false,"durationMs":978,"timestamp":1794575860969}}

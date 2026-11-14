@@ -1,1 +1,0 @@
-{"type":"message","id":"44b67b71","parentId":"a4e89d17","timestamp":"2026-11-13T16:07:13.892Z","message":{"role":"toolResult","toolCallId":"call_6c5674aada964bf089f5038f","toolName":"bash","content":[{"type":"text","text":"zero-partition structures found: 0\n"}],"isError":false,"durationMs":372,"timestamp":1794586033892}}

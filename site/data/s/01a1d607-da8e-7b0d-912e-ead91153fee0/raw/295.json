@@ -1,1 +1,0 @@
-{"type":"message","id":"85469850","parentId":"050d2d12","timestamp":"2026-11-13T20:17:27.105Z","message":{"role":"toolResult","toolCallId":"call_95145d03eec54a559c0a147c","toolName":"bash","content":[{"type":"text","text":"gen_stress range 1 151 failures 0 slowest 0.126\n"}],"isError":false,"durationMs":3978,"timestamp":1794601047105}}

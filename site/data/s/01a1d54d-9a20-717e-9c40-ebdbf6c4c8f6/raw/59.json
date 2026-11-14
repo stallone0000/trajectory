@@ -1,1 +1,0 @@
-{"type":"message","id":"e436df69","parentId":"739784a9","timestamp":"2026-11-13T14:48:06.857Z","message":{"role":"toolResult","toolCallId":"call_394d203874844574b2eb7c42","toolName":"bash","content":[{"type":"text","text":"CHECK_ERROR: Public supervisor needs the development overlay in WORKER-PROFILE.md.\nexit=2\n"}],"isError":false,"durationMs":206,"timestamp":1794581286857}}

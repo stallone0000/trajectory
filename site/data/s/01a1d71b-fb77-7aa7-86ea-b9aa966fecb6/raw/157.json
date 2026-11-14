@@ -1,0 +1,1 @@
+{"type":"message","id":"0f7e67f1","parentId":"b60bf037","timestamp":"2026-11-13T23:35:02.427Z","message":{"role":"toolResult","toolCallId":"call_c847d203afb5448980c14e60","toolName":"bash","content":[{"type":"text","text":"DiGraph with 2 nodes and 2 edges <class 'networkx.classes.digraph.DiGraph'>\n"}],"isError":false,"durationMs":842,"timestamp":1794612902427}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"e8a9517e","parentId":"3a3dac6a","timestamp":"2026-11-13T21:01:30.503Z","message":{"role":"toolResult","toolCallId":"call_4620334ab58d446dae46162d","toolName":"bash","content":[{"type":"text","text":"cap fuzz fails = 0\n"}],"isError":false,"durationMs":4353,"timestamp":1794603690503}}

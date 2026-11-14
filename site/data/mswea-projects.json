@@ -3,7 +3,7 @@
   "netbench-v2"
  ],
  "sessions": {
-  "01a1d52b-d388-7219-9748-0bfd2a5c9b92": {
+  "01a1d52b-d388-7a70-a8c8-2c44d5509a22": {
    "project": "netbench-v2",
    "task": "01-crosscheck",
    "model": "GLM-5.3-Flash",
@@ -16,7 +16,7 @@
    "cost": 0.26018,
    "durationMs": 5013054
   },
-  "01a1d3bb-2fc6-7bbc-84af-65f7848b59ca": {
+  "01a1d3bb-2fc6-751c-b168-b33fd95dffff": {
    "project": "netbench-v2",
    "task": "01-crosscheck",
    "model": "MiMo-V2.6-Pro",
@@ -29,7 +29,7 @@
    "cost": 0.412748,
    "durationMs": 4314634
   },
-  "01a1d37a-f1f7-784b-8992-3ffa72af9431": {
+  "01a1d37a-f1f7-7cc6-a207-b6e8ea20767f": {
    "project": "netbench-v2",
    "task": "01-crosscheck",
    "model": "MiniMax-M3.1-Flash",
@@ -42,7 +42,7 @@
    "cost": 0.190488,
    "durationMs": 1936051
   },
-  "01a1d0ef-924e-7451-9a1c-e7e365065a6d": {
+  "01a1d0ef-924e-704e-8aab-2a9689ca8f58": {
    "project": "netbench-v2",
    "task": "01-crosscheck",
    "model": "deepseek-v4.1-flash-1017",
@@ -55,7 +55,7 @@
    "cost": 0.837753,
    "durationMs": 2923099
   },
-  "01a1d168-f4a5-7254-8792-dbc02a6657e3": {
+  "01a1d168-f4a5-77ab-86f8-6fded17188e6": {
    "project": "netbench-v2",
    "task": "01-crosscheck",
    "model": "glm-5.3",
@@ -68,7 +68,7 @@
    "cost": 1.439435,
    "durationMs": 2535199
   },
-  "01a1d08f-7116-7b8b-8d06-eaff2c7a0754": {
+  "01a1d08f-7116-7865-b3b2-b734a39a7b94": {
    "project": "netbench-v2",
    "task": "01-crosscheck",
    "model": "qwen3.8-flash",
@@ -81,7 +81,7 @@
    "cost": 0.259043,
    "durationMs": 3406885
   },
-  "01a1d20b-9fb8-7565-88fb-24160bd4b42d": {
+  "01a1d20b-9fb8-714f-bb22-a2d35332cc5a": {
    "project": "netbench-v2",
    "task": "01-crosscheck",
    "model": "qwen3.8-max-0902",
@@ -94,7 +94,7 @@
    "cost": 2.038845,
    "durationMs": 3412160
   },
-  "01a1d52b-ea82-7c12-ab7a-f9ad3bdfe56d": {
+  "01a1d52b-ea82-7bb2-8856-061b900d1315": {
    "project": "netbench-v2",
    "task": "02-planb",
    "model": "GLM-5.3-Flash",
@@ -107,7 +107,7 @@
    "cost": 0.325582,
    "durationMs": 7098372
   },
-  "01a1d511-c8e6-71b2-a5cd-ba7445bbdd70": {
+  "01a1d511-c8e6-7384-86d3-cfe9673aee01": {
    "project": "netbench-v2",
    "task": "02-planb",
    "model": "MiMo-V2.6-Pro",
@@ -120,7 +120,7 @@
    "cost": 0.851349,
    "durationMs": 4969818
   },
-  "01a1d500-c1a8-7748-b1c4-f34bac6d91cc": {
+  "01a1d500-c1a8-7fb3-bf19-cdfc876af7db": {
    "project": "netbench-v2",
    "task": "02-planb",
    "model": "MiniMax-M3.1-Flash",
@@ -133,7 +133,7 @@
    "cost": 0.331125,
    "durationMs": 4385332
   },
-  "01a1d500-bfc0-79d9-98ca-d2f46ed3b51a": {
+  "01a1d500-bfc0-738a-9134-92a0f8c57ce0": {
    "project": "netbench-v2",
    "task": "02-planb",
    "model": "deepseek-v4.1-flash-1017",
@@ -146,7 +146,7 @@
    "cost": 0.808946,
    "durationMs": 2873532
   },
-  "01a1d522-a01c-7007-8a36-ac0d398d6876": {
+  "01a1d522-a01c-70cf-99a9-fff9e26da2c4": {
    "project": "netbench-v2",
    "task": "02-planb",
    "model": "glm-5.3",
@@ -159,7 +159,7 @@
    "cost": 3.524043,
    "durationMs": 8501884
   },
-  "01a1d500-c0c4-75e5-85df-28cdf74347de": {
+  "01a1d500-c0c4-7aa2-9c80-91c3e504f30a": {
    "project": "netbench-v2",
    "task": "02-planb",
    "model": "qwen3.8-flash",
@@ -172,7 +172,7 @@
    "cost": 0.468355,
    "durationMs": 7140659
   },
-  "01a1d595-7366-7731-ab50-cb2345ab8a9d": {
+  "01a1d595-7366-70e2-acfd-d329124eedea": {
    "project": "netbench-v2",
    "task": "02-planb",
    "model": "qwen3.8-max-0902",
@@ -185,7 +185,7 @@
    "cost": 4.655023,
    "durationMs": 7111648
   },
-  "01a1d532-1ddc-7fb3-8249-1a78612b396d": {
+  "01a1d532-1ddc-705e-a34f-a0790fa4e333": {
    "project": "netbench-v2",
    "task": "03-scamp-trie",
    "model": "GLM-5.3-Flash",
@@ -198,7 +198,7 @@
    "cost": 0.749421,
    "durationMs": 7908950
   },
-  "01a1d3bb-2d6b-7f98-8c49-f5abcb683068": {
+  "01a1d3bb-2d6b-7ee9-91e4-ab0fa62b07d5": {
    "project": "netbench-v2",
    "task": "03-scamp-trie",
    "model": "MiMo-V2.6-Pro",
@@ -211,7 +211,7 @@
    "cost": 1.067604,
    "durationMs": 7536150
   },
-  "01a1d37a-f082-7303-b9e0-50872ce4bd4c": {
+  "01a1d37a-f082-7ba1-acc0-0a8a428cbed0": {
    "project": "netbench-v2",
    "task": "03-scamp-trie",
    "model": "MiniMax-M3.1-Flash",
@@ -224,7 +224,7 @@
    "cost": 0.329552,
    "durationMs": 4461884
   },
-  "01a1d0f8-b6d4-7b3c-ac9e-ce38774718b9": {
+  "01a1d0f8-b6d4-798c-b732-bac8a2aaa727": {
    "project": "netbench-v2",
    "task": "03-scamp-trie",
    "model": "deepseek-v4.1-flash-1017",
@@ -237,7 +237,7 @@
    "cost": 1.321723,
    "durationMs": 2999151
   },
-  "01a1d174-c9ab-7813-b7e6-36c618a07112": {
+  "01a1d174-c9ab-790c-a767-ab8f43aaf185": {
    "project": "netbench-v2",
    "task": "03-scamp-trie",
    "model": "glm-5.3",
@@ -250,7 +250,7 @@
    "cost": 3.518384,
    "durationMs": 3961082
   },
-  "01a1d08f-6e64-77db-b509-329f26e7bd8d": {
+  "01a1d08f-6e64-767a-97df-fa55d721c9ec": {
    "project": "netbench-v2",
    "task": "03-scamp-trie",
    "model": "qwen3.8-flash",
@@ -263,7 +263,7 @@
    "cost": 0.319254,
    "durationMs": 3689838
   },
-  "01a1d20b-9e6c-7002-936b-698c672b69ad": {
+  "01a1d20b-9e6c-7ef3-9a56-dbd5e397790c": {
    "project": "netbench-v2",
    "task": "03-scamp-trie",
    "model": "qwen3.8-max-0902",
@@ -276,7 +276,7 @@
    "cost": 6.189347,
    "durationMs": 8374908
   },
-  "01a1d63e-d381-7c1e-b3cd-7537d61457a0": {
+  "01a1d63e-d381-71c4-83cc-2cd1a7051540": {
    "project": "netbench-v2",
    "task": "04-synecdoche",
    "model": "GLM-5.3-Flash",
@@ -289,7 +289,7 @@
    "cost": 0.346833,
    "durationMs": 9841005
   },
-  "01a1d655-b88e-708d-9300-8b84a4be2391": {
+  "01a1d655-b88e-79a5-9c31-108213fb4942": {
    "project": "netbench-v2",
    "task": "04-synecdoche",
    "model": "MiMo-V2.6-Pro",
@@ -302,7 +302,7 @@
    "cost": 0.797128,
    "durationMs": 6480568
   },
-  "01a1d655-b83e-73b2-821c-3b665e0d5cba": {
+  "01a1d655-b83e-7e8e-b2ce-03a8f295e3d6": {
    "project": "netbench-v2",
    "task": "04-synecdoche",
    "model": "MiniMax-M3.1-Flash",
@@ -315,7 +315,7 @@
    "cost": 0.269525,
    "durationMs": 5682204
   },
-  "01a1d643-6a7d-7060-9c8c-da2916b434b9": {
+  "01a1d643-6a7d-7313-bfce-c76cb909b63e": {
    "project": "netbench-v2",
    "task": "04-synecdoche",
    "model": "deepseek-v4.1-flash-1017",
@@ -328,7 +328,7 @@
    "cost": 0.852763,
    "durationMs": 2087779
   },
-  "01a1d647-fd24-72d0-90a9-043679e75137": {
+  "01a1d647-fd24-7c28-8050-9c92a5a73b9e": {
    "project": "netbench-v2",
    "task": "04-synecdoche",
    "model": "glm-5.3",
@@ -341,7 +341,7 @@
    "cost": 2.981333,
    "durationMs": 6489183
   },
-  "01a1d643-6846-7024-ac7f-ce10be41459a": {
+  "01a1d643-6846-7285-a691-7ce8cf8939b4": {
    "project": "netbench-v2",
    "task": "04-synecdoche",
    "model": "qwen3.8-flash",
@@ -354,7 +354,7 @@
    "cost": 0.512175,
    "durationMs": 7102750
   },
-  "01a1d647-fd94-7a00-a3f9-8d675e64ea22": {
+  "01a1d647-fd94-7d8a-be54-9eb98897ae20": {
    "project": "netbench-v2",
    "task": "04-synecdoche",
    "model": "qwen3.8-max-0902",
@@ -367,7 +367,7 @@
    "cost": 6.934166,
    "durationMs": 10207923
   },
-  "01a1d577-dfb6-7f33-876d-71d240e96efd": {
+  "01a1d577-dfb6-77b8-9894-31621f1d2b28": {
    "project": "netbench-v2",
    "task": "05-emicro",
    "model": "GLM-5.3-Flash",
@@ -380,7 +380,7 @@
    "cost": 0.726464,
    "durationMs": 8587758
   },
-  "01a1d4f2-ea7a-717b-8a4e-cc2cab86638e": {
+  "01a1d4f2-ea7a-7a32-a687-f0d091122f3e": {
    "project": "netbench-v2",
    "task": "05-emicro",
    "model": "MiMo-V2.6-Pro",
@@ -393,7 +393,7 @@
    "cost": 0.827954,
    "durationMs": 6228374
   },
-  "01a1d4f2-ed9f-74e5-8f15-7b575bb1768e": {
+  "01a1d4f2-ed9f-77dd-8509-d22921394c67": {
    "project": "netbench-v2",
    "task": "05-emicro",
    "model": "MiniMax-M3.1-Flash",
@@ -406,7 +406,7 @@
    "cost": 0.60468,
    "durationMs": 1905063
   },
-  "01a1d4f2-eb32-78e2-b933-3877b09fa511": {
+  "01a1d4f2-eb32-7c20-b982-7a93d6224ce6": {
    "project": "netbench-v2",
    "task": "05-emicro",
    "model": "deepseek-v4.1-flash-1017",
@@ -419,7 +419,7 @@
    "cost": 2.00895,
    "durationMs": 6121933
   },
-  "01a1d4f2-ecb0-7224-869d-b962018b0385": {
+  "01a1d4f2-ecb0-709d-95a3-b9de006338b2": {
    "project": "netbench-v2",
    "task": "05-emicro",
    "model": "glm-5.3",
@@ -432,7 +432,7 @@
    "cost": 3.555058,
    "durationMs": 6508647
   },
-  "01a1d4f2-ec45-760f-be28-0548feaf0e6c": {
+  "01a1d4f2-ec45-75b5-9d5b-706ae5975437": {
    "project": "netbench-v2",
    "task": "05-emicro",
    "model": "qwen3.8-flash",
@@ -445,7 +445,7 @@
    "cost": 0.506459,
    "durationMs": 5087829
   },
-  "01a1d4f2-ea39-7255-b8a2-0aded3a12adc": {
+  "01a1d4f2-ea39-7a23-bb88-d7c2001cbe8b": {
    "project": "netbench-v2",
    "task": "05-emicro",
    "model": "qwen3.8-max-0902",
@@ -458,7 +458,7 @@
    "cost": 7.452749,
    "durationMs": 10329229
   },
-  "01a1d5da-115e-733e-b27c-e1d5e93601a7": {
+  "01a1d5da-115e-746d-876f-cf5877f17fa3": {
    "project": "netbench-v2",
    "task": "06-residential-ipv6-firewall",
    "model": "GLM-5.3-Flash",
@@ -471,7 +471,7 @@
    "cost": 0.615022,
    "durationMs": 7615250
   },
-  "01a1d5e7-cd2d-72f6-82c2-e75d4f38e696": {
+  "01a1d5e7-cd2d-79c2-919e-9fbf03086869": {
    "project": "netbench-v2",
    "task": "06-residential-ipv6-firewall",
    "model": "MiMo-V2.6-Pro",
@@ -484,7 +484,7 @@
    "cost": 0.948681,
    "durationMs": 7654739
   },
-  "01a1d5da-0f90-7d08-8ece-117996738805": {
+  "01a1d5da-0f90-793b-970e-6d504a82aab7": {
    "project": "netbench-v2",
    "task": "06-residential-ipv6-firewall",
    "model": "MiniMax-M3.1-Flash",
@@ -497,7 +497,7 @@
    "cost": 0.292193,
    "durationMs": 2927990
   },
-  "01a1d5c7-bd9f-7fa9-b73d-5354288e47bf": {
+  "01a1d5c7-bd9f-736e-bab6-fbb9996fd706": {
    "project": "netbench-v2",
    "task": "06-residential-ipv6-firewall",
    "model": "deepseek-v4.1-flash-1017",
@@ -510,7 +510,7 @@
    "cost": 2.281706,
    "durationMs": 4485235
   },
-  "01a1d5cc-5137-7e87-89c7-78a32f7e7be1": {
+  "01a1d5cc-5137-7673-8fca-1270b5c01d6e": {
    "project": "netbench-v2",
    "task": "06-residential-ipv6-firewall",
    "model": "glm-5.3",
@@ -523,7 +523,7 @@
    "cost": 4.243632,
    "durationMs": 6842159
   },
-  "01a1d5de-a2a5-7b1a-a255-fe55a56bdb01": {
+  "01a1d5de-a2a5-77c5-b6b8-ea980d6e10c1": {
    "project": "netbench-v2",
    "task": "06-residential-ipv6-firewall",
    "model": "qwen3.8-flash",
@@ -536,7 +536,7 @@
    "cost": 0.57302,
    "durationMs": 5177702
   },
-  "01a1d5cc-5173-7895-8a00-0f57088928f4": {
+  "01a1d5cc-5173-7d11-b1bc-2c37d30f7921": {
    "project": "netbench-v2",
    "task": "06-residential-ipv6-firewall",
    "model": "qwen3.8-max-0902",
@@ -549,7 +549,7 @@
    "cost": 10.105527,
    "durationMs": 13570731
   },
-  "01a1d544-75e6-777e-b514-e6b6c313494e": {
+  "01a1d544-75e6-799a-bf72-dea435cef76d": {
    "project": "netbench-v2",
    "task": "07-fenix",
    "model": "GLM-5.3-Flash",
@@ -562,7 +562,7 @@
    "cost": 0.641894,
    "durationMs": 11102824
   },
-  "01a1d3bb-30c5-7564-bd1d-d49104b4a5da": {
+  "01a1d3bb-30c5-7864-84c8-b21dfc458d2d": {
    "project": "netbench-v2",
    "task": "07-fenix",
    "model": "MiMo-V2.6-Pro",
@@ -575,7 +575,7 @@
    "cost": 0.909987,
    "durationMs": 8175222
   },
-  "01a1d37a-f397-7f14-9982-96111e0a9166": {
+  "01a1d37a-f397-7826-bd71-0eaadcbb7583": {
    "project": "netbench-v2",
    "task": "07-fenix",
    "model": "MiniMax-M3.1-Flash",
@@ -588,7 +588,7 @@
    "cost": 0.444285,
    "durationMs": 5705840
   },
-  "01a1d101-e23a-7792-ac5f-62ef2aeeaba4": {
+  "01a1d101-e23a-722a-8d7a-8b37b78a1415": {
    "project": "netbench-v2",
    "task": "07-fenix",
    "model": "deepseek-v4.1-flash-1017",
@@ -601,7 +601,7 @@
    "cost": 1.698504,
    "durationMs": 6994666
   },
-  "01a1d192-f019-7809-a3ae-176998864ba2": {
+  "01a1d192-f019-7a57-8848-b3e0338344ed": {
    "project": "netbench-v2",
    "task": "07-fenix",
    "model": "glm-5.3",
@@ -614,7 +614,7 @@
    "cost": 2.676677,
    "durationMs": 5103135
   },
-  "01a1d08f-7230-7b75-ad12-4897add83ddf": {
+  "01a1d08f-7230-7ed4-be0c-d5facdba80ba": {
    "project": "netbench-v2",
    "task": "07-fenix",
    "model": "qwen3.8-flash",
@@ -627,7 +627,7 @@
    "cost": 0.52538,
    "durationMs": 6550750
   },
-  "01a1d20b-a130-77b0-b416-4e2e9e666d56": {
+  "01a1d20b-a130-77da-9aeb-a4253dfa4a9c": {
    "project": "netbench-v2",
    "task": "07-fenix",
    "model": "qwen3.8-max-0902",
@@ -640,7 +640,7 @@
    "cost": 5.735502,
    "durationMs": 8064976
   },
-  "01a1d587-9d29-71dd-b589-bed998c8e2a1": {
+  "01a1d587-9d29-715c-b0d7-44d19e479566": {
    "project": "netbench-v2",
    "task": "08-scale-up-pifo",
    "model": "GLM-5.3-Flash",
@@ -653,7 +653,7 @@
    "cost": 0.291325,
    "durationMs": 6604211
   },
-  "01a1d4f2-edce-7009-953e-3866165fece8": {
+  "01a1d4f2-edce-7c5e-bb7f-04035128227b": {
    "project": "netbench-v2",
    "task": "08-scale-up-pifo",
    "model": "MiMo-V2.6-Pro",
@@ -666,7 +666,7 @@
    "cost": 0.409802,
    "durationMs": 3764951
   },
-  "01a1d4f2-ed7c-751c-bba0-019bba93f3fa": {
+  "01a1d4f2-ed7c-77ce-825a-b2c8eb6a66ba": {
    "project": "netbench-v2",
    "task": "08-scale-up-pifo",
    "model": "MiniMax-M3.1-Flash",
@@ -679,7 +679,7 @@
    "cost": 0.157637,
    "durationMs": 1807544
   },
-  "01a1d4f2-eb90-7bbc-bfec-33eee11f0827": {
+  "01a1d4f2-eb90-7422-8984-400748bbf7cc": {
    "project": "netbench-v2",
    "task": "08-scale-up-pifo",
    "model": "deepseek-v4.1-flash-1017",
@@ -692,7 +692,7 @@
    "cost": 0.55323,
    "durationMs": 2580272
   },
-  "01a1d4f2-ed5a-7a35-9c39-e20cd82f06b0": {
+  "01a1d4f2-ed5a-7e58-a0a3-8107bb20e247": {
    "project": "netbench-v2",
    "task": "08-scale-up-pifo",
    "model": "glm-5.3",
@@ -705,7 +705,7 @@
    "cost": 1.91706,
    "durationMs": 5641632
   },
-  "01a1d442-90fe-7f3a-b138-0b6e4672a7f9": {
+  "01a1d442-90fe-7a89-9bcf-b2136b7c7da3": {
    "project": "netbench-v2",
    "task": "08-scale-up-pifo",
    "model": "qwen3.8-flash",
@@ -718,7 +718,7 @@
    "cost": 0.285753,
    "durationMs": 7506176
   },
-  "01a1d4f2-e9ee-70f0-bba5-e005cd15c653": {
+  "01a1d4f2-e9ee-7a53-9cfb-83b129b22732": {
    "project": "netbench-v2",
    "task": "08-scale-up-pifo",
    "model": "qwen3.8-max-0902",
@@ -731,7 +731,7 @@
    "cost": 2.56883,
    "durationMs": 4899265
   },
-  "01a1d556-c7fa-7074-a93d-3b6f616175be": {
+  "01a1d556-c7fa-7cef-9d40-bfa776699acb": {
    "project": "netbench-v2",
    "task": "09-netnomos",
    "model": "GLM-5.3-Flash",
@@ -744,7 +744,7 @@
    "cost": 0.123999,
    "durationMs": 3476437
   },
-  "01a1d5ac-46d6-7fbe-8cbb-1954fc3e3c78": {
+  "01a1d5ac-46d6-709d-ad5a-4d6a05ad1f79": {
    "project": "netbench-v2",
    "task": "09-netnomos",
    "model": "MiMo-V2.6-Pro",
@@ -757,7 +757,7 @@
    "cost": 0.166144,
    "durationMs": 2116541
   },
-  "01a1d516-4ad0-7ec4-91cd-41648f82e981": {
+  "01a1d516-4ad0-79d0-8689-8164e27ed1c8": {
    "project": "netbench-v2",
    "task": "09-netnomos",
    "model": "MiniMax-M3.1-Flash",
@@ -770,7 +770,7 @@
    "cost": 0.118913,
    "durationMs": 1203970
   },
-  "01a1d59e-8e21-7d0e-bb86-295f37322bfa": {
+  "01a1d59e-8e21-7445-b478-7cc4b2536dc7": {
    "project": "netbench-v2",
    "task": "09-netnomos",
    "model": "deepseek-v4.1-flash-1017",
@@ -783,7 +783,7 @@
    "cost": 0.295463,
    "durationMs": 1067825
   },
-  "01a1d5a7-b2bf-74e8-9850-c29b5e82cc5b": {
+  "01a1d5a7-b2bf-71a4-b741-54c7f5f2e314": {
    "project": "netbench-v2",
    "task": "09-netnomos",
    "model": "glm-5.3",
@@ -796,7 +796,7 @@
    "cost": 1.53039,
    "durationMs": 3160784
   },
-  "01a1d599-f560-7cc6-a2f3-87fa275fa340": {
+  "01a1d599-f560-7823-a3af-40eb8f5a93d8": {
    "project": "netbench-v2",
    "task": "09-netnomos",
    "model": "qwen3.8-flash",
@@ -809,7 +809,7 @@
    "cost": 0.090969,
    "durationMs": 1582191
   },
-  "01a1d5a7-b495-7759-b656-798e52a78d01": {
+  "01a1d5a7-b495-701a-a364-a236f8812b57": {
    "project": "netbench-v2",
    "task": "09-netnomos",
    "model": "qwen3.8-max-0902",
@@ -822,7 +822,7 @@
    "cost": 2.904064,
    "durationMs": 4012395
   },
-  "01a1d57c-76ab-7947-8fb5-bd407a0233b6": {
+  "01a1d57c-76ab-7b33-bff0-76d4ea65412f": {
    "project": "netbench-v2",
    "task": "10-omnipath-ping",
    "model": "GLM-5.3-Flash",
@@ -835,7 +835,7 @@
    "cost": 0.182982,
    "durationMs": 3843755
   },
-  "01a1d5fe-b025-7b63-8529-024cf5535825": {
+  "01a1d5fe-b025-76d4-bf22-db110c7c19b4": {
    "project": "netbench-v2",
    "task": "10-omnipath-ping",
    "model": "MiMo-V2.6-Pro",
@@ -848,7 +848,7 @@
    "cost": 0.402774,
    "durationMs": 3775231
   },
-  "01a1d5f0-f313-770b-a106-eee041583ab6": {
+  "01a1d5f0-f313-7124-89af-d9f384ad9657": {
    "project": "netbench-v2",
    "task": "10-omnipath-ping",
    "model": "MiniMax-M3.1-Flash",
@@ -861,7 +861,7 @@
    "cost": 0.144917,
    "durationMs": 1255176
   },
-  "01a1d5f0-f34d-761b-b4e3-d9911bbd9ee4": {
+  "01a1d5f0-f34d-7945-b2cc-a20b78f5734a": {
    "project": "netbench-v2",
    "task": "10-omnipath-ping",
    "model": "deepseek-v4.1-flash-1017",
@@ -874,7 +874,7 @@
    "cost": 0.345825,
    "durationMs": 1175363
   },
-  "01a1d5d0-e4b8-7694-a7af-09058165a9a8": {
+  "01a1d5d0-e4b8-72d6-af6b-736477ff85a8": {
    "project": "netbench-v2",
    "task": "10-omnipath-ping",
    "model": "glm-5.3",
@@ -887,7 +887,7 @@
    "cost": 1.456438,
    "durationMs": 2515526
   },
-  "01a1d5b0-d638-79a2-a6a2-40d9e172ac05": {
+  "01a1d5b0-d638-77bc-809a-c344b1481fc3": {
    "project": "netbench-v2",
    "task": "10-omnipath-ping",
    "model": "qwen3.8-flash",
@@ -900,7 +900,7 @@
    "cost": 0.29245,
    "durationMs": 4355855
   },
-  "01a1d5fa-1bab-7f7d-9da2-8222b71e08a0": {
+  "01a1d5fa-1bab-7b88-957a-f79f8b37b553": {
    "project": "netbench-v2",
    "task": "10-omnipath-ping",
    "model": "qwen3.8-max-0902",
@@ -913,7 +913,7 @@
    "cost": 3.406254,
    "durationMs": 5439914
   },
-  "01a1d607-da8e-7b0d-912e-ead91153fee0": {
+  "01a1d607-da8e-773f-97b0-50f38272f201": {
    "project": "netbench-v2",
    "task": "11-onlinete",
    "model": "GLM-5.3-Flash",
@@ -926,7 +926,7 @@
    "cost": 0.582002,
    "durationMs": 10329635
   },
-  "01a1d65e-dc5c-7c97-bd94-30d8309bad57": {
+  "01a1d65e-dc5c-7409-9d4b-c6fb4ea8309c": {
    "project": "netbench-v2",
    "task": "11-onlinete",
    "model": "MiMo-V2.6-Pro",
@@ -939,7 +939,7 @@
    "cost": 0.678271,
    "durationMs": 5736984
   },
-  "01a1d615-97d4-7650-8988-4507ef138fa8": {
+  "01a1d615-97d4-77be-b5ea-7cd11b7ad2b2": {
    "project": "netbench-v2",
    "task": "11-onlinete",
    "model": "MiniMax-M3.1-Flash",
@@ -952,7 +952,7 @@
    "cost": 0.292742,
    "durationMs": 3646283
   },
-  "01a1d611-02f9-7011-8976-02acd65c3eeb": {
+  "01a1d611-02f9-7d4e-bbf7-b5c0c952477e": {
    "project": "netbench-v2",
    "task": "11-onlinete",
    "model": "deepseek-v4.1-flash-1017",
@@ -965,7 +965,7 @@
    "cost": 1.119786,
    "durationMs": 3359340
   },
-  "01a1d651-1e9b-7f16-981b-70fcd7d97e4f": {
+  "01a1d651-1e9b-7139-af23-adc90296b079": {
    "project": "netbench-v2",
    "task": "11-onlinete",
    "model": "glm-5.3",
@@ -978,7 +978,7 @@
    "cost": 4.308109,
    "durationMs": 7094357
   },
-  "01a1d607-da63-7261-8822-4a618f847ea7": {
+  "01a1d607-da63-75a0-acda-685ac7db213a": {
    "project": "netbench-v2",
    "task": "11-onlinete",
    "model": "qwen3.8-flash",
@@ -991,7 +991,7 @@
    "cost": 0.451153,
    "durationMs": 4368200
   },
-  "01a1d651-1e6e-7ff4-a236-dcada0ed5734": {
+  "01a1d651-1e6e-7c89-9145-2e25368a361a": {
    "project": "netbench-v2",
    "task": "11-onlinete",
    "model": "qwen3.8-max-0902",
@@ -1004,7 +1004,7 @@
    "cost": 4.148296,
    "durationMs": 10688867
   },
-  "01a1d54d-9a20-717e-9c40-ebdbf6c4c8f6": {
+  "01a1d54d-9a20-7ced-9a1c-ddaf677a4a8e": {
    "project": "netbench-v2",
    "task": "12-eywa",
    "model": "GLM-5.3-Flash",
@@ -1017,7 +1017,7 @@
    "cost": 0.326275,
    "durationMs": 4724537
   },
-  "01a1d6bb-d23e-7d90-887a-4d459e752784": {
+  "01a1d6bb-d23e-798d-9cdd-5620d7ac8578": {
    "project": "netbench-v2",
    "task": "12-eywa",
    "model": "MiMo-V2.6-Pro",
@@ -1030,7 +1030,7 @@
    "cost": 0.65885,
    "durationMs": 3546137
   },
-  "01a1d6b7-3e73-7413-aa7a-154dfe34ee49": {
+  "01a1d6b7-3e73-7b59-9600-46314e00ab94": {
    "project": "netbench-v2",
    "task": "12-eywa",
    "model": "MiniMax-M3.1-Flash",
@@ -1043,7 +1043,7 @@
    "cost": 0.222189,
    "durationMs": 1588285
   },
-  "01a1d66c-b8b9-7323-9061-175532f8aa6f": {
+  "01a1d66c-b8b9-7f8f-936c-0684fd9b3ace": {
    "project": "netbench-v2",
    "task": "12-eywa",
    "model": "deepseek-v4.1-flash-1017",
@@ -1056,7 +1056,7 @@
    "cost": 1.228296,
    "durationMs": 4363091
   },
-  "01a1d6bb-d26b-748d-92da-60e595116fe6": {
+  "01a1d6bb-d26b-7c1b-8350-a1435386f03d": {
    "project": "netbench-v2",
    "task": "12-eywa",
    "model": "glm-5.3",
@@ -1069,7 +1069,7 @@
    "cost": 4.102307,
    "durationMs": 4284199
   },
-  "01a1d603-46ee-72eb-8082-e91c31945cfe": {
+  "01a1d603-46ee-749e-b57f-bebe127020ef": {
    "project": "netbench-v2",
    "task": "12-eywa",
    "model": "qwen3.8-flash",
@@ -1082,7 +1082,7 @@
    "cost": 0.400557,
    "durationMs": 3983417
   },
-  "01a1d6bb-d2c6-79f4-99a8-02bc51247e46": {
+  "01a1d6bb-d2c6-7088-ace1-082808af7f16": {
    "project": "netbench-v2",
    "task": "12-eywa",
    "model": "qwen3.8-max-0902",
@@ -1095,7 +1095,7 @@
    "cost": 5.411463,
    "durationMs": 6546605
   },
-  "01a1d54d-99e9-72d7-9ccc-f031ea86d910": {
+  "01a1d54d-99e9-7d85-a3d9-ad6af4954ff8": {
    "project": "netbench-v2",
    "task": "13-sipconfusion",
    "model": "GLM-5.3-Flash",
@@ -1108,7 +1108,7 @@
    "cost": 0.126938,
    "durationMs": 3600928
   },
-  "01a1d6e9-9d03-7971-b370-e64eb57b70e6": {
+  "01a1d6e9-9d03-7a82-a5b9-0b89b17d35eb": {
    "project": "netbench-v2",
    "task": "13-sipconfusion",
    "model": "MiMo-V2.6-Pro",
@@ -1121,7 +1121,7 @@
    "cost": 0.308368,
    "durationMs": 1801139
   },
-  "01a1d6bb-d2c8-78cb-b914-99b9bc2d7a34": {
+  "01a1d6bb-d2c8-7535-ad76-67497909fff8": {
    "project": "netbench-v2",
    "task": "13-sipconfusion",
    "model": "MiniMax-M3.1-Flash",
@@ -1134,7 +1134,7 @@
    "cost": 0.113336,
    "durationMs": 877326
   },
-  "01a1d6c0-64d9-7d64-92b7-fc7a25528980": {
+  "01a1d6c0-64d9-7949-9e45-8d62a628b6f9": {
    "project": "netbench-v2",
    "task": "13-sipconfusion",
    "model": "deepseek-v4.1-flash-1017",
@@ -1147,7 +1147,7 @@
    "cost": 0.443462,
    "durationMs": 1129778
   },
-  "01a1d6c4-fa4d-700e-b7ae-3a9658c24c87": {
+  "01a1d6c4-fa4d-7a86-af0f-1c61e566be42": {
    "project": "netbench-v2",
    "task": "13-sipconfusion",
    "model": "glm-5.3",
@@ -1160,7 +1160,7 @@
    "cost": 1.092261,
    "durationMs": 1997845
   },
-  "01a1d6c0-64d6-7c7b-ba8e-70be751645fe": {
+  "01a1d6c0-64d6-761f-af5c-15c89dfcc323": {
    "project": "netbench-v2",
    "task": "13-sipconfusion",
    "model": "qwen3.8-flash",
@@ -1173,7 +1173,7 @@
    "cost": 0.192536,
    "durationMs": 2512714
   },
-  "01a1d6c9-8d7a-7000-8612-42398aef349e": {
+  "01a1d6c9-8d7a-7e5d-8dce-78939792ba5a": {
    "project": "netbench-v2",
    "task": "13-sipconfusion",
    "model": "qwen3.8-max-0902",
@@ -1186,7 +1186,7 @@
    "cost": 1.166887,
    "durationMs": 2113230
   },
-  "01a1d556-c2fc-7e51-bde5-500ab7692691": {
+  "01a1d556-c2fc-770d-b90c-d344f428f4e8": {
    "project": "netbench-v2",
    "task": "14-h3act",
    "model": "GLM-5.3-Flash",
@@ -1199,7 +1199,7 @@
    "cost": 0.360102,
    "durationMs": 7322159
   },
-  "01a1d6c0-6539-71d0-a7c9-b4e8bd238637": {
+  "01a1d6c0-6539-72b5-ab06-953dd8d01c60": {
    "project": "netbench-v2",
    "task": "14-h3act",
    "model": "MiMo-V2.6-Pro",
@@ -1212,7 +1212,7 @@
    "cost": 0.808914,
    "durationMs": 5414588
   },
-  "01a1d6bb-d6b6-7d3d-82be-f54308097a1c": {
+  "01a1d6bb-d6b6-72d7-8d4b-f8d33107ace1": {
    "project": "netbench-v2",
    "task": "14-h3act",
    "model": "MiniMax-M3.1-Flash",
@@ -1225,7 +1225,7 @@
    "cost": 0.264979,
    "durationMs": 5772656
   },
-  "01a1d6d7-4adb-74e3-a79b-245bc40d4571": {
+  "01a1d6d7-4adb-7557-8c3e-ee94016326f8": {
    "project": "netbench-v2",
    "task": "14-h3act",
    "model": "deepseek-v4.1-flash-1017",
@@ -1238,7 +1238,7 @@
    "cost": 4.579857,
    "durationMs": 4136512
   },
-  "01a1d6e0-73b0-7491-aaa0-18ffdda340aa": {
+  "01a1d6e0-73b0-7eaf-87d2-c53a1fd5325d": {
    "project": "netbench-v2",
    "task": "14-h3act",
    "model": "glm-5.3",
@@ -1251,7 +1251,7 @@
    "cost": 4.442487,
    "durationMs": 8150247
   },
-  "01a1d6d2-b674-740a-b268-fb274bb11bf1": {
+  "01a1d6d2-b674-7fb5-b441-801bca33ff17": {
    "project": "netbench-v2",
    "task": "14-h3act",
    "model": "qwen3.8-flash",
@@ -1264,7 +1264,7 @@
    "cost": 0.542603,
    "durationMs": 4672161
   },
-  "01a1d6e5-086e-7e3d-9aab-f01b24a18ee0": {
+  "01a1d6e5-086e-7c56-8dff-6fced9df52ee": {
    "project": "netbench-v2",
    "task": "14-h3act",
    "model": "qwen3.8-max-0902",
@@ -1277,7 +1277,7 @@
    "cost": 6.261804,
    "durationMs": 7524700
   },
-  "01a1d63e-cfa9-78ce-a35a-72106f239ac7": {
+  "01a1d63e-cfa9-788b-90ba-0b3927c59e5c": {
    "project": "netbench-v2",
    "task": "15-quic-attacker",
    "model": "GLM-5.3-Flash",
@@ -1290,7 +1290,7 @@
    "cost": 0.403613,
    "durationMs": 7487069
   },
-  "01a1d6fb-ee0d-78e6-961b-9a8e5bbbe4ad": {
+  "01a1d6fb-ee0d-790c-bec1-f8fd2f050fb0": {
    "project": "netbench-v2",
    "task": "15-quic-attacker",
    "model": "MiMo-V2.6-Pro",
@@ -1303,7 +1303,7 @@
    "cost": 0.730923,
    "durationMs": 3412254
   },
-  "01a1d6c0-65fc-73df-88db-c3cf6b2678cd": {
+  "01a1d6c0-65fc-72da-bafa-a0e81a108671": {
    "project": "netbench-v2",
    "task": "15-quic-attacker",
    "model": "MiniMax-M3.1-Flash",
@@ -1316,7 +1316,7 @@
    "cost": 0.337533,
    "durationMs": 2192307
   },
-  "01a1d6e5-0919-764c-a435-9956670205d0": {
+  "01a1d6e5-0919-74cc-b830-51b717d313de": {
    "project": "netbench-v2",
    "task": "15-quic-attacker",
    "model": "deepseek-v4.1-flash-1017",
@@ -1329,7 +1329,7 @@
    "cost": 1.19678,
    "durationMs": 2187530
   },
-  "01a1d6ee-33e3-7bdd-8bda-090830309fbc": {
+  "01a1d6ee-33e3-787e-99ea-fc07ba30469f": {
    "project": "netbench-v2",
    "task": "15-quic-attacker",
    "model": "glm-5.3",
@@ -1342,7 +1342,7 @@
    "cost": 3.379353,
    "durationMs": 4162105
   },
-  "01a1d6e5-0915-774b-9183-4fc52a9403ec": {
+  "01a1d6e5-0915-73ed-a27e-dd1e12a9bdf0": {
    "project": "netbench-v2",
    "task": "15-quic-attacker",
    "model": "qwen3.8-flash",
@@ -1355,7 +1355,7 @@
    "cost": 0.421674,
    "durationMs": 4217857
   },
-  "01a1d6ee-31d7-7bdd-8ddb-2155fd151253": {
+  "01a1d6ee-31d7-7e7a-808f-2da4b2abfaea": {
    "project": "netbench-v2",
    "task": "15-quic-attacker",
    "model": "qwen3.8-max-0902",
@@ -1368,7 +1368,7 @@
    "cost": 4.821081,
    "durationMs": 5828422
   },
-  "01a1d55b-641a-7782-b58e-ab4313f48feb": {
+  "01a1d55b-641a-7151-b096-f8c5b6340866": {
    "project": "netbench-v2",
    "task": "16-epic",
    "model": "GLM-5.3-Flash",
@@ -1381,7 +1381,7 @@
    "cost": 0.264947,
    "durationMs": 4052175
   },
-  "01a1d745-3ad2-71b6-9c05-d4b975d59ed9": {
+  "01a1d745-3ad2-71e5-a652-0927b56e511f": {
    "project": "netbench-v2",
    "task": "16-epic",
    "model": "MiMo-V2.6-Pro",
@@ -1394,7 +1394,7 @@
    "cost": 0.381252,
    "durationMs": 4287250
   },
-  "01a1d717-7049-723b-bec6-8cefbbe4c558": {
+  "01a1d717-7049-755f-b712-76421b40a24c": {
    "project": "netbench-v2",
    "task": "16-epic",
    "model": "MiniMax-M3.1-Flash",
@@ -1407,7 +1407,7 @@
    "cost": 0.372301,
    "durationMs": 1526199
   },
-  "01a1d705-2046-71d4-b874-f780673ec5f6": {
+  "01a1d705-2046-70cc-b95c-60cdfff053e0": {
    "project": "netbench-v2",
    "task": "16-epic",
    "model": "deepseek-v4.1-flash-1017",
@@ -1420,7 +1420,7 @@
    "cost": 0.803739,
    "durationMs": 1933446
   },
-  "01a1d709-b746-723f-bb54-a53bfec9dd35": {
+  "01a1d709-b746-77d4-be6e-befea50cb4e9": {
    "project": "netbench-v2",
    "task": "16-epic",
    "model": "glm-5.3",
@@ -1433,7 +1433,7 @@
    "cost": 2.488943,
    "durationMs": 3165290
   },
-  "01a1d6fc-09e7-7732-be77-c2cdf546d028": {
+  "01a1d6fc-09e7-7ed6-beda-efd9c5f7e7eb": {
    "project": "netbench-v2",
    "task": "16-epic",
    "model": "qwen3.8-flash",
@@ -1446,7 +1446,7 @@
    "cost": 0.265218,
    "durationMs": 3270257
   },
-  "01a1d709-b66b-73c5-8d25-5612db1d1fde": {
+  "01a1d709-b66b-7584-adcd-6bbad553f620": {
    "project": "netbench-v2",
    "task": "16-epic",
    "model": "qwen3.8-max-0902",
@@ -1459,7 +1459,7 @@
    "cost": 3.174812,
    "durationMs": 5185754
   },
-  "01a1d590-c6ad-75ee-adcd-3b63fb887996": {
+  "01a1d590-c6ad-7e65-826c-f5efc58bb44f": {
    "project": "netbench-v2",
    "task": "17-syncwise",
    "model": "GLM-5.3-Flash",
@@ -1472,7 +1472,7 @@
    "cost": 0.41497,
    "durationMs": 6065621
   },
-  "01a1d429-4193-798c-a958-9b93e9d4e137": {
+  "01a1d429-4193-74d5-836e-2e0075af4784": {
    "project": "netbench-v2",
    "task": "17-syncwise",
    "model": "MiMo-V2.6-Pro",
@@ -1485,7 +1485,7 @@
    "cost": 0.936,
    "durationMs": 7849727
   },
-  "01a1d3fd-c813-72dd-b1fe-c60f8a3a4c3c": {
+  "01a1d3fd-c813-77f1-a0cd-24c914dbe805": {
    "project": "netbench-v2",
    "task": "17-syncwise",
    "model": "MiniMax-M3.1-Flash",
@@ -1498,7 +1498,7 @@
    "cost": 0.339824,
    "durationMs": 5412464
   },
-  "01a1d423-6d5a-75a1-a36a-7e7c1d4ff007": {
+  "01a1d423-6d5a-7fbc-bfe4-e8f0419ce96e": {
    "project": "netbench-v2",
    "task": "17-syncwise",
    "model": "deepseek-v4.1-flash-1017",
@@ -1511,7 +1511,7 @@
    "cost": 0.778717,
    "durationMs": 2685510
   },
-  "01a1d41a-cbc7-74f9-b788-7693f243b8d9": {
+  "01a1d41a-cbc7-7f45-86db-2d48da07ffe9": {
    "project": "netbench-v2",
    "task": "17-syncwise",
    "model": "glm-5.3",
@@ -1524,7 +1524,7 @@
    "cost": 3.726239,
    "durationMs": 7779787
   },
-  "01a1d410-14d1-7fe0-a5e8-97f8c6704541": {
+  "01a1d410-14d1-7df3-a93c-808bcb3ccfb0": {
    "project": "netbench-v2",
    "task": "17-syncwise",
    "model": "qwen3.8-flash",
@@ -1537,7 +1537,7 @@
    "cost": 0.222828,
    "durationMs": 4092513
   },
-  "01a1d429-414a-76c4-9e4c-8511044f697e": {
+  "01a1d429-414a-7713-a6bc-966c1c932e9e": {
    "project": "netbench-v2",
    "task": "17-syncwise",
    "model": "qwen3.8-max-0902",
@@ -1550,7 +1550,7 @@
    "cost": 7.53731,
    "durationMs": 8033247
   },
-  "01a1d57c-73f6-7f38-9340-26f7918e898e": {
+  "01a1d57c-73f6-7cca-b022-3f8cb2a7f6f6": {
    "project": "netbench-v2",
    "task": "18-pathprob",
    "model": "GLM-5.3-Flash",
@@ -1563,7 +1563,7 @@
    "cost": 0.331464,
    "durationMs": 5083861
   },
-  "01a1d3bf-bf28-7786-aff5-ad4281dc884a": {
+  "01a1d3bf-bf28-70c8-b0f0-dde06fd5b38d": {
    "project": "netbench-v2",
    "task": "18-pathprob",
    "model": "MiMo-V2.6-Pro",
@@ -1576,7 +1576,7 @@
    "cost": 0.366973,
    "durationMs": 4625665
   },
-  "01a1d3bf-9b0c-7135-b7d1-512894803566": {
+  "01a1d3bf-9b0c-790e-babd-898d29fb4518": {
    "project": "netbench-v2",
    "task": "18-pathprob",
    "model": "MiniMax-M3.1-Flash",
@@ -1589,7 +1589,7 @@
    "cost": 0.242405,
    "durationMs": 3212916
   },
-  "01a1d121-e87c-7296-be2a-aeb5d5887af3": {
+  "01a1d121-e87c-72de-a9ac-419398f0b335": {
    "project": "netbench-v2",
    "task": "18-pathprob",
    "model": "deepseek-v4.1-flash-1017",
@@ -1602,7 +1602,7 @@
    "cost": 0.485932,
    "durationMs": 4733319
   },
-  "01a1d19e-a1f2-749b-9dd2-28b41caf1598": {
+  "01a1d19e-a1f2-7e22-9dd4-5c24c391c3cb": {
    "project": "netbench-v2",
    "task": "18-pathprob",
    "model": "glm-5.3",
@@ -1615,7 +1615,7 @@
    "cost": 2.94218,
    "durationMs": 4449294
   },
-  "01a1d0c6-5b19-7c34-a43f-4afd478ef3e4": {
+  "01a1d0c6-5b19-7c97-89e1-5e56aa0dfce1": {
    "project": "netbench-v2",
    "task": "18-pathprob",
    "model": "qwen3.8-flash",
@@ -1628,7 +1628,7 @@
    "cost": 0.165367,
    "durationMs": 2559568
   },
-  "01a1d210-2df1-7240-ac10-265f1c7b5f93": {
+  "01a1d210-2df1-7c2b-878d-5edfd7ba48ad": {
    "project": "netbench-v2",
    "task": "18-pathprob",
    "model": "qwen3.8-max-0902",
@@ -1641,7 +1641,7 @@
    "cost": 3.266327,
    "durationMs": 5250356
   },
-  "01a1d581-0849-7df9-ab0a-2ebd2ee3f365": {
+  "01a1d581-0849-7bc2-85ad-c84d5c803d70": {
    "project": "netbench-v2",
    "task": "19-flowzip",
    "model": "GLM-5.3-Flash",
@@ -1654,7 +1654,7 @@
    "cost": 0.224107,
    "durationMs": 4599921
   },
-  "01a1d3c4-53d5-71cc-8861-5c1736678f66": {
+  "01a1d3c4-53d5-7a47-881e-d0c224e44b05": {
    "project": "netbench-v2",
    "task": "19-flowzip",
    "model": "MiMo-V2.6-Pro",
@@ -1667,7 +1667,7 @@
    "cost": 0.285105,
    "durationMs": 3927386
   },
-  "01a1d37a-ed29-731f-8757-ad689e0efd66": {
+  "01a1d37a-ed29-7118-8ed1-9eda3bcd4278": {
    "project": "netbench-v2",
    "task": "19-flowzip",
    "model": "MiniMax-M3.1-Flash",
@@ -1680,7 +1680,7 @@
    "cost": 0.128877,
    "durationMs": 1507096
   },
-  "01a1d12b-0f63-7cfd-935d-ad3c633e8d0b": {
+  "01a1d12b-0f63-7d5d-8562-30d0e3c6b859": {
    "project": "netbench-v2",
    "task": "19-flowzip",
    "model": "deepseek-v4.1-flash-1017",
@@ -1693,7 +1693,7 @@
    "cost": 0.419106,
    "durationMs": 3024800
   },
-  "01a1d1b3-b1b8-7748-99d1-665562d16696": {
+  "01a1d1b3-b1b8-7a6a-bdc2-44d800173bff": {
    "project": "netbench-v2",
    "task": "19-flowzip",
    "model": "glm-5.3",
@@ -1706,7 +1706,7 @@
    "cost": 1.926497,
    "durationMs": 5205694
   },
-  "01a1d0ca-ed8b-717b-9660-2220be81567a": {
+  "01a1d0ca-ed8b-7d00-878b-f775f1026a2e": {
    "project": "netbench-v2",
    "task": "19-flowzip",
    "model": "qwen3.8-flash",
@@ -1719,7 +1719,7 @@
    "cost": 0.160165,
    "durationMs": 3316239
   },
-  "01a1d214-c2ca-7e7e-975d-4e574a225605": {
+  "01a1d214-c2ca-7735-a8b7-1e3fc733fbc4": {
    "project": "netbench-v2",
    "task": "19-flowzip",
    "model": "qwen3.8-max-0902",
@@ -1732,7 +1732,7 @@
    "cost": 2.68316,
    "durationMs": 4727599
   },
-  "01a1d5ac-4519-7b9f-931c-5917f1c41db3": {
+  "01a1d5ac-4519-7e0d-9f0c-ba1369b71ed0": {
    "project": "netbench-v2",
    "task": "20-forestcoll",
    "model": "GLM-5.3-Flash",
@@ -1745,7 +1745,7 @@
    "cost": 0.78759,
    "durationMs": 14416693
   },
-  "01a1d72e-4cf3-7609-b814-5da6ec96bb2e": {
+  "01a1d72e-4cf3-784f-a444-698425083ae8": {
    "project": "netbench-v2",
    "task": "20-forestcoll",
    "model": "MiMo-V2.6-Pro",
@@ -1758,7 +1758,7 @@
    "cost": 1.55505,
    "durationMs": 8393580
   },
-  "01a1d725-2482-7b59-83ba-7d89535f8cac": {
+  "01a1d725-2482-7670-b4ec-63cd30f853dc": {
    "project": "netbench-v2",
    "task": "20-forestcoll",
    "model": "MiniMax-M3.1-Flash",
@@ -1771,7 +1771,7 @@
    "cost": 0.419012,
    "durationMs": 2400617
   },
-  "01a1d71b-fb77-79d3-a94a-a91eeb78831a": {
+  "01a1d71b-fb77-7aa7-86ea-b9aa966fecb6": {
    "project": "netbench-v2",
    "task": "20-forestcoll",
    "model": "deepseek-v4.1-flash-1017",
@@ -1784,7 +1784,7 @@
    "cost": 1.840364,
    "durationMs": 7871207
   },
-  "01a1d7b7-a951-766f-ba75-1f6dc3383715": {
+  "01a1d7b7-a951-7881-9c18-7f7ab14ee444": {
    "project": "netbench-v2",
    "task": "20-forestcoll",
    "model": "glm-5.3",
@@ -1797,7 +1797,7 @@
    "cost": 7.098609,
    "durationMs": 7337244
   },
-  "01a1d717-682d-7442-ba16-066a7c894692": {
+  "01a1d717-682d-7680-acd6-612430cec52e": {
    "project": "netbench-v2",
    "task": "20-forestcoll",
    "model": "qwen3.8-flash",
@@ -1810,7 +1810,7 @@
    "cost": 0.476069,
    "durationMs": 6178376
   },
-  "01a1d729-b866-7a75-b730-d13708e5a83b": {
+  "01a1d729-b866-7f11-a501-6d5037672b84": {
    "project": "netbench-v2",
    "task": "20-forestcoll",
    "model": "qwen3.8-max-0902",

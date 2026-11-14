@@ -1,0 +1,1 @@
+{"type":"message","id":"ba57cc82","parentId":"66b06d96","timestamp":"2026-11-13T14:10:09.958Z","message":{"role":"toolResult","toolCallId":"call_eea9c0e9d4444770b6254584","toolName":"bash","content":[{"type":"text","text":"Public checks passed: real CLI, manual policy/transport fixture and JSON validation.\n"}],"isError":false,"durationMs":550,"timestamp":1794579009958}}

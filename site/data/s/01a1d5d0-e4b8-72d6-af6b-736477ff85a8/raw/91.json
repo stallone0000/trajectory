@@ -1,0 +1,1 @@
+{"type":"message","id":"52b47034","parentId":"ed96a5a3","timestamp":"2026-11-13T17:13:27.125Z","message":{"role":"toolResult","toolCallId":"call_4c0cdc1bb9e8429f8b6b1567","toolName":"bash","content":[{"type":"text","text":"subreaper 0 2471781 2471777 2471777\nkillpg fail [Errno 1] Operation not permitted\n"}],"isError":false,"durationMs":40,"timestamp":1794590007125}}

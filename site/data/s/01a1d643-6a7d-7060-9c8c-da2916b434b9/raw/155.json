@@ -1,1 +1,0 @@
-{"type":"message","id":"76caff24","parentId":"17761dfc","timestamp":"2026-11-13T19:18:13.348Z","message":{"role":"toolResult","toolCallId":"call_9c6701af5d21482fb597d7c6","toolName":"bash","content":[{"type":"text","text":"[] [] {'current': None, 'resident': [], 'used': {'range': 0, 'exact': 0}}\n"}],"isError":false,"durationMs":2423,"timestamp":1794597493348}}

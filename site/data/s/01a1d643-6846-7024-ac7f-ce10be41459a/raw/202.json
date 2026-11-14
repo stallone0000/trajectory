@@ -1,1 +1,0 @@
-{"type":"message","id":"7b08883a","parentId":"9c534b02","timestamp":"2026-11-13T20:14:12.141Z","message":{"role":"toolResult","toolCallId":"call_ee28e260192146f889128fa7","toolName":"bash","content":[{"type":"text","text":"2.4s clusters 4 kept 2 entries 2 frags 800\n"}],"isError":false,"durationMs":4425,"timestamp":1794600852141}}

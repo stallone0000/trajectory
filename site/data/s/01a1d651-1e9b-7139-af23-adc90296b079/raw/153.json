@@ -1,0 +1,1 @@
+{"type":"message","id":"4d68015f","parentId":"1b11bc9a","timestamp":"2026-11-13T20:21:04.820Z","message":{"role":"toolResult","toolCallId":"call_6db504663a3f4d35975ea4ce","toolName":"bash","content":[{"type":"text","text":"OK\ndone 300 bad 0 time 2.8s\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180286,"timestamp":1794601264820}}

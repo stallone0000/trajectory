@@ -1,1 +1,0 @@
-{"type":"message","id":"b6b0626a","parentId":"f5f2940b","timestamp":"2026-11-13T21:25:20.262Z","message":{"role":"toolResult","toolCallId":"call_01a1d6ccf0437112927f17e5","toolName":"bash","content":[{"type":"text","text":"---\n.\n./tests\n./src\n./src/eywa\n"}],"isError":false,"durationMs":24,"timestamp":1794605120262}}

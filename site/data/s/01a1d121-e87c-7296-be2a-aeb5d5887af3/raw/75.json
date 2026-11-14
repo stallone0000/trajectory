@@ -1,1 +1,0 @@
-{"type":"message","id":"f5ecb214","parentId":"09f1c348","timestamp":"2026-11-12T19:31:01.392Z","message":{"role":"toolResult","toolCallId":"call_9b5349c9198f4992811023e6","toolName":"bash","content":[{"type":"text","text":"invalid suite passed\n"}],"isError":false,"durationMs":1672,"timestamp":1794511861392}}

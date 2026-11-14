@@ -1,1 +1,0 @@
-{"type":"message","id":"6e8edef1","parentId":"a0ebf4e7","timestamp":"2026-11-14T00:16:08.149Z","message":{"role":"toolResult","toolCallId":"call_e0981695bd6f47e1a06c43e5","toolName":"bash","content":[{"type":"text","text":"FAST MAXFLOW OK\n"}],"isError":false,"durationMs":1919,"timestamp":1794615368149}}

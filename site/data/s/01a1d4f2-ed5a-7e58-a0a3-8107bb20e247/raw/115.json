@@ -1,0 +1,1 @@
+{"type":"message","id":"3ea291ed","parentId":"2c4c492a","timestamp":"2026-11-13T14:11:57.515Z","message":{"role":"toolResult","toolCallId":"call_df87e141448c48fd8308098e","toolName":"bash","content":[{"type":"text","text":"multi-range projection matches brute force on 4000 random cases\n"}],"isError":false,"durationMs":164,"timestamp":1794579117515}}

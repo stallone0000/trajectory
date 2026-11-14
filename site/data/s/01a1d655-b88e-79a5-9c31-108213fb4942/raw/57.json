@@ -1,0 +1,1 @@
+{"type":"message","id":"db9ada88","parentId":"1bcf1200","timestamp":"2026-11-13T20:19:44.025Z","message":{"role":"toolResult","toolCallId":"call_6c32f304bfad44d99e9d7a52","toolName":"bash","content":[{"type":"text","text":"prctl dumpable: 0 0\nprctl subreaper: 0 0\nmemfd: 3 0\neuid 64007\n"}],"isError":false,"durationMs":79,"timestamp":1794601184025}}

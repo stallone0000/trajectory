@@ -1,1 +1,0 @@
-{"type":"message","id":"13536bd1","parentId":"e7293ae1","timestamp":"2026-11-14T03:26:49.556Z","message":{"role":"toolResult","toolCallId":"call_8db2535c11c74e7898aa81f4","toolName":"bash","content":[{"type":"text","text":"errors: ['root total 733 != 554', 'root total 737 != 753', 'root total 230 != 248']\n"}],"isError":false,"durationMs":71,"timestamp":1794626809556}}

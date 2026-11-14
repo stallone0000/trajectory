@@ -1,0 +1,1 @@
+{"type":"message","id":"556d90c2","parentId":"40067982","timestamp":"2026-11-13T17:06:42.779Z","message":{"role":"toolResult","toolCallId":"call_2267f58b1c5a48b39674b37f","toolName":"bash","content":[{"type":"text","text":"None\n---\nInitialize self.  See help(type(self)) for accurate signature.\n"}],"isError":false,"durationMs":134,"timestamp":1794589602779}}

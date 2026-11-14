@@ -1,1 +1,0 @@
-{"type":"message","id":"3412f13f","parentId":"6450fc54","timestamp":"2026-11-13T15:13:10.481Z","message":{"role":"toolResult","toolCallId":"call_9d19b32904c4482281414a87","toolName":"bash","content":[{"type":"text","text":"BE sum 0xc889a023 LE-read sum 0x25a189c5\nwant 0xa861ea74 got 0x74ea61a8\n"}],"isError":false,"durationMs":55,"timestamp":1794582790481}}

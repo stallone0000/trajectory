@@ -1,0 +1,1 @@
+{"type":"message","id":"6bc8c4d8","parentId":"2c05a5aa","timestamp":"2026-11-13T15:18:43.740Z","message":{"role":"toolResult","toolCallId":"call_a0863d8e55c044a0badac46d","toolName":"bash","content":[{"type":"text","text":"rc 0 wall 1.55 cpu-child?\nstderr: \nstdout bytes 16760\n"}],"isError":false,"durationMs":1604,"timestamp":1794583123740}}

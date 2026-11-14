@@ -1,1 +1,0 @@
-{"type":"message","id":"e6ebd816","parentId":"0007dad7","timestamp":"2026-11-13T18:03:24.327Z","message":{"role":"toolResult","toolCallId":"call_e0176d1ff1ef416d8a187e12","toolName":"bash","content":[{"type":"text","text":"numpy\nnumpy-1.26.4.dist-info\nnumpy.libs\n---\n1.26.4\n"}],"isError":false,"durationMs":365,"timestamp":1794593004327}}

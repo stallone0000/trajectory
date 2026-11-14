@@ -1,1 +1,0 @@
-{"type":"message","id":"21a273af","parentId":"cb24d93e","timestamp":"2026-11-13T16:52:04.843Z","message":{"role":"toolResult","toolCallId":"call_6f6e5842edd34249a1f7d535","toolName":"bash","content":[{"type":"text","text":"0\nPASS: 3 public example\n--- final regression ---\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180116,"timestamp":1794588724843}}

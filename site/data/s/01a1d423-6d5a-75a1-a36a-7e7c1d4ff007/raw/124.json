@@ -1,1 +1,0 @@
-{"type":"message","id":"85548a7d","parentId":"9af00b05","timestamp":"2026-11-13T09:34:11.788Z","message":{"role":"toolResult","toolCallId":"call_d1b8607ccefa4ba59a67f96e","toolName":"bash","content":[{"type":"text","text":"request bytes 90419\n 0 /tmp/maxresp.jsonl\n48 /tmp/maxerr\n48 total\n\n"}],"isError":false,"durationMs":52,"timestamp":1794562451788}}

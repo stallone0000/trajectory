@@ -1,1 +1,0 @@
-{"type":"message","id":"7fec5698","parentId":"655eb460","timestamp":"2026-11-14T00:27:18.063Z","message":{"role":"toolResult","toolCallId":"call_98b9f91623a64807b78e8afe","toolName":"bash","content":[{"type":"text","text":"CAP WITNESS OK\n"}],"isError":false,"durationMs":1141,"timestamp":1794616038063}}

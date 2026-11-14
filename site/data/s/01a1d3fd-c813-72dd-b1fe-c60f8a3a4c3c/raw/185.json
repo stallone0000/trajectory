@@ -1,1 +1,0 @@
-{"type":"message","id":"e353e14c","parentId":"5fa06d3a","timestamp":"2026-11-13T09:49:06.946Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-94ef89cab94fba88","toolName":"bash","content":[{"type":"text","text":"soak: 101 fabrics, 0 failures, 0.3s\n"}],"isError":false,"durationMs":1113,"timestamp":1794563346946}}

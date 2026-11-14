@@ -1,0 +1,1 @@
+{"type":"message","id":"fa2f5663","parentId":"033b8c5b","timestamp":"2026-11-12T17:40:22.581Z","message":{"role":"toolResult","toolCallId":"call_1063095ac9a8478e83a38352","toolName":"bash","content":[{"type":"text","text":"gate tests bad 0\n"}],"isError":false,"durationMs":997,"timestamp":1794505222581}}

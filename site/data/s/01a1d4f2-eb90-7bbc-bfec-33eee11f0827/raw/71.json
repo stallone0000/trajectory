@@ -1,1 +1,0 @@
-{"type":"message","id":"f8821a4b","parentId":"00dc253a","timestamp":"2026-11-13T13:09:48.201Z","message":{"role":"toolResult","toolCallId":"call_8c32aab9d595430e8e2c4008","toolName":"bash","content":[{"type":"text","text":"migration direct ok\n"}],"isError":false,"durationMs":482,"timestamp":1794575388201}}

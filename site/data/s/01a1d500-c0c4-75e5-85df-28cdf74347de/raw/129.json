@@ -1,1 +1,0 @@
-{"type":"message","id":"274dc13f","parentId":"c29c8443","timestamp":"2026-11-13T13:46:10.476Z","message":{"role":"toolResult","toolCallId":"call_71ad8d333546491cb6bed5d9","toolName":"bash","content":[{"type":"text","text":"seed 5 CHILDFAIL\ndone 1\n"}],"isError":false,"durationMs":562,"timestamp":1794577570476}}

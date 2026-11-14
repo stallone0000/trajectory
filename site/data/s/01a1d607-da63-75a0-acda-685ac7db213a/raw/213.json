@@ -1,0 +1,1 @@
+{"type":"message","id":"c9259437","parentId":"ebcd1469","timestamp":"2026-11-13T18:44:00.962Z","message":{"role":"toolResult","toolCallId":"call_c1e0cbdfcbab49af8ae1577e","toolName":"bash","content":[{"type":"text","text":"{\"cases\":[]}\n{\"error\":\"invalid_request\"}\n0 b'{\"cases\":[]}\\n' b''\n"}],"isError":false,"durationMs":867,"timestamp":1794595440962}}

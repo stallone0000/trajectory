@@ -1,0 +1,1 @@
+{"type":"message","id":"d42b7f7a","parentId":"6b59cfa0","timestamp":"2026-11-13T18:02:57.496Z","message":{"role":"toolResult","toolCallId":"call_4b1ea6566237421aad24d1a1","toolName":"bash","content":[{"type":"text","text":"\"\"\"Unit/prefix projections for traffic masses and arbitrary active masks.\n\nThe k\n"}],"isError":false,"durationMs":54,"timestamp":1794592977496}}

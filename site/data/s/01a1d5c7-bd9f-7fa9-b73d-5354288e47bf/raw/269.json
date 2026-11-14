@@ -1,1 +1,0 @@
-{"type":"message","id":"ace9ea90","parentId":"34dd7553","timestamp":"2026-11-13T17:17:16.750Z","message":{"role":"toolResult","toolCallId":"call_d486407c158f4d318a696fbd","toolName":"bash","content":[{"type":"text","text":"raw bytes 131213\nrecs 0 rej [[0, 0]]\n"}],"isError":false,"durationMs":79,"timestamp":1794590236750}}

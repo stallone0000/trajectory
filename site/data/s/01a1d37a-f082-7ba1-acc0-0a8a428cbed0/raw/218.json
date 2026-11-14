@@ -1,0 +1,1 @@
+{"type":"message","id":"b30070fa","parentId":"95387c01","timestamp":"2026-11-13T07:11:13.854Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-8e5727dfb4878dd4","toolName":"bash","content":[{"type":"text","text":"crash at op index 23 ['save']\n"}],"isError":false,"durationMs":921,"timestamp":1794553873854}}

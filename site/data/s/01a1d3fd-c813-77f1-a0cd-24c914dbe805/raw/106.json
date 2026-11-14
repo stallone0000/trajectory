@@ -1,0 +1,1 @@
+{"type":"message","id":"5cb63c76","parentId":"25bf06dd","timestamp":"2026-11-13T09:30:01.515Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a9b92935b78c8d63","toolName":"bash","content":[{"type":"text","text":"replay 0.46s peak 5000 always_known False\nmaxrss MB 116.61328125\n"}],"isError":false,"durationMs":2714,"timestamp":1794562201515}}

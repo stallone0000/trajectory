@@ -1,0 +1,1 @@
+{"type":"message","id":"32a1c5fc","parentId":"9d9ee3ef","timestamp":"2026-11-13T10:39:25.265Z","message":{"role":"toolResult","toolCallId":"call_28bb83a2a5864cce9d5839b6","toolName":"bash","content":[{"type":"text","text":"path-BF fallback calls: 0\n"}],"isError":false,"durationMs":1006,"timestamp":1794566365265}}

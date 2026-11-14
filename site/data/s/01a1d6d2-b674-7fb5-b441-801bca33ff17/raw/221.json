@@ -1,0 +1,1 @@
+{"type":"message","id":"ed43cca0","parentId":"c6fbf471","timestamp":"2026-11-13T22:24:18.822Z","message":{"role":"toolResult","toolCallId":"call_d5e03c033be746b8926ff447","toolName":"bash","content":[{"type":"text","text":"{\"cases\":[{\"name\":\"copper\",\"stream\":0,\"state\":\"ok\",\"at\":1,\"f\ndone bad= 0\n"}],"isError":false,"durationMs":1621,"timestamp":1794608658822}}

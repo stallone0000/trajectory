@@ -1,1 +1,0 @@
-{"type":"message","id":"4c8907a8","parentId":"7c210d60","timestamp":"2026-11-13T22:25:58.668Z","message":{"role":"toolResult","toolCallId":"call_02ce3d8823c8434694ed6a55","toolName":"bash","content":[{"type":"text","text":"None [[None, 14], ['A', 13]] ['mixed_owner', 'unattributed']\n0 ['missing_origin']\n"}],"isError":false,"durationMs":193,"timestamp":1794608758668}}

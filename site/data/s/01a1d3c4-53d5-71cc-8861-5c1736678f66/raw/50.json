@@ -1,1 +1,0 @@
-{"type":"message","id":"5b11db5d","parentId":"1a0f926e","timestamp":"2026-11-13T08:00:27.884Z","message":{"role":"toolResult","toolCallId":"call_65f02b0c5c8b46d58c3bf403","toolName":"bash","content":[{"type":"text","text":"small random cases: 120 failures: 0 cand-time 0.1s\n"}],"isError":false,"durationMs":286,"timestamp":1794556827884}}

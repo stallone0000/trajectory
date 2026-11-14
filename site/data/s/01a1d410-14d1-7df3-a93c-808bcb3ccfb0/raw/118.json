@@ -1,0 +1,1 @@
+{"type":"message","id":"b5601d9c","parentId":"ab1a7055","timestamp":"2026-11-13T09:34:29.289Z","message":{"role":"toolResult","toolCallId":"call_f2de5a9deb9d4f23a5c944d3","toolName":"bash","content":[{"type":"text","text":"ref ordering fixed\nreplay stress done, mismatches: 0\ncase 690 ok\nALL OK\n"}],"isError":false,"durationMs":1648,"timestamp":1794562469289}}

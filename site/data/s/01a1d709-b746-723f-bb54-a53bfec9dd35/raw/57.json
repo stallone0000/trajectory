@@ -1,1 +1,0 @@
-{"type":"message","id":"797e0901","parentId":"7ed90802","timestamp":"2026-11-13T22:55:19.780Z","message":{"role":"toolResult","toolCallId":"call_8060a214b2a244588ca01bb9","toolName":"bash","content":[{"type":"text","text":"         ^^^\nNameError: name 'got' is not defined\n"}],"isError":false,"durationMs":95,"timestamp":1794610519780}}

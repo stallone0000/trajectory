@@ -1,1 +1,0 @@
-{"type":"message","id":"7d7ce39f","parentId":"d536c740","timestamp":"2026-11-13T06:30:54.451Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-b5937799365b70ed","toolName":"bash","content":[{"type":"text","text":"Build complete.\n{\"error\":\"invalid\"}\n"}],"isError":false,"durationMs":9510,"timestamp":1794551454451}}

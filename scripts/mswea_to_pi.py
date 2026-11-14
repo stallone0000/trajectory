@@ -43,7 +43,7 @@ import re
 import sys
 from pathlib import Path
 
-TRANSLATOR_VERSION = "mswea_to_pi/3"
+TRANSLATOR_VERSION = "mswea_to_pi/4"  # 2026-11-14: netbench-v2 re-import with 360 prices; v3 ids tombstoned
 ACTION_RE = re.compile(r"```(?:bash|mswea_bash_command)\s*\n(.*?)\n```", re.DOTALL)
 RETURNCODE_RE = re.compile(r"<returncode>\s*(-?\d+)\s*</returncode>")
 OUTPUT_RE = re.compile(r"<output>\n?(.*?)\n?</output>", re.DOTALL)

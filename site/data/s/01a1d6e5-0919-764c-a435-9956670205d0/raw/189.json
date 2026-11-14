@@ -1,1 +1,0 @@
-{"type":"message","id":"6ed3e6be","parentId":"3f0b4f27","timestamp":"2026-11-13T22:13:06.180Z","message":{"role":"toolResult","toolCallId":"call_d0c4ccab70fa428ab0cae2ba","toolName":"bash","content":[{"type":"text","text":"all 512 stream tests match\n"}],"isError":false,"durationMs":2302,"timestamp":1794607986180}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"86334cb5","parentId":"1b40e601","timestamp":"2026-11-13T22:32:13.604Z","message":{"role":"toolResult","toolCallId":"call_a42359ae24704830958e3032","toolName":"bash","content":[{"type":"text","text":"[('a', {'kind': 'incomplete', 'offset': 0}, 0), ('b', None, 1)]\n"}],"isError":false,"durationMs":211,"timestamp":1794609133604}}

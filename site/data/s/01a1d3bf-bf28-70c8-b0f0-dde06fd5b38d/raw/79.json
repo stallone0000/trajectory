@@ -1,0 +1,1 @@
+{"type":"message","id":"f43aca45","parentId":"c6398ecf","timestamp":"2026-11-13T08:15:41.554Z","message":{"role":"toolResult","toolCallId":"call_52c48a02530b4d48a103ce7b","toolName":"bash","content":[{"type":"text","text":"boundary tests: 0 failures\n"}],"isError":false,"durationMs":330,"timestamp":1794557741554}}

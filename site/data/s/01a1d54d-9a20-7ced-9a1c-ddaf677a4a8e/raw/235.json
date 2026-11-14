@@ -1,0 +1,1 @@
+{"type":"message","id":"4f279322","parentId":"e0357066","timestamp":"2026-11-13T15:32:46.912Z","message":{"role":"toolResult","toolCallId":"call_1da1d3c0146c443a9f6cbdea","toolName":"bash","content":[{"type":"text","text":"layout fuzz done, failures: 0\nimport clean\n"}],"isError":false,"durationMs":187,"timestamp":1794583966912}}

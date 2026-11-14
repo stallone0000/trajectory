@@ -1,0 +1,1 @@
+{"type":"message","id":"1c52f31e","parentId":"a1215776","timestamp":"2026-11-13T23:10:28.466Z","message":{"role":"toolResult","toolCallId":"call_6e2611753ec548b995b2ba94","toolName":"bash","content":[{"type":"text","text":"2000 distinct slices of deep chain: 0.03s\n2000 name refs: 0.009s\n"}],"isError":false,"durationMs":696,"timestamp":1794611428466}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"d6452a20","parentId":"46ac2348","timestamp":"2026-11-13T11:01:27.314Z","message":{"role":"toolResult","toolCallId":"call_4a294a8122d74df694ea2eaf","toolName":"bash","content":[{"type":"text","text":"warmup 2\nages row0 [0, 8, 15]\nbrute warmup 2\nzero-cost warmup semantics OK\n"}],"isError":false,"durationMs":277,"timestamp":1794567687314}}

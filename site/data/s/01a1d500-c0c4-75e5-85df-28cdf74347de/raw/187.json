@@ -1,1 +1,0 @@
-{"type":"message","id":"59eab8e2","parentId":"2af0dc8f","timestamp":"2026-11-13T14:06:20.716Z","message":{"role":"toolResult","toolCallId":"call_6dbf91e5d0c945c29bdda12b","toolName":"bash","content":[{"type":"text","text":"R per version [63, 61]\nbursts 120 addrs 7680\n"}],"isError":false,"durationMs":274,"timestamp":1794578780716}}

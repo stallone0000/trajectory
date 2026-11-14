@@ -1,0 +1,1 @@
+{"type":"message","id":"56a3f4cb","parentId":"3d1b8595","timestamp":"2026-11-13T13:54:16.096Z","message":{"role":"toolResult","toolCallId":"call_7a3f990c4ee64dd4abfd367b","toolName":"bash","content":[{"type":"text","text":"Invalid: IPv6 address\n"}],"isError":false,"durationMs":72,"timestamp":1794578056096}}

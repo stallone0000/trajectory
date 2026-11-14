@@ -1,1 +1,0 @@
-{"type":"message","id":"ecddae4e","parentId":"65cd72e2","timestamp":"2026-11-13T23:15:58.365Z","message":{"role":"toolResult","toolCallId":"call_4c57499766374f06974868a3","toolName":"bash","content":[{"type":"text","text":"expected denied but prepared 2 0 [0, 1] {0: 0, 1: 3} [] {} [1]\n"}],"isError":false,"durationMs":834,"timestamp":1794611758365}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"6a73ecb7","parentId":"1fb2d5a7","timestamp":"2026-11-13T17:00:12.641Z","message":{"role":"toolResult","toolCallId":"call_3ebbd82030c64a8e9a978677","toolName":"bash","content":[{"type":"text","text":"ok logical record budget\n"}],"isError":false,"durationMs":84,"timestamp":1794589212641}}

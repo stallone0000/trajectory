@@ -1,1 +1,0 @@
-{"type":"message","id":"2bac918e","parentId":"0a5b2744","timestamp":"2026-11-13T21:24:35.978Z","message":{"role":"toolResult","toolCallId":"call_d144f60259b24fefb70d897c","toolName":"bash","content":[{"type":"text","text":"input 462008\ntime 0.11853790283203125 rc 0 out 598030 err b''\n2048 accept\n"}],"isError":false,"durationMs":192,"timestamp":1794605075978}}

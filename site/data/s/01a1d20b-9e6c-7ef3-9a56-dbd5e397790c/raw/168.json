@@ -1,0 +1,1 @@
+{"type":"message","id":"c71ef019","parentId":"832ac6ec","timestamp":"2026-11-13T00:58:24.653Z","message":{"role":"toolResult","toolCallId":"call_1919117fb74047108a583f04","toolName":"bash","content":[{"type":"text","text":"42:enum ScampNodeType : int {\n0\nBuild complete.\n"}],"isError":false,"durationMs":12227,"timestamp":1794531504653}}

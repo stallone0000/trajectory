@@ -1,0 +1,1 @@
+{"type":"message","id":"17876d97","parentId":"94fcc9c4","timestamp":"2026-11-13T22:13:20.409Z","message":{"role":"toolResult","toolCallId":"call_e789509cd7724437a59d7b17","toolName":"bash","content":[{"type":"text","text":"b'0' True\nb'09' True\nb'' False\nb'\\xb2' False\nb'\\xff' False\nb'1a' False\n"}],"isError":false,"durationMs":34,"timestamp":1794608000409}}

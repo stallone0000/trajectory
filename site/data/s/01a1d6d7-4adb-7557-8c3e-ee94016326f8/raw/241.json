@@ -1,0 +1,1 @@
+{"type":"message","id":"845bfed1","parentId":"2a7cc88f","timestamp":"2026-11-13T22:17:49.443Z","message":{"role":"toolResult","toolCallId":"call_2cbd2dd92b6640629749a992","toolName":"bash","content":[{"type":"text","text":"PASS: 3 public CLI fixtures (no score)\n"}],"isError":false,"durationMs":506,"timestamp":1794608269443}}

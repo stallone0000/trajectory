@@ -1,1 +1,0 @@
-{"type":"message","id":"94efd7eb","parentId":"fabfdbba","timestamp":"2026-11-13T11:16:39.028Z","message":{"role":"toolResult","toolCallId":"call_a8c6ea4dfb1e4b76a460aa23","toolName":"bash","content":[{"type":"text","text":"---\nPASS: 2 public requests; this is not the hidden acceptance suite\n"}],"isError":false,"durationMs":150340,"timestamp":1794568599028}}

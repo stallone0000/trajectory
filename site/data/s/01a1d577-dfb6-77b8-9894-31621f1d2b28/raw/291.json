@@ -1,0 +1,1 @@
+{"type":"message","id":"245d7a69","parentId":"47ace68b","timestamp":"2026-11-13T17:10:30.873Z","message":{"role":"toolResult","toolCallId":"call_6d4322bb3a4642ee9daa8319","toolName":"bash","content":[{"type":"text","text":"15\nrej predicate\nb'{\"results\":[{\"events\":[{\"error\":\"rejected\"}]}]}'\n"}],"isError":false,"durationMs":145,"timestamp":1794589830873}}

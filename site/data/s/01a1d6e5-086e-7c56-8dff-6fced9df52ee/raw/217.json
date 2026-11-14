@@ -1,0 +1,1 @@
+{"type":"message","id":"d963d672","parentId":"6fb4b9aa","timestamp":"2026-11-13T23:36:50.836Z","message":{"role":"toolResult","toolCallId":"call_a65462eeea93402f932caf90","toolName":"bash","content":[{"type":"text","text":"-rw-r--r-- 1 64015 64015 0 Nov 13 23:36 fuzz_cli.log\n"}],"isError":false,"durationMs":77,"timestamp":1794613010836}}

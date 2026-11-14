@@ -1,1 +1,0 @@
-{"type":"message","id":"5469a298","parentId":"7f32ece3","timestamp":"2026-11-13T13:54:18.557Z","message":{"role":"toolResult","toolCallId":"call_12a451843cbd43669fca3d0d","toolName":"bash","content":[{"type":"text","text":"import fail ModuleNotFoundError No module named 'FAdo'\n"}],"isError":false,"durationMs":84,"timestamp":1794578058557}}

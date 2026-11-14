@@ -1,1 +1,0 @@
-{"type":"message","id":"b5786ad1","parentId":"2e78c053","timestamp":"2026-11-13T17:06:30.421Z","message":{"role":"toolResult","toolCallId":"call_4695ef89dcac4ec3afedc134","toolName":"bash","content":[{"type":"text","text":"chunked staging FIFO installed\nexample: False\n"}],"isError":false,"durationMs":109,"timestamp":1794589590421}}

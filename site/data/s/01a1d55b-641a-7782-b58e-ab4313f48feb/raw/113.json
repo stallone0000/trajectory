@@ -1,1 +1,0 @@
-{"type":"message","id":"9ac0619b","parentId":"6cb2b437","timestamp":"2026-11-13T15:23:02.727Z","message":{"role":"toolResult","toolCallId":"call_f17d82584dfc4b1db6828cdb","toolName":"bash","content":[{"type":"text","text":"wire-expansion trials 400 bad 0\n"}],"isError":false,"durationMs":630,"timestamp":1794583382727}}

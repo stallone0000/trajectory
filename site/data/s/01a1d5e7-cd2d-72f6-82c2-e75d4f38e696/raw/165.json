@@ -1,1 +1,0 @@
-{"type":"message","id":"c153278c","parentId":"b8201015","timestamp":"2026-11-13T18:58:47.773Z","message":{"role":"toolResult","toolCallId":"call_e978a18f680348bca609acf3","toolName":"bash","content":[{"type":"text","text":"capture fuzz 250 ok\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180142,"timestamp":1794596327773}}

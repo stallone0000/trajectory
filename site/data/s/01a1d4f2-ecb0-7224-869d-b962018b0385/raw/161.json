@@ -1,1 +1,0 @@
-{"type":"message","id":"c6085ae3","parentId":"397e6698","timestamp":"2026-11-13T14:10:53.907Z","message":{"role":"toolResult","toolCallId":"call_eb02ecab7f324723a4c7c325","toolName":"bash","content":[{"type":"text","text":"end-to-end differential bad = 0\n"}],"isError":false,"durationMs":671,"timestamp":1794579053907}}

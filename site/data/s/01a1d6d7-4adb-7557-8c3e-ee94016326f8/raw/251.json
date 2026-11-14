@@ -1,0 +1,1 @@
+{"type":"message","id":"faed1007","parentId":"c33670de","timestamp":"2026-11-13T22:18:32.511Z","message":{"role":"toolResult","toolCallId":"call_f603fe62e24044859523dc45","toolName":"bash","content":[{"type":"text","text":"line incomplete\nfind -1 b'c\\n'\n"}],"isError":false,"durationMs":122,"timestamp":1794608312511}}

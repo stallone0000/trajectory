@@ -1,1 +1,0 @@
-{"type":"message","id":"0aaa69bc","parentId":"1fe0ad52","timestamp":"2026-11-13T14:50:10.188Z","message":{"role":"toolResult","toolCallId":"call_4d0b1061f36a447aa90e35b6","toolName":"bash","content":[{"type":"text","text":"returncodes [2, 2, 2, 2]\nall identical: True bytes 0\n"}],"isError":false,"durationMs":300,"timestamp":1794581410188}}

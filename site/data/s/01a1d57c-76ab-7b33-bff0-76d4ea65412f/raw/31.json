@@ -1,0 +1,1 @@
+{"type":"message","id":"d0cd6733","parentId":"7b83ef14","timestamp":"2026-11-13T15:28:24.205Z","message":{"role":"toolResult","toolCallId":"call_77d6c41fe9a345bc83bc1c98","toolName":"bash","content":[{"type":"text","text":"engine\nlibrust_unit_merge.rlib\n{\"error\":\"invalid\"}\n"}],"isError":false,"durationMs":2687,"timestamp":1794583704205}}

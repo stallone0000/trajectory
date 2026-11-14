@@ -1,1 +1,0 @@
-{"type":"message","id":"8bc3029d","parentId":"90864e4d","timestamp":"2026-11-13T23:27:18.067Z","message":{"role":"toolResult","toolCallId":"call_da3a23052abd4a3d8076513c","toolName":"bash","content":[{"type":"text","text":"done fuzz2 seed=21 iters=40 bad=0\ndone fuzz2 seed=22 iters=40 bad=0\n"}],"isError":false,"durationMs":1348,"timestamp":1794612438067}}

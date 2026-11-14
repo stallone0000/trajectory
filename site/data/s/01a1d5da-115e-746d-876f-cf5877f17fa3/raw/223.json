@@ -1,0 +1,1 @@
+{"type":"message","id":"0cafdfc5","parentId":"50fa314c","timestamp":"2026-11-13T17:43:18.904Z","message":{"role":"toolResult","toolCallId":"call_02964c0dd9b34e9b83f52498","toolName":"bash","content":[{"type":"text","text":"plan {'resolved': 0, 'cost': 0, 'assignments': []}\noracle (0, 0)\n"}],"isError":false,"durationMs":101,"timestamp":1794591798904}}

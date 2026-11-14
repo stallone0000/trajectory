@@ -1,1 +1,0 @@
-{"type":"message","id":"bed30662","parentId":"d6285e00","timestamp":"2026-11-13T22:06:29.498Z","message":{"role":"toolResult","toolCallId":"call_73978cceb9c4465bad475308","toolName":"bash","content":[{"type":"text","text":"elapsed 0.293381929397583 rc 0 err b''\nOK 4096 4096 4096 [[0, 4096]] 1 True\n"}],"isError":false,"durationMs":373,"timestamp":1794607589498}}

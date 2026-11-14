@@ -1,0 +1,1 @@
+{"type":"message","id":"b99cc994","parentId":"036cf5d6","timestamp":"2026-11-13T14:17:28.843Z","message":{"role":"toolResult","toolCallId":"call_fde3fc7692fc480d95628651","toolName":"bash","content":[{"type":"text","text":"FAIL lru miss after eviction\nfailures: ['lru miss after eviction']\n"}],"isError":false,"durationMs":161,"timestamp":1794579448843}}

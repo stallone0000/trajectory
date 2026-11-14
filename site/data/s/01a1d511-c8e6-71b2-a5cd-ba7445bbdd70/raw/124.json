@@ -1,1 +1,0 @@
-{"type":"message","id":"3125bd19","parentId":"415a95bd","timestamp":"2026-11-13T14:19:31.050Z","message":{"role":"toolResult","toolCallId":"call_54e2ab0875fa427fa1111557","toolName":"bash","content":[{"type":"text","text":"parse Invalid: committed route-entry budget\naddresses ok\n"}],"isError":false,"durationMs":284,"timestamp":1794579571050}}

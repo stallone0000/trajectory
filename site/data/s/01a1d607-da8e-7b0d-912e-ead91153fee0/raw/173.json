@@ -1,1 +1,0 @@
-{"type":"message","id":"197f724e","parentId":"4bdd279f","timestamp":"2026-11-13T19:24:18.871Z","message":{"role":"toolResult","toolCallId":"call_f311bf2fe4844b1d8d34f2d4","toolName":"bash","content":[{"type":"text","text":"range 1000 1040 failures 0 slowest 0.014 seed 1028\ncompared 186 mismatch 0\n"}],"isError":false,"durationMs":18245,"timestamp":1794597858871}}

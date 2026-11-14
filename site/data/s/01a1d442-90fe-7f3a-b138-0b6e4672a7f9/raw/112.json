@@ -1,1 +1,0 @@
-{"type":"message","id":"8dd4ab4f","parentId":"7fe57a56","timestamp":"2026-11-13T10:51:48.973Z","message":{"role":"toolResult","toolCallId":"call_c1ab624c6edf43158c7490ae","toolName":"bash","content":[{"type":"text","text":"checked 25 large-control batches\n"}],"isError":false,"durationMs":67869,"timestamp":1794567108973}}

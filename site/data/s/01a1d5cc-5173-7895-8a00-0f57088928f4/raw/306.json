@@ -1,1 +1,0 @@
-{"type":"message","id":"bff252f9","parentId":"ca952e54","timestamp":"2026-11-13T19:33:43.272Z","message":{"role":"toolResult","toolCallId":"call_92c535dbc553446db9df7ef7","toolName":"bash","content":[{"type":"text","text":"done {'nx': 2000, 'ssp': 2000, 'greedy': 0, 'nonzero': 224} bad 0\n"}],"isError":false,"durationMs":4405,"timestamp":1794598423272}}

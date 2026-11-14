@@ -1,1 +1,0 @@
-{"type":"message","id":"3e11b39f","parentId":"08aba53b","timestamp":"2026-11-13T17:09:25.552Z","message":{"role":"toolResult","toolCallId":"call_c48c98a012e342139a70fc2d","toolName":"bash","content":[{"type":"text","text":"FAIL reject 'match(A,B) allow; match(A,B,C) drop;'\nFAIL eight complex rules ok\n"}],"isError":false,"durationMs":4178,"timestamp":1794589765552}}

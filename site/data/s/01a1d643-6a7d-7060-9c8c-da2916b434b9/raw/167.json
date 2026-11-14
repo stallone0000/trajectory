@@ -1,1 +1,0 @@
-{"type":"message","id":"9791694e","parentId":"316e0575","timestamp":"2026-11-13T19:19:13.163Z","message":{"role":"toolResult","toolCallId":"call_c33bdbd401154040901b31df","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: cmp: command not found\ndifferent\n"}],"isError":false,"durationMs":17,"timestamp":1794597553163}}

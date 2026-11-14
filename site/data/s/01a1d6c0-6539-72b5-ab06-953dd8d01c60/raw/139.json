@@ -1,0 +1,1 @@
+{"type":"message","id":"9fd45c64","parentId":"f742514b","timestamp":"2026-11-13T22:34:27.727Z","message":{"role":"toolResult","toolCallId":"call_f0fd9f0dc9fc49e599f4c3fd","toolName":"bash","content":[{"type":"text","text":"exactly 8MiB object: b'{\"error\":\"input\"}\\n' 0\nover 8MiB: b'{\"error\":\"input\"}\\n' 0\n"}],"isError":false,"durationMs":1281,"timestamp":1794609267727}}

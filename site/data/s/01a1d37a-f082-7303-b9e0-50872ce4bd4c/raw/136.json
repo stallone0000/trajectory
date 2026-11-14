@@ -1,1 +1,0 @@
-{"type":"message","id":"85f14990","parentId":"91c89869","timestamp":"2026-11-13T06:39:53.103Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-9daf4ade0c9a3478","toolName":"bash","content":[{"type":"text","text":"case 3 parse error case bounds\n  bad op: ['load_saved', 1] saved index\n"}],"isError":false,"durationMs":60,"timestamp":1794551993103}}

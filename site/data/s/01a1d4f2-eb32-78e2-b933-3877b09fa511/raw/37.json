@@ -1,1 +1,0 @@
-{"type":"message","id":"b2f444f7","parentId":"22add3c1","timestamp":"2026-11-13T12:57:34.457Z","message":{"role":"toolResult","toolCallId":"call_6572c711b9cc46819ec0ab4b","toolName":"bash","content":[{"type":"text","text":"all ok\ncanonical checks ok\n"}],"isError":false,"durationMs":848,"timestamp":1794574654457}}

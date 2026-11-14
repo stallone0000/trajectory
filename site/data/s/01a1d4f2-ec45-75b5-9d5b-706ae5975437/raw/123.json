@@ -1,0 +1,1 @@
+{"type":"message","id":"817129ce","parentId":"9897eb90","timestamp":"2026-11-13T13:22:43.894Z","message":{"role":"toolResult","toolCallId":"call_70d0a854737a4cf79db3953f","toolName":"bash","content":[{"type":"text","text":"True False True False\n[{'op': 'inspect'}] 0 0\n"}],"isError":false,"durationMs":88,"timestamp":1794576163894}}

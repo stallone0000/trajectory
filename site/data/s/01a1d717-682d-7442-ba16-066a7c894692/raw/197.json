@@ -1,1 +1,0 @@
-{"type":"message","id":"47831cd4","parentId":"12fa80bc","timestamp":"2026-11-13T23:58:51.787Z","message":{"role":"toolResult","toolCallId":"call_7c47f2fdf2b040b6b7ff7804","toolName":"bash","content":[{"type":"text","text":"PASS book-replay (0 bad of 6)\nPASS book-windows (0 bad of 9)\nTOTAL FAILURES 0\n"}],"isError":false,"durationMs":160,"timestamp":1794614331787}}

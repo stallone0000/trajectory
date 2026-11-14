@@ -1,1 +1,0 @@
-{"type":"message","id":"2d91aaee","parentId":"56513e6d","timestamp":"2026-11-13T21:53:11.135Z","message":{"role":"toolResult","toolCallId":"call_6a7d4e903a8b42e3bc17cffb","toolName":"bash","content":[{"type":"text","text":"rc=0 time=2.1s out=95948\nstress4 OK\n\nreal\t0m2.241s\nuser\t0m2.201s\nsys\t0m0.042s\n"}],"isError":false,"durationMs":2284,"timestamp":1794606791135}}

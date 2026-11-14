@@ -1,0 +1,1 @@
+{"type":"message","id":"e84e2b88","parentId":"adb4a182","timestamp":"2026-11-13T15:32:27.741Z","message":{"role":"toolResult","toolCallId":"call_2d7b5c7562664803a1e0038a","toolName":"bash","content":[{"type":"text","text":"alt builder produced an invalid image: bmp mismatch\n"}],"isError":false,"durationMs":83,"timestamp":1794583947741}}

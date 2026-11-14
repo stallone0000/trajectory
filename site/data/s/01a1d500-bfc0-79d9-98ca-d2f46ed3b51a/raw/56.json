@@ -1,1 +1,0 @@
-{"type":"message","id":"4e0d19d4","parentId":"2f0b5d7e","timestamp":"2026-11-13T13:15:13.070Z","message":{"role":"toolResult","toolCallId":"call_2d7a6b611139424b87bd52e9","toolName":"bash","content":[{"type":"text","text":"R5 PASS 0.5401594638824463\n"}],"isError":false,"durationMs":615,"timestamp":1794575713070}}

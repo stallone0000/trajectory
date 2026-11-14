@@ -1,1 +1,0 @@
-{"type":"message","id":"d3398992","parentId":"f1545f04","timestamp":"2026-11-13T19:36:30.928Z","message":{"role":"toolResult","toolCallId":"call_fb285a9ee7e64c61b0393b5e","toolName":"bash","content":[{"type":"text","text":"STDERR: CANON 0 pn=1000000 w=3 exp=0 c20000000101aa01bb00040f424001\n\n"}],"isError":false,"durationMs":2059,"timestamp":1794598590928}}

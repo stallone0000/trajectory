@@ -1,1 +1,0 @@
-{"type":"message","id":"67aab174","parentId":"a449a487","timestamp":"2026-11-13T17:52:14.179Z","message":{"role":"toolResult","toolCallId":"call_78b4444c4768415ba45d4104","toolName":"bash","content":[{"type":"text","text":"PASS inactive\nPASS inactive ledger live\nALL OK\n"}],"isError":false,"durationMs":1051,"timestamp":1794592334179}}

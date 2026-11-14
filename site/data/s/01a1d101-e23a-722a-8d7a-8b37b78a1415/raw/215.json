@@ -1,0 +1,1 @@
+{"type":"message","id":"9ac3634d","parentId":"bdd36445","timestamp":"2026-11-12T19:17:35.711Z","message":{"role":"toolResult","toolCallId":"call_e11956d6818448e2b87d8455","toolName":"bash","content":[{"type":"text","text":"e2e all ok 3053 5119\n"}],"isError":false,"durationMs":963,"timestamp":1794511055711}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"4c928ec1","parentId":"3c193c9c","timestamp":"2026-11-12T21:21:15.943Z","message":{"role":"toolResult","toolCallId":"call_ad2e92d59fbb485d8c91ff38","toolName":"bash","content":[{"type":"text","text":"iter 22 ok\niter 23 ok\niter 24 ok\nBAD: 0\n"}],"isError":false,"durationMs":1217,"timestamp":1794518475943}}

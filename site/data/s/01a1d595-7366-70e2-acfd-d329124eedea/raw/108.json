@@ -1,0 +1,1 @@
+{"type":"message","id":"bb6be804","parentId":"8d8d4eed","timestamp":"2026-11-13T16:47:18.611Z","message":{"role":"toolResult","toolCallId":"call_fa1ce5b85569418e814c8904","toolName":"bash","content":[{"type":"text","text":"atlas framing 7 5\natlas framing 5 3\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180132,"timestamp":1794588438611}}

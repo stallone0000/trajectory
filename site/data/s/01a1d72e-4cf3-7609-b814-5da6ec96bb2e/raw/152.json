@@ -1,1 +1,0 @@
-{"type":"message","id":"97560e88","parentId":"14b58115","timestamp":"2026-11-14T00:58:53.783Z","message":{"role":"toolResult","toolCallId":"call_0cb5b03a44a64c1ab43abe49","toolName":"bash","content":[{"type":"text","text":"fixed prune\nFAIL 45.0s BuildFailure('no plan found')\n"}],"isError":false,"durationMs":45112,"timestamp":1794617933783}}

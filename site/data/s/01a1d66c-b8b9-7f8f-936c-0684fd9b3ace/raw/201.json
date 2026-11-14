@@ -1,0 +1,1 @@
+{"type":"message","id":"ceb67821","parentId":"c50dc951","timestamp":"2026-11-13T20:35:13.501Z","message":{"role":"toolResult","toolCallId":"call_4f4121901c914562b0b94afa","toolName":"bash","content":[{"type":"text","text":"BAD ne bool 0 0 False True\nBAD ne bool 1 1 True False\ndone\n"}],"isError":false,"durationMs":1580,"timestamp":1794602113501}}

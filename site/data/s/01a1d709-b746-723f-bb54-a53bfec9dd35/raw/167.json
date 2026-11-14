@@ -1,1 +1,0 @@
-{"type":"message","id":"66e0c2b3","parentId":"66256c09","timestamp":"2026-11-13T23:21:44.748Z","message":{"role":"toolResult","toolCallId":"call_749b2c349c4141e183d7985b","toolName":"bash","content":[{"type":"text","text":"rc 0 ascii-only True\ntags roundtrip: True\nnum snaps 9\n"}],"isError":false,"durationMs":183,"timestamp":1794612104748}}

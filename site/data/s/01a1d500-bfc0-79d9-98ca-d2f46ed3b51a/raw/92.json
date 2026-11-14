@@ -1,1 +1,0 @@
-{"type":"message","id":"f9af6cba","parentId":"31145cf9","timestamp":"2026-11-13T13:23:59.880Z","message":{"role":"toolResult","toolCallId":"call_4963ca975b4640b2b4104fd3","toolName":"bash","content":[{"type":"text","text":"{\"error\":\"invalid\"}\n<class 'protocol.Invalid'> integer range\n"}],"isError":false,"durationMs":42,"timestamp":1794576239880}}

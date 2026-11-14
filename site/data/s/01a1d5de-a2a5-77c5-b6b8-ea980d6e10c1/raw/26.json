@@ -1,0 +1,1 @@
+{"type":"message","id":"2d0e04b8","parentId":"ac332bae","timestamp":"2026-11-13T17:12:58.088Z","message":{"role":"toolResult","toolCallId":"call_bfcb2a9b970043d3b85df52e","toolName":"bash","content":[{"type":"text","text":"131072\n[131072]\nerr field larger than field limit (131072)\n[70000]\n[60000]\n[1]\n"}],"isError":false,"durationMs":95,"timestamp":1794589978088}}

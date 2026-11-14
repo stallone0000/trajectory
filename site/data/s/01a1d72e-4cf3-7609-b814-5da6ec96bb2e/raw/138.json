@@ -1,1 +1,0 @@
-{"type":"message","id":"66bd7c5d","parentId":"c6df5c62","timestamp":"2026-11-14T00:47:42.749Z","message":{"role":"toolResult","toolCallId":"call_e084b3817d1a49448837987f","toolName":"bash","content":[{"type":"text","text":"saved. sum budgets=563, demands sum=26\nFAIL after 60.0s BuildFailure('no plan found')\n"}],"isError":false,"durationMs":82212,"timestamp":1794617262749}}

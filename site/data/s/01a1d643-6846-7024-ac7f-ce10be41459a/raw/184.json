@@ -1,1 +1,0 @@
-{"type":"message","id":"03f9ffc3","parentId":"bdaff601","timestamp":"2026-11-13T20:08:04.042Z","message":{"role":"toolResult","toolCallId":"call_c5eda79318f54029ac99a991","toolName":"bash","content":[{"type":"text","text":"replayx         2.0s m clusters=1024 kept=1 entries=1 frags=2048 noise=0 decisions=185\n"}],"isError":false,"durationMs":6009,"timestamp":1794600484042}}

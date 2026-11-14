@@ -1,1 +1,0 @@
-{"type":"message","id":"b9d60c10","parentId":"6e5df1a4","timestamp":"2026-11-12T17:39:12.607Z","message":{"role":"toolResult","toolCallId":"call_55965c07e27b4931b66997f1","toolName":"bash","content":[{"type":"text","text":"tie trials 400 bad 0\n"}],"isError":false,"durationMs":79850,"timestamp":1794505152607}}

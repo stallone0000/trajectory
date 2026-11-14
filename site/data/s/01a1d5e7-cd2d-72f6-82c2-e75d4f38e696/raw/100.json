@@ -1,1 +1,0 @@
-{"type":"message","id":"df072aea","parentId":"8dfcfeca","timestamp":"2026-11-13T18:06:27.062Z","message":{"role":"toolResult","toolCallId":"call_ff8ed7ad03104f639d672b82","toolName":"bash","content":[{"type":"text","text":"graph built 12298 20488\nnetwork_simplex: 1369364032699 time 2.111252546310425\n"}],"isError":false,"durationMs":3672,"timestamp":1794593187062}}

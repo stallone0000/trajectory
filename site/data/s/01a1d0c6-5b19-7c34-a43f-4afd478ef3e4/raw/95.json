@@ -1,1 +1,0 @@
-{"type":"message","id":"b004b7c8","parentId":"c8835390","timestamp":"2026-11-12T17:52:57.844Z","message":{"role":"toolResult","toolCallId":"call_f7a7d43c345d4003a592df81","toolName":"bash","content":[{"type":"text","text":"Counter({'wide-rejected': 2400, 'narrow-accepted': 1404}) bad 0\n"}],"isError":false,"durationMs":105344,"timestamp":1794505977844}}

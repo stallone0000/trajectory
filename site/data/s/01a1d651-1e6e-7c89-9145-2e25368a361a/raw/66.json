@@ -1,0 +1,1 @@
+{"type":"message","id":"19df3d05","parentId":"38f0f0e4","timestamp":"2026-11-13T20:12:35.472Z","message":{"role":"toolResult","toolCallId":"call_60ed848548484860aa3df822","toolName":"bash","content":[{"type":"text","text":"patched worker\npatched gen\ndone: 0/20 bad\n"}],"isError":false,"durationMs":8729,"timestamp":1794600755472}}

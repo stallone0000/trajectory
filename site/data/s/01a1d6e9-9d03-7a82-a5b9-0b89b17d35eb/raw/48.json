@@ -1,0 +1,1 @@
+{"type":"message","id":"61407bfc","parentId":"9a9723f0","timestamp":"2026-11-13T22:18:44.948Z","message":{"role":"toolResult","toolCallId":"call_04ce0c3985de4275b5ee355c","toolName":"bash","content":[{"type":"text","text":"ok   anon From with disp\n\nFAILS: 0 of 57\n"}],"isError":false,"durationMs":1433,"timestamp":1794608324948}}

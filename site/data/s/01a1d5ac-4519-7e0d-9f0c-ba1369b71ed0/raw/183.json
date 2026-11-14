@@ -1,0 +1,1 @@
+{"type":"message","id":"7cf2a367","parentId":"4e0cc2ac","timestamp":"2026-11-13T18:49:21.174Z","message":{"role":"toolResult","toolCallId":"call_05b31659abec49d0a5e880f6","toolName":"bash","content":[{"type":"text","text":"N=30 bad=0 worst=0.1s seed=5204 {'prepared': 0, 'denied': 30, 'other': 0}\n"}],"isError":false,"durationMs":1507,"timestamp":1794595761174}}

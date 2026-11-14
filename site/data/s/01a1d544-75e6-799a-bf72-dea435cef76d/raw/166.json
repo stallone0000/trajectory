@@ -1,0 +1,1 @@
+{"type":"message","id":"1f097d3c","parentId":"ca8ec046","timestamp":"2026-11-13T16:19:15.000Z","message":{"role":"toolResult","toolCallId":"call_38b7e09c71c9430ab6bd219c","toolName":"bash","content":[{"type":"text","text":"seed 1 plan 1.52 [8, 17] 261\nseed 2 plan 1.44 [3, 11] 233\nseed 3 plan 1.46 [7, 13] 269\n"}],"isError":false,"durationMs":4658,"timestamp":1794586755000}}

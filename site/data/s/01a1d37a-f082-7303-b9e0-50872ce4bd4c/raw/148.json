@@ -1,1 +1,0 @@
-{"type":"message","id":"3cab1234","parentId":"12634db0","timestamp":"2026-11-13T06:41:47.732Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a3fa6da66f5f4154","toolName":"bash","content":[{"type":"text","text":"fuzz ok seed=1 rounds=30\n"}],"isError":false,"durationMs":971,"timestamp":1794552107732}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"2144ee00","parentId":"07c7436b","timestamp":"2026-11-13T17:23:54.493Z","message":{"role":"toolResult","toolCallId":"call_be747e237dc14f58b19c0724","toolName":"bash","content":[{"type":"text","text":"PASS empty-campaign 0.09s stderr: \nPASS one-follow-up 0.08s stderr: \n"}],"isError":false,"durationMs":247,"timestamp":1794590634493}}

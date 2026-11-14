@@ -1,1 +1,0 @@
-{"type":"message","id":"ec0be3e3","parentId":"5ef3c99b","timestamp":"2026-11-13T16:49:21.168Z","message":{"role":"toolResult","toolCallId":"call_75d6b2adb9ea4b9e97c6d9df","toolName":"bash","content":[{"type":"text","text":"rc 0 wall 2.83 out bytes 7497794 err b''\nchild cpu user 2.74 sys 0.07 maxrss MB 113.1953125\n"}],"isError":false,"durationMs":2908,"timestamp":1794588561168}}

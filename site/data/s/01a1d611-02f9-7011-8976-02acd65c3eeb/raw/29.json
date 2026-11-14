@@ -1,1 +1,0 @@
-{"type":"message","id":"0dc82aad","parentId":"67faad85","timestamp":"2026-11-13T18:05:13.969Z","message":{"role":"toolResult","toolCallId":"call_2a644705109a401bba329bcb","toolName":"bash","content":[{"type":"text","text":"all split ok\n"}],"isError":false,"durationMs":2047,"timestamp":1794593113969}}

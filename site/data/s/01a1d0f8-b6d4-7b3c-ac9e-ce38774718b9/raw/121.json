@@ -1,1 +1,0 @@
-{"type":"message","id":"f37ba6d3","parentId":"18878bb1","timestamp":"2026-11-12T18:33:04.475Z","message":{"role":"toolResult","toolCallId":"call_b158eb04eed24491a8d7a8e1","toolName":"bash","content":[{"type":"text","text":"{} 0\n{'start_new_session': True} PermissionError(1, 'Operation not permitted')\n"}],"isError":false,"durationMs":52,"timestamp":1794508384475}}

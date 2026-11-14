@@ -1,1 +1,0 @@
-{"type":"message","id":"34d237c7","parentId":"f7c59616","timestamp":"2026-11-13T17:11:08.863Z","message":{"role":"toolResult","toolCallId":"call_0fcd3bdd2ea448f8b64a8d59","toolName":"bash","content":[{"type":"text","text":"b'hello world'\nb'hello world'\n<zstd.FrameParameters object at 0x7f393d3194a0>\n"}],"isError":false,"durationMs":120,"timestamp":1794589868863}}

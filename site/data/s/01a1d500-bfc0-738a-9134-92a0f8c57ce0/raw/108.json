@@ -1,0 +1,1 @@
+{"type":"message","id":"2fde3eca","parentId":"dd8587e0","timestamp":"2026-11-13T13:26:25.070Z","message":{"role":"toolResult","toolCallId":"call_fa502468bfa948379aba9dd7","toolName":"bash","content":[{"type":"text","text":"PASS: all public child-process checks\nCHECK_RC 0\n"}],"isError":false,"durationMs":7740,"timestamp":1794576385070}}

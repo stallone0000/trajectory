@@ -1,0 +1,1 @@
+{"type":"message","id":"c945ea3d","parentId":"5a8636fe","timestamp":"2026-11-13T22:26:43.286Z","message":{"role":"toolResult","toolCallId":"call_ebc50dbc043e43c480a6f498","toolName":"bash","content":[{"type":"text","text":"ok\n[(2, 6)] [(2, 4), (9, 11)] [(0, 6)]\n"}],"isError":false,"durationMs":84,"timestamp":1794608803286}}

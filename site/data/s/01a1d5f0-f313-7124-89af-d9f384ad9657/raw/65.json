@@ -1,0 +1,1 @@
+{"type":"message","id":"12e334a7","parentId":"0794411a","timestamp":"2026-11-13T17:35:08.198Z","message":{"role":"toolResult","toolCallId":"call_01a1d5f9d20074bd833a6e36","toolName":"bash","content":[{"type":"text","text":"caps0 [1, 1, 1, 1, 1] groups [[1, 1000000000000]]\nFAIL <class 'm.Invalid'> invalid\n"}],"isError":false,"durationMs":24701,"timestamp":1794591308198}}

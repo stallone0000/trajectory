@@ -1,0 +1,1 @@
+{"type":"message","id":"07093786","parentId":"41d6447f","timestamp":"2026-11-13T15:45:00.096Z","message":{"role":"toolResult","toolCallId":"call_4c594f8c325644d49ba58bce","toolName":"bash","content":[{"type":"text","text":"{'a': inf}\n--- depth recursion test\nparsed 300 deep\nparsed 900 deep\n"}],"isError":false,"durationMs":213,"timestamp":1794584700096}}

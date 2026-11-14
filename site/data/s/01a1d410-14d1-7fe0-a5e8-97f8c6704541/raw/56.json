@@ -1,1 +1,0 @@
-{"type":"message","id":"46220f8f","parentId":"dc7464bc","timestamp":"2026-11-13T09:07:05.957Z","message":{"role":"toolResult","toolCallId":"call_94a466bce81b4aec94c086ac","toolName":"bash","content":[{"type":"text","text":"plan guard 37 P 10\naudit result False\n"}],"isError":false,"durationMs":810,"timestamp":1794560825957}}

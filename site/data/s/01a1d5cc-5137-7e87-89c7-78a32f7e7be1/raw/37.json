@@ -1,1 +1,0 @@
-{"type":"message","id":"59fc4024","parentId":"f64447c4","timestamp":"2026-11-13T17:03:51.253Z","message":{"role":"toolResult","toolCallId":"call_5a918225914b4b008e9c793b","toolName":"bash","content":[{"type":"text","text":"pairs 262144\nbuild 0.7965779304504395\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180073,"timestamp":1794589431253}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"7f9ebb29","parentId":"a212cd6d","timestamp":"2026-11-13T00:03:08.443Z","message":{"role":"toolResult","toolCallId":"call_bcd83153f2d7476a98c0bc12","toolName":"bash","content":[{"type":"text","text":"scenarios done fails=0/6\n"}],"isError":false,"durationMs":176,"timestamp":1794528188443}}

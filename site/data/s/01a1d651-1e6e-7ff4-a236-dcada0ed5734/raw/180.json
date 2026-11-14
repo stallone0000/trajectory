@@ -1,1 +1,0 @@
-{"type":"message","id":"d6683bf8","parentId":"c740687f","timestamp":"2026-11-13T21:49:48.468Z","message":{"role":"toolResult","toolCallId":"call_f2d840b3cf094c2080bd62eb","toolName":"bash","content":[{"type":"text","text":"forced-fallback: certified 121/159, worst score 1.18e+06\n"}],"isError":false,"durationMs":41577,"timestamp":1794606588468}}

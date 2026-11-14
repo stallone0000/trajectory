@@ -1,1 +1,0 @@
-{"type":"message","id":"f7d450f9","parentId":"c91c82c0","timestamp":"2026-11-13T18:23:56.984Z","message":{"role":"toolResult","toolCallId":"call_9475e100af1249a6b4dcb86c","toolName":"bash","content":[{"type":"text","text":"---\n/bin/bash: line 1: ps: command not found\n0\n\n\n[exit code 1]"}],"isError":true,"durationMs":25126,"timestamp":1794594236984}}

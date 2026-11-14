@@ -1,0 +1,1 @@
+{"type":"message","id":"63ac1996","parentId":"43eb09c0","timestamp":"2026-11-13T23:02:39.230Z","message":{"role":"toolResult","toolCallId":"call_27933bf290694e2ca4ca0480","toolName":"bash","content":[{"type":"text","text":"exit=0\n/bin/bash: line 1: cmp: command not found\n\n\n[exit code 127]"}],"isError":true,"durationMs":834,"timestamp":1794610959230}}

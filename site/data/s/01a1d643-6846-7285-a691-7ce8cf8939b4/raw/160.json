@@ -1,0 +1,1 @@
+{"type":"message","id":"ab96d135","parentId":"6cf75e05","timestamp":"2026-11-13T19:39:26.644Z","message":{"role":"toolResult","toolCallId":"call_71645acbceba4b65aca7e4b4","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: nproc: command not found\ncat: /proc/loadavg: No such file or directory\n"}],"isError":false,"durationMs":90030,"timestamp":1794598766644}}

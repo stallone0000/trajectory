@@ -1,0 +1,1 @@
+{"type":"message","id":"26a8c615","parentId":"91b82968","timestamp":"2026-11-13T00:17:41.093Z","message":{"role":"toolResult","toolCallId":"call_6393fefd1762494eb083e588","toolName":"bash","content":[{"type":"text","text":"   [stderr] reject load_saved: align depth=22 origin=-1 stage=9 cell=2\n"}],"isError":false,"durationMs":7022,"timestamp":1794529061093}}

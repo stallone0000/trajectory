@@ -1,0 +1,1 @@
+{"type":"message","id":"153a312e","parentId":"4d7eea27","timestamp":"2026-11-13T14:11:38.822Z","message":{"role":"toolResult","toolCallId":"call_faaaee711ef9473b9a444cec","toolName":"bash","content":[{"type":"text","text":"PASS two-router-clean-replay\nPASS duplicate-json-key\nAll public examples passed.\n"}],"isError":false,"durationMs":148,"timestamp":1794579098822}}

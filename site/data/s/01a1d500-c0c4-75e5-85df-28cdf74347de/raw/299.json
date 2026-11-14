@@ -1,1 +1,0 @@
-{"type":"message","id":"1564b5af","parentId":"b2ada0b0","timestamp":"2026-11-13T14:32:31.571Z","message":{"role":"toolResult","toolCallId":"call_2c600d2511ef43a7aaff69f7","toolName":"bash","content":[{"type":"text","text":"NATIVE_OK\nPASS native native-trace.in.native\nALL PASS\n"}],"isError":false,"durationMs":7121,"timestamp":1794580351571}}

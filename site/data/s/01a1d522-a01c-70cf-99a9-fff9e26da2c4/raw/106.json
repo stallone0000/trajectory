@@ -1,0 +1,1 @@
+{"type":"message","id":"88d3abbe","parentId":"ba95530b","timestamp":"2026-11-13T14:23:00.785Z","message":{"role":"toolResult","toolCallId":"call_567d3969840c4a8f8078b78f","toolName":"bash","content":[{"type":"text","text":"-rw-r--r-- 1 64011 64011 0 Nov 13 14:18 /tmp/harness_small.log\n0\nps unavailable\n"}],"isError":false,"durationMs":48,"timestamp":1794579780785}}

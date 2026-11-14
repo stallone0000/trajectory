@@ -1,1 +1,0 @@
-{"type":"message","id":"a0b923a1","parentId":"e395f4f2","timestamp":"2026-11-13T20:22:17.333Z","message":{"role":"toolResult","toolCallId":"call_fdc47b8595c17b98eee9c4a8","toolName":"bash","content":[{"type":"text","text":"fragments 2317 clusters 3 0.7s\n"}],"isError":false,"durationMs":3088,"timestamp":1794601337333}}

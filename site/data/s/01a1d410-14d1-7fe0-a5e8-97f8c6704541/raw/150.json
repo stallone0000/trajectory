@@ -1,1 +1,0 @@
-{"type":"message","id":"7405a1e9","parentId":"083c35f1","timestamp":"2026-11-13T09:42:28.614Z","message":{"role":"toolResult","toolCallId":"call_84b536e12b7b4e4196bb97ef","toolName":"bash","content":[{"type":"text","text":"rc 0 in 1125 out 1125 elapsed 1.0s\ndriver fuzz OK\n"}],"isError":false,"durationMs":1312,"timestamp":1794562948614}}

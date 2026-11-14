@@ -1,0 +1,1 @@
+{"type":"message","id":"d9b4d1d1","parentId":"8a435415","timestamp":"2026-11-13T23:31:51.550Z","message":{"role":"toolResult","toolCallId":"call_48eaaefba0a54795af023916","toolName":"bash","content":[{"type":"text","text":"compile 0.05s prepared\ntrees 27 routes 837 recipes 1191\nvalid True ok\njson bytes 31043\n"}],"isError":false,"durationMs":115,"timestamp":1794612711550}}

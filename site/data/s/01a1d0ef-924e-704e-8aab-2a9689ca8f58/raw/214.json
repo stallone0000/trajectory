@@ -1,0 +1,1 @@
+{"type":"message","id":"a6db661e","parentId":"ea4ce407","timestamp":"2026-11-12T18:50:28.534Z","message":{"role":"toolResult","toolCallId":"call_f1a01783e3d6470eac9bf988","toolName":"bash","content":[{"type":"text","text":"755 .\n755 crosscheck\n644 main.py\n644 crosscheck/__init__.py\n644 crosscheck/replay.py\n"}],"isError":false,"durationMs":78,"timestamp":1794509428534}}

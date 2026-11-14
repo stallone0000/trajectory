@@ -1,0 +1,1 @@
+{"type":"message","id":"41d9cd2e","parentId":"49b5c9e5","timestamp":"2026-11-13T18:47:48.955Z","message":{"role":"toolResult","toolCallId":"call_b42c6e40dcbf4e5eabf9fd7e","toolName":"bash","content":[{"type":"text","text":"rc 0 stdout 880730 stderr 0 sec 0.9308337643742561\nMAX CHILD CERT OK\n"}],"isError":false,"durationMs":1235,"timestamp":1794595668955}}

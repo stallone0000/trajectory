@@ -1,0 +1,1 @@
+{"type":"message","id":"b3e5bb6d","parentId":"5dc04268","timestamp":"2026-11-13T15:32:26.982Z","message":{"role":"toolResult","toolCallId":"call_94796c9e7668481a9d0cf24e","toolName":"bash","content":[{"type":"text","text":"BUILD_OK\nPASS: one-allreduce\n2/2 public examples passed\n"}],"isError":false,"durationMs":1621,"timestamp":1794583946982}}

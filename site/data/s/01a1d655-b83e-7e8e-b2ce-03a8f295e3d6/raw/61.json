@@ -1,0 +1,1 @@
+{"type":"message","id":"ddfc7976","parentId":"762198d0","timestamp":"2026-11-13T20:14:33.783Z","message":{"role":"toolResult","toolCallId":"call_4cfd67b85c807b5d15cb4490","toolName":"bash","content":[{"type":"text","text":"PASS small-calibrate-and-match 1.83s\nPASS duplicate-json-key 1.80s\nOK\n"}],"isError":false,"durationMs":3700,"timestamp":1794600873783}}

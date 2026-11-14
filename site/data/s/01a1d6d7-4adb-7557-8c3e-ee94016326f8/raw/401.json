@@ -1,0 +1,1 @@
+{"type":"message","id":"667a7d7c","parentId":"63cb1aa9","timestamp":"2026-11-13T22:33:09.004Z","message":{"role":"toolResult","toolCallId":"call_617f566953b844288c74c1f6","toolName":"bash","content":[{"type":"text","text":"['missing_origin']\n"}],"isError":false,"durationMs":174,"timestamp":1794609189004}}

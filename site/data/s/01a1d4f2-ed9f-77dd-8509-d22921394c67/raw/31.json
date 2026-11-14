@@ -1,0 +1,1 @@
+{"type":"message","id":"491b013c","parentId":"f6b1cdb0","timestamp":"2026-11-13T12:54:31.563Z","message":{"role":"toolResult","toolCallId":"call_8a2546308d3a4c4299fed280","toolName":"bash","content":[{"type":"text","text":"fado match dfas 0.07317018508911133 for 5000\nfado contains nfa->dfa 0.1415705680847168\n"}],"isError":false,"durationMs":409,"timestamp":1794574471563}}

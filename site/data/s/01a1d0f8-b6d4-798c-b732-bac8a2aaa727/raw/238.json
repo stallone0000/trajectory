@@ -1,0 +1,1 @@
+{"type":"message","id":"6b1eace2","parentId":"cc185338","timestamp":"2026-11-12T18:55:19.560Z","message":{"role":"toolResult","toolCallId":"call_bda25a366ff44d84a774250d","toolName":"bash","content":[{"type":"text","text":"[('valid', True), ('child_stage', False), ('bulk_stage_parent', False), ('swap1', False)]\n"}],"isError":false,"durationMs":215,"timestamp":1794509719560}}

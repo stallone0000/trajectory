@@ -60,7 +60,7 @@ export function PublicLayout() {
 							</NavItem>
 							<NavItem to="/public/benchmark" icon="statistics">Benchmark</NavItem>
 							<NavItem to="/public/tasks" icon="file">Tasks</NavItem>
-							<NavItem to="/public/mswea" icon="sessions">mini-swe-agent</NavItem>
+							<NavItem to="/public/mswea" icon="sessions">Benchmark trajectory</NavItem>
 							<NavItem to="/public/statistics" icon="statistics">Statistics</NavItem>
 							{!STATIC_SITE && <NavItem to="/docs" icon="file">Documentation</NavItem>}
 							<div className={BAND_NAV_END}>

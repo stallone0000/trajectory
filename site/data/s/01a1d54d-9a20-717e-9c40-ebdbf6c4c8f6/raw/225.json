@@ -1,1 +1,0 @@
-{"type":"message","id":"4b4cea2b","parentId":"b104d55d","timestamp":"2026-11-13T15:31:56.579Z","message":{"role":"toolResult","toolCallId":"call_190a671bd5cd482a9fbc2dc9","toolName":"bash","content":[{"type":"text","text":"-rw-r--r-- 1 64005 64005 1409671 Nov 13 15:31 tests/many.json\n{\"error\":\"INVALID_INPUT\"}\n"}],"isError":false,"durationMs":127,"timestamp":1794583916579}}

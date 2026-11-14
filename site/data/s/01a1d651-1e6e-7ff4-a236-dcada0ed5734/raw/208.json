@@ -1,1 +1,0 @@
-{"type":"message","id":"20e97f81","parentId":"55061e26","timestamp":"2026-11-13T22:03:50.923Z","message":{"role":"toolResult","toolCallId":"call_9cd2573cd1634c2d8b160d78","toolName":"bash","content":[{"type":"text","text":"negative-zero tokens found in 0 responses\n"}],"isError":false,"durationMs":44122,"timestamp":1794607430923}}

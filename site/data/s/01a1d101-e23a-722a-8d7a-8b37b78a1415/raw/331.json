@@ -1,0 +1,1 @@
+{"type":"message","id":"ff93dbd5","parentId":"b327a593","timestamp":"2026-11-12T20:03:13.209Z","message":{"role":"toolResult","toolCallId":"call_474d2641d66542829ab4a5ee","toolName":"bash","content":[{"type":"text","text":"all final ok\nall final ok\n"}],"isError":false,"durationMs":7583,"timestamp":1794513793209}}

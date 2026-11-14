@@ -1,1 +1,0 @@
-{"type":"message","id":"ca2da702","parentId":"0859b708","timestamp":"2026-11-13T16:42:44.959Z","message":{"role":"toolResult","toolCallId":"call_cba9d55a8d804520902d19b1","toolName":"bash","content":[{"type":"text","text":"-rw-r--r-- 1 64001 64001 0 Nov 13 16:40 dev/sweep1.log\n"}],"isError":false,"durationMs":29,"timestamp":1794588164959}}

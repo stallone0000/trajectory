@@ -1,0 +1,1 @@
+{"type":"message","id":"d0f7650f","parentId":"5b398d46","timestamp":"2026-11-13T17:30:52.973Z","message":{"role":"toolResult","toolCallId":"call_87ddad6fbfc8491083c74930","toolName":"bash","content":[{"type":"text","text":"24MiB batch wall 2.30 rc 0\nmax parse 0.064 4097 32768\n"}],"isError":false,"durationMs":2511,"timestamp":1794591052973}}

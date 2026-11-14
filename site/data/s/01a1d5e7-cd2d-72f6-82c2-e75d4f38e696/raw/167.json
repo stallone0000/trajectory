@@ -1,1 +1,0 @@
-{"type":"message","id":"6d88b958","parentId":"927581de","timestamp":"2026-11-13T19:00:19.305Z","message":{"role":"toolResult","toolCallId":"call_deec06b1d8504a948ca06d94","toolName":"bash","content":[{"type":"text","text":"job fuzz 120 ok\n"}],"isError":false,"durationMs":74843,"timestamp":1794596419305}}

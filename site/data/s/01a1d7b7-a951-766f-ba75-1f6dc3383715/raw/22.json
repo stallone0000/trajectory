@@ -1,1 +1,0 @@
-{"type":"message","id":"6b3ad9e7","parentId":"5f3eeeb5","timestamp":"2026-11-14T02:18:15.261Z","message":{"role":"toolResult","toolCallId":"call_f3c742466bb84343847ecea5","toolName":"bash","content":[{"type":"text","text":"done mode A 250 mismatches 0 unknown 0\ndone mode B 120 mismatches 0 unknown 0\n"}],"isError":false,"durationMs":5068,"timestamp":1794622695261}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"ad16a313","parentId":"90468f6b","timestamp":"2026-11-13T17:37:59.973Z","message":{"role":"toolResult","toolCallId":"call_01a1d5fccc1e771896c0ecf5","toolName":"bash","content":[{"type":"text","text":"transport FAIL invalid\n  fails at session 16 ['dragonfly', 3, 2, 1, 'group'] invalid\n"}],"isError":false,"durationMs":202,"timestamp":1794591479973}}

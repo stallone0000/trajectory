@@ -1,0 +1,1 @@
+{"type":"message","id":"c9f39ad6","parentId":"e10a83c5","timestamp":"2026-11-12T18:36:51.201Z","message":{"role":"toolResult","toolCallId":"call_1b8145362094423cb5174a09","toolName":"bash","content":[{"type":"text","text":"BAD res branch node=1,4 type=2 val=1\n"}],"isError":false,"durationMs":59,"timestamp":1794508611201}}

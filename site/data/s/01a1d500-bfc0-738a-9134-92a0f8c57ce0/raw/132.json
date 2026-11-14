@@ -1,0 +1,1 @@
+{"type":"message","id":"2d9d8e38","parentId":"4bd31b97","timestamp":"2026-11-13T13:31:06.992Z","message":{"role":"toolResult","toolCallId":"call_29d73f738bab4206a299219b","toolName":"bash","content":[{"type":"text","text":"R7-10 FULL DP PASS 0.44954371452331543\n"}],"isError":false,"durationMs":505,"timestamp":1794576666992}}

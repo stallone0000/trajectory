@@ -1,1 +1,0 @@
-{"type":"message","id":"711087a4","parentId":"06d5e941","timestamp":"2026-11-13T10:45:01.670Z","message":{"role":"toolResult","toolCallId":"call_793f9437850940a9813d72a0","toolName":"bash","content":[{"type":"text","text":"input bytes 87120 runs 8 ops~ 2400\nrc 0 wall 0.05 out 20\n"}],"isError":false,"durationMs":96,"timestamp":1794566701670}}

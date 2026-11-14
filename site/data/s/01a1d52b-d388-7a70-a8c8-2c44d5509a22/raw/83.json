@@ -1,0 +1,1 @@
+{"type":"message","id":"3b4e4ac8","parentId":"0a70904c","timestamp":"2026-11-13T14:20:03.141Z","message":{"role":"toolResult","toolCallId":"call_edd5d2b1bf46441dbf11d975","toolName":"bash","content":[{"type":"text","text":"no path for N13->N09\n\nreal\t0m0.503s\nuser\t0m0.480s\nsys\t0m0.012s\n\n\n[exit code 1]"}],"isError":true,"durationMs":536,"timestamp":1794579603141}}

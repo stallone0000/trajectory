@@ -1,0 +1,1 @@
+{"type":"message","id":"fc38c710","parentId":"63e5bf7f","timestamp":"2026-11-13T23:32:33.846Z","message":{"role":"toolResult","toolCallId":"call_f2297d6cd0f243e7a9e60029","toolName":"bash","content":[{"type":"text","text":"ok\nFAIL pre 35 {\"op\":\"cancel\",\"id\":\"x\",\"owner\":\"y\",\"rev\":0}\nFAILURES: 1\n"}],"isError":false,"durationMs":259,"timestamp":1794612753846}}

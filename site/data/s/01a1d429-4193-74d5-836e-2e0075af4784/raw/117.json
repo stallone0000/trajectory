@@ -1,0 +1,1 @@
+{"type":"message","id":"b9f943ec","parentId":"94b339a3","timestamp":"2026-11-13T10:21:49.981Z","message":{"role":"toolResult","toolCallId":"call_7b15597e796c4d96be9e7b05","toolName":"bash","content":[{"type":"text","text":"big replay cross-check OK on 50 traces\n"}],"isError":false,"durationMs":15730,"timestamp":1794565309981}}

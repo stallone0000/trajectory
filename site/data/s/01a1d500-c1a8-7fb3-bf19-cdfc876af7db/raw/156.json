@@ -1,0 +1,1 @@
+{"type":"message","id":"844cc2f2","parentId":"ffdff381","timestamp":"2026-11-13T13:44:48.249Z","message":{"role":"toolResult","toolCallId":"call_b3809e6dbbc041428b33ce7e","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: pkill: command not found\npatched\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180212,"timestamp":1794577488249}}

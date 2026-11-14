@@ -1,0 +1,1 @@
+{"type":"message","id":"ae267da9","parentId":"6c0390c9","timestamp":"2026-11-13T22:37:43.971Z","message":{"role":"toolResult","toolCallId":"call_95b2d6275f134d118de5ae1f","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: whoami: command not found\n\n\n[exit code 127]"}],"isError":true,"durationMs":46,"timestamp":1794609463971}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"e082ce77","parentId":"9ebcbd09","timestamp":"2026-11-13T22:28:00.344Z","message":{"role":"toolResult","toolCallId":"call_e518ba93462a4341bb22725a","toolName":"bash","content":[{"type":"text","text":"gen 400000 frames in 1.851s -> 4.63 us each\n"}],"isError":false,"durationMs":1890,"timestamp":1794608880344}}

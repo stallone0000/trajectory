@@ -1,1 +1,0 @@
-{"type":"message","id":"56d63573","parentId":"a8c480b1","timestamp":"2026-11-13T22:15:17.122Z","message":{"role":"toolResult","toolCallId":"call_f0989acf823d46e9a110f0f8","toolName":"bash","content":[{"type":"text","text":"ok   request across parts\nok   error retains earlier records\nparser: 0 failures\n"}],"isError":false,"durationMs":574,"timestamp":1794608117122}}

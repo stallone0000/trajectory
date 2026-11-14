@@ -1,1 +1,0 @@
-{"type":"message","id":"685ba303","parentId":"0e8b9198","timestamp":"2026-11-13T10:45:21.506Z","message":{"role":"toolResult","toolCallId":"call_1c7a43e9b71743e9902f420d","toolName":"bash","content":[{"type":"text","text":"[0, 1200, 0, 0, 1200, 0, 0, 0]\n[]\n"}],"isError":false,"durationMs":44,"timestamp":1794566721506}}

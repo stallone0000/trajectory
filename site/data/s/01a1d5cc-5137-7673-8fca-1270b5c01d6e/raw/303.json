@@ -1,0 +1,1 @@
+{"type":"message","id":"d2c6a93f","parentId":"51a8bc5b","timestamp":"2026-11-13T18:29:55.893Z","message":{"role":"toolResult","toolCallId":"call_e2d27059d34744deb8da395f","toolName":"bash","content":[{"type":"text","text":"empty-campaign rc 0 stderr \n  match True\none-follow-up rc 0 stderr \n  match True\n"}],"isError":false,"durationMs":600,"timestamp":1794594595893}}

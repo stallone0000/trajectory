@@ -1,1 +1,0 @@
-{"type":"message","id":"73c827ea","parentId":"724fbea0","timestamp":"2026-11-12T19:47:54.874Z","message":{"role":"toolResult","toolCallId":"call_462eaaba1b7d431391e7acc2","toolName":"bash","content":[{"type":"text","text":"0 b'{\"error\":\"input\"}\\n{\"selected\":[],\"saved\":0}\\n' b''\n"}],"isError":false,"durationMs":164,"timestamp":1794512874874}}

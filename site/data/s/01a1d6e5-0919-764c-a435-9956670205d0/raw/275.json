@@ -1,1 +1,0 @@
-{"type":"message","id":"0e11132f","parentId":"37b5533c","timestamp":"2026-11-13T22:22:46.447Z","message":{"role":"toolResult","toolCallId":"call_979b87cb2b754293ae0b2a7f","toolName":"bash","content":[{"type":"text","text":"[0, 4, 12, 16] {'bidi': 5, 'uni': 0}\n"}],"isError":false,"durationMs":302,"timestamp":1794608566447}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"a5c3e26f","parentId":"64618515","timestamp":"2026-11-13T21:46:18.974Z","message":{"role":"toolResult","toolCallId":"call_63c3900e7efe4456ae9ca676","toolName":"bash","content":[{"type":"text","text":"MISMATCH whole 132 132\nFAILED\n94 0x9edcf9b65760d14f 0xf1c7ea2475510b2b\n"}],"isError":false,"durationMs":66,"timestamp":1794606378974}}

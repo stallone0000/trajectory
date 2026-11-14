@@ -1,0 +1,1 @@
+{"type":"message","id":"1ef94d4b","parentId":"0e8aac4c","timestamp":"2026-11-13T16:01:02.798Z","message":{"role":"toolResult","toolCallId":"call_34c4a5a0020b4be7b5cb2194","toolName":"bash","content":[{"type":"text","text":"Invalid: order entry arity\n"}],"isError":false,"durationMs":451,"timestamp":1794585662798}}

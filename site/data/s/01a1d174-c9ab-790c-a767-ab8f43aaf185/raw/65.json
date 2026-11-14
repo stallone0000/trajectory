@@ -1,0 +1,1 @@
+{"type":"message","id":"8d220562","parentId":"553e2175","timestamp":"2026-11-12T21:03:43.273Z","message":{"role":"toolResult","toolCallId":"call_184f807da11442ba83e998fd","toolName":"bash","content":[{"type":"text","text":"nnp -1 22 Invalid argument\ncat: /proc/self/status: No such file or directory\n---\n-1\n"}],"isError":false,"durationMs":57,"timestamp":1794517423273}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"717167dc","parentId":"ed5fb56e","timestamp":"2026-11-13T21:50:50.146Z","message":{"role":"toolResult","toolCallId":"call_036022278d5649878926d8fd","toolName":"bash","content":[{"type":"text","text":"warm-start fallback: certified 159/159, worst score 1.17e-05\n"}],"isError":false,"durationMs":42746,"timestamp":1794606650146}}

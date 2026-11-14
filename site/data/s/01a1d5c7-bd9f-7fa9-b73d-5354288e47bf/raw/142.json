@@ -1,1 +1,0 @@
-{"type":"message","id":"befb10c2","parentId":"5412b43b","timestamp":"2026-11-13T17:00:09.097Z","message":{"role":"toolResult","toolCallId":"call_e3adcbc5bfb249b5b4572108","toolName":"bash","content":[{"type":"text","text":"ok CaptureError decompressed byte budget\n"}],"isError":false,"durationMs":93,"timestamp":1794589209097}}

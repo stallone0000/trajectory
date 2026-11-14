@@ -1,0 +1,1 @@
+{"type":"message","id":"20e8d36a","parentId":"e6dc52f7","timestamp":"2026-11-12T23:48:02.243Z","message":{"role":"toolResult","toolCallId":"call_792dc31e9ee84a16a275ceb5","toolName":"bash","content":[{"type":"text","text":"---\n/bin/bash: line 1: gcc: command not found\n"}],"isError":false,"durationMs":18,"timestamp":1794527282243}}

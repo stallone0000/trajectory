@@ -1,1 +1,0 @@
-{"type":"message","id":"1ac471bb","parentId":"99c54df3","timestamp":"2026-11-13T14:33:18.367Z","message":{"role":"toolResult","toolCallId":"call_7f3923f31472452ba5d9f95b","toolName":"bash","content":[{"type":"text","text":"topology 64 0.00s\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180120,"timestamp":1794580398367}}

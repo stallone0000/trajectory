@@ -1,1 +1,0 @@
-{"type":"message","id":"443d5ef7","parentId":"f01bef63","timestamp":"2026-11-13T18:31:56.486Z","message":{"role":"toolResult","toolCallId":"call_f8e46e2c49304eb3bce769f1","toolName":"bash","content":[{"type":"text","text":"phases 0 offers {}\n"}],"isError":false,"durationMs":109,"timestamp":1794594716486}}

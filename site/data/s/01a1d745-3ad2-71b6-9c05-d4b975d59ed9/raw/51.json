@@ -1,1 +1,0 @@
-{"type":"message","id":"12a433f6","parentId":"9e4c9daf","timestamp":"2026-11-14T00:02:04.705Z","message":{"role":"toolResult","toolCallId":"call_986c918949d74bc0a0b4d421","toolName":"bash","content":[{"type":"text","text":"fixed\nok 0\nok 50\nok 100\nall ok 150\n"}],"isError":false,"durationMs":53243,"timestamp":1794614524705}}

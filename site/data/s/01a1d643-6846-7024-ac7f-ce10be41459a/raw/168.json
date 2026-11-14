@@ -1,1 +1,0 @@
-{"type":"message","id":"f2829f35","parentId":"65fb099a","timestamp":"2026-11-13T19:39:59.650Z","message":{"role":"toolResult","toolCallId":"call_65df3cf80419441f962df9b2","toolName":"bash","content":[{"type":"text","text":"---\ncalibration               1.8s  catalog=1 installs=0 decisions=0\n"}],"isError":false,"durationMs":7347,"timestamp":1794598799650}}

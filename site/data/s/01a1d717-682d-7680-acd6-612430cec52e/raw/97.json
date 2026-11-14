@@ -1,0 +1,1 @@
+{"type":"message","id":"e83b7079","parentId":"f303e9d4","timestamp":"2026-11-13T23:27:40.118Z","message":{"role":"toolResult","toolCallId":"call_40596d08e9f04ed9b84be088","toolName":"bash","content":[{"type":"text","text":"wire bad 0\nsurvival PASS\n"}],"isError":false,"durationMs":1425,"timestamp":1794612460118}}

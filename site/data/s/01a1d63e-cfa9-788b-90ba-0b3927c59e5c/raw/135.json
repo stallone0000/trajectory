@@ -1,0 +1,1 @@
+{"type":"message","id":"4043cc16","parentId":"0baf5dd5","timestamp":"2026-11-13T19:38:42.780Z","message":{"role":"toolResult","toolCallId":"call_96d87d9f3d924c2fab38e0f8","toolName":"bash","content":[{"type":"text","text":"OverflowError: int too big to convert\n"}],"isError":false,"durationMs":574,"timestamp":1794598722780}}

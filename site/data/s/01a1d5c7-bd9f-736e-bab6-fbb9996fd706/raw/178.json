@@ -1,0 +1,1 @@
+{"type":"message","id":"844457e0","parentId":"b6f92a41","timestamp":"2026-11-13T17:04:16.306Z","message":{"role":"toolResult","toolCallId":"call_d28f20eaa21648a68a921634","toolName":"bash","content":[{"type":"text","text":"AA== b'\\x00'\nAB== b'\\x00'\nAC== b'\\x00'\nAf== b'\\x01'\n"}],"isError":false,"durationMs":97,"timestamp":1794589456306}}

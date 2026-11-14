@@ -1,0 +1,1 @@
+{"type":"message","id":"6f0d4592","parentId":"8df5a7cc","timestamp":"2026-11-13T22:51:47.438Z","message":{"role":"toolResult","toolCallId":"call_baeb4bb2acad4e00a0eac9d6","toolName":"bash","content":[{"type":"text","text":"'😀' 1 ['0x1f600']\nb'\\xf0\\x9f\\x98\\x80'\n"}],"isError":false,"durationMs":40,"timestamp":1794610307438}}

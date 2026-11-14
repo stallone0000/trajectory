@@ -1,0 +1,1 @@
+{"type":"message","id":"7345a5af","parentId":"ea4bae25","timestamp":"2026-11-13T17:25:34.045Z","message":{"role":"toolResult","toolCallId":"call_c05315f44dc6427d9c259106","toolName":"bash","content":[{"type":"text","text":"BAD 65536 targets rejected\nmetadata tests done, ok = False\n"}],"isError":false,"durationMs":210,"timestamp":1794590734045}}

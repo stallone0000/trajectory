@@ -1,0 +1,1 @@
+{"type":"message","id":"8a535f44","parentId":"6aec8f3b","timestamp":"2026-11-13T15:58:24.521Z","message":{"role":"toolResult","toolCallId":"call_31f46efe6b6b495e82610360","toolName":"bash","content":[{"type":"text","text":"fuzz seed=42 rounds=5 OK\nfuzz seed=43 rounds=5 OK\n"}],"isError":false,"durationMs":2009,"timestamp":1794585504521}}

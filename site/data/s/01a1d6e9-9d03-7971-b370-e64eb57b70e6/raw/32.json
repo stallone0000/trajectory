@@ -1,1 +1,0 @@
-{"type":"message","id":"e7b19a20","parentId":"f9d6ff7e","timestamp":"2026-11-13T22:16:39.442Z","message":{"role":"toolResult","toolCallId":"call_7c0a56ddbbd64febb68f076d","toolName":"bash","content":[{"type":"text","text":"ok   disp quote contains gt\n\nFAILS: 0 of 65\n"}],"isError":false,"durationMs":1725,"timestamp":1794608199442}}

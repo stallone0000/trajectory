@@ -1,1 +1,0 @@
-{"type":"message","id":"c2619266","parentId":"953864fe","timestamp":"2026-11-13T17:04:55.159Z","message":{"role":"toolResult","toolCallId":"call_4fb06afb8036426e81dda0dd","toolName":"bash","content":[{"type":"text","text":"win 134217728 134217728\nframes ok\ndecomp b'hello world'\n"}],"isError":false,"durationMs":58,"timestamp":1794589495159}}

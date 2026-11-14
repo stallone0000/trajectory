@@ -1,0 +1,1 @@
+{"type":"message","id":"7e516d4d","parentId":"f1fe7692","timestamp":"2026-11-13T21:25:36.426Z","message":{"role":"toolResult","toolCallId":"call_242f5eccda224bc8865a4d8b","toolName":"bash","content":[{"type":"text","text":"<SiP:M%57@5eZf65R.i> ('sip:MW@5ezf65r.i', 'sip')\n<sip:a@b> ('sip:a@b', 'sip')\n"}],"isError":false,"durationMs":67,"timestamp":1794605136426}}

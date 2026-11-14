@@ -1,0 +1,1 @@
+{"type":"message","id":"ab1c50bb","parentId":"12ea8d1b","timestamp":"2026-11-13T23:17:14.876Z","message":{"role":"toolResult","toolCallId":"call_d092adc9622b43ff87bada76","toolName":"bash","content":[{"type":"text","text":"EXPR FAILS: 0 []\n"}],"isError":false,"durationMs":23916,"timestamp":1794611834876}}

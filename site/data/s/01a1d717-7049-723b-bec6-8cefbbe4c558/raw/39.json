@@ -1,1 +1,0 @@
-{"type":"message","id":"7e2bd076","parentId":"e5397ed0","timestamp":"2026-11-13T22:55:33.599Z","message":{"role":"toolResult","toolCallId":"call_87a5316140dd4d249dbd3322","toolName":"bash","content":[{"type":"text","text":"ok\nempty-capture MATCH\none-allreduce MATCH\n"}],"isError":false,"durationMs":1067,"timestamp":1794610533599}}

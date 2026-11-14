@@ -1,0 +1,1 @@
+{"type":"message","id":"a1a4b0f6","parentId":"82ee036e","timestamp":"2026-11-13T15:25:25.691Z","message":{"role":"toolResult","toolCallId":"call_2c62787d39ef420190f70dbd","toolName":"bash","content":[{"type":"text","text":"len 8196\nread_line ok 8192\nNone\nlen2 8193 incomplete\n"}],"isError":false,"durationMs":59,"timestamp":1794583525691}}

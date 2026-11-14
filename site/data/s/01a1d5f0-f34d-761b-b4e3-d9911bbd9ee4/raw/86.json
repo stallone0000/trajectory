@@ -1,1 +1,0 @@
-{"type":"message","id":"ba687117","parentId":"6503eace","timestamp":"2026-11-13T17:39:57.766Z","message":{"role":"toolResult","toolCallId":"call_e3f8638238524d9d880eca78","toolName":"bash","content":[{"type":"text","text":"PUBLIC DIRECT ALL PASS\n"}],"isError":false,"durationMs":7366,"timestamp":1794591597766}}

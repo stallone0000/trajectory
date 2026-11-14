@@ -1,1 +1,0 @@
-{"type":"message","id":"60c32502","parentId":"22b1e7bf","timestamp":"2026-11-13T19:25:01.308Z","message":{"role":"toolResult","toolCallId":"call_09bf211115f24d4a97821a12","toolName":"bash","content":[{"type":"text","text":"/workspace/.deps\n3.11.14 (main, Feb 12 2026, 00:42:50) [Clang 21.1.4 ]\n1.26.4\n"}],"isError":false,"durationMs":999,"timestamp":1794597901308}}

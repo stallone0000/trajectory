@@ -1,1 +1,0 @@
-{"type":"message","id":"81b4eee8","parentId":"adb80670","timestamp":"2026-11-12T17:27:15.065Z","message":{"role":"toolResult","toolCallId":"call_1448f1caa5d74d66a6322a0a","toolName":"bash","content":[{"type":"text","text":"torture batches 300 epochs 606 bad 0 5.7s\n"}],"isError":false,"durationMs":6154,"timestamp":1794504435065}}

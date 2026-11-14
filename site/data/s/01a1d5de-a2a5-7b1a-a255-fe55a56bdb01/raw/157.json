@@ -1,1 +1,0 @@
-{"type":"message","id":"5fc33ac3","parentId":"d5b822c7","timestamp":"2026-11-13T17:31:25.398Z","message":{"role":"toolResult","toolCallId":"call_e6a7f742157049679b7b4a34","toolName":"bash","content":[{"type":"text","text":"maxflow value 1\nflow out of source {'rq:Q1': 1, 'rq:Q0': 0}\ncost_of_flow 3\n"}],"isError":false,"durationMs":694,"timestamp":1794591085398}}

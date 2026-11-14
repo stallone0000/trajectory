@@ -1,1 +1,0 @@
-{"type":"message","id":"f01d0e88","parentId":"b69aae29","timestamp":"2026-11-13T18:59:09.005Z","message":{"role":"toolResult","toolCallId":"call_60e97d358c1b47f893f8f65f","toolName":"bash","content":[{"type":"text","text":"chunks 20 total b64 chars 246373768\ndecoded 176.22023105621338 MiB\nlimit 33554432\n"}],"isError":false,"durationMs":1741,"timestamp":1794596349005}}

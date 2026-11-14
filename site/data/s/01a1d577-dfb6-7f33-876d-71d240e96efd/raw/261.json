@@ -1,1 +1,0 @@
-{"type":"message","id":"e18a6d4b","parentId":"3c9e4cdf","timestamp":"2026-11-13T17:05:05.003Z","message":{"role":"toolResult","toolCallId":"call_2ec0de2317f24f459b1b1646","toolName":"bash","content":[{"type":"text","text":"FAIL image limit with refs\nFAIL file chain\n2 failures\n"}],"isError":false,"durationMs":863,"timestamp":1794589505003}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"7902118a","parentId":"37ea752c","timestamp":"2026-11-13T17:54:59.197Z","message":{"role":"toolResult","toolCallId":"call_bd4d039ea9584fd2a30d9647","toolName":"bash","content":[{"type":"text","text":"INFRASTRUCTURE: trusted parent needs published checker profile\n"}],"isError":false,"durationMs":72,"timestamp":1794592499197}}

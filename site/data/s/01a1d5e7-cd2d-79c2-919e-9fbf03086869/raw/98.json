@@ -1,0 +1,1 @@
+{"type":"message","id":"6d974497","parentId":"ae245722","timestamp":"2026-11-13T18:02:33.933Z","message":{"role":"toolResult","toolCallId":"call_523257d37f5f4ba7a09748d2","toolName":"bash","content":[{"type":"text","text":"pairs total 262144\n\nCommand exceeded 180 seconds"}],"isError":true,"durationMs":180125,"timestamp":1794592953933}}

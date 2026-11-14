@@ -1,0 +1,1 @@
+{"type":"message","id":"0d2eb129","parentId":"5fa5493d","timestamp":"2026-11-13T17:01:36.194Z","message":{"role":"toolResult","toolCallId":"call_9cd7eefcdeaa41fba805046e","toolName":"bash","content":[{"type":"text","text":"params 0 1024\nERR <class 'zstd.ZstdError'> could not determine content size in frame header\n"}],"isError":false,"durationMs":56,"timestamp":1794589296194}}

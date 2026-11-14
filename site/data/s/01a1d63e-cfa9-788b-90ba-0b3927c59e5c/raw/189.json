@@ -1,0 +1,1 @@
+{"type":"message","id":"b662767a","parentId":"254f2694","timestamp":"2026-11-13T20:14:39.469Z","message":{"role":"toolResult","toolCallId":"call_78fd520f338b4be9aea83ea2","toolName":"bash","content":[{"type":"text","text":"packets 8000 wire 32000\ntime 0.58 accepted 0 streams 0 opened {'bidi': 0, 'uni': 0} used 0\n"}],"isError":false,"durationMs":767,"timestamp":1794600879469}}

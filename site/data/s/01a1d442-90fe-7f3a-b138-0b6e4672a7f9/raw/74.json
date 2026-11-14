@@ -1,1 +1,0 @@
-{"type":"message","id":"6b15b929","parentId":"b431af9a","timestamp":"2026-11-13T10:37:08.500Z","message":{"role":"toolResult","toolCallId":"call_76682cb6ea0a491daf82f331","toolName":"bash","content":[{"type":"text","text":"20k enqueues + 1200 ping-pong restores: 60.91 s\nper restore pair walk ~ 101.519 ms\n"}],"isError":false,"durationMs":61003,"timestamp":1794566228500}}

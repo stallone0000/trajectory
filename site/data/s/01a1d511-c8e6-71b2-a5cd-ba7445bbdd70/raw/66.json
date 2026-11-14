@@ -1,1 +1,0 @@
-{"type":"message","id":"b8b3db9b","parentId":"23e2a5bb","timestamp":"2026-11-13T13:53:56.558Z","message":{"role":"toolResult","toolCallId":"call_73c3949eec9440a79c1979b3","toolName":"bash","content":[{"type":"text","text":"rc 0\nstdout b'{\"error\":\"invalid\"}\\n'\nstderr b''\n"}],"isError":false,"durationMs":102,"timestamp":1794578036558}}

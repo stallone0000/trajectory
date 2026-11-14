@@ -1,1 +1,0 @@
-{"type":"message","id":"d0a8ff2b","parentId":"7e5dbd2d","timestamp":"2026-11-13T15:30:34.207Z","message":{"role":"toolResult","toolCallId":"call_98c12576027b4a02a22896b2","toolName":"bash","content":[{"type":"text","text":"PASS 9 fixtures\n"}],"isError":false,"durationMs":6901,"timestamp":1794583834207}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"8f8d3ba7","parentId":"95c1b9a0","timestamp":"2026-11-13T15:59:43.041Z","message":{"role":"toolResult","toolCallId":"call_2df9c2f03c434bccac974b63","toolName":"bash","content":[{"type":"text","text":"   8192-chain 0.64s\nerror None body n 8201\nhash ok True\n"}],"isError":false,"durationMs":777,"timestamp":1794585583041}}

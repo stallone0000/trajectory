@@ -1,1 +1,0 @@
-{"type":"message","id":"ed205958","parentId":"fd01ed33","timestamp":"2026-11-13T15:57:31.511Z","message":{"role":"toolResult","toolCallId":"call_7940a96314714ed8b0a876ea","toolName":"bash","content":[{"type":"text","text":"ok\nseed 16 CERT ERRORS ['ratio [0, 1] != coverage 1/3', 'missing cut']\ndone 40 bad 1\n"}],"isError":false,"durationMs":1003,"timestamp":1794585451511}}

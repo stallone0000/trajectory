@@ -1,0 +1,1 @@
+{"type":"message","id":"cf007a34","parentId":"f1b60191","timestamp":"2026-11-14T01:05:00.459Z","message":{"role":"toolResult","toolCallId":"call_089c83d47a7f44c99fa6f0f1","toolName":"bash","content":[{"type":"text","text":"patched constrained prim\nFAIL 30.0s BuildFailure('no plan found')\n"}],"isError":false,"durationMs":30112,"timestamp":1794618300459}}

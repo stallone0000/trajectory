@@ -1,0 +1,1 @@
+{"type":"message","id":"e707fbec","parentId":"1b39eeff","timestamp":"2026-11-13T18:23:16.471Z","message":{"role":"toolResult","toolCallId":"call_85128be2ad394fc8be8b1dc9","toolName":"bash","content":[{"type":"text","text":"resolved=400 cost=1089010185 4.8s\n"}],"isError":false,"durationMs":5064,"timestamp":1794594196471}}

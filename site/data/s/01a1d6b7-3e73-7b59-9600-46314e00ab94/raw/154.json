@@ -1,0 +1,1 @@
+{"type":"message","id":"1a6d2598","parentId":"0e552c25","timestamp":"2026-11-13T21:20:25.090Z","message":{"role":"toolResult","toolCallId":"call_01a1d6c860127671ba99d69d","toolName":"bash","content":[{"type":"text","text":"BAD KEYS {'error'}\nfuzz done, failures: 1\n"}],"isError":false,"durationMs":188,"timestamp":1794604825090}}

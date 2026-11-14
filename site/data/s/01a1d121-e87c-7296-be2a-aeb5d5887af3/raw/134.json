@@ -1,1 +1,0 @@
-{"type":"message","id":"0ebd9ae6","parentId":"733e15e2","timestamp":"2026-11-12T20:03:50.720Z","message":{"role":"toolResult","toolCallId":"call_313dafbe6d3a4eb7bd1e65d0","toolName":"bash","content":[{"type":"text","text":"sed: can't read /dev/stdin: No such file or directory\n"}],"isError":false,"durationMs":76,"timestamp":1794513830720}}

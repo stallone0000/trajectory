@@ -1,1 +1,0 @@
-{"type":"message","id":"419fa3d2","parentId":"ea33f197","timestamp":"2026-11-13T22:38:12.904Z","message":{"role":"toolResult","toolCallId":"call_8721e075caa747eb98d28946","toolName":"bash","content":[{"type":"text","text":"differential parse OK for 4000 random captures\nPASS: 3 public CLI fixtures (no score)\n"}],"isError":false,"durationMs":2013,"timestamp":1794609492904}}

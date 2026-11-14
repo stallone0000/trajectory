@@ -1,0 +1,1 @@
+{"type":"message","id":"392c34bb","parentId":"38e3b4bb","timestamp":"2026-11-13T06:13:07.876Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-afd3aa5723c467a6","toolName":"bash","content":[{"type":"text","text":"PR_SET_NO_NEW_PRIVS rc 0 errno 0\n"}],"isError":false,"durationMs":79,"timestamp":1794550387876}}

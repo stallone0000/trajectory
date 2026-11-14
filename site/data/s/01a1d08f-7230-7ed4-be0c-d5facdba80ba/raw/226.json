@@ -1,0 +1,1 @@
+{"type":"message","id":"407463b4","parentId":"a5c2ac14","timestamp":"2026-11-12T17:52:38.582Z","message":{"role":"toolResult","toolCallId":"call_a3fd57867f1a4500892e9ab4","toolName":"bash","content":[{"type":"text","text":"refill0-long-chain     54.27s ratio=[1, 1] U=69070587 A=97920 nsel=256  OK\n"}],"isError":false,"durationMs":54956,"timestamp":1794505958582}}

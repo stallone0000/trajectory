@@ -1,1 +1,0 @@
-{"type":"message","id":"2082c7e1","parentId":"72f9d25e","timestamp":"2026-11-13T19:14:26.730Z","message":{"role":"toolResult","toolCallId":"call_6cc77cb48641495ab5310944","toolName":"bash","content":[{"type":"text","text":"VAL .traces[0].opened.bidi 1 0\nVAL .traces[0].used 1 0\nLEN .traces[0].streams 1 0\n"}],"isError":false,"durationMs":338,"timestamp":1794597266730}}

@@ -1,0 +1,1 @@
+{"type":"message","id":"678d7397","parentId":"9b4f8f38","timestamp":"2026-11-13T18:23:01.216Z","message":{"role":"toolResult","toolCallId":"call_c651ae14e7684565b8a30ddd","toolName":"bash","content":[{"type":"text","text":"fuzz done, failures: 0 / 20 skipped: 0\n"}],"isError":false,"durationMs":10777,"timestamp":1794594181216}}

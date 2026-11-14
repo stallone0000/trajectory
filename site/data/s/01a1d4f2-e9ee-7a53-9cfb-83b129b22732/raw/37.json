@@ -1,0 +1,1 @@
+{"type":"message","id":"f228faff","parentId":"1c4cc3c8","timestamp":"2026-11-13T13:07:26.579Z","message":{"role":"toolResult","toolCallId":"call_c4cb6ca11a2a4cdbb9737920","toolName":"bash","content":[{"type":"text","text":"public sanity failed: candidate nonzero exit\n\n\n[exit code 1]"}],"isError":true,"durationMs":125,"timestamp":1794575246579}}

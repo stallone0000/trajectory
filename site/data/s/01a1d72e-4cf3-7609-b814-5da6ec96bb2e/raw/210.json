@@ -1,1 +1,0 @@
-{"type":"message","id":"093eb8af","parentId":"6ef6a0b0","timestamp":"2026-11-14T01:27:31.890Z","message":{"role":"toolResult","toolCallId":"call_1d25393dfd894f328045f02c","toolName":"bash","content":[{"type":"text","text":"lines=263 cmdlines=263 wall=2.84s\np1: prepared trees=32 routes=237 recipes=344\np2: error\n"}],"isError":false,"durationMs":2953,"timestamp":1794619651890}}

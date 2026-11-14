@@ -1,1 +1,0 @@
-{"type":"message","id":"acfb4ae8","parentId":"1bf3ba4e","timestamp":"2026-11-13T17:16:58.050Z","message":{"role":"toolResult","toolCallId":"call_ddfbf5c176a144df8fc313c3","toolName":"bash","content":[{"type":"text","text":"FAIL clone copy keeps receipt scope\nFAIL close frees only its packets\n2 failures\n"}],"isError":false,"durationMs":2491,"timestamp":1794590218050}}

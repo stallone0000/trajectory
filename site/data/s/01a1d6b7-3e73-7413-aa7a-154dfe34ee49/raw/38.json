@@ -1,1 +1,0 @@
-{"type":"message","id":"e5bf13f3","parentId":"7270de51","timestamp":"2026-11-13T21:06:59.598Z","message":{"role":"toolResult","toolCallId":"call_01a1d6bc20a176649d067d6b","toolName":"bash","content":[{"type":"text","text":"{'x0': b'\\x07\\x00\\x00\\x00', 'x1': b'\\x01', 'x2': b'\\x00'}\n{'x0': 7, 'x1': 1, 'x2': 0}\n"}],"isError":false,"durationMs":87,"timestamp":1794604019598}}

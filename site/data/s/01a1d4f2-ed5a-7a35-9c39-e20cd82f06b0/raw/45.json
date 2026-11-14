@@ -1,1 +1,0 @@
-{"type":"message","id":"c1adbd47","parentId":"2c6ba2d9","timestamp":"2026-11-13T13:49:06.990Z","message":{"role":"toolResult","toolCallId":"call_fb93a6851ec446ffbac88275","toolName":"bash","content":[{"type":"text","text":"treap randomized model check: OK\n"}],"isError":false,"durationMs":756,"timestamp":1794577746990}}

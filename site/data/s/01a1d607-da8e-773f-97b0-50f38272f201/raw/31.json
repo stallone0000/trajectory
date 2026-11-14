@@ -1,0 +1,1 @@
+{"type":"message","id":"06412c90","parentId":"c54accc1","timestamp":"2026-11-13T18:23:21.220Z","message":{"role":"toolResult","toolCallId":"call_2ed2b9c82cd84121beda784b","toolName":"bash","content":[{"type":"text","text":"{\"status\": \"candidate_failure\", \"detail\": \"nonzero candidate exit: 1\"}\n"}],"isError":false,"durationMs":517,"timestamp":1794594201220}}

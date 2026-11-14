@@ -1,0 +1,1 @@
+{"type":"message","id":"5869e0b1","parentId":"d995a878","timestamp":"2026-11-13T00:15:17.877Z","message":{"role":"toolResult","toolCallId":"call_348c3c96122f4b149630b36d","toolName":"bash","content":[{"type":"text","text":"dual done bad=0 worst_bnb=0.002 worst_dp=0.006\n"}],"isError":false,"durationMs":872,"timestamp":1794528917877}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"b83d2aac","parentId":"bf6bb80e","timestamp":"2026-11-12T21:24:27.883Z","message":{"role":"toolResult","toolCallId":"call_78274dcaf60c4581ae94c21e","toolName":"bash","content":[{"type":"text","text":"diff 5: got 1 want 2\nFAIL interleave\n\n\n[exit code 1]"}],"isError":true,"durationMs":174,"timestamp":1794518667883}}

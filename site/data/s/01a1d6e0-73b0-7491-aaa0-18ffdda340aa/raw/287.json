@@ -1,1 +1,0 @@
-{"type":"message","id":"a867ca14","parentId":"3a30a58d","timestamp":"2026-11-13T23:48:33.970Z","message":{"role":"toolResult","toolCallId":"call_dbd1d00706a6447a84e820f8","toolName":"bash","content":[{"type":"text","text":"<class 'bytes'> b'a'\nbytearray(b'xy') b'yx'\n"}],"isError":false,"durationMs":55,"timestamp":1794613713970}}

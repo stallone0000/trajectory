@@ -1,1 +1,0 @@
-{"type":"message","id":"7aa88724","parentId":"940e1e2d","timestamp":"2026-11-12T16:43:27.255Z","message":{"role":"toolResult","toolCallId":"call_5ca1ff1c806b4bdf96750ff5","toolName":"bash","content":[{"type":"text","text":"seed 19 err bmp\n"}],"isError":false,"durationMs":107,"timestamp":1794501807255}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"4430e42d","parentId":"ad759114","timestamp":"2026-11-13T17:01:43.734Z","message":{"role":"toolResult","toolCallId":"call_3dd1b97853a2439a9c26cd6d","toolName":"bash","content":[{"type":"text","text":"decomp b'hello world'\n"}],"isError":false,"durationMs":57,"timestamp":1794589303734}}

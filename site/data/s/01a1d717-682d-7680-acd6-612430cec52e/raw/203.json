@@ -1,0 +1,1 @@
+{"type":"message","id":"32faddad","parentId":"11cca82d","timestamp":"2026-11-13T23:59:27.072Z","message":{"role":"toolResult","toolCallId":"call_666f16b3324e47bab8c38e3c","toolName":"bash","content":[{"type":"text","text":"plans tested 23 validator mismatches 0 mutations both-accept 36\n"}],"isError":false,"durationMs":111,"timestamp":1794614367072}}

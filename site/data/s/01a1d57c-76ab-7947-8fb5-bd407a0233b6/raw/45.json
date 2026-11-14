@@ -1,1 +1,0 @@
-{"type":"message","id":"8d2f469f","parentId":"a5ec81ac","timestamp":"2026-11-13T15:30:12.337Z","message":{"role":"toolResult","toolCallId":"call_eafb99149c014e629e81f3dc","toolName":"bash","content":[{"type":"text","text":"uid=64008 gid=64008 groups=64008\nerr [Errno 1] Operation not permitted\n"}],"isError":false,"durationMs":35,"timestamp":1794583812337}}

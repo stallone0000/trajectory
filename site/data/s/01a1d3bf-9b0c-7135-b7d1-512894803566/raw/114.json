@@ -1,1 +1,0 @@
-{"type":"message","id":"d91b4fc9","parentId":"1d5e7420","timestamp":"2026-11-13T07:56:08.494Z","message":{"role":"toolResult","toolCallId":"call_01a1d3e7cca67686b5496e1f","toolName":"bash","content":[{"type":"text","text":"marginals: None partition: 0\nzero-partition branch OK\n"}],"isError":false,"durationMs":110,"timestamp":1794556568494}}

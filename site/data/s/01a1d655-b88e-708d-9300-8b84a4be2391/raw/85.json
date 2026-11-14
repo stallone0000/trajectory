@@ -1,1 +1,0 @@
-{"type":"message","id":"f0502d46","parentId":"09d3949a","timestamp":"2026-11-13T20:32:45.182Z","message":{"role":"toolResult","toolCallId":"call_568f574891fd438e8990eb2f","toolName":"bash","content":[{"type":"text","text":"skip\n---- rewriting file directly ----\n"}],"isError":false,"durationMs":122,"timestamp":1794601965182}}

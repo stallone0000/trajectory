@@ -1,1 +1,0 @@
-{"type":"message","id":"adc45688","parentId":"11e52a0c","timestamp":"2026-11-13T20:45:49.601Z","message":{"role":"toolResult","toolCallId":"call_102263064aca4b70ada7192e","toolName":"bash","content":[{"type":"text","text":"retired intervals [[1, 4096]]\ndrop DROP_CID [[1, 2]]\nself-retire PROTOCOL_VIOLATION\n"}],"isError":false,"durationMs":1109,"timestamp":1794602749601}}

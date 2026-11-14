@@ -1,1 +1,0 @@
-{"type":"message","id":"f6a1c1a6","parentId":"fad13023","timestamp":"2026-11-13T22:14:45.466Z","message":{"role":"toolResult","toolCallId":"call_ceedbaa9b13941f3b6bc13cc","toolName":"bash","content":[{"type":"text","text":"all nonconflicting crypto tests match\n"}],"isError":false,"durationMs":1154,"timestamp":1794608085466}}

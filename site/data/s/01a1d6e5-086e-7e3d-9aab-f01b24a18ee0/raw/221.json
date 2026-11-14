@@ -1,1 +1,0 @@
-{"type":"message","id":"4852b5cb","parentId":"c1d432eb","timestamp":"2026-11-13T23:37:36.914Z","message":{"role":"toolResult","toolCallId":"call_c6d10817d1e24c75887c4331","toolName":"bash","content":[{"type":"text","text":"cli fuzz done, bad = 0\n"}],"isError":false,"durationMs":540,"timestamp":1794613056914}}

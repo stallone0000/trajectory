@@ -1,1 +1,0 @@
-{"type":"message","id":"a45fa986","parentId":"f56c7e8b","timestamp":"2026-11-13T18:42:17.591Z","message":{"role":"toolResult","toolCallId":"call_9ffc2834c0e74c4d88b268be","toolName":"bash","content":[{"type":"text","text":"384/48 request: ok\n256 events: ok\nmax topology: ok\nlimits done\n"}],"isError":false,"durationMs":2853,"timestamp":1794595337591}}

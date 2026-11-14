@@ -1,0 +1,1 @@
+{"type":"message","id":"3950df2c","parentId":"fb9a68c4","timestamp":"2026-11-13T06:13:48.479Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a83d70d1927c36f5","toolName":"bash","content":[{"type":"text","text":"PR_GET_SECCOMP rc 2 errno 0\nmode: 0 disabled, 1 strict, 2 filter\n"}],"isError":false,"durationMs":52,"timestamp":1794550428479}}

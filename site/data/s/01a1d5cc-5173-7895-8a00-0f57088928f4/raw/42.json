@@ -1,1 +1,0 @@
-{"type":"message","id":"8bcd9b62","parentId":"5487e1d3","timestamp":"2026-11-13T17:16:00.260Z","message":{"role":"toolResult","toolCallId":"call_2e58ce29616644df9a20e5d5","toolName":"bash","content":[{"type":"text","text":"{'Key': 'ProductVersion', 'Request': 'GetValue', 'Value': 'b'}\n"}],"isError":false,"durationMs":63,"timestamp":1794590160260}}

@@ -1,1 +1,0 @@
-{"type":"message","id":"c93f7ce6","parentId":"9d74e410","timestamp":"2026-11-13T06:20:52.829Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a32eaf38db9542a6","toolName":"bash","content":[{"type":"text","text":"seccomp -1 22 Invalid argument\n"}],"isError":false,"durationMs":52,"timestamp":1794550852829}}

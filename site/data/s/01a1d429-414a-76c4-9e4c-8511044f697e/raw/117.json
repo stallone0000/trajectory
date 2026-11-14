@@ -1,1 +1,0 @@
-{"type":"message","id":"cdbbff9a","parentId":"c377dd0a","timestamp":"2026-11-13T10:41:26.735Z","message":{"role":"toolResult","toolCallId":"call_e51e9779402c4e9782b6b57e","toolName":"bash","content":[{"type":"text","text":"{'incons': 210, 'nosafe': 149, 'safe': 41, 'warm>0': 25}\n"}],"isError":false,"durationMs":1000,"timestamp":1794566486735}}

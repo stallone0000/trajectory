@@ -1,1 +1,0 @@
-{"type":"message","id":"b66781f3","parentId":"2eb88ee1","timestamp":"2026-11-13T17:25:02.332Z","message":{"role":"toolResult","toolCallId":"call_d3b0112fb9ce41e185ec8ee1","toolName":"bash","content":[{"type":"text","text":"BAD valid rejected {'error': 'invalid'}\nmetadata tests done, ok = False\n"}],"isError":false,"durationMs":128,"timestamp":1794590702332}}

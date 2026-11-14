@@ -1,1 +1,0 @@
-{"type":"message","id":"0bfaf6a3","parentId":"5b43a65c","timestamp":"2026-11-13T19:43:15.746Z","message":{"role":"toolResult","toolCallId":"call_02ec07230fa345b3939d0912","toolName":"bash","content":[{"type":"text","text":"vars(non-null slots) 88 time 0.04 errors none\nadmit time 0.01 errors none\n"}],"isError":false,"durationMs":525,"timestamp":1794598995746}}

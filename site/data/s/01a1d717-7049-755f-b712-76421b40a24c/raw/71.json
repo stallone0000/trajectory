@@ -1,0 +1,1 @@
+{"type":"message","id":"859e77eb","parentId":"89821f99","timestamp":"2026-11-13T22:58:53.646Z","message":{"role":"toolResult","toolCallId":"call_2dacf8c8f9104e78ba4113c1","toolName":"bash","content":[{"type":"text","text":"/bin/bash: line 1: which: command not found\n"}],"isError":false,"durationMs":20,"timestamp":1794610733646}}

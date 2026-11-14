@@ -1,1 +1,0 @@
-{"type":"message","id":"177b4568","parentId":"1ae77dd4","timestamp":"2026-11-14T00:47:46.643Z","message":{"role":"toolResult","toolCallId":"call_11876644f40e4f3dbfe3d322","toolName":"bash","content":[{"type":"text","text":"62\n58\nentry-point sanity ok\n"}],"isError":false,"durationMs":8866,"timestamp":1794617266643}}

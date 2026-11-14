@@ -1,1 +1,0 @@
-{"type":"message","id":"65a137d1","parentId":"d163f845","timestamp":"2026-11-13T16:18:00.187Z","message":{"role":"toolResult","toolCallId":"call_dbebb31babf840ed83bd07d4","toolName":"bash","content":[{"type":"text","text":"done 25 failures 0\nPASS 9 fixtures\n"}],"isError":false,"durationMs":45223,"timestamp":1794586680187}}

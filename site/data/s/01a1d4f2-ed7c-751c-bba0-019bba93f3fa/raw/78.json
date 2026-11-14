@@ -1,1 +1,0 @@
-{"type":"message","id":"26d22cd6","parentId":"e8c6e67f","timestamp":"2026-11-13T13:10:43.330Z","message":{"role":"toolResult","toolCallId":"chatcmpl-tool-a58ed03f65152bb4","toolName":"bash","content":[{"type":"text","text":"treap unit tests passed\n"}],"isError":false,"durationMs":321,"timestamp":1794575443330}}

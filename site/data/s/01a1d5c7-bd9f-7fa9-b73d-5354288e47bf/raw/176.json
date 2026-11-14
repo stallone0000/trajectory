@@ -1,1 +1,0 @@
-{"type":"message","id":"64881c30","parentId":"2b9da561","timestamp":"2026-11-13T17:03:54.752Z","message":{"role":"toolResult","toolCallId":"call_d459ecb89d3a4ab897ffa39e","toolName":"bash","content":[{"type":"text","text":"manifest random OK 134\n"}],"isError":false,"durationMs":58,"timestamp":1794589434752}}

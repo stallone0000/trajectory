@@ -1,1 +1,0 @@
-{"type":"message","id":"52646001","parentId":"cec6113e","timestamp":"2026-11-13T13:49:04.309Z","message":{"role":"toolResult","toolCallId":"call_98956e0783274904abd7e344","toolName":"bash","content":[{"type":"text","text":"== big profiles done ==\n"}],"isError":false,"durationMs":2018,"timestamp":1794577744309}}

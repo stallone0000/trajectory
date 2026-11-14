@@ -1,0 +1,1 @@
+{"type":"message","id":"f79e5611","parentId":"8dda971a","timestamp":"2026-11-13T13:50:25.059Z","message":{"role":"toolResult","toolCallId":"call_898891253e8a479c9e9e7947","toolName":"bash","content":[{"type":"text","text":"rounds done, failures: 0\nfuzz exit 0\n===\nreplay fuzz rounds=3000 failures=0\nrfuzz exit 0\n"}],"isError":false,"durationMs":29,"timestamp":1794577825059}}

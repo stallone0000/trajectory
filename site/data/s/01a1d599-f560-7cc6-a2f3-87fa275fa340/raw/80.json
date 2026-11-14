@@ -1,1 +1,0 @@
-{"type":"message","id":"cc1c59ef","parentId":"5a002dd8","timestamp":"2026-11-13T16:06:45.175Z","message":{"role":"toolResult","toolCallId":"call_0606de2ffe874610a068e77d","toolName":"bash","content":[{"type":"text","text":"checked 60 fails 0 maxrules 6\n"}],"isError":false,"durationMs":2785,"timestamp":1794586005175}}

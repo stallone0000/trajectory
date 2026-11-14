@@ -1,1 +1,0 @@
-{"type":"message","id":"5d2fae38","parentId":"13415b02","timestamp":"2026-11-13T22:23:52.323Z","message":{"role":"toolResult","toolCallId":"call_6e1f02a5b6dd418ab9edda2b","toolName":"bash","content":[{"type":"text","text":"ok   deep chain all accept\n\nFAILS: 0 of 20\n"}],"isError":false,"durationMs":804,"timestamp":1794608632323}}

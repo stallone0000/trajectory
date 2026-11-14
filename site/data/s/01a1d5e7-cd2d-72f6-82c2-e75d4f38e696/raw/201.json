@@ -1,1 +1,0 @@
-{"type":"message","id":"40af7b53","parentId":"00224b09","timestamp":"2026-11-13T19:21:57.736Z","message":{"role":"toolResult","toolCallId":"call_e937a5225c934e3dad69c4b4","toolName":"bash","content":[{"type":"text","text":"capture fuzz 100 ok\njob fuzz 100 ok\n"}],"isError":false,"durationMs":122174,"timestamp":1794597717736}}

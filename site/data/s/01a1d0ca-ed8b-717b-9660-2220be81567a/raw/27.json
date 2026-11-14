@@ -1,1 +1,0 @@
-{"type":"message","id":"95cb2457","parentId":"16e2be14","timestamp":"2026-11-12T17:39:10.336Z","message":{"role":"toolResult","toolCallId":"call_8f7cef45e1df4f69af2682c7","toolName":"bash","content":[{"type":"text","text":"small-big done bad=0 time=9.3\nworst 22-flow time 0.00 s\n"}],"isError":false,"durationMs":9437,"timestamp":1794505150336}}

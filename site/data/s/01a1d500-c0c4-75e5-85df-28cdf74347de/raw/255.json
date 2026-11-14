@@ -1,1 +1,0 @@
-{"type":"message","id":"4c7cfaa0","parentId":"0f576930","timestamp":"2026-11-13T14:24:39.476Z","message":{"role":"toolResult","toolCallId":"call_1f42d4fd045b4d25905bdf8b","toolName":"bash","content":[{"type":"text","text":"fallback fuzz failures 0\n"}],"isError":false,"durationMs":5242,"timestamp":1794579879476}}

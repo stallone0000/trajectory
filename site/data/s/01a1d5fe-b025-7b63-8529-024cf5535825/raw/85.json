@@ -1,1 +1,0 @@
-{"type":"message","id":"b94d057f","parentId":"4ab80dc3","timestamp":"2026-11-13T18:31:29.454Z","message":{"role":"toolResult","toolCallId":"call_69f9c3da547540a8b530e9b1","toolName":"bash","content":[{"type":"text","text":"INFRASTRUCTURE: trusted parent needs published checker profile\n\n\n[exit code 2]"}],"isError":true,"durationMs":113,"timestamp":1794594689454}}

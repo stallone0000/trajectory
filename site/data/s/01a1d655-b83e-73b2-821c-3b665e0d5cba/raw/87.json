@@ -1,1 +1,0 @@
-{"type":"message","id":"0c379f73","parentId":"4f6c6b81","timestamp":"2026-11-13T20:24:19.821Z","message":{"role":"toolResult","toolCallId":"call_a6f4eb7937fd4dfe865a8592","toolName":"bash","content":[{"type":"text","text":"heavy_calibration_case 8266036\n  14.0s ['error']\nmatching_case 6526892\n  3.3s ['error']\n"}],"isError":false,"durationMs":18409,"timestamp":1794601459821}}

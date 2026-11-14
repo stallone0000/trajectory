@@ -1,0 +1,1 @@
+{"type":"message","id":"74ba9828","parentId":"ec09b7e5","timestamp":"2026-11-12T18:24:53.693Z","message":{"role":"toolResult","toolCallId":"call_5046cd0b424c43e285a1bd0b","toolName":"bash","content":[{"type":"text","text":"USER SITECUSTOMIZE\nPermissionError: [Errno 1] Operation not permitted\n"}],"isError":false,"durationMs":69,"timestamp":1794507893693}}

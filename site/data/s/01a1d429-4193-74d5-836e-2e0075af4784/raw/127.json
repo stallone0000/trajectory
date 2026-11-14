@@ -1,0 +1,1 @@
+{"type":"message","id":"02406184","parentId":"47a13b42","timestamp":"2026-11-13T10:28:01.221Z","message":{"role":"toolResult","toolCallId":"call_72db42bde99040669f8d6554","toolName":"bash","content":[{"type":"text","text":"started\ncat: perf.log: No such file or directory\n\n\n[exit code 1]"}],"isError":true,"durationMs":30031,"timestamp":1794565681221}}

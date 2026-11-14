@@ -1,0 +1,1 @@
+{"type":"message","id":"afb0f9a0","parentId":"14117ba7","timestamp":"2026-11-13T13:46:18.378Z","message":{"role":"toolResult","toolCallId":"call_d03085a2b6044272a4c7d1e2","toolName":"bash","content":[{"type":"text","text":"entries: 8 (cap 256)  bytes: 24793 (cap 8388608 )\ncli.py is UTF-8: OK\n"}],"isError":false,"durationMs":1518,"timestamp":1794577578378}}

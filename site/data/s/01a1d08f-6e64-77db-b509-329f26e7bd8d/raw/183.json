@@ -1,1 +1,0 @@
-{"type":"message","id":"47535d72","parentId":"111267b4","timestamp":"2026-11-12T17:11:23.376Z","message":{"role":"toolResult","toolCallId":"call_c8bda45405c944c2a770a576","toolName":"bash","content":[{"type":"text","text":"prefixes 8193 rows 4099\ncpp invalid-request py False\n8192: cpp invalid-request py True\n"}],"isError":false,"durationMs":6696,"timestamp":1794503483376}}
