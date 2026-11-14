@@ -62,7 +62,7 @@ export function createStaticFetch(base: string): typeof fetch {
 		const root = params.get("root") === "true";
 		// trajectory fork: sessions translated from mini-swe-agent live on their own page (`source=mswea`);
 		// every other list shows only native pi sessions.
-		const msweaRaw = await load<{ projects?: string[]; sessions?: Record<string, { task?: string; verdict?: string }> }>("mswea-projects.json");
+		const msweaRaw = await load<{ projects?: string[]; sessions?: Record<string, { task?: string; model?: string; verdict?: string }> }>("mswea-projects.json");
 		const mswea = new Set(msweaRaw?.projects ?? []);
 		const results = msweaRaw?.sessions ?? {};
 		const wantMswea = params.get("source") === "mswea";
@@ -80,6 +80,10 @@ export function createStaticFetch(base: string): typeof fetch {
 			if (to && (s.startedAt ?? "") > `${to}T23:59:59.999Z`) return false;
 			return true;
 		});
+		// trajectory fork: the benchmark list goes by task (ids are zero-padded, so plain string order), then by model
+		// name ignoring case, before paging, so the order holds across pages and under every filter. Native lists keep
+		// their order.
+		if (wantMswea) items.sort((a, b) => msweaOrder(results[a.id], results[b.id]) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
 		return json(page(items, params));
 	}
 
@@ -176,6 +180,19 @@ export function createStaticFetch(base: string): typeof fetch {
 				return notFound();
 		}
 	};
+}
+
+const MODEL_BASE = new Intl.Collator("en", { sensitivity: "base" });
+const MODEL_FULL = new Intl.Collator("en");
+
+/** Task first, then model, case-insensitively (a case-sensitive pass breaks ties); sessions without either go last. */
+function msweaOrder(a: { task?: string; model?: string } | undefined, b: { task?: string; model?: string } | undefined): number {
+	const ta = a?.task ?? "\uffff";
+	const tb = b?.task ?? "\uffff";
+	if (ta !== tb) return ta < tb ? -1 : 1;
+	const ma = a?.model ?? "\uffff";
+	const mb = b?.model ?? "\uffff";
+	return MODEL_BASE.compare(ma, mb) || MODEL_FULL.compare(ma, mb);
 }
 
 function snippet(text: string, terms: string[]): string {

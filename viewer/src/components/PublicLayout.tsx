@@ -7,6 +7,7 @@ import { useTheme } from "../lib/theme";
 import { Icon } from "./icons";
 import { useVisitorView } from "./useVisitorView";
 import { STATIC_SITE } from "../lib/staticApi";
+import { useMsweaData } from "../lib/mswea";
 import { BAND_CONTROL, BAND_NAV, BAND_NAV_END, BandSearch, NavItem, ScrollRootContext, SignBand, ThemeToggle, useBandSearchShortcut } from "./Layout";
 
 /** Anonymous pages have their own client and cache, even when the browser is also signed in. */
@@ -32,6 +33,12 @@ export function PublicLayout() {
 	const searchRef = useRef<HTMLInputElement>(null);
 	// As in the owner's band, `/` goes to search.
 	useBandSearchShortcut("/public/search", searchRef);
+	// trajectory fork: a session page belongs to "Benchmark trajectory" when the session came from mini-swe-agent and
+	// to "Public trajectories" otherwise. Until the list of those sessions loads, neither tab claims it, so the band
+	// does not flash the wrong one.
+	const mswea = useMsweaData();
+	const sessionId = /^\/public\/s\/([^/]+)/.exec(location.pathname)?.[1];
+	const sessionTab = sessionId === undefined || !mswea ? undefined : mswea.sessions.has(safeDecode(sessionId)) ? "mswea" : "public";
 	return (
 		<ApiContext.Provider value={api}>
 			<QueryClientProvider client={queryClient}>
@@ -55,12 +62,14 @@ export function PublicLayout() {
 						}
 					>
 						<nav className={BAND_NAV} aria-label="Public">
-							<NavItem to="/public" icon="sessions" end within={["/public/s/"]}>
+							<NavItem to="/public" icon="sessions" end within={sessionTab === "public" ? ["/public/s/"] : undefined}>
 								Public trajectories
 							</NavItem>
 							<NavItem to="/public/benchmark" icon="statistics">Benchmark</NavItem>
 							<NavItem to="/public/tasks" icon="file">Tasks</NavItem>
-							<NavItem to="/public/mswea" icon="sessions">Benchmark trajectory</NavItem>
+							<NavItem to="/public/mswea" icon="sessions" within={sessionTab === "mswea" ? ["/public/s/"] : undefined}>
+								Benchmark trajectory
+							</NavItem>
 							<NavItem to="/public/statistics" icon="statistics">Statistics</NavItem>
 							{!STATIC_SITE && <NavItem to="/docs" icon="file">Documentation</NavItem>}
 							<div className={BAND_NAV_END}>
@@ -75,4 +84,12 @@ export function PublicLayout() {
 			</QueryClientProvider>
 		</ApiContext.Provider>
 	);
+}
+
+function safeDecode(value: string): string {
+	try {
+		return decodeURIComponent(value);
+	} catch {
+		return value;
+	}
 }

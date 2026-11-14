@@ -163,7 +163,7 @@ function Breadcrumb({ session, mswea = false }: { session?: SessionDetail; mswea
 	return (
 		<nav className="flex h-6 items-center gap-1 text-[12.5px] text-muted" aria-label="Breadcrumb">
 			<Link to={list} className="rounded-sm px-1 hover:bg-hover hover:text-ink">
-				{mswea ? "mini-swe-agent" : "Sessions"}
+				{mswea ? "Benchmark trajectory" : "Sessions"}
 			</Link>
 			{session && (
 				<>

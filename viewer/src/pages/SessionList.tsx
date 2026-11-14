@@ -575,6 +575,9 @@ export function SessionListPage({ source }: { source?: "mswea" } = {}) {
 		getNextPageParam: (last) => last.nextCursor ?? undefined,
 	});
 	const items = useMemo(() => sessions.data?.pages.flatMap((page) => page.items) ?? [], [sessions.data]);
+	// trajectory fork: the benchmark list is grouped by task; a stronger rule sets each task's group apart.
+	const msweaInfo = useMsweaData();
+	const taskOf = (index: number) => (source === "mswea" && items[index] ? msweaInfo?.sessions.get(items[index].id)?.task : undefined);
 	const showFamilies = params.get("children") === "1";
 	// Per family, kept here because the list unmounts rows that scroll away.
 	const [expanded, setExpanded] = useState<Record<string, string[]>>({});
@@ -618,6 +621,10 @@ export function SessionListPage({ source }: { source?: "mswea" } = {}) {
 		<div ref={listRef} className="relative" style={{ height: virtualizer.getTotalSize() }} data-session-list="">
 			{virtualItems.map((row) => {
 				const session = items[row.index];
+				const task = taskOf(row.index);
+				const nextTask = taskOf(row.index + 1);
+				const groupEnd = task !== undefined && nextTask !== undefined && task !== nextTask;
+				const groupStart = row.index > 0 && task !== undefined && taskOf(row.index - 1) !== undefined && taskOf(row.index - 1) !== task;
 				return (
 					<div
 						key={row.key}
@@ -629,7 +636,13 @@ export function SessionListPage({ source }: { source?: "mswea" } = {}) {
 						{session ? (
 							// The hairline below a session is part of its measured row. With the tree, it sets each session and its
 							// subagents apart from the next.
-							<div className={cx("border-b border-line", showFamilies && "pb-1")} data-family-divider={showFamilies && row.index > 0 ? "" : undefined}>
+							// On the benchmark list, the last row of a task's group ends in a heavy ink rule instead, and the next group
+							// starts a little lower; both stay inside the measured rows.
+							<div
+								className={cx(groupEnd ? "border-b-[3px] border-ink" : "border-b border-line", showFamilies && "pb-1", groupStart && "pt-2")}
+								data-family-divider={showFamilies && row.index > 0 ? "" : undefined}
+								data-task-group-end={groupEnd ? task : undefined}
+							>
 								{showFamilies && session.childCount > 0 ? (
 									<FamilyCards
 										root={session}
@@ -653,7 +666,7 @@ export function SessionListPage({ source }: { source?: "mswea" } = {}) {
 
 	return (
 		<Page className="pb-24">
-			<PageTitle>{source === "mswea" ? "mini-swe-agent trajectories" : api.publicView ? "Published trajectories" : "Sessions"}</PageTitle>
+			<PageTitle>{source === "mswea" ? "Benchmark trajectories" : api.publicView ? "Published trajectories" : "Sessions"}</PageTitle>
 			{source === "mswea" && <MsweaNotice />}
 			<div className="mt-5">
 				<Filters mswea={source === "mswea"} />
